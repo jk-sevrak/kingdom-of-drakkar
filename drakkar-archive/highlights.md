@@ -234,4 +234,6 @@ If recoverable, this would be an independent academic source placing Kingdom of 
 | 2002 | **Drakvision** — 24-bit graphics upgrade | Fandom wiki |
 | 2006 | Legacy 8-bit graphics toggle added after fan demand | Massively OP |
 | ~2012 | Brad leaves Icarus Studios (was original CTO) | Massively OP |
+| ~2006 | Brad Lineberger Q&A on DrakkarZone forums (viewtopic.php?f=16&t=1190) | DrakkarZone forums |
 | ~25,000 | Peak subscriber count (exact date unclear, late 1990s) | Multiple sources |
+| 2026 | DrakkarZone forums: 30,018 posts, 5,056 topics, 3,684 members (earliest posts ~2003) | Forums |

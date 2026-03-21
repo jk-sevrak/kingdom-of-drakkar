@@ -30,6 +30,7 @@ Current operator of Kingdom of Drakkar, formed by Brad Lineberger in 2002 after 
 | `drakkarzone.com/forums/viewtopic.php?t=6197` | LIVE | "History of the game of Drakkar?" — Brad posts about game origins. |
 | `drakkarzone.com/forums/viewtopic.php?t=7877` | 404 | "Blast from the past" — referenced in search results, returns 404. [NEEDS WAYBACK CHECK] |
 | `drakkarzone.com/forums/viewtopic.php?t=4623` | LIVE (ref) | "Most memorable RPGs" — references northernwebs.com/drakkar. |
+| `drakkarzone.com/forums/viewtopic.php?f=16&t=1190` | LIVE | Brad Lineberger Q&A interview (~2006). Topics: upcoming features, graphics options, personal details about Brad. Primary source. |
 | `drakkarzone.com/forums/viewtopic.php?t=6487` | LIVE (ref) | "Famous" — player reminiscences from classic/MPGN era. |
 | `drakkarzone.com/forums/viewtopic.php?t=3367` | LIVE (ref) | "New to Drakkar? Looking for help?" |
 | `drakkarzone.com/forums/viewforum.php?f=80` | LIVE | Guilds subforum. |
