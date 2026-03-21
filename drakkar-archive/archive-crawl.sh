@@ -25,7 +25,9 @@ log() { echo "[$(date '+%H:%M:%S')] $*"; }
 # ── CDX API Sweep ──────────────────────────────────────────────────────────
 
 cdx_sweep() {
-    local label="$1" url="$2" outfile="$CDX_DIR/${label}.txt"
+    local label="$1"
+    local url="$2"
+    local outfile="$CDX_DIR/${label}.txt"
     log "CDX sweep: $label ($url)"
     curl -sf "${CDX_BASE}?url=${url}&output=text&fl=timestamp,original,mimetype,statuscode&collapse=urlkey&limit=10000" \
         -o "$outfile" 2>/dev/null || { log "  FAILED: $label"; return 1; }
@@ -134,7 +136,8 @@ if [ "$DOWNLOAD" = "--download" ]; then
     log ""
 
     download_wayback() {
-        local label="$1" cdxfile="$CDX_DIR/${label}.txt"
+        local label="$1"
+        local cdxfile="$CDX_DIR/${label}.txt"
         [ ! -f "$cdxfile" ] && return
         local count
         count=$(wc -l < "$cdxfile")
