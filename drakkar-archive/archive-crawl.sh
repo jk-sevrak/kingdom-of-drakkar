@@ -98,6 +98,12 @@ cdx_sweep "klrz-guild"              "klrz-guild.com/*"
 cdx_sweep "shadow-wood"             "shadow-wood.net/*"
 cdx_sweep "lords-of-entropy"        "lords-of-entropy.de/*"
 cdx_sweep "gamechatter-sas"         "gamechatter.com/sas*"
+cdx_sweep "earthlink-zgwortz"      "home.earthlink.net/~zgwortz/*"
+
+log ""
+log "--- Priority 2b: GeoCities Mirrors ---"
+
+cdx_sweep "geocities-billythebarb"  "geocities.com/billythebarb*"
 
 log ""
 log "--- Priority 4: Press & Third-Party ---"
@@ -105,6 +111,8 @@ log "--- Priority 4: Press & Third-Party ---"
 cdx_sweep "thinkquest-C002414"      "library.thinkquest.org/C002414/*"
 cdx_sweep "csoon-mpgn"             "csoon.com/issue30/p_mpgn*"
 cdx_sweep "csoon-e3"               "csoon.com/issue27/e3*"
+cdx_sweep "gamespot-imagic-launch"  "gamespot.com/articles/imagic-launches-gaming-network/*"
+cdx_sweep "gamespot-mpgnet-free"    "gamespot.com/articles/mpg-net-goes-free/*"
 
 log ""
 log "=== Phase 1 Complete ==="

@@ -109,9 +109,10 @@ Acquired MPG-Net in 1998. Hosted Drakkar until iEN folded in 2001.
 |-----|--------|-------|
 | `king-drak.8m.com/home.html` | [NEEDS WAYBACK CHECK] | KING Guild (discovered via BORED links page). |
 | `iceguild.8m.com` | [NEEDS WAYBACK CHECK] | ICE Guild alternate site (discovered via BORED links page). |
-| `webmagic.iwarp.com/drakkar/` | DOWN (503) | Kyrian's Resource Center. Wolf Guild has mirror. Pages found in search: index, links, fm (Fighter Mentalist), commands, macrochart, macroscustom, trainercodes. |
+| `webmagic.iwarp.com/drakkar/` | DOWN (503) | Kyrian's Resource Center. Wolf Guild has mirror. Pages: index, links, fm (Fighter Mentalist), commands, macrochart, macroscustom, trainercodes, macros, Mjorin guide. |
 | `relm.guildhappy.com` | [NEEDS WAYBACK CHECK] | RELM Guild (discovered via BORED links page). |
 | `home.earthlink.net/redrock~mp` | [NEEDS WAYBACK CHECK] | Showtime's Page (discovered via BORED links page). |
+| `home.earthlink.net/~zgwortz/ZgwDrak.htm` | DEAD (EarthLink WebSpace shut down) | Zgwortz's Drakkar page. Confirmed URL. EarthLink Personal WebSpace no longer active. [NEEDS WAYBACK CHECK] |
 | `bigstargraphics.com/drak/` | [NEEDS WAYBACK CHECK] | Slannesh's BBS. Referenced on Purgury's Angelfire page. |
 | `jinx.ashguild.com` | [NEEDS WAYBACK CHECK] | Jinx's ASH Guild page. Referenced on Purgury's page and BORED links. |
 | `www21.brinkster.com/tsarn` | [NEEDS WAYBACK CHECK] | Tsarn's Page (discovered via BORED links page). |
@@ -149,11 +150,13 @@ Acquired MPG-Net in 1998. Hosted Drakkar until iEN folded in 2001.
 
 | URL | Status | Notes |
 |-----|--------|-------|
-| `library.thinkquest.org/C002414/history.html` | [NEEDS WAYBACK CHECK] | ThinkQuest page mentioning Drakkar in 1992–1993 timeline. ThinkQuest archived by Archive-It (collection #3635 or partner #706). Forum user "flisk" confirmed this page exists. |
+| `library.thinkquest.org/C002414/history.html` | [NEEDS WAYBACK CHECK] | ThinkQuest page mentioning Drakkar in 1992–1993 timeline. ThinkQuest archived by Archive-It — collection confirmed at `archive-it.org/collections/3635`. Forum user "flisk" confirmed this page exists. ThinkQuest was established 1996, grew to 30K+ participants by 2006. |
 | `csoon.com/issue30/p_mpgn1.htm` | LIVE (503 on fetch) | Coming Soon Magazine ad for MPG-Net / Kingdom of Drakkar. Promo: "Prepare for Winter by taking advantage of the limited time FREE offer." |
 | `csoon.com/issue27/e3_2.htm` | LIVE (ref) | E3 Atlanta '97 Report Part 2. MPG-NET announced Empire Dawns, DragonGard, FiefQuest. |
-| `gamespot.com/articles/imagic-cranks-up-mpg-net/1100-2465873/` | CONFIRMED | GameSpot article on iMagic launching GameHub (Apr 2000). Mentions KoD, Unreal, TA, WarBirds. $4.95/mo. |
-| `gamespot.com/articles/mpg-net-looks-for-members/1100-2462166/` | CONFIRMED | GameSpot article on MPG-Net recruiting members. |
+| `gamespot.com/articles/imagic-cranks-up-mpg-net/1100-2465873/` | CONFIRMED | GameSpot (Apr 28, 2000, Harley Jebens). iMagic launching GameHub. KoD, Unreal, TA, WarBirds. $4.95/mo. AT&T WorldNet "preferred provider" (~1.3M potential users). |
+| `gamespot.com/articles/mpg-net-looks-for-members/1100-2462166/` | CONFIRMED | GameSpot (Apr 28, 2000, Harley Jebens). MPG-Net recruiting members. |
+| `gamespot.com/articles/imagic-launches-gaming-network/1100-2452237/` | CONFIRMED | GameSpot article on iMagic launching its gaming network. |
+| `gamespot.com/articles/mpg-net-goes-free/1100-2464070/` | CONFIRMED | GameSpot article on MPG-Net dropping subscription fees to attract members. |
 | `massivelyop.com/2015/07/25/the-game-archaeologist-kingdom-of-drakkar/` | LIVE | Massively OP "Game Archaeologist" deep dive. Brad Lineberger interview. Key source. |
 | `engadget.com/2014-07-26-the-game-archaeologist-kingdom-of-drakkar.html` | LIVE | Earlier version of the Game Archaeologist article (originally on Massively/Joystiq before migration). |
 | `en.wikipedia.org/wiki/IEntertainment_Network` | LIVE | Wikipedia article on iEN. Covers Interactive Magic → iMagic → iEN transition, MPG-Net acquisition. |
