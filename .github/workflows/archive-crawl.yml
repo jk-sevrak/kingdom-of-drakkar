@@ -1,0 +1,63 @@
+name: Archive Crawl
+
+on:
+  workflow_dispatch:
+    inputs:
+      download:
+        description: 'Download archived pages (slower, fetches HTML from Wayback)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jq
+          pip install internetarchive
+
+      - name: Run CDX sweep
+        run: |
+          chmod +x drakkar-archive/archive-crawl.sh
+          if [ "${{ inputs.download }}" = "true" ]; then
+            ./drakkar-archive/archive-crawl.sh --download
+          else
+            ./drakkar-archive/archive-crawl.sh
+          fi
+
+      - name: Summary
+        run: |
+          echo "## CDX Sweep Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          total=0
+          for f in drakkar-archive/cdx-results/*.txt; do
+            if [ -f "$f" ]; then
+              count=$(wc -l < "$f")
+              name=$(basename "$f" .txt)
+              echo "- **$name**: $count URLs" >> $GITHUB_STEP_SUMMARY
+              total=$((total + count))
+            fi
+          done
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total archived URLs found: $total**" >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload CDX results
+        uses: actions/upload-artifact@v4
+        with:
+          name: cdx-results
+          path: drakkar-archive/cdx-results/
+          retention-days: 90
+
+      - name: Upload downloaded sites
+        if: inputs.download == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: archived-sites
+          path: drakkar-archive/sites/
+          retention-days: 90
