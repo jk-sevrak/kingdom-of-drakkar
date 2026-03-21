@@ -77,7 +77,7 @@ Acquired MPG-Net in 1998. Hosted Drakkar until iEN folded in 2001.
 | URL | Status | Notes |
 |-----|--------|-------|
 | `angelfire.com/ok4/Drakkar/` | MIRRORED (Wolf Guild) | Purgury's Angelfire page. Full mirror at `wolfguild.com/mirrors/Purgury/www.angelfire.com/ok4/Drakkar/index.html`. Contains iEN-era server crisis docs, rare item screenshots (Def. Axe, Easter Robe, Hag Plate, MoonBoots, etc.), links to iEN, Seville's Maps, Slannesh's BBS, Jinx's Page. Copyright "©1999,2000 iENTERTAINMENT NETWORK". |
-| `angelfire.com/rpg/ZOE/` | [NEEDS WAYBACK CHECK] | ZOE Guild homepage. Referenced in BORED links page as `http://www.angelfire.com/rpg/ZOE/index.html`. |
+| `angelfire.com/rpg/ZOE/` | LIVE | ZOE Guild homepage. Still accessible at `angelfire.com/rpg/ZOE/index.html`. Guild leader Karma_ZOE, with Kakarot_ZOE and Dragoon_ZOE. Character growth hints/guides to level 18. Vocabulary guide at `/vocab.html`. Also mirrored on Wolf Guild. |
 | `angelfire.com/rpg2/fhmguild/` | [NEEDS WAYBACK CHECK] | FHM Guild. Wolf Guild has a mirror. |
 | `angelfire.com/dragon2/drakvision/` | [NEEDS WAYBACK CHECK] | Drakkar conversion chart. Listed on official fan sites page. |
 | `angelfire.com/dragon3/warguild/` | [NEEDS WAYBACK CHECK] | WAR Guild. Listed on official fan sites page. |
@@ -87,15 +87,15 @@ Acquired MPG-Net in 1998. Hosted Drakkar until iEN folded in 2001.
 
 | URL | Status | Notes |
 |-----|--------|-------|
-| `edge_guild.tripod.com` | LIVE (with popups) | EDGE/SAGE Guild. Listed as "Sage Guild of Kingdom of Drakkar" on Tripod. EDGE and SAGE guilds eventually merged. Wolf Guild glossary page has screenshots from EDGE guild battling Chipuda. |
-| `members.tripod.com/stormwinds_archive/` | LIVE | Stormwind's Archives. Extensive site covering Nork (Town, Maeling, Volcano Town, Frore, Mjorin) with storylines, quests, maps, lairs for each area. Also has item catalog, pictures/art, Mausoleum Quest guide ("one of the oldest unsolved quests in Drakkar"). Also mirrored at wolfguild.com. |
+| `edge_guild.tripod.com` | LIVE (with popups) | EDGE/SAGE Guild. Listed as "Sage Guild of Kingdom of Drakkar" on Tripod. Main frame at `/edge/Main%20Frame.htm`. EDGE and SAGE guilds eventually merged. Wolf Guild glossary page has screenshots from EDGE guild battling Chipuda. |
+| `members.tripod.com/stormwinds_archive/` | LIVE | Stormwind's Archives. Extensive site covering Nork (Town, Maeling, Volcano Town, Frore, Mjorin) with storylines, quests, maps, lairs for each area. Also has item catalog, pictures/art, Mausoleum Quest guide ("one of the oldest unsolved quests in Drakkar"), old version notes at `/old-v-notes.htm`. Also mirrored at wolfguild.com. |
 | `members.tripod.com/arithawn/id20.htm` | [NEEDS WAYBACK CHECK] | Links page found in search results. |
 
 ### Other Free Hosting
 
 | URL | Status | Notes |
 |-----|--------|-------|
-| `drakkarmoy.com` | PARTIALLY LIVE | MoY Guild. Character races page accessible at `/Drakkar/Introduction/race.html`. Main page at `/moyguild/Drakkar.html` returns 404. Links page at `/moyguild/Drakkar/Misc/links.html` returns 404. [NEEDS WAYBACK CHECK] for full site. |
+| `drakkarmoy.com` | PARTIALLY LIVE | MoY Guild (Daniel of MoY). Main site at `drakkarmoy.com` accessible. Maps page at `/maps.html` live — includes Cobrahn maps (from Tantheus) and Ken's Cob Surface Map. Guild hall page at `/Drakkar/Misc/hall.html` live. Character races at `/Drakkar/Introduction/race.html` live. Some paths return 404. [NEEDS WAYBACK CHECK] for full site. |
 | `tantheus.com/Drakkar/` | MIRRORED (Wolf Guild) | Tantheus' Drakkar Pages. Extensive mirror at wolfguild.com including: Newbie Guide (by Mihey), Cobrahn Guide, Class Guide, Weapon Skill Info, Glossary, Maps (Nork named/unnamed), Cobrahn Maps, Seville's Tips, Flisk's Training Costs, Lower Guild Hall Map, Drakkar.hlp file. |
 | `northernwebs.com/drakkar` | [NEEDS WAYBACK CHECK] | "Useful Drakkar files for Heroes and Cowards." Referenced in forum thread t=4623 (2004). |
 | `helstorm.tripod.com` | [NEEDS WAYBACK CHECK] | Helstorm's page, found in search results. |

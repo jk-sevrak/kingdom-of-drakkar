@@ -130,6 +130,7 @@ Confirmed mirrored sites (404 on mirror page itself, but individual mirrors acce
 | Purgury | `wolfguild.com/mirrors/Purgury/` | angelfire.com/ok4/Drakkar/ |
 | Tantheus | `wolfguild.com/mirrors/Tantheus/` | tantheus.com/Drakkar/ |
 | Stormwind | `wolfguild.com/mirrors/Stormwind/` | members.tripod.com/stormwinds_archive/ |
+| LadyVirago | `wolfguild.com/mirrors/LadyVirago/` | unknown |
 
 ---
 
