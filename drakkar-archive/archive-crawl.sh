@@ -42,12 +42,10 @@ log ""
 log "--- Priority 1: Core Sites ---"
 
 cdx_sweep "mpgn.com"              "mpgn.com/*"
-cdx_sweep "mpgn.com-games"        "mpgn.com/games/*"
+# mpgn.com/games/* returned 0 results in prior runs — skipped
 cdx_sweep "drakkarzone.com"       "drakkarzone.com/*"
 cdx_sweep "kingdomofdrakkar.com"  "kingdomofdrakkar.com/*"
-cdx_sweep "ien.com"               "ien.com/*"
 cdx_sweep "imagic.com"            "imagic.com/*"
-cdx_sweep "gamehub.com"           "gamehub.com/*"
 
 log ""
 log "--- Priority 2: GeoCities Fan Sites ---"
@@ -92,7 +90,7 @@ cdx_sweep "iwarp-webmagic-drakkar"  "webmagic.iwarp.com/drakkar/*"
 cdx_sweep "bravepages-relm"         "relm.bravepages.com/*"
 cdx_sweep "guildhappy-relm"         "relm.guildhappy.com/*"
 cdx_sweep "earthlink-zgwortz"       "home.earthlink.net/~zgwortz/*"
-cdx_sweep "freewebs-drakkar"        "freewebs.com/*drakkar*"
+# freewebs-drakkar returned 0 results — skipped
 cdx_sweep "bigstargraphics-drak"    "bigstargraphics.com/drak/*"
 cdx_sweep "ashguild"                "ashguild.com/*"
 cdx_sweep "jinx-ashguild"           "jinx.ashguild.com/*"
@@ -100,7 +98,6 @@ cdx_sweep "klrz-guild"              "klrz-guild.com/*"
 cdx_sweep "shadow-wood"             "shadow-wood.net/*"
 cdx_sweep "lords-of-entropy"        "lords-of-entropy.de/*"
 cdx_sweep "gamechatter-sas"         "gamechatter.com/sas*"
-cdx_sweep "earthlink-zgwortz"      "home.earthlink.net/~zgwortz/*"
 
 log ""
 log "--- Priority 2b: GeoCities Mirrors ---"
@@ -113,8 +110,7 @@ log "--- Priority 4: Press & Third-Party ---"
 cdx_sweep "thinkquest-C002414"      "library.thinkquest.org/C002414/*"
 cdx_sweep "csoon-mpgn"             "csoon.com/issue30/p_mpgn*"
 cdx_sweep "csoon-e3"               "csoon.com/issue27/e3*"
-cdx_sweep "gamespot-imagic-launch"  "gamespot.com/articles/imagic-launches-gaming-network/*"
-cdx_sweep "gamespot-mpgnet-free"    "gamespot.com/articles/mpg-net-goes-free/*"
+# gamespot articles returned 0 results — skipped
 
 log ""
 log "=== Phase 1 Complete ==="
@@ -135,21 +131,97 @@ if [ "$DOWNLOAD" = "--download" ]; then
     log "=== Phase 2: Downloading Archived Pages ==="
     log ""
 
+    # URL-level filter: returns 0 (pass) or 1 (skip) for a given label + URL
+    should_skip_url() {
+        local label="$1"
+        local url="$2"
+
+        case "$label" in
+            kingdomofdrakkar.com)
+                # Skip forum pages (5000+ session-heavy phpBB/draknews pages)
+                [[ "$url" == */forums/* ]] && return 0
+                [[ "$url" == */draknews/* ]] && return 0
+                # Skip dynamic session params, WP feeds, well-known crawls, JS probes
+                [[ "$url" == *"?DZW="* ]] && return 0
+                [[ "$url" == *"?sccss="* ]] && return 0
+                [[ "$url" == *"?window."* ]] && return 0
+                [[ "$url" == *".well-known/"* ]] && return 0
+                [[ "$url" == */feed/* ]] && return 0
+                [[ "$url" == *"/wp-json/"* ]] && return 0
+                [[ "$url" == *"/xmlrpc.php"* ]] && return 0
+                [[ "$url" == *"%"* ]] && return 0
+                [[ "$url" == *"..."* ]] && return 0
+                [[ "$url" == *"+snowsrc+"* ]] && return 0
+                [[ "$url" == *"(para"* ]] && return 0
+                # Skip WP pagination/taxonomy listing pages (not unique content)
+                [[ "$url" == */page/[0-9]* ]] && return 0
+                [[ "$url" == */author/* ]] && return 0
+                [[ "$url" == */category/* ]] && return 0
+                [[ "$url" == */tag/* ]] && return 0
+                [[ "$url" == *"?et_blog"* ]] && return 0
+                # Skip WP date archives (YYYY/MM/)
+                [[ "$url" =~ /20[0-9][0-9]/[0-9] ]] && return 0
+                ;;
+            drakkarzone.com)
+                # Skip entire phpBB forums (4000+ session-heavy pages)
+                [[ "$url" == */forums/* ]] && return 0
+                # Skip session-dependent DZW/SID params
+                [[ "$url" == *"?DZW="* ]] && return 0
+                [[ "$url" == *"&SID="* ]] && return 0
+                # Skip goto.php redirects (spam/external links)
+                [[ "$url" == */goto.php* ]] && return 0
+                [[ "$url" == *".well-known/"* ]] && return 0
+                [[ "$url" == *"/ads.txt"* ]] && return 0
+                ;;
+            mpgn.com)
+                # Skip ad-redirect reward pages
+                [[ "$url" == *"draklive_reward"* ]] && return 0
+                # Skip percent-encoded junk URLs
+                [[ "$url" == *"%22"* ]] && return 0
+                [[ "$url" == *"%20onmousedown"* ]] && return 0
+                [[ "$url" == *"%20\\"* ]] && return 0
+                ;;
+            lords-of-entropy*)
+                # Skip external link redirects and session-only diffs
+                [[ "$url" == *"link=go"* ]] && return 0
+                ;;
+            imagic.com)
+                # Only keep early pages (the domain was reused later by unrelated companies)
+                # Skip .well-known, ads.txt, and modern crawl artifacts
+                [[ "$url" == *".well-known/"* ]] && return 0
+                [[ "$url" == *"/ads.txt"* ]] && return 0
+                [[ "$url" == *"/app-ads.txt"* ]] && return 0
+                [[ "$url" == *"/atom.xml"* ]] && return 0
+                [[ "$url" == *"/css/"* ]] && return 0
+                [[ "$url" == *"reqp="* ]] && return 0
+                ;;
+        esac
+        return 1  # don't skip
+    }
+
     download_wayback() {
         local label="$1"
         local cdxfile="$CDX_DIR/${label}.txt"
         [ ! -f "$cdxfile" ] && return
-        local count
-        count=$(wc -l < "$cdxfile")
-        [ "$count" -eq 0 ] && return
+        local total
+        total=$(wc -l < "$cdxfile")
+        [ "$total" -eq 0 ] && return
 
         local sitedir="$SITES_DIR/$label"
         mkdir -p "$sitedir"
-        log "Downloading $count URLs for $label..."
 
-        while IFS=$'\t' read -r timestamp original mimetype statuscode; do
+        local downloaded=0
+        local skipped=0
+
+        while read -r timestamp original mimetype statuscode; do
             # Only download HTML pages with 200 status
             if [[ "$statuscode" == "200" ]] && [[ "$mimetype" == "text/html" ]]; then
+                # Apply URL-level filters
+                if should_skip_url "$label" "$original"; then
+                    skipped=$((skipped + 1))
+                    continue
+                fi
+
                 local safe_name
                 safe_name=$(echo "$original" | sed 's|https\?://||; s|[^a-zA-Z0-9._/-]|_|g; s|/$|/index.html|')
                 local outpath="$sitedir/$safe_name"
@@ -157,16 +229,26 @@ if [ "$DOWNLOAD" = "--download" ]; then
                 if [ ! -f "$outpath" ]; then
                     curl -sf "https://web.archive.org/web/${timestamp}id_/${original}" \
                         -o "$outpath" 2>/dev/null || true
+                    downloaded=$((downloaded + 1))
                     sleep 1
                 fi
             fi
         done < "$cdxfile"
-        log "  Done: $label"
+        log "  $label: downloaded $downloaded, skipped $skipped (of $total CDX entries)"
     }
 
-    # Download all CDX results
+    # Sites to skip entirely (not Drakkar-related or empty)
+    SKIP_LABELS="ien.com gamehub.com freewebs-drakkar gamespot-imagic-launch gamespot-mpgnet-free mpgn.com-games"
+
     for cdxfile in "$CDX_DIR"/*.txt; do
         label=$(basename "$cdxfile" .txt)
+
+        # Skip non-Drakkar sites
+        if echo "$SKIP_LABELS" | grep -qw "$label"; then
+            log "Skipping $label (not Drakkar-relevant)"
+            continue
+        fi
+
         download_wayback "$label"
     done
 
