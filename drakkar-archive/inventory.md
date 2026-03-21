@@ -65,12 +65,13 @@ Acquired MPG-Net in 1998. Hosted Drakkar until iEN folded in 2001.
 |-----|--------|-------|
 | `geocities.com/drakkarice` | [NEEDS WAYBACK CHECK] | ICE Guild. Won "site of the month" on DrakkarZone. Also try oocities.org/drakkarice and GeoCities torrent. BORED links page references `iceguild.8m.com` as alternate. |
 | `geocities.com/telletran` | MIRRORED (Wolf Guild) | Seville's Maps / BORED Guild. Full mirror at `wolfguild.com/mirrors/BORED/www.geocities.com/telletran/`. Extensive site with maps for Nork, Cobrahn, Aleria, Mjorin, Nameless Lands, items, quests, races, gallery, and a 40-link directory page. |
-| `geocities.com/purgury` | [NEEDS WAYBACK CHECK] | Purgury's GeoCities page. The BORED links page links to `../purgury/index-2.html` suggesting it was in the same GeoCities neighborhood. |
+| `geocities.com/purgury` | LIVE (geocities.ws mirror) | Purgury's GeoCities page. Live at `geocities.ws/purgury/` with Cob Rares and screenshots. Also referenced in BORED links page as `../purgury/index-2.html`. |
 | `geocities.com/roarguild` | [NEEDS WAYBACK CHECK] | ROAR Guild main site. |
-| `geocities.com/roarguilditems` | [NEEDS WAYBACK CHECK] | ROAR Guild item database. |
+| `geocities.com/roarguilditems` | LIVE (geocities.ws + oocities) | ROAR Guild item database. Live at `geocities.ws/roarguilditems/` and preserved on `oocities.org/roarguilditems/`. |
 | `geocities.com/TimesSquare/5993` | [NEEDS WAYBACK CHECK] | Roganemor's Page (discovered via BORED links page). |
 | `geocities.com/drakdude/*` | [NEEDS WAYBACK CHECK] | DiscProp3 page found in Wolf Guild mirror structure. |
 | `geocities.com/uptonp/lok/` | [NEEDS WAYBACK CHECK] | Referenced in Past Lives Part 2 discussion. |
+| `geocities.com/billythebarb` | MIRRORED (Wolf Guild) | Billy the Barb's page. Also contained LadyVirago's Drakkar Page (ICE Guild) at `wolfguild.com/mirrors/BORED/www.geocities.com/billythebarb/LadyVHome.html`. |
 
 ### Angelfire Sites
 

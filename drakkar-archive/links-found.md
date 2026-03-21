@@ -182,12 +182,30 @@ These domains were found during link crawling and were not in the original searc
 
 ---
 
+## GeoCities Mirror Sites (Still Accessible)
+
+These GeoCities pages survived via mirror services:
+
+| Original URL | Mirror URL | Status |
+|-------------|-----------|--------|
+| `geocities.com/purgury` | `http://www.geocities.ws/purgury/` | LIVE — Cob Rares, screenshots |
+| `geocities.com/roarguilditems` | `http://www.geocities.ws/roarguilditems/` | LIVE — ROAR Guild items |
+| `geocities.com/roarguilditems` | `https://www.oocities.org/roarguilditems/` | LIVE — OoCities mirror |
+| `geocities.com/billythebarb` | `wolfguild.com/mirrors/BORED/www.geocities.com/billythebarb/` | MIRRORED — includes LadyVirago's ICE Guild page |
+| `geocities.com/telletran` | `wolfguild.com/mirrors/BORED/www.geocities.com/telletran/` | MIRRORED — Seville's Maps/BORED Guild |
+| `geocities.com/drakdude` | `wolfguild.com/mirrors/BORED/www.geocities.com/drakdude/` | MIRRORED — DiscProp3 |
+
+**Note**: The Archive Team's GeoCities 1TB torrent (from the October 2009 shutdown crawl) may contain additional Drakkar GeoCities pages. Available at `archive.org/web/geocities.php`. The restorativland gallery at `geocities.restorativland.org` is another source.
+
+---
+
 ## Summary
 
-- **Total unique outbound links found**: 75+
+- **Total unique outbound links found**: 80+
 - **From BORED Guild links page alone**: 40
-- **Confirmed LIVE**: ~15
+- **Confirmed LIVE**: ~18 (including geocities.ws and oocities mirrors)
 - **Confirmed DEAD**: 5 (Yahoo Clubs)
-- **Mirrored on Wolf Guild**: 14 complete sites
-- **Status UNKNOWN (need Wayback check)**: ~50
+- **Mirrored on Wolf Guild**: 15 complete sites
+- **Preserved on geocities.ws/oocities**: 3
+- **Status UNKNOWN (need Wayback check)**: ~45
 - **Newly discovered domains**: 17
