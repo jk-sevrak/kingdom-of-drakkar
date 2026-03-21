@@ -162,6 +162,7 @@ Acquired MPG-Net in 1998. Hosted Drakkar until iEN folded in 2001.
 | `en.wikipedia.org/wiki/IEntertainment_Network` | LIVE | Wikipedia article on iEN. Covers Interactive Magic → iMagic → iEN transition, MPG-Net acquisition. |
 | `landsofkes.com/archive/iok/miscellaneous/articles/kod_iok_discussion_1.htm` | LIVE | "Past Lives Part 1" — forum discussion about KoD/IoK history. |
 | `landsofkes.com/archive/iok/miscellaneous/articles/kod_iok_discussion_2.htm` | LIVE | "Past Lives Part 2" — contains Brad Lineberger's definitive post about creating Realm/Drakkar. |
+| `landsofkes.com/archive/iok/miscellaneous/articles/kod_iok_discussion_3.htm` | LIVE | "Past Lives Part 3" — "Powered By Open Bulletin Board." Additional KoD/IoK historical discussion. |
 | `landsofkes.com/archive/lok/miscellaneous/articles/MPG-Net,%20GameStorm,%20Simutronics%20Three%20from%20the%20online%20wars6.htm` | LIVE (ref) | "MPG-Net, GameStorm, Simutronics: Three from the online wars" — comparative article. |
 | `forums.mmorpg.com/discussion/425769/article-on-really-old-precursor-to-mmos-kingdom-of-drakkar` | LIVE | MMORPG.com forum discussion of the Game Archaeologist article. |
 | `mmorpgbr.com.br/kingdom-of-drakkar-pioneiro-do-genero-mmorpg-...` | LIVE | Brazilian coverage (2024) — "pioneer of the MMORPG genre, launched in 1989, still online after 35 years." |
@@ -173,11 +174,14 @@ Acquired MPG-Net in 1998. Hosted Drakkar until iEN folded in 2001.
 
 | Item / Search | Status | Notes |
 |---------------|--------|-------|
-| `archive.org/details/msdos_Drakkar_1989` | CONFIRMED (NOT KoD) | This is an unrelated 1989 DOS action game called "Drakkar" about a Viking named Erik. Not Kingdom of Drakkar. |
-| Search: "Kingdom of Drakkar" | [NEEDS CHECK] | No confirmed items found in general collections. |
-| Search: "mpg-net" | [NEEDS CHECK] | No confirmed items found. |
-| Archive-It: ThinkQuest collection | [NEEDS CHECK] | Collection #3635 or partner #706. May have `library.thinkquest.org/C002414/`. |
-| Software library: Drakkar client | [NEEDS CHECK] | No confirmed upload of any KoD game client. |
+| `archive.org/details/msdos_Drakkar_1989` | CONFIRMED (NOT KoD) | Unrelated 1989 DOS action game "Drakkar" (Delta Software) about Viking Erik. NOT Kingdom of Drakkar. |
+| `archive.org/details/Drakkar_1989_Delta_Software_es` | CONFIRMED (NOT KoD) | Spanish version of the above. |
+| `archive.org/details/zx_Drakkar_1989_Delta_Software_es` | CONFIRMED (NOT KoD) | ZX Spectrum version of the above. |
+| `archive.org/details/002470-Drakkar` | CONFIRMED (NOT KoD) | IBM PC floppy image of the above. |
+| `archive-it.org/collections/3635` | CONFIRMED | ThinkQuest collection (Oracle Education Foundation, partner #706). 8000+ student sites. Captures from Feb 2014+. No KoD content confirmed in metadata, but `library.thinkquest.org/C002414/` needs direct check. |
+| `archive.org/details/ArchiveIt-Collection-3635` | CONFIRMED | Archive.org mirror of ThinkQuest Archive-It collection. |
+| Search: "Kingdom of Drakkar" | SEARCHED | No KoD MMORPG items found in general collections. |
+| Software library: Drakkar client | SEARCHED | No KoD game client uploaded to archive.org. |
 
 ---
 
@@ -187,7 +191,7 @@ Acquired MPG-Net in 1998. Hosted Drakkar until iEN folded in 2001.
 |-----|-------------|
 | `wolfguild.com/84-2/` | WOLF Guild Site Mirrors — preserves ASH, FHM, Kyrian, Rafena, STORM, Tnem, BORED, PHNX, REAL, ZOE, ROAR, Purgury, Tantheus, Stormwind guild sites |
 | `victumterra.com/Roar/` | Modern ROAR Guild site with scenario guides, apps (Oversight, irD, exMacro), item databases |
-| `seiyria.com/drakkar/` | Seiyria's fan site — scenarios, classes, lore (compiled by HAMB from Wayback sources) |
+| `seiyria.com/drakkar/` | Seiyria's fan site — scenarios, classes, lore (compiled by HAMB from Wayback sources). GitHub repo at `github.com/seiyria/drakkar` with unused sprites, HP/EP doc items, misc facts. |
 | `kingdomofdrakkar.fandom.com/` | Fandom wiki |
 | `drakkar.miraheze.org/` | Miraheze wiki (started May 2025) |
 | `gamicus.fandom.com/wiki/Kingdom_of_Drakkar` | Codex Gamicus entry |
