@@ -68,8 +68,6 @@ jobs:
             echo "No new files to commit"
           else
             file_count=$(git diff --cached --name-only | wc -l)
-            git commit -m "Archive download: ${file_count} files from Wayback Machine
-
-Automated download via archive-download workflow."
+            git commit -m "Archive download: ${file_count} files from Wayback Machine"
             git push
           fi
