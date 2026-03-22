@@ -29,8 +29,8 @@ cdx_sweep() {
     local url="$2"
     local outfile="$CDX_DIR/${label}.txt"
     log "CDX sweep: $label ($url)"
-    curl -sf "${CDX_BASE}?url=${url}&output=text&fl=timestamp,original,mimetype,statuscode&collapse=urlkey&limit=10000" \
-        -o "$outfile" 2>/dev/null || { log "  FAILED: $label"; return 1; }
+    curl -sf --max-time 120 "${CDX_BASE}?url=${url}&output=text&fl=timestamp,original,mimetype,statuscode&collapse=urlkey&limit=10000" \
+        -o "$outfile" 2>/dev/null || { log "  WARN: CDX query failed for $label (skipping)"; return 0; }
     local count
     count=$(wc -l < "$outfile")
     log "  Found $count unique URLs for $label"
@@ -45,7 +45,9 @@ cdx_sweep "mpgn.com"              "mpgn.com/*"
 # mpgn.com/games/* returned 0 results in prior runs — skipped
 cdx_sweep "drakkarzone.com"       "drakkarzone.com/*"
 cdx_sweep "kingdomofdrakkar.com"  "kingdomofdrakkar.com/*"
-cdx_sweep "imagic.com"            "imagic.com/*"
+# imagic.com/* is too broad (domain reused by unrelated companies); scope to Drakkar-era paths
+cdx_sweep "imagic.com-drakkar"   "imagic.com/drakkar*"
+cdx_sweep "imagic.com-mpgnet"    "imagic.com/mpg*"
 
 log ""
 log "--- Priority 2: GeoCities Fan Sites ---"
@@ -185,7 +187,7 @@ if [ "$DOWNLOAD" = "--download" ]; then
                 # Skip external link redirects and session-only diffs
                 [[ "$url" == *"link=go"* ]] && return 0
                 ;;
-            imagic.com)
+            imagic.com*)
                 # Only keep early pages (the domain was reused later by unrelated companies)
                 # Skip .well-known, ads.txt, and modern crawl artifacts
                 [[ "$url" == *".well-known/"* ]] && return 0
