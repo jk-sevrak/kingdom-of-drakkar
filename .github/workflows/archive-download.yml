@@ -1,0 +1,75 @@
+name: Archive Download
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jq
+          pip install internetarchive
+
+      - name: Run CDX sweep + download
+        run: |
+          chmod +x drakkar-archive/archive-crawl.sh
+          ./drakkar-archive/archive-crawl.sh --download
+
+      - name: Summary
+        run: |
+          echo "## Archive Download Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          echo "### CDX Sweep" >> $GITHUB_STEP_SUMMARY
+          total=0
+          for f in drakkar-archive/cdx-results/*.txt; do
+            if [ -f "$f" ]; then
+              count=$(wc -l < "$f")
+              name=$(basename "$f" .txt)
+              echo "- **$name**: $count URLs" >> $GITHUB_STEP_SUMMARY
+              total=$((total + count))
+            fi
+          done
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total CDX URLs: $total**" >> $GITHUB_STEP_SUMMARY
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Downloaded Pages" >> $GITHUB_STEP_SUMMARY
+          if [ -d drakkar-archive/sites ]; then
+            for d in drakkar-archive/sites/*/; do
+              if [ -d "$d" ]; then
+                name=$(basename "$d")
+                count=$(find "$d" -type f | wc -l)
+                echo "- **$name**: $count files" >> $GITHUB_STEP_SUMMARY
+              fi
+            done
+            total_files=$(find drakkar-archive/sites -type f | wc -l)
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Total downloaded files: $total_files**" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit results to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add drakkar-archive/cdx-results/ drakkar-archive/sites/
+          if git diff --cached --quiet; then
+            echo "No new files to commit"
+          else
+            file_count=$(git diff --cached --name-only | wc -l)
+            git commit -m "Archive download: ${file_count} files from Wayback Machine
+
+Automated download via archive-download workflow."
+            git push
+          fi
