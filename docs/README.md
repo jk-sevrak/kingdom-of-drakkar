@@ -34,6 +34,8 @@ Compiled from archived fan sites, guild pages, personal pages, and the official 
 
 15. **[Quests](15-quests.md)** - The Mausoleum Quest (unsolved mystery with 3 known + 1 hidden mausoleum), Cobrahn HP quests, Muzi/Uzi quests, Sash Quest, Snowbeast, and more.
 
+16. **[Cobrahn Bestiary](16-cobrahn-bestiary.md)** - Complete creature database with hit damage, XP values, locations, and notes. 60+ creatures from Timmy to Gold Dragons. Named bosses, tannable creatures, and lair-specific enemies.
+
 ## Sources
 
 Information compiled from the following archived websites:

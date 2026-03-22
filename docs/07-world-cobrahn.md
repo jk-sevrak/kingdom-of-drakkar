@@ -82,10 +82,28 @@ An undead/ghost-themed area with special challenges.
 
 | Lair | Notes |
 |------|-------|
-| **Boris** | Cobrahn version of the Boris lair |
-| **ROC Lair** | Contains the powerful ROC creature |
-| **PSI Tower** | Multi-level tower. Brad noted PSI skill in Cob needed to be brought "up to par with weapons skill." |
+| **Borris Lair** | Accessed from the secret part of NW caves (down the steps). Zoo with E-Spear archers at entrance. Set twigs when you reach Borris. Drops Youth pots. |
+| **ROC Lair** | Accessed from NW caves (secret part, climb up). ROC egg can be traded for MA-only quest gauntlets (+4 combat, +1 STR). |
+| **Specter Lair** | SW of the bridge from Boone. Look for pile of bones at bottom of map, then climb up. Specters can deal 80% of your HP in one attack. Random red robe drops. |
+| **PSI Tower** | 4-floor tower in the desert. See detailed breakdown below. |
+| **Kaldor's Lair** | Contains Kaldor who drops unique gear (dagger, mace, robe, amulet, boots). Kaldor items break other players' gear! |
+| **Ruins of Arun** | Accessed from Haunts (between two secret doors, steps up to locked door). Contains Acolytes (fumble spell), Students (blinds, 66k XP), and Ushers. Arun Robe drops (+10 EP regen). |
+| **Giants Keep** | Contains berserkers, archers. Steps down lead to Sewers. Pillar room portal goes to Doom Town. |
+| **Juntes** | Swamp boss. Drops Junte's Robe (fire/ice, +5, paddable twice), Junte's Gauntlets (+4, +2 agi, prones, level 17 deplete). |
+| **Ningizidda** | "The feathered one" from the lore. Scales tannable for Ningizidda Scales (fire/ice prot, +8 def padded with yeti). |
+| **Mama Green** | Dragon Gauntlet area. Mama Green Armor (+5 def, acidbreath prot). |
 | **Cavy Cave** | Specific cave system |
+
+### PSI Tower (Detailed)
+
+A 4-floor tower in the desert, each floor with different enemies and unique amulet drops:
+
+| Floor | Name | Enemies | Scaler Amulet Drop | Other Drops |
+|-------|------|---------|-------------------|-------------|
+| -1 (Basement) | Basement | BD scaler, NPC ments | **+45 EPS** | |
+| 0 (Ground) | Ground level | Cthons | **+4 Strength** | GD scaler. Cthon eggs tradeable for Anti-Steve amulet. |
+| 1 | Wrack Level | NPCs in evil beetle armor | **+4 Agility** | Beetle scaler. PSI prot ring (~200 PSI prot). Beetle armor (shockwave prot, fire/ice, +6 def, evil aligned). |
+| 2 (Top) | Top floor | SD scaler, teleport pad (unknown purpose) | **+5 Intelligence** | |
 
 ## Cobrahn Hit Point System
 

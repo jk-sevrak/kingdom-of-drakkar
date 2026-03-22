@@ -127,6 +127,11 @@ Characters can equip items in the following slots:
 | **Uzi** | Nork (Papa Lich) | +5 EP regen per round. The best caster amulet. Requires fighting through 5 liches to reach Papa Lich. Demands a party of sticks, a healer, and a ment with infravision. |
 | **ProtLightning Ammy** | Various | Protects against lightning. Looks like glowing string of pearls (same as Muzi). |
 | **ProtEnmiss Ammy** | Various | Protects against Energy Missile. Same appearance as Muzi. |
+| **Anti-Steve Amulet** | Cobrahn (Desert Town) | **Prevents losing 2 HP on normal death.** Trade a Cthon egg to Murg NPC. |
+| **Kaldor Amulet** | Cobrahn (Kaldor's Lair) | Boosts Healer skill by 2 levels. |
+| **Earthcrush Amulet** | Cobrahn (quest) | Earthcrush protection. |
+| **PSI Tower Amulets** | Cobrahn (PSI Tower) | Floor-specific drops: +45 EPS (basement), +4 STR (ground), +4 AGI (floor 1), +5 INT (top). |
+| **Arun Robe** (worn as amulet/cloak) | Cobrahn (Ruins of Arun) | +10 EP regen. Many colors with gold clasps. |
 
 ## Potions & Consumables
 
@@ -173,6 +178,12 @@ Mentalists can sense item properties:
 - At skill 3: identify disciplines and energy in items
 - At skill 14: sense amulets, bracers, and succor twig destinations
 - At skill 15: sense leather rings (stat rings show "Physical Properties")
+
+### Padding
+Armor can be padded with animal furs for additional combat adds:
+- **Bear fur**: +3 padding adds
+- **Yeti fur**: +4 padding adds
+- Some items can be padded multiple times (e.g., Junte's Robe can be padded twice)
 
 ### Appraising
 Items can be appraised at vendors to determine their value. HP helms appraise for 8K.

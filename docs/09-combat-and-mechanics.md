@@ -41,6 +41,7 @@ Kingdom of Drakkar uses a **real-time combat system**. Players and creatures act
 
 ### Normal Death
 - **Lose 1 Constitution point per death** (permanent!)
+- **Lose 2 HP on normal death** (can be prevented by the **Anti-Steve Amulet** from Cobrahn)
 - Experience loss
 - Possible item loss
 - Higher-level creatures may strip possessions after killing you
