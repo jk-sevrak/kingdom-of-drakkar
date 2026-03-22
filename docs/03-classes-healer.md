@@ -15,32 +15,41 @@ The Healer is a challenging class to build. With a Healer, it's brain power over
 | 5 | **Detox** | 10 | Cures poison. |
 | 5 | **ProtFire** | 10 | Protects against fire damage. |
 | 6 | **Vision** | 10 | Enhances sight. |
-| 7 | **CritCure** | 30 | **Resurrects dead players.** Drains half the healer's HP. Move to safety before casting! |
+| 7 | **CritCure** | 30 | **Resurrects dead players.** HIGH stress, causes aging. Drains healer to ~half health. Must have only one body on hex. Move to safety before casting! |
 | 7 | **ProtIce** | 25 | Protects against ice damage. |
 | 8 | **Heal** | 20 | Stronger healing than Mend. |
 | 9 | **Stun** | 15 | Stuns a target, preventing action. |
 | 9 | **Succor** | 15 | Teleport/escape ability. |
 | 10 | **Light** | 10 | Creates light in dark areas. |
 | 11 | **Poison** | 20 | Poisons a target. |
-| 11 | **FireStorm** | 25 | Area fire damage. Will damage the Healer with or without Mama scales. |
+| 11 | **FireStorm** | 25 | 1-square concentrated fire explosion. **Side effect: Death.** Can kill caster and party members. |
 | 12 | **Lightning** | 15 | Lightning attack. |
 | 13 | **ProtAssault** | 40 | Protects against Assault damage. |
 | 14 | **ProtStun** | 30 | Protects against stun effects. |
 | 14 | **Push** | 20 | Pushes a creature in a random direction. |
-| 15 | **Atone** | 35 | Atonement ability. |
-| 15 | **AutoHeal** | 50 | Automatic healing. |
+| 15 | **Atone** | 35 | Moves recipient toward true good alignment. HIGH stress, causes permanent damage. |
+| 15 | **AutoHeal** | 50 | Automatic heal triggers when recipient drops below 1/5 max HP. Only activates if character survives the blow. |
 | 16 | **Stone to Flesh** | 100 | Reverses petrification. |
 | 16 | **EarthCrush** | 100 | Powerful earth-based attack. |
 | 17 | **AntiStun** | 100 | Prevents stun effects. |
-| 17 | **Psi-Crush** | 40 | Psionic damage attack. |
-| 17 | **Charm** | 30 | Charms a target. |
-| 18 | **PowerWord Stun** | 100 | Powerful stun ability. |
-| 18 | **Aid** | 50 | Party support ability. |
-| 19 | **PowerWord Death** | 100 | Powerful instant-kill attempt. |
-| 20 | **PowerWord Heal** | 100 | Powerful healing. |
-| 21 | **Strength** | 100 | Buffs strength. |
-| 22 | **Agility** | 200 | Buffs agility. |
-| 23 | **Regenerate** | - | Passive HP regeneration. |
+| 17 | **Psi-Crush** | 40 | Like Assault but deadlier. Becomes mainline attack disc in Cob. Moderate stress, aging. |
+| 17 | **Charm** | 30 | Makes target an automaton. Can disarm creatures, make them attack others, drink potions. |
+| 18 | **PowerWord Stun** | 100 | Instantly stuns ALL visible hostile creatures. Moderate stress, aging. |
+| 18 | **Aid** | 50 | Reveals hidden targets (archers, assassins). Boosts hitting/casting ability by +5 or +7. |
+| 19 | **PowerWord Death** | 100 | 30 damage per skill level to every visible hostile creature. HIGH stress, aging. |
+| 20 | **PowerWord Heal** | 100 | Instantly heals all visible party members of poison, blindness, wounds. Moderate stress, aging. |
+| 21 | **Strength** | 100 | Boosts strength by +5. |
+| 21 | **Cure Disease** | 200 | Cures disease. May be useful in the Nameless Land. |
+| 22 | **Agility** | 200 | Boosts agility. |
+| 23 | **Regenerate** | All EP (leaves 1) | Regenerates lost hit points. HIGH stress, aging. |
+
+### Healer Skill Boosts (Higher Levels)
+
+| Boost Type | Skill Levels Received |
+|------------|----------------------|
+| EP Regen boost | 19, 20, 21 |
+| +6 Skill Level bonus | 24, 25, 26, 27 |
+| +4 Skill Level bonus | 28 |
 
 ## Building a Healer
 

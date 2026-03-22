@@ -32,6 +32,8 @@ Compiled from archived fan sites, guild pages, personal pages, and the official 
 
 14. **[Experience & Leveling](14-experience-and-leveling.md)** - Complete XP chart (levels 1-75), stat potion prices, EP/HP potions, level 13 milestone, recommended skill targets by area.
 
+15. **[Quests](15-quests.md)** - The Mausoleum Quest (unsolved mystery with 3 known + 1 hidden mausoleum), Cobrahn HP quests, Muzi/Uzi quests, Sash Quest, Snowbeast, and more.
+
 ## Sources
 
 Information compiled from the following archived websites:
