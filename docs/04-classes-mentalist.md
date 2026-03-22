@@ -107,10 +107,24 @@ Mentalists are the **best coining class** thanks to Transmute (skill 10):
 
 ### Gearing Up
 
-Identical progression to Healers with a few differences:
+Identical base progression to Healers with key differences:
 - Switch from Red Dragon Scales to **Mama Scales** when your own fire/ice spells start damaging you
-- **Chipper Staff** (Nork) - +2 skill bonus. Rare and hard to get.
+- **Do NOT wear Full Plate (FP)** - it halves psi power!
+- **Chipper Staff** (Nork) - Spells act 2 skill levels higher. Rare and hard to get.
 - Ments get **only 1 physical attack per round EVER** - so offensive ring adds are less valuable. Prioritize defensive rings.
+- Click on the mana bar to see numeric EP display with regen rate
+
+**Key Mentalist Gear:**
+- **Tarak Robe** - +1 EP regen (requires good alignment)
+- **BNR** - Helps avoid attacks
+- **SNR** - Fire/ice protection
+- **Slith Cloak** - +15 EP bonus
+- **Chipper Staff** - Spells act 2 skill levels higher
+- **Dancers Boots** - Save if stunned
+- **Lizard Boots** - 50 fire protection
+- **Snow Boots** - 50 ice protection
+- **Muzi** - +2 EP regen/turn
+- **Uzi** - +5 EP regen/turn
 
 ### Maxxing
 

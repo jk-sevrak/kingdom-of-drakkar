@@ -28,6 +28,10 @@ Compiled from archived fan sites, guild pages, personal pages, and the official 
 
 12. **[Items & Equipment](12-items-and-equipment.md)** - Catalog of notable items by slot: armor, weapons, amulets, potions. Enchanting, imbuing, and sensing mechanics.
 
+13. **[Encrusting & Crafting](13-encrusting-and-crafting.md)** - Ring encrusting with gems (stat bonuses), armor tanning from creature hides.
+
+14. **[Experience & Leveling](14-experience-and-leveling.md)** - Complete XP chart (levels 1-75), stat potion prices, EP/HP potions, level 13 milestone, recommended skill targets by area.
+
 ## Sources
 
 Information compiled from the following archived websites:

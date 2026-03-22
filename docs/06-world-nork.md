@@ -49,12 +49,15 @@ Contains:
 
 ## Nork Dungeon Levels
 
-The Nork dungeon has multiple levels of increasing difficulty:
+The Nork dungeon has multiple levels of increasing difficulty (at least 10 levels deep):
 - **Nork -1 (N-1)** through **Nork -7 (N-7)** - Standard dungeon levels
-- **Nork -3.5** - Contains the ghost that drops the Door Pearl (needed for Muzi)
-- **M-1, M-2** - Maeling levels (M-2 has the key for Muzi quest, traded for a flawless black pearl)
-- **KM-2** - Where Peewee is located (Muzi quest destination)
+- **Nork -3.5** - Key area containing: Ghost Lair (good skill, tan for Door Cloak, Door Pearl for Muzi quest), Mummy Lair (good skilling, no tan), Ogre Chief (good skill; trade club to Gabagimli for diamond), Spider Queen Lair (egg for Sash Quest), Sanquins (egg for sash quest, hide for beginner armor), Ratburrow Portal, Barbarian Trainer, and boat access to Aleria
+- **Nork -9, -10** - Deepest levels with "formidable foes"
+- **M-1, M-2, M-3** - Maeling levels (M-2 has the key for Muzi quest, traded for a flawless black pearl; M-3 good for water illusion trick)
+- **KM-2, KM-4, KM-5** - KM-2 has Peewee (Muzi quest); KM-4/-5 have Transmute twigs
 - **-5, -6, -7** - Heavy assault areas (need Rak cloak)
+- **N-5 fire room** - Mid-level hunting area
+- **Acid Caves** - Mid-level hunting, connected to Evil Nork
 
 ## Nork Lairs
 

@@ -56,12 +56,42 @@ The Martial Artist is an unarmed combat specialist and the hardest class to grow
 
 ## Thief
 
-The Thief is a stealth and utility class with unique mechanics.
+The Thief is a stealth and utility class with unique mechanics. Thieves can form psionic disciplines but **at the cost of health points** (not EP like Mentalists/Healers).
 
 - **Max HP**: 380 (via Hit Doctor)
-- **Key Stats**: Dexterity, Agility
-- **Special Abilities**: Backstab, Mug, Hide, Pick locks
-- **Skilling**: Via Backstab (BS) and Mug. Backstab skill gains were "5:1" compared to weapon skill gains.
+- **Key Stats**: Luck, Charisma, Agility (helps hide/steal/defense), Strength
+- **Special Abilities**: Steal (skill 1+), Hide (skill 4-5), Backstab (skill 8), Mug (skill 10), Door, Pick locks
+- **Skilling**: Via Backstab (BS) and Mug. Backstab gives BOTH weapon AND thief skill. Thieves can skill extremely fast early (skill 4 in first 10 minutes possible by stealing from dungeon crits before killing them).
+
+### Thief Progression
+
+| Skill | Ability |
+|-------|---------|
+| 1-3 | Steal from creatures (steal 10x then kill) |
+| 4-5 | Hide in shadows |
+| 8 | Backstab (attack from hiding with increased damage) |
+| 10 | Mug (combines backstab movement with stealing). Class train at VT trainer for Door and others. |
+| 12+ | Focus on weapon skilling |
+
+### Thief Weapon Choices
+- **Longsword/Greatsword**: Hit hard but harder to hide afterward
+- **Dagger**: Easy to hide but less damage. +2 Silver Dagger from thief trainer; +3 Bullywog Dagger (returning, throwable)
+- **Bow/Thrown**: Easiest to hide with. Poison Bow hits hard but poison kills steal XP.
+- **Stiletto**: Power weapon from Breshard lair. Silver/glowing with poison.
+- **Silver Griffin Sword > Slicer > Saber** (longsword progression)
+
+### Thief Gear
+- **HP Helm** (later Power Helm)
+- **RB Sash** (Ratburrow)
+- **Agility Rings**
+- **Full Plate from Levi** (level 15 trade)
+- **Black Ninja Robes** (+2 AGI, from Maeling -3)
+- **Camo Robes** (+2 AGI, +1 hiding, from Aleria Seldair -1/-2)
+
+### Thief Tips
+- Steal from dungeon crits before killing them for extra thief skill
+- Train thief skill to 5 on ALL classes for theft defense and to see hidden players
+- Mug replaces steal at skill 10 - combines backstab movement with stealing
 
 ### Thief Mechanics
 
@@ -85,6 +115,13 @@ All classes can develop weapon skills independent of their class skill:
 - **Martial Arts** - Unarmed combat skill. Best blocking but hampered by armor weight.
 - **Dagger** - Used by Thieves
 - **Short Sword** - Another option
+
+### Universal Skill Recommendations
+
+From the ICE guild's getting started guide:
+- **Train Martial Arts to skill 10 on ALL classes** - provides dodge bonus and extra attacks for fighters
+- **Train Thief to skill 5 on ALL classes** - provides theft defense and ability to see hidden players
+- **Recommended primary weapons by class**: Barbarians = halberd, Psi classes = staff, Thieves = thrown weapons, Fighters/Paladins = great sword and long sword
 
 ### Known Power Weapons (P-weapons)
 

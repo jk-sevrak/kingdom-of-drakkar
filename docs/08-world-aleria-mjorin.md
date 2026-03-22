@@ -57,6 +57,14 @@ The EDGE guild maintained a Mjorin exploration guide in their members-only secti
 - Challenges and content
 - The location is notably more obscure than the main game worlds
 
+## The Nameless (NL)
+
+"Nameless" or "NL" is another game region referenced in item databases. The ROAR Guild maintained lists of NL Items, NL Weapons, NL Rings, and NL Robes. This appears to be a distinct content area with its own equipment sets.
+
+## Dion
+
+A higher-level area referenced by the ROAR Guild, which maintained a "Dion Info" page and "Dion Map." Less documented than other areas.
+
 ## Alt Worlds
 
 The game had "alt" versions of the main segments:

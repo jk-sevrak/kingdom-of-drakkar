@@ -37,7 +37,12 @@ Characters can equip items in the following slots:
 | **Enmiss Robe** | Nork | Required for hunting M-1 (Enmiss protection). |
 | **Griffy Cloak** | Nork | Best for Martial Artists (lightweight, doesn't hamper MA skill). |
 | **Red Robes** | Cobrahn | Psi-mirror items. Were "broken" - showed reflect messages but didn't actually reflect psi damage from imbued weapons. Brad planned a quest for a slightly better version. |
-| **SNR** | Nork/Cob | Fire protection alternative to Mama Scales for Firebreath casting. |
+| **SNR** | Nork/Cob | Fire/ice protection alternative. |
+| **BNR** | Nork | Helps avoid attacks. |
+| **Tarak Robe** | Nork (Tarak lair) | +1 EP regen, requires good alignment. |
+| **Slith Cloak** | Nork | +15 EP bonus. |
+| **Black Ninja Robes** | Nork (Maeling -3) | +2 Agility. Good for Thieves. |
+| **Camo Robes** | Aleria (Seldair -1/-2) | +2 Agility, +1 hiding. Best Thief cloak. |
 
 ### Helms
 | Item | Location | Notes |
@@ -45,6 +50,7 @@ Characters can equip items in the following slots:
 | **HP Helm** | Nork (-2+) | Hit Point helm. Appraises for 8K. Glowing description indicates HP or EP enchantment. Various tiers (20 HP to higher). |
 | **EP Helm** | Nork | Energy Point helm. Also glowing. |
 | **Padded IV Helm** | Cobrahn | Standard Cob helmet. |
+| **Power Helm** | Various | Upgraded HP helm for higher-level characters. |
 | **Hit Helm** | General | Generic term for HP-boosting helms. |
 
 ### Gauntlets
@@ -62,9 +68,12 @@ Characters can equip items in the following slots:
 | **Attack Sash** | Nork (high-level) | Requires high-level content to obtain. |
 
 ### Boots
-- Various boots available throughout the game
-- "Boots are better than bare feet" - starter advice
-- Boots tie to characters
+| Item | Location | Notes |
+|------|----------|-------|
+| **Dancers** | Various | Save if stunned. Do NOT wear while memorizing teleport locations (Mentalists). |
+| **Lizard Boots** | Various | 50 fire protection. |
+| **Snow Boots** | Various | 50 ice protection. |
+| Various others | Various | "Boots are better than bare feet." Boots tie to characters. |
 
 ### Rings
 | Item | Location | Notes |
@@ -100,7 +109,11 @@ Characters can equip items in the following slots:
 |------|----------|-------|
 | **Saber** | Nork | P-weapon for Snowbeast. |
 | **Stiletto** | Nork | P-weapon for Snowbeast. |
-| **Halberd (Hally)** | Various | Polearm weapon. No known P-weapon variant as of 2002. |
+| **Halberd (Hally)** | Various | Polearm weapon. Can attack adjacent hexes. No known P-weapon variant as of 2002. |
+| **+2 Silver Dagger** | Nork (Thief trainer) | Good starter thief dagger. |
+| **+3 Bullywog Dagger** | Nork | Returning and throwable. Great for thieves. |
+| **Silver Griffin Sword** | Nork | High-tier longsword. |
+| **Slicer** | Nork | Mid-tier longsword. |
 | **Fishery Bow** | Nork (Fishery) | Two needed for Muzi quest. Also comes in Espear Bow variant (imbued with Energy Spear). |
 | **Lightning Spear** | Various | Weapon imbued with lightning spell. |
 | **Firestorm Mace** | Various | Weapon imbued with Firestorm spell. |
