@@ -38,9 +38,9 @@ In the 2002 Q&A, Brad described his vision:
 
 - **Nork World One**: Completely free
 - **Drakkar Silver / Drakkar Gold**: Paid plans unlocking additional scenarios
-- Monthly per-character charges for Guild Hall access and additional scenarios
+- **Guild Hall**: $4.50/month (Basic: trainer to skill 20, 3 lockers, portals, minor CON pot/day, item tier, cheaper stores) or $7.50/month (Deluxe: trainer to skill 35, 20% discount, additional features)
+- The game originally charged **$4/hour** to play; monthly bills of $100-$300 were common in the early days
 - Special events occasionally opened all content for free (e.g., Christmas 2016: "TONIGHT/TOMORROW ONLY... *EVERYONE IS A PAYER*")
-- Christmas Special offered 3 months of Platinum for the price of 1
 
 ## History & Context
 

@@ -79,8 +79,42 @@ Lairs are instanced boss dungeons with unique challenges. Lair creatures can per
 | **Phantom Lair** | Undead/phantoms, may need special items |
 | **Liches** | End-game Nork content. 5 liches guard Papa Lich who carries the Uzi amulet. Requires psi-cutting gear. |
 | **Snowbeast (SoB)** | Quest-oriented boss. Requires specific P-weapons (Saber, Vamps, Chipper, Stiletto, P-LS) to kill. |
+| **Basilisk** | In VT. Deals 50-100 dmg (200 proned). Stuns/stones at death, charges. Tan for Baskie armor/shield. **Eater.** |
+| **Naga** | 60-80 dmg (150 proned). Charges, poisons, casts darkness. Tan for Naga scales. **Eater.** Access via Prisons figurine. |
+| **Mama Naga** | N-8. Mother of Naga. |
+| **Cloud Giant** | 90-120 dmg (200+ proned). Charges. **Eater.** Found in Evil Nork. |
+| **Smasher** | N-7. New lair boss with a mace. |
+| **Reggie** | N-8. Boss with "some fiends." |
+| **Vampire** | Dark Tower/Frore. Drops Vampire Heart (trade to Felon for Vamp Gauntlets). |
 | **Warden Lair** | Very dangerous. Players avoided it because skill loss on death couldn't be regained. Brad planned to add "nifty new items" to Wardens. |
+| **Guardian** | Guardian Island south of Prisons. Extremely dangerous (MA/Psi-crush, FS, Deplete, Stun). Gear poof hexes. "You will die if you go in here." |
 | **Lori** | "Insanely tough" boss who drops the Lori Staff (+6 skill, +6 EP regen). Dies "all the time" with the right group. Hard hunt requiring many players. |
+
+### Maeling
+Forest area west of Nork with caves (M-1 through M-4). Trainer to skill 12. Notable lairs:
+- **M-4 North Tengu Lair**: Drops SER, pulsating gems
+- **M-4 South Ninja Lair**: Drops +5 katana, 0/3 blue sash
+- **M-4 West Stunner Lair**: Drops +5 returning tanto with lightning
+- **M-4 East Golem Lair**: Drops ceramic scales
+- **M-4 Double Ninja Lair**: Requires items from all 4 lairs. Spawn time: 1 hour 34 minutes.
+
+### Homlet
+Southeast of Frore, accessed via 4 Pillars area. Contains Elementals (AcidBreath), Rockmen (drop skill books), and Thrashers. Portal back to Nork. Trainer to skill 20.
+
+### Fun House
+NE Nork, level 15+ required. Entry needs ivory arrow from N-5 secret area and 25K gold. No twig allowed inside. Must navigate puzzle rooms. Contains EP Pot store (500K each). Barker embroiders items. Leads to **Mjorin** portal.
+
+### Dark Tower
+In Frore area. Trade Vampire Heart to Felon for Vamp Gauntlets. Stalkers drop 5/5 rings. Drop down leads to Guardian Lair. Contains SNR-dropping Ninjas (+6 combat gauntlets).
+
+### Prisons (Tehruh)
+Contains figurine for Naga access, good rings, Stunners, Lurkers (cast darkness), BD access, and Halberd Trader. Trainer to skill 20.
+
+### Yeti Island
+South of Nork. Bears, wolves, Small/Large Yeti on ice floes. Site of Thanksgiving turkey hunting events.
+
+### Griffon Island
+Southwest of VT, swim east. Griffon drops +3 silver longsword and can be tanned for griffon armor.
 
 ## Nork Economy
 

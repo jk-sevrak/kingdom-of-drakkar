@@ -110,9 +110,103 @@ Brad considered this a "quest-oriented kill" and preferred focusing on new conte
 
 One of the very few ways to fix the Charisma stat after character creation. Located in Aleria. Nearly impossible for new players to access.
 
-## Other Known Quests
+## Nork Quests
 
-From Tantheus' Drakkar Page:
-- **Hally Quest** - Involves specific steps and items
-- **King's Quest** - A major multi-step questline
-- **Chipper Key Quest** - Required for accessing certain areas or obtaining the Chipper Staff
+### Goblin Lord Quest
+1. Find silver key on N-1, open locked door SE of N-1
+2. Kill Goblin Lord, take key and purple gem
+3. Show gem to Pelagus (say "proof"), get ring
+4. Take ring + gem to Gennetta (say "Pelagus"), get amulet
+5. Take ring + amulet to Hector, say "heirloom"
+6. **Reward**: 1/1 ring with level 2 fire/ice protect
+
+### Lizard King Quest
+1. Talk to Annalie and Sir Halden
+2. Get teleported from SW N-2 into lair
+3. Kill Lizard King (drops +1 mace)
+4. **Reward**: +1 CON to 18 (one-time only)
+
+### Ratburrow Sash Quest
+1. Kill rat, bring to Mungo, say "rat"
+2. Mayor gives mission: get Egg of Webweaver, Axe of Heathen, Axe of Bull, Egg of Icedrake from N-3.5 creatures
+3. Return all items to Mayor
+4. **Reward**: Ratburrow Sash (2/2, CritCure, RB teleport, boat to Aleria)
+
+### Chipper Key (Billy & Moose Quest)
+1. Talk to Billy in Frore, get fetching stick
+2. Lead Moose back to Billy
+3. **Reward**: Key to Chipuda lair (ties)
+
+### Power Gear Quest
+1. Trade SnowBeast skull to King in Frore for Power House Key
+2. Trade Sabre, Chipper Staff, and Breshard's Stiletto for PowerRobe and PowerHelm
+3. Earn Club House admittance
+
+### Dancer Boots Quest
+1. Hunt N-5 Secret Area for key
+2. On N-7 find bolts
+3. Hold bolt, stand on dancer seller, talk
+4. Must be level 15
+
+### Poison Bow Quest
+1. Get arrow from N-5 haunted area
+2. Trade for key to Roc lair
+3. Kill Roc, take egg to man in haunted area
+4. Must be level 13
+
+### +5 Halberd Quest
+Go SW from Frore, climb stairs, kill Halberd Giant.
+
+### +6 Halberd Quest
+Drop down from Portals room, go south, kill Fire Giant in east lair.
+
+## Aleria Quests
+
+### Good Aleria Quest (requires Good/Good alignment)
+1. Need: BL Sword, Seldari Queen Cup, Mujaba's Key, Goblin King Axe
+2. Series of NPC interactions: Caspian -> Talinar -> Arogar -> Lady Ela -> King Borav
+3. **Reward**: Good Alerian Helm (Feather Fall lv15, +1 Willpower, dances when stunned) + enchantment for Tarak access
+
+### Evil Aleria Quest (requires Evil/Evil alignment)
+1. Need: BL Sword, SQ Goblet, WW Fur
+2. Visit Culcula, Evil Tower NPCs: Hessaan -> Lord Koss -> Koron
+3. **Reward**: +30 HP shield (poor blocking, good aligned) -- can be traded for Evil Infra Helm (limited infravision, 1x1 area, -1 luck)
+
+### Tarak's Hammer Quest
+1. Talk to Tarak in jail, kill Slimebeast for hammer, return to Tarak (he escapes and kills you!)
+2. Visit guard, then Kiara for blessing
+3. Kill Mujaba for dagger, trade to Karazov for levitation potion
+4. Float up to Tarak's Castle
+5. Kill Tarak
+6. **Reward**: +4 level 5 Blast Hammer and Evil Tarak Robe (trade robe to Kiara)
+
+## Additional Cobrahn Quests
+
+### Guard Duty Replacement (1st HP Quest - Easy)
+1. Find Drizzle in tree, say "Dri, replacement"
+2. Get name, tell guard in guardhouse
+3. **Reward**: +100 HP in Cob
+
+### Graagh Halberd (3rd HP Quest)
+1. Kill Graagh on castle top floor for halberd
+2. Climb down well, go east, trade hally to Duke Moreal
+3. **Reward**: +100 HP in Cob
+
+### Bob Quest (Repeatable)
+1. Talk to Bob in Tree Town
+2. Carry note to Timmy Town, then Desert Town, return to Bob
+3. **Reward**: 3 Major stat pots
+4. Type "bob,reset" to repeat
+
+### Boone Quest
+Talk to Boone upon arriving in Cobrahn. **Reward**: +6 HP.
+
+### Steve Quest (Timmy Town)
+When you die, Steve sends you to kill a monster and bring it back. **Reward**: +2 HP recovery.
+
+### Maggio HP Helm Quest
+1. Click heads of Maggio
+2. Go to Desert Town to find named crit
+3. Get zoo to kill it, search for ring
+4. Return to Maggio for Black Pearl
+5. **Reward**: Trade pearl for IV Helm in Timmy Cave

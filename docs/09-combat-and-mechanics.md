@@ -121,16 +121,25 @@ The Hit Doctor allows characters to purchase additional HP up to their class max
 ### Real-World Cost Example
 Jemihi of the NLOE guild maxed his HP for **26,327,782 coins** and still needed 8-47 million more for EP maxing.
 
-### Class HP Maximums (Hit Doc)
-| Class | Max HP |
-|-------|--------|
-| Mentalist | 350 |
-| Healer | 380 |
-| Thief | 380 |
-| Martial Artist | 480 |
-| Fighter | 480 |
-| Paladin | 480 |
-| Barbarian | 580 |
+### Class HP Maximums (Full Progression)
+
+| Class | Level 1 Max (Yellows) | Hit Doc (Nork Lv13+) | Mino Blood Max | Cob Hit Doc (Lv19+) |
+|-------|----------------------|---------------------|---------------|-------------------|
+| Mentalist | - | 350 | 400 | 420 |
+| Healer | 150 | 380 | 420 | 441-447 |
+| Thief | 100 | 380 | 420 | 441-447 |
+| Fighter/Ment | 150 | 400 | 480 | 501-513 |
+| Fighter | 160 | 480 | 530 | - |
+| Paladin | 180 | 480 | 530 | 552-559 |
+| Martial Artist | 130 | 480 | 530 | 543 |
+| Barbarian | 200 | 580 | 600 | 623 |
+
+**Mino Blood** (found on KM-5, must be level 16+) gives +1-2 HP beyond Hit Doc max.
+**Cobrahn HP Quests** give +400 HP total (4 quests at +100 each, Cob only):
+1. Guard Duty Replacement
+2. Juntes Ring
+3. Graagh Halberd (kill Graagh, trade hally to Duke Moreal)
+4. Shackle Quest
 
 ### Maxxing Strategy
 1. Reach level 13

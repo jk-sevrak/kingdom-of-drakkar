@@ -97,6 +97,26 @@ Two types of training exist:
 
 Higher Charisma reduces training costs. The **chit trainer** in the Guild Hall offers an alternative training method with no hard skill cap.
 
+## Cobrahn Stat Traders
+
+In Cobrahn, stats can be raised to **21** (beyond Nork's 18-19 cap) by trading specific items:
+
+| Stat | Trade Item | Trader | Max |
+|------|-----------|--------|-----|
+| **Strength** | Silver nugget | Arminius | 21 |
+| **Agility** | Brass ring | Conrado | 21 |
+| **Constitution** | Thin emerald bottles | (common drops) | 18 |
+| **Wisdom** | Sapphire | Trader west of Desert Town | 21 |
+| **Intelligence** | Turnip | NW caves east side | 21 |
+| **Willpower** | Packet of mandrake | Trader east of big river | 21 |
+| **EP** | Grub | Trader | +1 EP per grub |
+
+Grubs come from Cthons and Centipedes. Silver nuggets are in upper Timmy Caves. Brass rings are very rare (from Ninjas). Mandrake found under Juntes/forest area.
+
+## Dion Mini-Fate Pots
+
+**Dion** is a wandering NPC in Cobrahn who trades rings (6050+ GP value) or gems (40K+ value) for mini-fate potions. These have a ~75-90% chance of positive effects including random stat changes, temporary overmax HP, random training, and various buffs.
+
 ## Macros
 
 The game supported macro commands:

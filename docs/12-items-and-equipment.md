@@ -113,7 +113,14 @@ Characters can equip items in the following slots:
 | **+2 Silver Dagger** | Nork (Thief trainer) | Good starter thief dagger. |
 | **+3 Bullywog Dagger** | Nork | Returning and throwable. Great for thieves. |
 | **Silver Griffin Sword** | Nork | High-tier longsword. |
-| **Slicer** | Nork | Mid-tier longsword. |
+| **Slicer** | Nork (Slicer on N-7) | +4, proning, glowing meteoric longsword. Also comes in greatsword variant (+3). |
+| **Griffon Sword** | Nork | +3, silver, glowing, good aligned longsword. |
+| **Excalibur** | Nork (quest) | +6 greatsword, **Paladin only**, on-contact Earthcrush. |
+| **Fire Giant Halberd** | Nork (Fire Giant lair) | +6, does NOT tie, blocks fairly well. |
+| **King Minotaur Axe** | Nork (quest) | +6, returning, silver. Quest item for Attack Sash. |
+| **Goblin King Axe** | Aleria (Goblin King) | +4, with Transmute level 13. Tradeable for Light Ring. |
+| **Grraaagh Halberd** | Cobrahn (Graagh Castle) | +5 STR, on-contact Push, proning. **Barb only.** |
+| **DeathSasquatch Fur** | Cobrahn (DS lair) | Barb-only armor: **+200 HP**, 0/7 combat adds. Can enhance titanium shield into "Easter Egg" shield (+200 HP). |
 | **Fishery Bow** | Nork (Fishery) | Two needed for Muzi quest. Also comes in Espear Bow variant (imbued with Energy Spear). |
 | **Lightning Spear** | Various | Weapon imbued with lightning spell. |
 | **Firestorm Mace** | Various | Weapon imbued with Firestorm spell. |

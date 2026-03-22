@@ -6,19 +6,28 @@ The Fighter is the primary melee combat class and the most straightforward to pl
 
 - **Max HP**: 480 (via Hit Doctor)
 - **Key Stats**: Strength, Constitution
-- **Can use**: All weapon and armor types
-- **Combat**: Direct melee damage dealer. Forms the backbone of any party as a "stick" (slang for melee fighter).
+- **Can use**: All weapon and armor types (best armor in game)
+- **+1 attack every 5 levels**
+- **+3 weapon specializations** (same progression as Paladin: 15/17/19 or triple-spec at 15/19/24)
+- **8th level Fighters may become Paladins** (requires Good/Good alignment)
 
 Fighters gain extra attacks per round as they level up and serve as the front-line tank in parties. They are easier to build and finance than psionic classes.
 
+### Fighter/Mentalist (Multi-class)
+- **Max HP**: 400 (via Hit Doctor)
+- Hybrid class combining fighter combat with mentalist spells
+
 ## Barbarian
 
-The Barbarian has the highest HP cap of any class and unique Berserk mechanics.
+The Barbarian is the easiest to play, fastest to develop, and has the highest HP cap.
 
 - **Max HP**: 580 (via Hit Doctor) - highest in the game
 - **Key Stats**: Strength, Constitution (STR gives Barbarians HP bonuses)
-- **Special Ability**: **Berserk** - grants extra attacks ("fury rounds") but character loses control and may attack party members, pick up items from ground, or run off screen
-- **Armor**: Limited armor options. In Cobrahn, double Yeti was the best available (players requested better Cob armor for Barbs, and Brad indicated plans to add new lair armor)
+- **Special Abilities**:
+  - **Zerk (Berserk)** - grants extra attacks ("fury rounds") and more strength, but character loses control and may attack party members, pick up items from ground, or run off screen
+  - **Autobalm** - auto-heal when HP drops to 30%
+- **Best with halberds** (polearms)
+- **Armor**: Limited options. Distrust psionics, resistant to psionic attacks, have difficulty with psionically imbued items (Succor scrolls). In Cobrahn, **DeathSasquatch Fur** (+200 HP, 0/7 combat adds, Barb only) is the prize gear. **Grraaagh Halberd** (+5 STR, on-contact Push, proning, Barb only) is the top weapon.
 
 ### Barbarian Issues (from 2002 Q&A)
 
@@ -29,23 +38,48 @@ The Barbarian has the highest HP cap of any class and unique Berserk mechanics.
 
 ## Paladin
 
-The Paladin is a holy warrior combining combat and healing capabilities.
+The Paladin is a holy warrior combining combat and healing capabilities. **Must be Good/Good alignment and dedicate at level 8+** (promotion from Fighter).
 
 - **Max HP**: 480 (via Hit Doctor)
-- **Key Stats**: Strength, Wisdom
-- **Special Abilities**: MaxStrike (powerful attack), Haste capability, some healing
-- **Role**: Hybrid fighter/healer. Less healing than a pure Healer but more durable
+- **Key Stats**: Willpower 18, Strength 18, Charisma 15+
+- **Race recommendation**: City Dweller
+- **On dedication**: +2 Willpower, +1 extra attack
+- **+1 attack every 5 levels**
+- **Virtual immunity to combat stuns**
+- **+3 weapon specializations** (1st at level 15, 2nd at 17, 3rd at 19; or triple-spec one weapon at 15/19/24)
+- **FOCUS abilities** starting at skill 17 (powerful attacks/defenses)
+- **Special gear**: Pally Gauntlets (Paladin only, +1 attack, +3 defense), Excalibur (+6 greatsword, Paladin only, on-contact Earthcrush)
 
-Paladins were considered strong in the 2002 era, with players noting that their MaxStrike + Haste (2-3 attacks per round) gave them significant advantages over Barbarians.
+Paladins were considered strong in the 2002 era, with MaxStrike + Haste giving 2-3 attacks per round.
 
 ## Martial Artist (MA)
 
-The Martial Artist is an unarmed combat specialist and the hardest class to grow.
+The Martial Artist is an unarmed combat specialist and the hardest class to grow. More useful at higher skills.
 
 - **Max HP**: 480 (via Hit Doctor)
-- **Key Stats**: Dexterity, Strength
-- **Special Abilities**: Chi abilities starting at skill 17 (Chi Sweep), Sweep, RP (Rapid Punch - 2-3 attacks per round with Haste)
-- **Armor Impact**: MA skill effectiveness is hampered by heavy armor. A skill 10 MA wearing Red Dragon Scales doesn't function as well as an MA wearing a lighter Griffy Cloak.
+- **Key Stats**: Dexterity, Strength, Agility
+- **Armor**: Best with Griffon Cloak (light armor needed for blocking). Heavy armor hampers MA skill.
+- **About 500 hits average**
+
+### MA Ability Progression
+
+| Skill | Ability | Notes |
+|-------|---------|-------|
+| 6 | **Jumpkick** | Jumping kick attack |
+| 8 | **Sweep** | Sweeping leg attack |
+| 17 | **Chi Sweep** | Enhanced sweep |
+| 18 | **Minor Shield** | Defensive ability |
+| 19 | **Wallbreak** | Break through walls |
+| 20 | **IronFist** | Powerful punch |
+| 21 | **Minor Pool** | Minor HP pool |
+| 22 | **JumpStrike (Kwangsoo)** | Advanced jumping attack |
+| 23 | **Shield** | Full defensive shield |
+| 24 | **Power Sweep** | Enhanced sweep |
+| 25 | **Pool** | HP pool ability |
+| 26 | **RapidPunch** | Multiple rapid attacks (2-3 per round with Haste) |
+| 27 | **Major Shield** | Strongest defensive shield |
+| 28 | **Major Pool** | Major HP pool |
+| 29 | **Deathtouch** | Ultimate attack |
 
 ### MA Issues (from 2002 Q&A)
 
@@ -63,6 +97,12 @@ The Thief is a stealth and utility class with unique mechanics. Thieves can form
 - **Special Abilities**: Steal (skill 1+), Hide (skill 4-5), Backstab (skill 8), Mug (skill 10), Door, Pick locks
 - **Skilling**: Via Backstab (BS) and Mug. Backstab gives BOTH weapon AND thief skill. Thieves can skill extremely fast early (skill 4 in first 10 minutes possible by stealing from dungeon crits before killing them).
 
+### Thief Disciplines
+
+The full list of Thief abilities: Hide, Steal, Backstab, Mug, Darkness, Illusion, Detect, Camouflage, Assassinate, Find Trap, Disarm Trap, Set Trap, Pick Lock.
+
+Note: Thieves use **HP instead of EP** for psionic disciplines.
+
 ### Thief Progression
 
 | Skill | Ability |
@@ -72,6 +112,7 @@ The Thief is a stealth and utility class with unique mechanics. Thieves can form
 | 8 | Backstab (attack from hiding with increased damage) |
 | 10 | Mug (combines backstab movement with stealing). Class train at VT trainer for Door and others. |
 | 12+ | Focus on weapon skilling |
+| 17 | **Backstab base damage becomes 10x normal** |
 
 ### Thief Weapon Choices
 - **Longsword/Greatsword**: Hit hard but harder to hide afterward

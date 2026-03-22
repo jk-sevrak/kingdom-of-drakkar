@@ -126,6 +126,21 @@ Identical base progression to Healers with key differences:
 - **Muzi** - +2 EP regen/turn
 - **Uzi** - +5 EP regen/turn
 
+### Mentalist Trainer Locations
+
+| Location | Max Skill |
+|----------|----------|
+| Nork | 8 |
+| Rattown | 8 |
+| Maeling | 12 |
+| Volcano Town | 15 |
+| Aleria | 18 |
+| N-9 Prison | 20 |
+| Homlet | 20 |
+| Frore | 20+ (also gives Deplete spell) |
+| Guild Hall (Basic) | 20 |
+| Guild Hall (Deluxe) | 35 |
+
 ### Maxxing
 
 - **HP Max**: 350 (Hit Doc, level 13+)
