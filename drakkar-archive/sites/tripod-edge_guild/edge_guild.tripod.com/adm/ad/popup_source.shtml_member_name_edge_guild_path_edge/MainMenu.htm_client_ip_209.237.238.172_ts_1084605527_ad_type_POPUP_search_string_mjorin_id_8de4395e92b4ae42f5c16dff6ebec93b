@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Tripod Member Page</title>
+    <link rel="stylesheet" href="http://www.tripod.lycos.com/css/tripod.css" title="main" media="screen" type="text/css" />
+
+<!-- START: Catman header -->
+
+<script type="text/javascript">
+    var cm_role = "live";
+    var cm_host = "tripod.lycos.com";
+    var cm_taxid = "/membererror";
+</script> 
+<script type="text/javascript" src="http://scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript">
+    var objAdMgr = new AdManager();
+    var strProdSetName = objAdMgr.chooseProductSet();
+    objAdMgr.renderHeader();
+</script>
+
+<!-- END: Catman header -->
+</head>
+<body onLoad="focus();" marginheight="0" marginwidth="0" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" bgcolor="#FFFFFF" link="#0000FF" vlink="#FF00FF">
+<table cellpadding="0" cellspacing="0" border="0" width="745">
+    <tr>
+        <td valign="bottom" align="left" class="darkGrey"><a href="http://members.tripod.com/adm/redirect/www/" target="_PARENT"><img src="http://www.tripod.lycos.com/img/common/tripod_ad_top.gif" width="151" height="14" alt="Tripod" border="0" /></a></td>
+
+            <td class="darkGrey"><span class="textWhite">&nbsp;</td>
+        <td class="darkGrey"><span class="textWhite"><a class="textWhite" href="http://www.tripod.lycos.com/bin/membership/pref_link?to=buy&plan=free" target="_NEW">Get rid of this ad!&nbsp;&nbsp;</a></td>
+    </tr>
+    <tr>
+        <td colspan="3" class="white"><img src="http://ly.lygo.com/ly/s.gif" width="1" height="1" alt="" /></td>
+    </tr>
+    <tr>
+        <td colspan="3" class="orange" valign="top"><a href="http://members.tripod.com/adm/redirect/www/" target="_PARENT"><img src="http://www.tripod.lycos.com/img/common/tripod_ad_bottom.gif" width="151" height="6" border="0" alt="" /></a></td>
+    </tr>
+</table>
+<table cellpadding="8" cellspacing="0" border="0" width="745">
+    <tr>
+        <td valign="middle" align="center" colspan="4"><script type="text/javascript">
+if (objAdMgr.isSlotAvailable("leaderboard")) {
+	objAdMgr.renderSlot("leaderboard")
+}
+</script>
+<noscript>
+ <!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Tripod Fallthrough - DO NOT MODIFY -->
+ <iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&ad_size=728x90&section=209094"></iframe>
+ <!-- END TAG -->
+</noscript>
+</td>
+    </tr>
+    <tr>
+	  <td class="textBlack">&#149; <a href="http://quiz.ivillage.com/health/tests/dreams.htm?par=ly|dreams|40" target="_NEW">What does your dream mean? Find out now!</a></td>
+	  <td class="textBlack">&#149; <a href="http://www.tripod.lycos.com/campaigns/landing/free_blog_site.html" target="_NEW">Build a FREE blog Today</a></td>
+	  <td class="textBlack">&#149; <a href="http://www.gamespot.com" target="_NEW">GameSpot: Expert Game Reviews</a></td>
+	  <td class="textBlack">&#149; <a href="http://lt.tripod.com/tr_mp_promo_bookcult2/_h_/bookcult.tripod.com/" target="_NEW">Chat with authors on Tripod Book Cult.</a></td>
+    </tr>
+</table>
+
+
+<!-- START: Catman Footer -->
+<script type="text/javascript">
+if (objAdMgr.isSlotAvailable("footer")) {
+        objAdMgr.renderSlot("footer")
+}
+</script>
+
+<!-- END: Catman Footer -->
+</body>
+</html>

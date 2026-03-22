@@ -1,0 +1,199 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>SAS FAQ</title>
+</head>
+
+<body background="../images/saftextr.jpg" text="#00BDBD" style="font-family: Arial"
+bgcolor="#000000" link="#FFFF00" vlink="#B93D00">
+
+<p align="center"><img src="faq.gif" alt="sasfaq" width="400" height="30"></p>
+
+<hr color="#5E638A" size="4">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><font color="#FF0000"> </font><big>I
+no longer hear sounds in the SAS.</big><font color="#FF0000"><br>
+</font><img src="q.gif" alt="Q" width="30" height="20"> <big>When I try to exit the
+SAS, a window pops up saying <em>&quot;Shutting down&quot;</em> but it never goes away and
+the SAS never exits</big></p>
+
+<p><img src="a.gif" alt="A" width="30" height="20"><big>   You're
+probably having problems
+with Direct Sound.<br>
+It seems that you have DirectX installed on your computer, but it is missing some
+drivers.<br>
+You can do one of the following:</big> 
+
+<ul>
+  <li><big>Disable DirectSound play from the SAS Sound Control window (under the<br>
+    tools toolbar - sounds will still play but without using DirectSound)</big></li>
+  <li><big>Reinstall DirectX and update its drivers, then try DirectSound from the SAS
+    again.</big><br>
+    <big>You can get the latest DirectX from here: </big><big><a href="http://www.microsoft.com/directx/homeuser/downloads/default.asp">http://www.microsoft.com/directx/homeuser/downloads/default.asp</a></big></li>
+</ul>
+
+<hr noshade color="#008080">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>When
+entering the SAS, the system freezes before or while playing the welcome sound</big></p>
+
+<p><img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>It
+looks like your system is having problems playing sounds using DirectSound.</big><br>
+<big>The SAS will detect that the next time you run it and it will turn DirectSound Off
+for you.</big><br>
+<big>If you're still having problems playing sounds with DirectSound turned off, the SAS
+will detect that too and turn Sounds Off alltogether next time you run it.</big></p>
+
+<hr noshade color="#008080">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>While
+the SAS is running I don't get sound to play from my other applications.</big></p>
+
+<p><img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>When
+DirectSound is enabled in the SAS, only applications that use DirectSound can play sounds.</big><br>
+<big>If you want to be able to hear sounds from other applications, turn DirectSound off
+from the SAS Sound Control window.</big></p>
+
+<hr noshade color="#008080">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+can no longer get the SAS to resize.</big></p>
+
+<p><img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>When
+using DirectSound in the SAS this may cause the above behavior (under some Win95 systems).</big><br>
+<big>Until we fix this or until you upgrade to Win98, you can turn DirectSound off from
+the SAS Sound Control window.</big></p>
+
+<hr noshade color="#008080">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>How
+do I ... in the newsreader?</big></p>
+
+<p><img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>Here's
+a <a href="newsr_m.gif">snapshot (24K)</a> of part of the newsreader main window
+with some helpful pointers.</big><br>
+<big>Also take a look at the Options menu (indicated in above image) and in particular the
+Notes tab where you can find more helpful info including keyboard shortcuts used.</big></p>
+
+<hr noshade color="#008080">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+sometimes see the wrong faces on players.</big></p>
+
+<p><img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>Hold
+down the Ctrl key and right click on the player's face either from a crystal ball (if on a
+table), or from the player list window (active list).</big><br>
+<big>Choose the <em>&quot;Repair Face&quot;</em> option. Give it a few seconds, the new
+face will appear (if it needs repairing).</big></p>
+
+<hr noshade color="#008080">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>When
+I switch from a group in the Newsreader, all the headers in that group dissapear, they
+don't show up again.</big></p>
+
+<p><img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>One
+of 2 things may be happening here :</big> 
+
+<ul>
+  <li><big>When you leave a group the newsreader will remove any expired articles if so
+    specified in the Newsreader Options Window (under the Files tab). </big><br>
+    <big>The option looks something like this: <em>&quot;Remove articles older than...&quot;</em><br>
+    You can turn this option off or set its value to a larger number of days so that the
+    articles don't expire as soon. </big><br>
+    <big>The expiration period is based on the day the article was posted and NOT on the day
+    you downloaded it, so if you just downloaded an article that was posted 10 days ago (if
+    you haven't visited that group for 10 days or more), and you have the above setting set to
+    6 days for example, when you leave the group, that article will be removed since it is
+    already expired.</big><br>
+    <big>When using <em>&quot;Get Next x Headers&quot;</em>, that will retrieve the previous
+    block of headers (older ones), typically expired ones, and if they are expired, they'll be
+    removed when you leave that group (if above option is set).</big><br>
+  </li>
+  <li><big>You may be in <em>&quot;View Unread Messages Only&quot;</em> mode, so when you go
+    back to<br>
+    that group you don't see any messages since you've already read them.<br>
+    You can change from <em>&quot;View Unread Messages Only&quot;</em> to <em>&quot;View
+    All&quot;</em> from the Article commands<br>
+    menu (or use Alt-M to toggle between them)</big></li>
+</ul>
+
+<hr noshade color="#008080">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+set myself to DND, so why can people still page me in the game?</big></p>
+
+<p><img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>The
+DND status only affects you while in the SAS.</big><br>
+<big>If you want to block pages in the game then do so from the game.</big><br>
+<big>In Drakkar type <em>&quot;pager enable&quot;</em> or <em>&quot;pager disable&quot;</em>.
+<em>&quot;pager status&quot;</em> will show you the current pager on/off status</big><br>
+<big>Other games have different ways of doing that.</big></p>
+
+<hr noshade color="#008080">
+
+<p><img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>When
+I login, I don't see any persona cards to choose from</big><br>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+seem to be missing a file called facelib.dll</big><br>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+seem to be missing a file called jpegdll.dll</big><br>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+seem to be missing a file called tsicom.dll</big><br>
+<br>
+<br>
+<img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>These
+DLL modules are necessary for the SAS, Communications Kernel and games to operate properly.</big><br>
+<big>Download a copy of these files from the link below</big>: 
+
+<ul>
+  <li><a HREF="../download/ien_dlls.exe"><big>System Support DLLs</big></a><big>
+    (175K)</big></li>
+</ul>
+
+<p>(They are self extract executables, unzip the contents in the main iEN&nbsp; folder)</p>
+
+<hr noshade color="#008080">
+
+<p>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>When
+I try to create/modify a shield I get a message that says <em>&quot;Please re-install this
+program/module&quot;</em></big><br>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+seem to be missing a file called smaker.dll</big><br>
+<br>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>When
+I download/install a game or game update from the SAS, a message says <em>&quot;Please
+re-install this program/module&quot;</em></big><br>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+seem to be missing a file called install.dll</big><br>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+seem to be missing a file called resupd.dll</big><br>
+<img src="q.gif" alt="Q" width="30" height="20"><big><font color="#FF0000"> </font>I
+seem to be missing a file called session.dll</big><br>
+<br>
+<br>
+<img src="a.gif" alt="A" width="30" height="20"><big><font color="#FF0000"> </font>These
+DLL modules are necessary for the SAS to operate properly.</big><br>
+<big>Download a copy of these files from the link below</big>: 
+
+<ul>
+  <li><big><a HREF="../download/sas_dlls.exe"> SAS Support DLLs</a>
+    (158K)</big></li>
+</ul>
+
+<p>(They are self extract executables, unzip the contents in the main SAS folder)</p>
+
+<hr color="#5E638A" size="4">
+
+<p align="center">Last updated: Jan 04, 2001 &nbsp;&nbsp;
+Accessed: <img src="http://www.mpgn.com/~chrisp/counter/count.cgi?DF:faq,DS:script2,NT:6,M:255" align="absmiddle"><br>
+More to come soon...Q&amp;A are added here daily as I come across them or as I get time
+(when is always a question)</p>
+
+<p align="center"><big><b><font face="Dom Casual">Chris Pavlou</font></b></big><b><font face="Dom Casual"><big><br>
+Software Developer<br>
+iEntertainment Network</big></font></b></p>
+</body>
+</html>

@@ -1,0 +1,511 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<link rel="top" href="./index.php?sid=60a24774270630c9b43836072952a86c" title="Taverne Foren-Übersicht" />
+<link rel="search" href="./search.php?sid=60a24774270630c9b43836072952a86c" title="Suchen" />
+<link rel="help" href="./faq.php?sid=60a24774270630c9b43836072952a86c" title="FAQ" />
+<link rel="author" href="./memberlist.php?sid=60a24774270630c9b43836072952a86c" title="Mitgliederliste" />
+
+<title>Taverne :: Gruppen-Kontrolle</title>
+<!-- link rel="stylesheet" href="templates/subSilver/subSilver.css" type="text/css" -->
+<style type="text/css">
+<!--
+/*
+  The original subSilver Theme for phpBB version 2+
+  Created by subBlue design
+  http://www.subBlue.com
+
+  NOTE: These CSS definitions are stored within the main page body so that you can use the phpBB2
+  theme administration centre. When you have finalised your style you could cut the final CSS code
+  and place it in an external file, deleting this section to save bandwidth.
+*/
+
+/* General page style. The scroll bar colours only visible in IE5.5+ */
+body {
+	background-color: #c0c0c0;
+	scrollbar-face-color: #707DB2;
+	scrollbar-highlight-color: #284169;
+	scrollbar-shadow-color: #707DB2;
+	scrollbar-3dlight-color: #838AC0;
+	scrollbar-arrow-color:  #e0bd57;
+	scrollbar-track-color: #374c85;
+	scrollbar-darkshadow-color: #98AAB1;
+}
+
+/* General font families for common tags */
+font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
+a:link,a:active,a:visited { color : #e0bd57; }
+a:hover		{ text-decoration: underline; color : #DD6900; }
+hr	{ height: 0px; border: solid #838AC0 0px; border-top-width: 1px;}
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ background-color: #284169; border: 1px #98AAB1 solid; }
+
+/* This is the outline round the main forum tables */
+.forumline	{ background-color: #284169; border: 2px #006699 solid; }
+
+/* Main table cell colours and backgrounds */
+td.row1	{ background-color: #374c85; }
+td.row2	{ background-color: #707DB2; }
+td.row3	{ background-color: #838AC0; }
+
+/*
+  This is for the table cell above the Topics, Post & Last posts on the index.php page
+  By default this is the fading out gradiated silver background.
+  However, you could replace this with a bitmap specific for each forum
+*/
+td.rowpic {
+		background-color: #284169;
+		background-image: url(templates/subSilver/images/cellpic2.jpg);
+		background-repeat: repeat-y;
+}
+
+/* Header cells - the blue and silver gradient backgrounds */
+th	{
+	color: #e54c01; font-size: 11px; font-weight : bold;
+	background-color: #e0bd57; height: 25px;
+	background-image: url(templates/subSilver/images/cellpic3.gif);
+}
+
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+			background-image: url(templates/subSilver/images/cellpic1.gif);
+			background-color:#838AC0; border: #384d86; border-style: solid; height: 28px;
+}
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+td.cat,td.catHead,td.catBottom {
+	height: 29px;
+	border-width: 0px 0px 0px 0px;
+}
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+	font-weight: bold; border: #284169; border-style: solid; height: 28px;
+}
+td.row3Right,td.spaceRow {
+	background-color: #838AC0; border: #384d86; border-style: solid;
+}
+
+th.thHead,td.catHead { font-size: 12px; border-width: 1px 1px 0px 1px; }
+th.thSides,td.catSides,td.spaceRow	 { border-width: 0px 1px 0px 1px; }
+th.thRight,td.catRight,td.row3Right	 { border-width: 0px 1px 0px 0px; }
+th.thLeft,td.catLeft	  { border-width: 0px 0px 0px 1px; }
+th.thBottom,td.catBottom  { border-width: 0px 1px 1px 1px; }
+th.thTop	 { border-width: 1px 0px 0px 0px; }
+th.thCornerL { border-width: 1px 0px 0px 1px; }
+th.thCornerR { border-width: 1px 1px 0px 0px; }
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle	{
+	font-weight: bold; font-size: 22px; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none; line-height : 120%; color : #000000;
+}
+
+/* General text */
+.gen { font-size : 12px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #000000; }
+a.gen,a.genmed,a.gensmall { color: #e0bd57; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #DD6900; text-decoration: underline; }
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #000000 }
+a.mainmenu		{ text-decoration: none; color : #e0bd57;  }
+a.mainmenu:hover{ text-decoration: underline; color : #DD6900; }
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 12px ; letter-spacing: 1px; color : #e0bd57}
+a.cattitle		{ text-decoration: none; color : #e0bd57; }
+a.cattitle:hover{ text-decoration: underline; }
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 12px; color : #e0bd57; }
+a.forumlink 	{ text-decoration: none; color : #e0bd57; }
+a.forumlink:hover{ text-decoration: underline; color : #DD6900; }
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #000000;}
+a.nav			{ text-decoration: none; color : #e0bd57; }
+a.nav:hover		{ text-decoration: underline; }
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle,h1,h2	{ font-weight: bold; font-size: 11px; color : #000000; }
+a.topictitle:link   { text-decoration: none; color : #e0bd57; }
+a.topictitle:visited { text-decoration: none; color : #5493B4; }
+a.topictitle:hover	{ text-decoration: underline; color : #DD6900; }
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #000000;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #000000; }
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 12px; line-height: 18px}
+a.postlink:link	{ text-decoration: none; color : #e0bd57 }
+a.postlink:visited { text-decoration: none; color : #5493B4; }
+a.postlink:hover { text-decoration: underline; color : #DD6900}
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #006600;
+	background-color: #FAFAFA; border: #838AC0; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #707070; line-height: 125%;
+	background-color: #FAFAFA; border: #838AC0; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #707070; letter-spacing: -1px;}
+a.copyright		{ color: #707070; text-decoration: none;}
+a.copyright:hover { color: #000000; text-decoration: underline;}
+
+/* Form elements */
+input,textarea, select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border-color : #000000;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #284169;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	background-color : #374c85;
+	color : #000000;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* The main submit button option */
+input.mainoption {
+	background-color : #FAFAFA;
+	font-weight : bold;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	background-color : #FAFAFA;
+	font-weight : normal;
+}
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline { background-color: #707DB2; border-style: none; }
+
+/* Import the fancy styles for IE only (NS4.x doesn't use the @import function) */
+@import url("templates/subSilver/formIE.css");
+-->
+</style>
+</head>
+<body bgcolor="#c0c0c0" text="#000000" link="#e0bd57" vlink="#5493B4">
+
+<a name="top"></a>
+
+<table width="950" cellspacing="0" cellpadding="10" border="0" align="center">
+	<tr>
+		<td class="bodyline"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td><a href="index.php?sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/logo_phpBB.gif" border="0" alt="Taverne Foren-Übersicht" vspace="1" /></a></td>
+				<td align="center" width="100%" valign="middle"><span class="maintitle">Taverne</span><br /><span class="gen">der Lords of Entropy<br />&nbsp; </span>
+				<table cellspacing="0" cellpadding="2" border="0">
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="faq.php?sid=60a24774270630c9b43836072952a86c" class="mainmenu"><img src="templates/subSilver/images/icon_mini_faq.gif" width="12" height="13" border="0" alt="FAQ" hspace="3" />FAQ</a>&nbsp; &nbsp;<a href="search.php?sid=60a24774270630c9b43836072952a86c" class="mainmenu"><img src="templates/subSilver/images/icon_mini_search.gif" width="12" height="13" border="0" alt="Suchen" hspace="3" />Suchen</a>&nbsp; &nbsp;<a href="memberlist.php?sid=60a24774270630c9b43836072952a86c" class="mainmenu"><img src="templates/subSilver/images/icon_mini_members.gif" width="12" height="13" border="0" alt="Mitgliederliste" hspace="3" />Mitgliederliste</a>&nbsp; &nbsp;<a href="groupcp.php?sid=60a24774270630c9b43836072952a86c" class="mainmenu"><img src="templates/subSilver/images/icon_mini_groups.gif" width="12" height="13" border="0" alt="Benutzergruppen" hspace="3" />Benutzergruppen</a>&nbsp;
+						&nbsp;<a href="profile.php?mode=register&amp;sid=60a24774270630c9b43836072952a86c" class="mainmenu"><img src="templates/subSilver/images/icon_mini_register.gif" width="12" height="13" border="0" alt="Registrieren" hspace="3" />Registrieren</a>&nbsp;
+						</span></td>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="profile.php?mode=editprofile&amp;sid=60a24774270630c9b43836072952a86c" class="mainmenu"><img src="templates/subSilver/images/icon_mini_profile.gif" width="12" height="13" border="0" alt="Profil" hspace="3" />Profil</a>&nbsp; &nbsp;<a href="privmsg.php?folder=inbox&amp;sid=60a24774270630c9b43836072952a86c" class="mainmenu"><img src="templates/subSilver/images/icon_mini_message.gif" width="12" height="13" border="0" alt="Einloggen, um private Nachrichten zu lesen" hspace="3" />Einloggen, um private Nachrichten zu lesen</a>&nbsp; &nbsp;<a href="login.php?sid=60a24774270630c9b43836072952a86c" class="mainmenu"><img src="templates/subSilver/images/icon_mini_login.gif" width="12" height="13" border="0" alt="Login" hspace="3" />Login</a>&nbsp;</span></td>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="http://killboard.lords-of-entropy.de" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Lords of Entropy-Killboard</a>
+						<span class="mainmenu">&nbsp;<a href="http://vega-home.de/KB/" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Allianz-Killboard</a>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="http://www.lords-of-entropy.de/sepp-index.php" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />SEPP Schiffsversicherung für LoE</a>
+						<span class="mainmenu">&nbsp;<a href="http://vega-home.de/wbblite/" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Allianz-Forum</a>
+					</tr>
+				</table></td>
+			</tr>
+		</table>
+
+		<br />
+
+
+<form action="groupcp.php?g=4&amp;sid=60a24774270630c9b43836072952a86c" method="post">
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+	<tr>
+		<td align="left" class="nav"><a href="index.php?sid=60a24774270630c9b43836072952a86c" class="nav">Taverne Foren-Übersicht</a></td>
+	</tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="1" cellpadding="4" border="0">
+	<tr>
+		<th class="thHead" colspan="7" height="25">Information</th>
+	</tr>
+	<tr>
+		<td class="row1" width="20%"><span class="gen">Name:</span></td>
+		<td class="row2"><span class="gen"><b>Highlords und andere Offiziere</b></span></td>
+	</tr>
+	<tr>
+		<td class="row1" width="20%"><span class="gen">Beschreibung:</span></td>
+		<td class="row2"><span class="gen"></span></td>
+	</tr>
+	<tr>
+		<td class="row1" width="20%"><span class="gen">Gruppen-Mitgliedschaft:</span></td>
+		<td class="row2"><span class="gen">Einloggen, um Gruppe zu verwalten &nbsp;&nbsp;
+		</span></td>
+	</tr>
+</table>
+
+<input type="hidden" name="sid" value="60a24774270630c9b43836072952a86c" />
+
+</form>
+
+<form action="groupcp.php?g=4&amp;sid=60a24774270630c9b43836072952a86c" method="post" name="post">
+<table width="100%" cellpadding="4" cellspacing="1" border="0" class="forumline">
+	<tr>
+	  <th class="thCornerL" height="25">Private Nachricht</th>
+	  <th class="thTop">Benutzername</th>
+	  <th class="thTop">Beiträge</th>
+	  <th class="thTop">Wohnort</th>
+	  <th class="thTop">E-Mail</th>
+	  <th class="thTop">Website</th>
+	  <th class="thCornerR">Auswählen</th>
+	</tr>
+	<tr>
+	  <td class="catSides" colspan="8" height="28"><span class="cattitle">Gruppen-Moderatoren</span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center"> <a href="privmsg.php?mode=post&amp;u=2&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row1" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Jemihi</a></span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen">1234</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen">Braunschweig</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen"><a href="profile.php?mode=email&amp;u=2&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a></span></td>
+	  <td class="row1" align="center"><a href="http://www.braunschweiger.org" target="_userwww"><img src="templates/subSilver/images/lang_german/icon_www.gif" alt="Website dieses Benutzers besuchen" title="Website dieses Benutzers besuchen" border="0" /></a></td>
+	  <td class="row1" align="center"> &nbsp; </td>
+	</tr>
+	<tr>
+	  <td class="catSides" colspan="8" height="28"><span class="cattitle">Gruppen-Mitglieder</span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center"> <a href="privmsg.php?mode=post&amp;u=4&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row1" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=4&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Adrogord</a></span></td>
+	  <td class="row1" align="center"><span class="gen">300</span></td>
+	  <td class="row1" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen"><a href="profile.php?mode=email&amp;u=4&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a></span></td>
+	  <td class="row1" align="center"> </td>
+	  <td class="row1" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row2" align="center"> <a href="privmsg.php?mode=post&amp;u=371&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row2" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=371&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Belinya</a></span></td>
+	  <td class="row2" align="center"><span class="gen">107</span></td>
+	  <td class="row2" align="center"><span class="gen"> Ansbach und Passau
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row2" align="center"> </td>
+	  <td class="row2" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center"> <a href="privmsg.php?mode=post&amp;u=314&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row1" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=314&amp;sid=60a24774270630c9b43836072952a86c" class="gen">blaubeere</a></span></td>
+	  <td class="row1" align="center"><span class="gen">8</span></td>
+	  <td class="row1" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row1" align="center"> </td>
+	  <td class="row1" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row2" align="center"> <a href="privmsg.php?mode=post&amp;u=5&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row2" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=5&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Chelest</a></span></td>
+	  <td class="row2" align="center"><span class="gen">775</span></td>
+	  <td class="row2" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row2" align="center"> </td>
+	  <td class="row2" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center"> <a href="privmsg.php?mode=post&amp;u=25&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row1" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=25&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Darunija</a></span></td>
+	  <td class="row1" align="center"><span class="gen">364</span></td>
+	  <td class="row1" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row1" align="center"> </td>
+	  <td class="row1" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row2" align="center"> <a href="privmsg.php?mode=post&amp;u=230&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row2" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=230&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Jive</a></span></td>
+	  <td class="row2" align="center"><span class="gen">31</span></td>
+	  <td class="row2" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row2" align="center"> </td>
+	  <td class="row2" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center"> <a href="privmsg.php?mode=post&amp;u=22&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row1" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=22&amp;sid=60a24774270630c9b43836072952a86c" class="gen">lawless</a></span></td>
+	  <td class="row1" align="center"><span class="gen">19</span></td>
+	  <td class="row1" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row1" align="center"> </td>
+	  <td class="row1" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row2" align="center"> <a href="privmsg.php?mode=post&amp;u=84&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row2" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=84&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Mia</a></span></td>
+	  <td class="row2" align="center"><span class="gen">3</span></td>
+	  <td class="row2" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row2" align="center"> </td>
+	  <td class="row2" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center"> <a href="privmsg.php?mode=post&amp;u=224&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row1" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=224&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Palladium</a></span></td>
+	  <td class="row1" align="center"><span class="gen">40</span></td>
+	  <td class="row1" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row1" align="center"> </td>
+	  <td class="row1" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row2" align="center"> <a href="privmsg.php?mode=post&amp;u=223&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row2" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=223&amp;sid=60a24774270630c9b43836072952a86c" class="gen">skoll</a></span></td>
+	  <td class="row2" align="center"><span class="gen">7</span></td>
+	  <td class="row2" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row2" align="center"> </td>
+	  <td class="row2" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center"> <a href="privmsg.php?mode=post&amp;u=330&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row1" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=330&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Teddyus</a></span></td>
+	  <td class="row1" align="center"><span class="gen">7</span></td>
+	  <td class="row1" align="center"><span class="gen"> Hannover
+		</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row1" align="center"> </td>
+	  <td class="row1" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row2" align="center"> <a href="privmsg.php?mode=post&amp;u=409&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row2" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=409&amp;sid=60a24774270630c9b43836072952a86c" class="gen">torjanus</a></span></td>
+	  <td class="row2" align="center"><span class="gen">141</span></td>
+	  <td class="row2" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row2" align="center"> </td>
+	  <td class="row2" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center"> <a href="privmsg.php?mode=post&amp;u=303&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row1" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=303&amp;sid=60a24774270630c9b43836072952a86c" class="gen">Udrar</a></span></td>
+	  <td class="row1" align="center"><span class="gen">7</span></td>
+	  <td class="row1" align="center"><span class="gen"> &nbsp;
+		</span></td>
+	  <td class="row1" align="center" valign="middle"><span class="gen">&nbsp;</span></td>
+	  <td class="row1" align="center"> </td>
+	  <td class="row1" align="center">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="row2" align="center"> <a href="privmsg.php?mode=post&amp;u=296&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> </td>
+	  <td class="row2" align="center"><span class="gen"><a href="profile.php?mode=viewprofile&amp;u=296&amp;sid=60a24774270630c9b43836072952a86c" class="gen">UkaIS</a></span></td>
+	  <td class="row2" align="center"><span class="gen">101</span></td>
+	  <td class="row2" align="center"><span class="gen"> Langenaltheim
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="gen"><a href="profile.php?mode=email&amp;u=296&amp;sid=60a24774270630c9b43836072952a86c"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a></span></td>
+	  <td class="row2" align="center"> </td>
+	  <td class="row2" align="center">
+	  </td>
+	</tr>
+
+
+
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center" cellpadding="2">
+	<tr>
+		<td align="left" valign="top">
+		<span class="nav">Seite <b>1</b> von <b>1</b></span></td>
+		<td align="right" valign="top"><span class="gensmall">Alle Zeiten sind GMT + 2 Stunden</span><br /><span class="nav"></span></td>
+	</tr>
+</table>
+
+
+
+<input type="hidden" name="sid" value="60a24774270630c9b43836072952a86c" /></form>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr>
+	<td valign="top" align="right">
+<form method="get" name="jumpbox" action="viewforum.php?sid=60a24774270630c9b43836072952a86c" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Forum auswählen</option><option value="-1">&nbsp;</option><option value="-1">Taverne zum stinkenden Karl_nai</option><option value="-1">----------------</option><option value="1">Schankraum</option><option value="-1">&nbsp;</option><option value="-1">EVE Observatorium</option><option value="-1">----------------</option><option value="19">Pausenraum</option></select><input type="hidden" name="sid" value="60a24774270630c9b43836072952a86c" />&nbsp;<input type="submit" value="Los" class="liteoption" /></span></td>
+	</tr>
+</table></form>
+
+</td>
+  </tr>
+</table>
+
+
+<div align="center"><span class="copyright"><br /><br />
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB 2.0. If you cannot (for good
+	reason) retain the full copyright we request you at least leave in place the
+	Powered by phpBB line, with phpBB linked to www.phpbb.com. If you refuse
+	to include even this then support on our forums may be affected.
+
+	The phpBB Group : 2002
+// -->
+Powered by <a href="http://www.phpbb.com/" target="_phpbb" class="copyright">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Deutsche Übersetzung von <a href="http://www.phpbb.de/" target="_blank" class="copyright">phpBB.de</a></span></div>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+

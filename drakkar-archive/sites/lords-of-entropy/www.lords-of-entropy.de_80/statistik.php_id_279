@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="test.css" type="text/css">
+</head>
+
+<body bgcolor="#000000" text="#CCCCCC">
+<font face="Arial, Helvetica, sans-serif"  size="2">
+<u><h1>Statistiken</h1></u><br><br>Anzahl Lvl 50 Chars, die innerhalb der letzten 2 Wochen eingeloggt waren: <font color="#FF0000">114</font> Chars mit <font color="#FF0000">44137273</font> RP's, die letzte Woche <font color="#FF0000">578994</font> RP's gemacht haben.<br>
+Hier eine genauere Auswertung in einer Tabelle zusammengefasst:<br><br><center>
+<table border="1">
+	<tr class="test3"><td width="100">Klasse</td><td width="80">Anzahl</td><td width="80">Prozent</td><td width="80">RP-Prozent</td><td width="80">&Oslash;-RP's</td><td width="80">LastweekRP-%</td><td width="80">&Oslash;-LRP's</td></tr>
+	<tr class="test1"><td>Berserker</td><td>9</td><td>7.89</td><td>4.93</td><td>241993.67</td><td>0.13</td><td>86.22</tr>
+	<tr class="test1"><td>Krieger</td><td>13</td><td>11.4</td><td>12.82</td><td>435290.08</td><td>1.8</td><td>803.54</tr>
+	<tr class="test1"><td>Wilder</td><td>3</td><td>2.63</td><td>1.48</td><td>218021</td><td>0</td><td>0</tr>
+	<tr class="test1"><td>Skalde</td><td>9</td><td>7.89</td><td>8.28</td><td>405926.33</td><td>4.73</td><td>3042.11</tr>
+	<tr class="test1"><td>Donnerkrieger</td><td>6</td><td>5.26</td><td>3.26</td><td>239522.5</td><td>0.89</td><td>858.67</tr>
+	<tr class="test2"><td>Schattenklinge</td><td>7</td><td>6.14</td><td>6.82</td><td>429732.14</td><td>1.2</td><td>996.43</tr>
+	<tr class="test2"><td>J&auml;ger</td><td>6</td><td>5.26</td><td>5.51</td><td>405275.17</td><td>12.12</td><td>11698.5</tr>
+	<tr class="test1"><td>Runenmeister</td><td>11</td><td>9.65</td><td>18.35</td><td>736402.82</td><td>13.8</td><td>7264.64</tr>
+	<tr class="test1"><td>Geisterbeschw&ouml;rer</td><td>14</td><td>12.28</td><td>9.13</td><td>287965.43</td><td>17.27</td><td>7141.43</tr>
+	<tr class="test1"><td>Knochent&auml;nzer</td><td>3</td><td>2.63</td><td>0.71</td><td>104482</td><td>0.2</td><td>381.33</tr>
+	<tr class="test2"><td>Schamane</td><td>16</td><td>14.04</td><td>9.49</td><td>261876.88</td><td>15.08</td><td>5457.38</tr>
+	<tr class="test2"><td>Heiler</td><td>17</td><td>14.91</td><td>19.21</td><td>498872.06</td><td>32.77</td><td>11160.12</tr>
+</table>
+ Derzeitiges Datum: 12-12-2004 21:12:55 Chronikdatei vom: 12-12-2004 20:28:28</center>
+Erfolgreich Datenbank aktualisiert.<br>
+</body>
+</html>

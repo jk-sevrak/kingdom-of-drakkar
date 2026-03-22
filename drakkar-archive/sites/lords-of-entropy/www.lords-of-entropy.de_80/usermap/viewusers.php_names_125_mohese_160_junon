@@ -1,0 +1,9 @@
+<html>
+<style type="text/css">  
+<!-- 
+body {  font-family: Verdana; font-size: 10px} 
+--> 
+</style>
+<body background="bghell.jpg">
+<a href="../include.php?path=login/userinfo.php&id=125" target="_blank">mohese</a><br><a href="../include.php?path=login/userinfo.php&id=160" target="_blank">junon</a><br></body>
+</html>

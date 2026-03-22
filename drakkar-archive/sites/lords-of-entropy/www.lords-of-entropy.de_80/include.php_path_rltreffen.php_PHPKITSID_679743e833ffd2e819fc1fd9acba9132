@@ -1,0 +1,1099 @@
+<html>
+<head>
+<meta name="author" content="Pierre moonrise Gersöne">
+<meta name="copyight" content="(c) 2002 by moonrise made@phpkit.de">
+<meta name="publisher" content="phpkit der webbaukasten www.phpkit.de"> 
+<meta name="language" content="de">
+<meta name="generator" content="handmade by moonrise">
+<meta name="Keywords" content="phpkit, php, html, css, style, stylesheet, stylesheets, design, homepage, hp, java, javascript, script, scripte,	guest, guestbook, gast, gästebuch, news, newsletter, free, frei, freeware, kostenlos, umsonst, webbaukasten, web, baukasten, kit, internet, content, management, contentmanagement, community, com, verwaltung, seite, seiten, site, sites, forum, foren, forums	erstellung, design, designs, gestalltung, bau">
+<meta name="description" content="phpkit der webbaukasten Kostenlose PHP scripte, Fragen und Antworten auf allgemeine und spezielle PHP HTML und CSS Fragen, kostenloses Gästebuch, Newssystem, Kommentarsystem, Contentverwaltung">
+<meta name="robots" content="all">
+<meta name="revisit-after" content="2 weeks">
+
+<link rev="made" content="mailto:webmaster@phpkit.de">
+<style type="text/css">
+<!--
+body	{ background-color: #000000;
+ margin: 0px; 
+ font-family: arial, verdana; 
+ color: #B4B4B4; 
+ font-size: 12px; 
+ scrollbar-base-color: #;}
+
+font {
+ font-size: 12px;
+ font-family: arial, verdana;
+ font-size: 12px;
+ color: #B4B4B4;}
+
+table.standard,
+table.userhead,
+table.userbody,
+table.userbottom,
+table.quote,
+table.contenthead,
+table.contentbody,
+table.contentbottom,
+table.forumhead,
+table.forumbody,
+table.forumbottom,
+table.event,
+table.commentbody  {
+ background: #0;}
+
+td, th {
+ font-size: 12px;
+ font-family: arial, verdana;
+ color: #0;}
+
+hr {
+ color: #;}
+
+input, 
+option, 
+select,
+textarea {
+ font-family: ;
+ font-size: 12px;
+ color: #;
+ }
+
+.radio, .checkbox {background: none;}
+.w90	{width: 90%;}
+
+
+.big {
+ font-size: 14px;}
+
+.small, .forumedit {
+ font-size: 10px;}
+
+.bg, .bgsmall {
+ color: #B4B4B4;}
+
+.bgsmall {
+ font-size: 10px;}
+
+a, a.forumcat, a.forumthread {
+ font-family: arial, verdana;
+ font-size: 12px;}
+
+a:link, a:visited,
+a.forumcat:link, a.forumcat:visited, 
+a.forumthread:link, a.forumthread:visited {
+ color: #507090;}
+
+a:hover, a:active,
+a.forumcat:active, a.forumcat:hover,
+a.forumthread:active, a.forumthread:hover {
+ color: #FFFFFF;}
+
+a.big:hover, a.big:active {
+ color: #FFFFFF;}
+
+a.small:hover, a.small:active {
+ color: #FFFFFF;}
+
+.heads, .headssmall {
+ font-family: tahoma, verdana, arial;
+ color: #FFFFFF;
+ }
+a.heads, td.heads, th.heads {
+ font-size: 13px;
+ }
+
+td.heads, th.heads {
+ background-color: #000000; background-image: url(images/style/blackdream/heads2.gif);}
+
+
+a.heads:link, 
+a.heads:visited {
+ color: #FFFFFF;
+ }
+
+a.heads:active, 
+a.heads:hover {
+ color: #DDDDDD;
+}
+
+a.headssmall, font.headssmall {
+ font-size: 10px;}
+
+a.headssmall:link, 
+a.headssmall:visited {
+ color: #FFFFFF;
+ }
+
+a.headssmall:active, a.headssmall:hover {
+ color: #DDDDDD;}
+
+td,th {color: #0;}
+
+td.left,
+th.left,
+td.commentleft,
+th.commentleft  {
+ background-color: #161616;
+ color: #0; }
+
+td.right,
+th.right, 
+td.commentright,
+th.commentright {
+ background-color: #202020;
+ color: #0; }
+
+td.standard,
+th.standard,
+td.event,
+th.event {
+ background-color: #252525;
+ color: #0; }
+
+td.highlight,
+th.highlight {
+ background-color: #202020;
+ color: #0; }
+
+td.odd,
+th.odd,
+td.contentodd,
+th.contentodd,
+td.forum1,
+th.forum1 {
+ background-color: #161616;
+ color: #0; 
+ }
+
+td.odd2,
+th.odd2,
+td.contentodd2,
+th.contentodd2,
+td.forum2,
+th.forum2 {
+ background-color: #242424;
+ color: #0; 
+ }
+
+td.even,
+th.even,
+td.contenteven,
+th.contenteven,
+td.forum3,
+th.forum3 {
+ background-color: #202020;
+ color: #0;  
+ }
+
+td.even2,
+th.even2,
+td.contenteven2,
+th.contenteven2,
+td.forum4,
+th.forum4 {
+ background-color: #282828;
+ color: #0; 
+ }
+
+table.navtabletop,
+table.navtableleft,
+table.navtableright,
+table.navtablebottom {
+ background: #101010;} 
+
+td.quote {background-color: 404040; font-family: arial; font-size: 12;}
+
+
+td.navheadtop,
+ th.navheadtop,
+td.navheadleft,
+ th.navheadleft,
+td.navheadright,
+ th.navheadright,
+td.navheadbottom,
+ th.navheadbottom {
+ background-color: #000000;
+ color: #FFFFFF;
+ font-family: tahoma, verdana, arial;
+ font-size: 14px;
+ background-image: url(images/style/blackdream/heads2.gif);
+ }
+
+A.navheadtop:link,
+A.navheadtop:visited,
+A.navheadleft:link,
+A.navheadleft:visited,
+A.navheadright:link,
+A.navheadright:visited,
+A.navheadbottom:link,
+A.navheadbottom:visited	{
+ text-decoration: underline;
+ color: #FFFFFF;
+ font-family: tahoma, verdana, arial;
+ font-size: 14px; }
+
+A.navheadtop:active,
+A.navheadtop:hover,
+A.navheadleft:active,
+A.navheadleft:hover,
+A.navheadright:active,
+A.navheadright:hover,
+A.navheadbottom:active,
+A.navheadbottom:hover {
+ text-decoration: none;
+ color: #FFFFFF;
+ font-family: tahoma, verdana, arial;
+ font-size: 14px; } 
+ 
+td.navbgtop,
+ th.navbgtop,
+td.navbgleft,
+ th.navbgleft,
+td.navbgright,
+ th.navbgright,
+td.navbgbottom,
+ th.navbgbottom {
+ background-color: #0D1FC7;
+ color: #B4B4B4;
+ font-family: arial;
+ font-size: 12px; }
+
+A.navtop:link,
+A.navtop:visited,
+A.navleft:link,
+A.navleft:visited,
+A.navright:link,
+A.navright:visited,
+A.navbottom:link,
+A.navbottom:visited	{
+ text-decoration: none;
+ color: #B4B4B4;
+ font-family: arial;
+ font-size: 12px; }
+
+A.navtop:active,
+A.navtop:hover,
+A.navleft:active,
+A.navleft:hover,
+A.navright:active,
+A.navright:hover,
+A.navbottom:active,
+A.navbottom:hover {
+ text-decoration: none;
+ color: #FFFFFF;
+ font-family: arial;
+ font-size: 12px;
+ }
+ 
+
+-->
+</style>
+<title>Lords of Entropy </title>
+<link rel="shortcut icon" href="images/site/favicon.ico">
+</head>
+
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+ <tr>
+  <td valign="top">
+	<table border="0" cellspacing="0" cellpadding="0" width="980" align="center">
+	 <tr>
+	  <td align="center" valign="top"><table class="sitehead" border="0" cellspacing="0" cellpadding="1" width="100%">
+ <tr>
+  <td class="designbodyhead">
+	<table  border="0" cellpadding="0" cellspacing="0" width="100%">
+	 <tr>
+	  <td colspan="2" class="design">
+		<a name="#head"><img border="0" height="1" width="1" alt="" src="images/blank.gif" /></a></td>
+	 </tr>
+	 <tr>
+	  <td class="design">
+		<a href="include.php?path=start.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img border="0" width="980" height="150" alt="Lords of Entropy " src="content/images/LoE_Logo_oben.jpg" /></a></td>
+        
+	 </tr>
+	 <tr>
+	  <td class="design" colspan="2">
+		<img border="0" height="1" width="1" alt="" src="images/blank.gif" /></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td align="center" valign="top"></td>
+	 </tr>
+	 <tr>
+	  <td align="center" valign="top"><table class="sitebody" border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+	  <td valign="top" class="designbodyleft">
+	<table border="0" cellspacing="0" cellpadding="0" width="135">
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadleft">Pic of the Moment</td>
+ </tr>
+ <tr>
+  <td class="navbgleft"><a target="_blank" href="content/images/sshot163.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img border="0"  height="110" width="135" alt="Zum verg&ouml;ßern anklicken" src="content/images/sshot163_small.jpg" /></a></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+
+ <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=start.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Startseite</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=forum/index.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98"><b>Forum</b></a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" target="_blank" href="http://www.warlordclan.de"><b>Allianzforum</b></a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/news.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">News</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=guestbook/viewgb.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Gästebuch</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=clankasse/cash.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Gildenkasse</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" target="_blank" href="usermap/usermap.php?PHPKITSID=31dcd922534da04bbab16fc23c48df98">Usermap</a></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadleft"><< Wichtiges >></td>
+ </tr>
+ <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=27&PHPKITSID=31dcd922534da04bbab16fc23c48df98"><b>Join NOW !!!</b></a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=22&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Regeln</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=23&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Gildenränge</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=24&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Der Name</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=highlords.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Highlords</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=25&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Über LoE</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" target="_blank" href="http://pgp.lords-of-entropy.de">PGP-Keys</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=rltreffen.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">RL-Bilder</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=intern/Stuff/rltreffen2/index.htm&PHPKITSID=31dcd922534da04bbab16fc23c48df98">RL-Bilder 2</a></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadleft">Service</td>
+ </tr>
+ <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=keeps3.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Keepstatus</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=member.php?id=279&orderby=lrp&PHPKITSID=31dcd922534da04bbab16fc23c48df98"><b>Liste der Lords</b></a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" target="_blank" href="http://wow.lords-of-entropy.de">LoE goes WoW</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=statistik.php?id=279&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Statistiken</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=phptest/ws.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Waffenskill-Kalkulator</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="http://www.lords-of-entropy.de/include.php?path=content/overview.php&type=4&catid=&letter=&entries=0&searchtext=&order=title">Downloads</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/overview.php&type=3&catid=&letter=&entries=0&searchtext=&order=title&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Links</a></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadleft">Member</td>
+ </tr>
+ <tr>
+  <td class="navbgleft"><table border="0" cellspacing="1" cellpadding="0" width="90%">
+	<form name="login" method="post" action="include.php?login=1"><input type="hidden" name="PHPKITSID" value="31dcd922534da04bbab16fc23c48df98" />
+	<input type="hidden" name="login_setcookie" value="1" />
+	<input type="hidden" name="remove_path" value="path=rltreffen.php&PHPKITSID=679743e833ffd2e819fc1fd9acba9132" />
+ <tr>
+  <td><input class="small" type="text" name="user" style="width: 100%" size="8" maxlength="50" value="Benutzername" onBlur="if (value =='') {value = 'Benutzername'}" onFocus="if (value == 'Benutzername') {value =''}" /></td>
+ </tr>
+ <tr>
+  <td><input class="small" type="password" name="userpw" style="width: 100%" size="8" maxlength="50" value="passwort" onFocus="if (value == 'passwort') {value =''}"/></td>
+ </tr>
+ <tr>
+  <td><input class="small" type="submit" value="Login" /></td>
+ </tr>
+	</form>
+ <tr>
+  <td nowrap><a class="navleft" href="include.php?path=login/subpass.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Passwort vergessen?</a></td>
+ </tr> 
+</table></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" href="include.php?path=login/register.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Registrieren</a></td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	</table>
+  </td>
+  <td class="designbodycenter"><img border="0" alt="0" height="1" width="4" src="images/blank.gif" /></td>
+  <td width="100%" valign="top" class="designbodycenter">
+	<table class="sitebody" cellspacing="0" cellpadding="0" width="100%">
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	 <tr>
+	  <td width="100%" valign="top" class="sitebody"><html>
+<head>
+<title>RL-Treffen</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000" text="#CCCCCC">
+<div align="center"><font face="Arial, Helvetica, sans-serif" size="4"><b>RL-Treffen 
+  vom 4. - 6. Juli 2003 in Braunschweig</b></font><br>
+</div>
+<table border="1" cellspacing="0" cellpadding="0" align="center">
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_919.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98" target="_blank"><img src="templates/rltreffen/thumbs/IMG_919-thumb.jpg" width="100" height="133" border="0"></a><br>
+        Skoll beim Warten auf die Ank&ouml;mmlinge</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_920.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_920-thumb.jpg" width="100" height="133" border="0"></a><br>
+        Skoll (besseres Bild)</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_921.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_921-thumb.jpg" width="100" height="133" border="0"></a><br>
+        Mia wartet auch</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_922.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_922-thumb.jpg" width="100" height="133" border="0"></a><br>
+        ... und der Jive ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_923.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_923-thumb.jpg" width="100" height="133" border="0"></a><br>
+        ... und Jemihi ebenfalls</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_924.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_924-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Pahn kommt als erster endlich an</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_925.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_925-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Und Ashrak und Aderah sind die n&auml;chsten</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_926.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_926-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Abendessen im Cellarius</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_927.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_927-thumb.jpg" width="133" height="100" border="0"></a><br>
+        (wieder ein zweites besseres Bild)</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_928.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_928-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Lawless mit seiner Freundin die schon mal DAoC gespielt hat: Donnerkriegerin 
+        Nelinn </font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_929.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_929-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Skoll lauscht Palladiums Worten</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_930.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_930-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Palladium filmt das alles</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_931.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_931-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Gro&szlig;er &Uuml;berblick</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_932.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_932-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Quilly ist auch endlich angekommen</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_933.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_933-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Palladium</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_934.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_934-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Shannon und Imbrium von der FvM</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_935.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_935-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Und ganz links noch Haun Hunter, auch von der FvM</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b><a href="templates/rltreffen/IMG_936.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_936-thumb.jpg" width="133" height="100" border="0"></a><br>
+        </b>Hier sieht man Lawless beim Essen, au&szlig;erdem einen Teil seiner 
+        Fahrradstuntverletzung (jaja, der Skaldenspeed)</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_937.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_937-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Silver von der FvM schie&szlig;t Fotos</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_938.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_938-thumb.jpg" width="133" height="100" border="0"></a><br>
+        SB-Gro&szlig;meister Pahn</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_939.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_939-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Montimare</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_940.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_940-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Dalida </font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_941.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_941-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Norgrim </font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_942.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_942-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Aderah</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_943.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_943-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Mia, Quilly, Jive</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_944.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_944-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Neben Jive sitzt Sirathor und daneben Chelest</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_945.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_945-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Monti und Dalida</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_946.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_946-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Am n&auml;chsten Tag nach dem Fr&uuml;hst&uuml;ck ging es auf Stadtbesichtigung 
+        in die Braunschweiger City</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_947.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_947-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Monti mochte meine Fotos langsam nicht mehr</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_948.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_948-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Palladium filmt alles</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_949.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_949-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Jive erkl&auml;rt einen wichtigen Zusammenhang ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_950.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_950-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Bitte l&auml;cheln, Sirathor</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_951.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_951-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Am Abend in Jive's Keller besuchten uns noch Paytrooper (Kayndra) ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_952.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_952-thumb.jpg" width="133" height="100" border="0"></a><br>
+        ... und Idlefixia von den Simus</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_953.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_953-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Nach kleiner Kneipentour kamen Sira ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_954.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_954-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>... und Chelest auch in den Keller</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_955.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_955-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Quilly macht sich bereit zum Feiern</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_956.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_956-thumb.jpg" width="133" height="100" border="0"><br>
+          </a>Die Party beginnt langsam<br>
+          (Quilly/Ashrak/Aderah) </font></p>
+      </div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_957.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_957-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Und die letzten G&auml;ste kommen an. Goldfinger(lein) ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_958.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_958-thumb.jpg" width="133" height="100" border="0"></a><br>
+        ... und Kerrigon von der FvM</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_959.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_959-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Am Abend wird &uuml;berall diskutiert, hier mal Mia, Paytrooper und Chelest 
+        ... </font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_960.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_960-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>... Goldi und Kerry ...</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_961.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_961-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>... und hier Idle, Monti, Norgrim und Ashrak<br>
+        (v.r.)</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_962.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_962-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Au&szlig;erdem wurde um Gold f&uuml;r die Gildenkasse gekickert</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_963.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_963-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Sira und Monti ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_964.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_964-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>gegen Lawless und Jive ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_965.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_965-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Alle hochkonzentriert ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_966.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_966-thumb.jpg" width="133" height="100" border="0"></a><br>
+        ... aber Monti der Kickergott bleibt siegreich.</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_967.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_967-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Lawless und Jive ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_968.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_968-thumb.jpg" width="133" height="100" border="0"></a><br>
+        ... geben sich nicht geschlagen</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_969.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_969-thumb.jpg" width="133" height="100" border="0"></a><br>
+        W&auml;hrend dessen wird &uuml;ber alles und jeden geredet. Jive's Freundin 
+        schaut auch noch vorbei (ganz links)</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_970.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_970-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Frauenrunde :-)</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_971.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_971-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Paytrooper fand die Fotokamera ganz interessant und hat sie sich von nahem 
+        angeschaut </font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_972.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_972-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Man mischt den Whiskey und unterh&auml;lt sich &uuml;ber alles</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_973.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_973-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Mia mag keine Fotos<br>
+        (schon gar nicht wenn die Kamera von hinten, oben kommt, Zitat)</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_975.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_975-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Jive f&uuml;llt die Gildenkasse auf</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_977.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_977-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Noch ist die Nacht nicht zuende</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_978.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_978-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Jetzt wird nicht mehr gekickert, sondern um Gold Billard gespielt 
+        ... </font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_979.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_979-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>... Sira ist dran ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_980.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_980-thumb.jpg" width="133" height="100" border="0"></a><br>
+        ... Jive zielt</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_981.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_981-thumb.jpg" width="133" height="100" border="0"></a><br>
+        /em grinst in die Kamera</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_982.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_982-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Chelest, und die Jacht is noch nung</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_983.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_983-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Chelest und Quilly</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_984.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_984-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Silver macht wieder Fottos</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_985.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_985-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Kerry, Imbrium und Paytrooper</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_986.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_986-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Lawless</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_987.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_987-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Law und Palladium</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_989.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_989-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Mia zwingt Jemihi ein Foto auf</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_990.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_990-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Mia und Jemihi</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_991.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_991-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Gugu, wer is denn da ??</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_992.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_992-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Ach der Lawless</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_993.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_993-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Die Kamera f&auml;ngt alles ein</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_994.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_994-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Wandgeh&auml;nge (ein Vorschlag f&uuml;r das Gildenhaus ??)</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_995.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_995-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Jetzt war es schon sp&auml;t, fast alle G&auml;ste weg, aber Quilly, Sira, 
+        ... </font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_996.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_996-thumb.jpg" width="133" height="100" border="0"></a><br>
+        ... Chelest ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_997.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_997-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>... Ashrak sind noch da.</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_998.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_998-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Skoll war unterdessen im Kino</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_999.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_999-thumb.jpg" width="133" height="100" border="0"></a><br>
+        Law's Freundin tanzt ab</font></div>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_1001.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_1001-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>/em grinst immer noch</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_1002.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_1002-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>Und die Nacht wird immer sp&auml;ter ...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_1003.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_1003-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>...</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="templates/rltreffen/IMG_1004.jpg?PHPKITSID=31dcd922534da04bbab16fc23c48df98"><img src="templates/rltreffen/thumbs/IMG_1004-thumb.jpg" width="133" height="100" border="0"><br>
+        </a>(ohne Worte)</font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2"></font></font></font></div>
+    </td>
+    <td width="143" height="200"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+</td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	</table>
+  </td>
+	  <td class="designbodycenter"><img border="0" alt="0" height="1" width="4" src="images/blank.gif" /></td>
+  <td class="designbodyright" valign="top">
+	<table border="0" cellspacing="0" cellpadding="0" width="135">
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><table class="navtableright" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadright">Kalender</td>
+ </tr>
+ <tr>
+  <td class="navbgright">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<form method="post" action="include.php?path=rltreffen.php&PHPKITSID=679743e833ffd2e819fc1fd9acba9132"><input type="hidden" name="PHPKITSID" value="31dcd922534da04bbab16fc23c48df98" />
+ <tr>
+  <td align="center" nowrap>
+	<select name="calender_month" class="small" size="1">
+	<option value="1">Januar</option><option value="2">Februar</option><option value="3">M&auml;rz</option><option value="4">April</option><option value="5">Mai</option><option value="6">Juni</option><option value="7">Juli</option><option value="8">August</option><option value="9">September</option><option value="10" selected>Oktober</option><option value="11">November</option><option value="12">Dezember</option>
+	</select>
+	<select name="calender_year" class="small" size="1">
+	<option value="2005" selected>2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option>
+	</select> </td>
+ </tr>
+</table>
+<table class="standard" cellspacing="1" cellpadding="0" width="100%">
+ <tr>
+  <th class="highlight" width="14%">M</th>
+  <th class="highlight" width="14%">D</th>
+  <th class="highlight" width="14%">M</th>
+  <th class="highlight" width="14%">D</th>
+  <th class="highlight" width="14%">F</th>
+  <th class="highlight" width="15%">S</th>
+  <th class="highlight" width="15%">S</th>
+ </tr>
+	 </tr>
+ <tr>  <td class="left" colspan="5"><font class="small">&nbsp;</font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=1&PHPKITSID=31dcd922534da04bbab16fc23c48df98">1</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=2&PHPKITSID=31dcd922534da04bbab16fc23c48df98">2</a></font></td> </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=3&PHPKITSID=31dcd922534da04bbab16fc23c48df98">3</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=4&PHPKITSID=31dcd922534da04bbab16fc23c48df98">4</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=5&PHPKITSID=31dcd922534da04bbab16fc23c48df98">5</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=6&PHPKITSID=31dcd922534da04bbab16fc23c48df98">6</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=7&PHPKITSID=31dcd922534da04bbab16fc23c48df98">7</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=8&PHPKITSID=31dcd922534da04bbab16fc23c48df98">8</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=9&PHPKITSID=31dcd922534da04bbab16fc23c48df98">9</a></font></td> </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=10&PHPKITSID=31dcd922534da04bbab16fc23c48df98">10</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=11&PHPKITSID=31dcd922534da04bbab16fc23c48df98">11</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=12&PHPKITSID=31dcd922534da04bbab16fc23c48df98">12</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=13&PHPKITSID=31dcd922534da04bbab16fc23c48df98">13</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=14&PHPKITSID=31dcd922534da04bbab16fc23c48df98">14</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=15&PHPKITSID=31dcd922534da04bbab16fc23c48df98">15</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=16&PHPKITSID=31dcd922534da04bbab16fc23c48df98">16</a></font></td> </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=17&PHPKITSID=31dcd922534da04bbab16fc23c48df98">17</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=18&PHPKITSID=31dcd922534da04bbab16fc23c48df98">18</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=19&PHPKITSID=31dcd922534da04bbab16fc23c48df98">19</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=20&PHPKITSID=31dcd922534da04bbab16fc23c48df98">20</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=21&PHPKITSID=31dcd922534da04bbab16fc23c48df98">21</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=22&PHPKITSID=31dcd922534da04bbab16fc23c48df98">22</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=23&PHPKITSID=31dcd922534da04bbab16fc23c48df98">23</a></font></td> </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=24&PHPKITSID=31dcd922534da04bbab16fc23c48df98">24</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=25&PHPKITSID=31dcd922534da04bbab16fc23c48df98">25</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=26&PHPKITSID=31dcd922534da04bbab16fc23c48df98">26</a></font></td>  <td class="left" align="right" valign="top" style="border: solid #000000 1px; background: #800000;">
+	<font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=27&PHPKITSID=31dcd922534da04bbab16fc23c48df98">27</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=28&PHPKITSID=31dcd922534da04bbab16fc23c48df98">28</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=29&PHPKITSID=31dcd922534da04bbab16fc23c48df98">29</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=30&PHPKITSID=31dcd922534da04bbab16fc23c48df98">30</a></font></td> </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=31&PHPKITSID=31dcd922534da04bbab16fc23c48df98">31</a></font></td>  <td class="left" colspan="6"><font class="small">&nbsp;</font></td>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+ <tr>
+  <td width="25%" align="left"><input type="submit" name="backCalender" class="small" value="&nbsp;&lt;&nbsp;" />&nbsp;</td>
+  <td width="50%" align="center">
+	<input type="submit" name="action" value="Auswahl" class="small" /></td>
+  <td width="25%" align="right">&nbsp;<input type="submit" name="nextCalender" class="small" value="&nbsp;&gt;&nbsp;" /></td>
+ </tr>
+ </form>	
+<form method="post" action="include.php?path=termine/event_all.php&rep=alle"><input type="hidden" name="PHPKITSID" value="31dcd922534da04bbab16fc23c48df98" />
+ <tr>
+  <td width="25%" align="left"></td>
+  <td width="50%" align="center"><input type="submit" name="action" value="alle Termine" class="small" /></td>
+  <td width="25%" align="right"></td>
+ </tr>
+</form>
+</table></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableright" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadright">Status</td>
+ </tr>
+ <tr>
+  <td class="navbgright"><font class="small">272 registrierte Benutzer.<br />
+Online: <a class="small" href="include.php?path=login/userinfo.php&id=172&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Nympfe</a>, <a class="small" href="include.php?path=login/userinfo.php&id=30&PHPKITSID=31dcd922534da04bbab16fc23c48df98">coix</a> und 2 G&auml;ste</font></td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="1" cellpadding="0">
+ <tr>
+  <td colspan="3">Besucher</td>
+ </tr>
+ <tr>
+  <td><font class="small">heute:</font></td>
+  <td>&nbsp;</td>
+  <td align="right"><font class="small">23</font></td>
+ </tr>
+ <tr>
+  <td><font class="small">gestern:</font></td>
+  <td>&nbsp;</td>
+  <td align="right"><font class="small">28</font></td>
+ </tr>
+ <tr>
+  <td><font class="small">gesamt:</font></td>
+  <td>&nbsp;</td>
+  <td align="right"><font class="small">28047</font></td>
+ </tr>
+</table></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableright" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadright">Zuletzt online</td>
+ </tr>
+ <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="online" src="images/online.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=172&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Nympfe</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="online" src="images/online.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=30&PHPKITSID=31dcd922534da04bbab16fc23c48df98">coix</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=155&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Gast</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=2&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Palladium</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=162&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Ultrog</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=22&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Chelest</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=285&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Wotans</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=167&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Cleilia</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=300&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Jennine</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=1&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Jemihi</a></td>
+ </tr>
+</table>
+</td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableright" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadright">Eure Meinung</td>
+ </tr>
+ <tr>
+  <td class="navbgright"><table border=0 cellspacing=2 cellpadding=0 width="100%">
+ <tr>	
+  <td align=center><font class=small>Zur Zeit sind leider keine Umfragen aktiv.<br />
+	<br /><a href="include.php?path=vote/archiv.php&PHPKITSID=31dcd922534da04bbab16fc23c48df98">Archiv</a></font></td>
+ </tr>
+</table></td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td align="center" valign="top"></td>
+	 </tr>
+	 <tr>
+	  <td align="center" valign="top"><br />
+<table class="standard" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td class="designbodyfoot">
+	<table border="0" cellspacing="1" cellpadding="2" width="100%">
+	 <tr>
+	  <td class="heads" align="center">Lords of Entropy &copy 2005</td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table>
+<div align="right"><font class="bgsmall">Seite in 0.15063 sec generiert</font></div><br/><div style="text-align:center;"><br/><p><a href="http://external.phpkit.de/incoming/copyright" target="_blank" style="font-family:verdana;font-size:11px;text-decoration:none;">Diese Webseite wurde mit PHPKIT Version 1.6.1 erstellt<br/>PHPKIT ist eine eingetragene Marke der Gers&ouml;ne & Schott GbR - Copyright © 2002-2004</a></p><p>&#160;</p></div></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table>
+
+</body>
+
+
+</html>

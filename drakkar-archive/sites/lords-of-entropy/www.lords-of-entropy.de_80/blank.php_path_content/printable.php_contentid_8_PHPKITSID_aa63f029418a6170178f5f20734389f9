@@ -1,0 +1,87 @@
+<html>
+
+<head>
+
+<title>Lords of Entropy </title>
+<style type="text/css">
+<!--
+body {margin: 0px;}
+body.blank, .print, .printsmall {
+ background: #FFFFFF;
+ color: #000000;
+ font-family: Times, Times New Roman, Arial, Verdana;
+ font-size: 14px;
+ }
+
+font.printsmall {
+ font-size: 12px;}
+
+.printheads {
+ background: #000000;
+ color: #FFFFFF;
+ font-family: Arial, Verdana;
+ font-size: 13px;
+ font-weight: bold;}
+
+-->
+</style>
+</head>
+
+<body class="blank" onLoad="top()">
+<script language="JavaScript">
+function top() {
+self.focus();
+}
+</script>
+
+<table border="0" cellsapcing="0" cellpadding="4" width="760">
+ <tr>
+  <td><table class="print" width="500" border="0" cellpadding="1" cellspacing="0">
+ <tr>
+  <td class="print" align="left"><u>Spiel</u> </td>
+ </tr>
+ <tr>
+  <td class="printheads">Freitagnachrichten</td>
+ </tr>
+ <tr>
+  <td class="print" align="right">30.09.2003 - 18:31</td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><br /><table class="quote" width="98%" cellpadding="4" cellspacing="1" align="center"><tr><td class="quote"><b>Zitat</b><br /><font class="quote">Freitagsinfoblatt<br />
+[2003-26-09]<br />
+<br />
+Wir schreiben diesmal über "Foundations", die Nutzung von sogenannten "Third-Party-Tools", die "Monde du Jeu" und den Befehl /respec all.</font></td></tr></table><br /> <br />
+<br />
+Weiteres im Quell-Link.<br />
+<br />
+MfG<br />
+Jem</td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><br />
+	<br />Jemihi</td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><br />
+	<br /><font class="printsmall">gedruckt am 07.01.2006 - 02:17</font></td>
+ </tr>
+ <tr>
+  <td><img border="0" height="1" width="100%" alt="" src="images/black.gif" /></td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><font class="printsmall">http://www.lords-of-entropy.de/include.php?path=content/content.php&contentid=8</font></td>
+ </tr>
+</table>
+
+<!--
+<script language="JavaScript">
+	window.print()
+</script>
+-->
+</td>
+ </tr>
+</table>
+
+</body>
+
+</html>

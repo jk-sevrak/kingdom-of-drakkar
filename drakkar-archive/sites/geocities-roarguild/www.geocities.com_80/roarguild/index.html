@@ -1,0 +1,394 @@
+<html>
+
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<title>ROAR Guild - Kingdom of Drakkar</title>
+
+<meta name="Description" content="Guild page of the RPG Kingdom of Drakkar">
+
+<meta name="Keywords" content="Guild, Kingdom, Drakkar, ROAR, roleplay, massive">
+
+<meta name="Author" content="Osiem">
+
+</head>
+
+<body bgcolor="#164c4c" text="#B7B75F" link="#ffff00" vlink="#ffcc00" alink="#ffffff" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+<!-- following code added by server. PLEASE REMOVE -->
+<!-- preceding code added by server. PLEASE REMOVE -->
+
+
+<script language="JavaScript1.2">
+
+//Autumn leaves- by Kurt Grigg (kurt.grigg@virgin.net)
+//Modified by Dynamic Drive for NS6 functionality
+//visit http://www.dynamicdrive.com for this script
+
+//Pre-load your image below!
+grphcs=new Array(6)
+Image0=new Image();
+Image0.src=grphcs[0]="al.gif";
+Image1=new Image();
+Image1.src=grphcs[1]="bl.gif"
+Image2=new Image();
+Image2.src=grphcs[2]="cl.gif"
+Image3=new Image();
+Image3.src=grphcs[3]="dl.gif"
+Image4=new Image();
+Image4.src=grphcs[4]="el.gif"
+Image5=new Image();
+Image5.src=grphcs[5]="fl.gif" 
+
+Amount=8; //Smoothness depends on image file size, the smaller the size the more you can use!
+Ypos=new Array();
+Xpos=new Array();
+Speed=new Array();
+Step=new Array();
+Cstep=new Array();
+ns=(document.layers)?1:0;
+ns6=(document.getElementById&&!document.all)?1:0;
+
+if (ns){
+for (i = 0; i < Amount; i++){
+var P=Math.floor(Math.random()*grphcs.length);
+rndPic=grphcs[P];
+document.write("<LAYER NAME='sn"+i+"' LEFT=0 TOP=0><img src="+rndPic+"></LAYER>");
+}
+}
+else{
+document.write('<div style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i = 0; i < Amount; i++){
+var P=Math.floor(Math.random()*grphcs.length);
+rndPic=grphcs[P];
+document.write('<img id="si'+i+'" src="'+rndPic+'" style="position:absolute;top:0px;left:0px">');
+}
+document.write('</div></div>');
+}
+WinHeight=(ns||ns6)?window.innerHeight:window.document.body.clientHeight;
+WinWidth=(ns||ns6)?window.innerWidth-70:window.document.body.clientWidth;
+for (i=0; i < Amount; i++){                                                                
+ Ypos[i] = Math.round(Math.random()*WinHeight);
+ Xpos[i] = Math.round(Math.random()*WinWidth);
+ Speed[i]= Math.random()*5+3;
+ Cstep[i]=0;
+ Step[i]=Math.random()*0.1+0.05;
+}
+function fall(){
+var WinHeight=(ns||ns6)?window.innerHeight:window.document.body.clientHeight;
+var WinWidth=(ns||ns6)?window.innerWidth-70:window.document.body.clientWidth;
+var hscrll=(ns||ns6)?window.pageYOffset:document.body.scrollTop;
+var wscrll=(ns||ns6)?window.pageXOffset:document.body.scrollLeft;
+for (i=0; i < Amount; i++){
+sy = Speed[i]*Math.sin(90*Math.PI/180);
+sx = Speed[i]*Math.cos(Cstep[i]);
+Ypos[i]+=sy;
+Xpos[i]+=sx; 
+if (Ypos[i] > WinHeight){
+Ypos[i]=-60;
+Xpos[i]=Math.round(Math.random()*WinWidth);
+Speed[i]=Math.random()*5+3;
+}
+if (ns){
+document.layers['sn'+i].left=Xpos[i];
+document.layers['sn'+i].top=Ypos[i]+hscrll;
+}
+else if (ns6){
+document.getElementById("si"+i).style.left=Math.min(WinWidth,Xpos[i]);
+document.getElementById("si"+i).style.top=Ypos[i]+hscrll;
+}
+else{
+eval("document.all.si"+i).style.left=Xpos[i];
+eval("document.all.si"+i).style.top=Ypos[i]+hscrll;
+} 
+Cstep[i]+=Step[i];
+}
+setTimeout('fall()',20);
+}
+
+window.onload=fall
+//-->
+</script>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="850">
+
+    <tr>
+
+      <td background="metal_1x1.jpg" width="340" height="192"></td>
+
+      <td background="h1x2.jpg" width="219"></td>
+
+      <td background="metal_1x3.jpg" width="291"></td>
+
+    </tr>
+
+</table>
+<div align="left">
+  <table border="0" cellpadding="0" cellspacing="0" width="850" height="467" style="border-collapse: collapse" bordercolor="#111111">
+
+    <tr>
+
+      <td background="metal_2x1.jpg" height="93" width="160">
+      <p style="margin-top: 0; margin-bottom: 0">
+      <!--webbot bot="HTMLMarkup" startspan --><style type="text/css">
+.menutitle{
+cursor:pointer;
+margin-bottom: 0px;
+background-color:transparent;
+color:#FFFF00;
+width:100px;
+padding:25px;
+text-align:left;
+font-size:14pt;
+font-weight:underline;
+
+.submenu{
+margin-bottom: 0.5em;
+}
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Switch Menu script- by Martial B of http://getElementById.com/
+* Modified by Dynamic Drive for format & NS4/IE4 compatibility
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var persistmenu="yes" //"yes" or "no". Make sure each SPAN content contains an incrementing ID starting at 1 (id="sub1", id="sub2", etc)
+var persisttype="sitewide" //enter "sitewide" for menu to persist across site, "local" for this page only
+
+if (document.getElementById){ //DynamicDrive.com change
+document.write('<style type="text/css">\n')
+document.write('.submenu{display: none;}\n')
+document.write('</style>\n')
+}
+
+function SwitchMenu(obj){
+	if(document.getElementById){
+	var el = document.getElementById(obj);
+	var ar = document.getElementById("masterdiv").getElementsByTagName("span"); //DynamicDrive.com change
+		if(el.style.display != "block"){ //DynamicDrive.com change
+			for (var i=0; i<ar.length; i++){
+				if (ar[i].className=="submenu") //DynamicDrive.com change
+				ar[i].style.display = "none";
+			}
+			el.style.display = "block";
+		}else{
+			el.style.display = "none";
+		}
+	}
+}
+
+function get_cookie(Name) { 
+var search = Name + "="
+var returnvalue = "";
+if (document.cookie.length > 0) {
+offset = document.cookie.indexOf(search)
+if (offset != -1) { 
+offset += search.length
+end = document.cookie.indexOf(";", offset);
+if (end == -1) end = document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset, end))
+}
+}
+return returnvalue;
+}
+
+function onloadfunction(){
+if (persistmenu=="yes"){
+var cookiename=(persisttype=="sitewide")? "switchmenu" : window.location.pathname
+var cookievalue=get_cookie(cookiename)
+if (cookievalue!="")
+document.getElementById(cookievalue).style.display="block"
+}
+}
+
+function savemenustate(){
+var inc=1, blockid=""
+while (document.getElementById("sub"+inc)){
+if (document.getElementById("sub"+inc).style.display=="block"){
+blockid="sub"+inc
+break
+}
+inc++
+}
+var cookiename=(persisttype=="sitewide")? "switchmenu" : window.location.pathname
+var cookievalue=(persisttype=="sitewide")? blockid+";path=/" : blockid
+document.cookie=cookiename+"="+cookievalue
+}
+
+if (window.addEventListener)
+window.addEventListener("load", onloadfunction, false)
+else if (window.attachEvent)
+window.attachEvent("onload", onloadfunction)
+else if (document.getElementById)
+window.onload=onloadfunction
+
+if (persistmenu=="yes" && document.getElementById)
+window.onunload=savemenustate
+
+</script><!--webbot bot="HTMLMarkup" endspan --></td>
+
+<!-- TITLE OF THE PAGE -->
+
+      <td bgcolor="#000000" width="580" height="93"><div align="center">
+        <p style="margin-top: 0; margin-bottom: 0"><b><font size="6">Guild from Kingdom of Drakkar</font></b></div></td>
+
+      <td background="metal_2x3.jpg" width="110" height="93">
+      <!--webbot bot="HTMLMarkup" startspan --><script language="JavaScript1.2">
+<!--
+
+//-->
+</script><!--webbot bot="HTMLMarkup" endspan --></td>
+
+    </tr>
+
+    <tr>
+
+<!-- Menu -->
+
+      <td background="metal_3x1.jpg" valign="top" height="374" align="left" nowrap width="160"><div align="left">
+
+	  <p style="margin-top: 0; margin-bottom: 0"><font size="+1">&nbsp;&nbsp;&nbsp;&nbsp; </font><br>
+
+	  <b>
+
+	  <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp; <a href="members.html">
+      <font color="#B7B75F">Members</font></a></font><font size="4"><br>
+
+	  </font>
+
+	  <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;
+
+	  <a href="Links.html"><font color="#B7B75F">Links</font></a></font><font size="4"><br>
+
+	  </font>
+
+	  <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;
+      <a target="_blank" href="http://osiem.ca/ROARF/"><font color="#B7B75F">Forum</font></a></font></b></div>
+      <p style="margin-top: 0; margin-bottom: 0"><u><b><font size="4"><!-- Keep all menus within masterdiv-->
+      </font></b></u>
+      <p style="margin-top: 0; margin-bottom: 0"><b>
+
+	  <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp; </font><font size="4">
+      <a href="experience.htm"><font color="#B7B75F">Experience Chart</font></a></font></b></p>
+      <p style="margin-top: 0; margin-bottom: 0"><b>
+
+	  <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp; </font><font size="4">
+      <a href="dion.htm"><font color="#B7B75F">Dion Info</font></a></font></b></p>
+      <p style="margin-top: 0; margin-bottom: 0"><b>
+
+	  <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp; </font><font size="4">
+      <a href="hp.htm"><font color="#B7B75F">Hp/Ep Maxes</font></a></font></b></p>
+      <p style="margin-top: 0; margin-bottom: 0"><b>
+
+	  <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp; </font><font size="4">
+      <a href="dionmap.htm"><font color="#B7B75F">Dion Map</font></a></font></b><p style="margin-top: 0; margin-bottom: 0">
+      <font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; <a href="requirements.htm">
+      <font color="#B7B75F">Item Level Req.</font></a></b></font><p style="margin-top: 0; margin-bottom: 0">
+      <font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; <a href="tiers.htm">
+      <font color="#B7B75F">Tier Info</font></a></b></font><p style="margin-top: 0; margin-bottom: 0">
+      <font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Quirks.htm">
+      <font color="#B7B75F">Quirk Info</font></a></b></font><p style="margin-top: 0; margin-bottom: 0">
+      <b><font size="4">&nbsp;</font></b><u>Not Fully completed yet</u><p style="margin-top: 0; margin-bottom: 0">
+      <b>
+      <font size="4">&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.geocities.com/roarguilditems/"><font color="#B7B75F">Items</font></a></font></b><p style="margin-top: 0; margin-bottom: 0">
+      <b>
+      <font size="4">&nbsp;&nbsp;&nbsp;&nbsp; <a href="lairs.htm">
+      <font color="#B7B75F">Lairs</font></a> </font></b><p style="margin-top: 0; margin-bottom: 0">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><font size="4"><a href="QuestIndex.htm">
+      <font color="#B7B75F">Quests</font></a> </font></b><p style="margin-top: 0; margin-bottom: 0">
+      &nbsp;<p style="margin-top: 0; margin-bottom: 0">
+      <font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; <u><a href="private.htm">
+      <font color="#B7B75F">Member Only</font></a></u></b></font><br>
+
+	  
+
+	  </td>
+
+<!-- CENTER TEXT -->
+
+      <td bgcolor="#000000" height="374" width="580"><blockquote>
+        <p align="center" style="margin-top: 0; margin-bottom: 0"><font size="+1"><b>Welcome to ROAR web site</b></font></p>
+        <p align="center" style="margin-top: 0; margin-bottom: 0"><b>--News--</b></p>
+        <p align="center" style="margin-top: 0; margin-bottom: 0">
+        <!--webbot bot="HTMLMarkup" startspan --><script type="text/javascript">
+
+/***********************************************
+* IFRAME Scroller script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+//specify path to your external page:
+var iframesrc="external.htm"
+
+//You may change most attributes of iframe tag below, such as width and height:
+document.write('<iframe id="datamain" src="'+iframesrc+'" width="150px" height="100px" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="1" scrolling="no"></iframe>')
+
+</script>
+<!--webbot bot="HTMLMarkup" endspan --></p></blockquote>
+
+	  <p style="margin-top: 0; margin-bottom: 0"><div align="center">
+        <p style="margin-top: 0; margin-bottom: 0">
+        <img src="bannerbar.jpg" border="0" alt="" width="504" height="30"></div>
+      <p style="margin-top: 0; margin-bottom: 0"></p>
+
+	  <p align="center" style="margin-top: 0; margin-bottom: 0">The Place Where Only The Loudest Roars Are Heard</p>
+
+	  <p align="center" style="margin-top: 0; margin-bottom: 0">
+      <!--webbot bot="HTMLMarkup" startspan --><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+WIDTH="550" HEIGHT="150" id="Banner" ALIGN="">
+<PARAM NAME=movie VALUE="Banner.swf"><PARAM NAME=quality VALUE=high>
+<EMBED src="Banner.swf" quality=high WIDTH="600" HEIGHT="150" NAME="Banner" ALIGN=""
+TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
+</EMBED></OBJECT><!--webbot bot="HTMLMarkup" endspan --></p>
+
+	  </td>
+
+      <td background="metal_3x2.jpg" height="374" width="110">
+      <p align="center"></td>
+
+    </tr>
+
+</table>
+
+
+</div>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="849" id="AutoNumber1" height="228">
+  <tr>
+    <td width="53" height="228">&nbsp;</td>
+    <td width="796" background="make1.jpg" height="228">&nbsp;</td>
+  </tr>
+</table>
+
+<script language=JavaScript>
+<!--
+
+//Disable right click script III- By Renigade (renigade@mediaone.net)
+//For full source code, visit http://www.dynamicdrive.com
+
+var message="";
+///////////////////////////////////
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+
+document.oncontextmenu=new Function("return false")
+// --> 
+</script>
+
+</html><!-- text below generated by server. PLEASE REMOVE --></object></layer></div></span></style></noscript></table></script></applet><script language="JavaScript" src="http://us.i1.yimg.com/us.yimg.com/i/mc/mc.js"></script><script language="JavaScript" src="http://geocities.com/js_source/geov2.js"></script><script language="javascript">geovisit();</script><noscript><img src="http://visit.webhosting.yahoo.com/visit.gif?us1130971845" alt="setstats" border="0" width="1" height="1"></noscript>
+<IMG SRC="http://geo.yahoo.com/serv?s=76001548&t=1130971845&f=us-w84" ALT=1 WIDTH=1 HEIGHT=1>

@@ -1,0 +1,2 @@
+20080607070001 http://home.earthlink.net:80/~zgwortz/ text/html 200
+20080607162019 http://home.earthlink.net:80/~zgwortz/oldsite.htm text/html 200

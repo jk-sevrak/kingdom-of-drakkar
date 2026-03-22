@@ -1,0 +1,78 @@
+<html>
+
+<head>
+
+<title>Lords of Entropy </title>
+<style type="text/css">
+<!--
+body {margin: 0px;}
+body.blank, .print, .printsmall {
+ background: #FFFFFF;
+ color: #000000;
+ font-family: Times, Times New Roman, Arial, Verdana;
+ font-size: 14px;
+ }
+
+font.printsmall {
+ font-size: 12px;}
+
+.printheads {
+ background: #000000;
+ color: #FFFFFF;
+ font-family: Arial, Verdana;
+ font-size: 13px;
+ font-weight: bold;}
+
+-->
+</style>
+</head>
+
+<body class="blank" onLoad="top()">
+<script language="JavaScript">
+function top() {
+self.focus();
+}
+</script>
+
+<table border="0" cellsapcing="0" cellpadding="4" width="760">
+ <tr>
+  <td><table class="print" width="500" border="0" cellpadding="1" cellspacing="0">
+ <tr>
+  <td class="print" align="left">G&auml;stebucheintrag</td>
+ </tr>
+ <tr>
+  <td class="printheads">fickt euch</td>
+ </tr>
+ <tr>
+  <td class="print" align="right">eingetragen am 12.07.2004 - 17:56<br />
+	von Gast</td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><br />@ Cobix<br />
+<br />
+du bist ein abgefuckter hurensohn</td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><br />
+	<br /><font class="printsmall">gedruckt am 06.01.2006 - 20:55</font></td>
+ </tr>
+ <tr>
+  <td><img border="0" height="1" width="100%" alt="" src="images/black.gif" /></td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><font class="printsmall">http://www.lords-of-entropy.de/include.php?path=guestbook/viewgb.php</font></td>
+ </tr>
+</table>
+
+<!--
+<script language="JavaScript">
+	window.print()
+</script>
+-->
+</td>
+ </tr>
+</table>
+
+</body>
+
+</html>

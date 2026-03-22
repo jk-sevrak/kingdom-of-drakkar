@@ -1,0 +1,248 @@
+<HTML>
+<HEAD>
+<TITLE>Kingdom of Drakkar - Official Home of the Drakkar RPG</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+loadImage1 = new Image();
+loadImage1.src = "images/homeover.gif";
+staticImage1 = new Image();
+staticImage1.src = "images/home.gif";
+
+// End -->
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</HEAD>
+<BODY BGCOLOR=#000000 link=white vlink=white LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 onLoad="MM_preloadImages('images/downover.gif','images/screenover.gif','images/forumover.gif','images/drakover.gif','images/faqover.gif')">
+<form name="form1" method="post" action="">
+
+<center><font face="Verdana"><IMG 
+            src="images/drakban.jpg" 
+            border=0 width="777" height="99"></center>
+
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td align="center"> 
+        <table width="777" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td valign="top"><table width="777" height="220" border="0" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td valign="top">
+<table width="777" border="0" cellpadding="0" cellspacing="0" dwcopytype="CopyTableCell">
+                      <tr> 
+                        <td valign="top"> <table width="777" border="0" cellspacing="0" cellpadding="0">
+                            <tr> 
+                              <td valign="top"><img src="images/inner_01.gif" width="184" height="52"></td>
+                              <td valign="top"><img src="images/inner_02.gif" width="82" height="52"></td>
+                              <td valign="top"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr> 
+                                    <td><img src="images/inner_03.gif" width="500" height="13"></td>
+                                  </tr>
+                                  <tr> 
+                                    <td valign="top"><img src="images/inner_06.gif" width="500" height="39" usemap="#Map" border="0" name="Image1"></td>
+                                  </tr>
+                                </table></td>
+                              <td valign="top"><img src="images/inner_04.gif" width="11" height="52"></td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                    </table>
+                    
+                    <table width="777" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="351"><img src="images/drakban2.jpg" width="777" height="168"></td>
+                      </tr>
+                    </table> </td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td valign="top"> 
+              <table width="777" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td><img src="images/index_03.gif" width=74 height=38 alt=""></td>
+                  <td background="images/index_04.gif" width="237"> 
+                    <table width="85%" border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        
+                        <td>
+<a href="http://www.kingdomofdrakkar.com"><span onmouseover="image1.src=loadImage1.src;" onmouseout="image1.src=staticImage1.src;">
+<img name="image1" src="images/home.gif" border=0 width=90 height=30 border="0"></span></a>
+</td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td><img src="images/index_05.gif" width=466 height=38 alt=""></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <table width="777" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="189" valign="top"> 
+              <table width="100" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td><img src="images/leftblank.gif" width=189 height=50 alt=""></td>
+                </tr>
+                <tr> 
+                  <td background="images/inner_leftbg.gif" height="2314" valign="top"> 
+                    <table width="90%" border="0" cellspacing="3" cellpadding="1">
+                      <tr>
+                        <td><font color="#999999"><span class="text"></span></font></td>
+                      </tr>
+                      <tr>
+                        <td align="right"></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                
+                <tr> 
+                  <td background="images/inner_leftbg.gif" height="127"> 
+                    <table width="90%" border="0" cellspacing="3" cellpadding="1">
+                      <tr> 
+                        <td><font color="#999999"><span class="text"></span></font></td>
+                      </tr>
+                      <tr> 
+                        <td align="right"></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td valign="top" background="images/index_09.gif"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td> 
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><img src="images/index_07.gif" width=134 height=39 alt=""></td>
+                        <td><img src="images/download.gif" width=454 height=39 alt=""></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="125"> 
+                    <table width="99%" border="0" cellspacing="2" cellpadding="0">
+                      <tr> <font size="2" color="white">Welcome to the 1st step in creating a new account!<br> Please read the following; the downloads are at the bottom of the page.<br><br>
+                        <td valign="top">
+                          <p><font color="white"><span class="text"><p><font size="2">SERVICE AGREEMENT<br><br><br>
+ 
+DrakkarZone ("Service") consists of the online computing, information services, products and other content provided by DrakkarZone and subject to the terms and conditions of this member agreement ("Agreement"). In addition, third parties provide services and content which may be accessed over the Service and are bound by this Agreement ("ICPS"). This Agreement constitutes the entire agreement between you as an authorized user of DrakkarZone products. By using our products, you confirm your acceptance of, and agree to be bound by this agreement. 
+
+The basic DrakkarZone service is free of charge. Any DrakkarZone service you sign up for that entails a charge, you will be clearly notified that it is a fee service/area. If this policy changes, you will be notified via email and given the opportunity to Opt-out or cancel your account. Once an account has purchased any fee service/area, the account must maintain a subscription to at least one fee based area.
+
+Use of the DrakkarZone services to play DrakkarZone online games and such use of our software and that of its content providers does not vest the user with any proprietary right to continue. This license is on an at-will basis, and may be terminated by DrakkarZone at its sole discretion, at any time. 
+
+<br><br>1. You ("Subscriber") represent and warrant that you are at least 18 years of age and that you possess the legal right and ability to enter into this agreement. 
+
+<br><br>2. Subscriber shall be responsible for all use of the Service accessed through Subscriber's password. Subscriber shall maintain the security of your Subscriber identification, password and other confidential information relating to your account.
+
+<br><br>3. Either you or DrakkarZone may terminate or suspend your membership at any time, with or without cause..
+
+<br><br>4. Upon notice published over the Service, DrakkarZone may modify this agreement and may discontinue or revise any and all other aspects of the Service at its sole discretion and without prior notice. Continued use or non-termination of your membership after changes are noticed constitutes your acceptance of the modifications. 
+
+<br><br>5. You agree that the games or other content on DrakkarZone may be modified or removed by DrakkarZone at any time, with or without notice. You further agree that advancement in DrakkarZone games and products are for entertainment purposes only, and that you will not buy from or sell to others assistance in advancement in said products; including, but not limited to in-game items, experience points or other tangible or non-tangible products. You further agree that you will be the sole operator of your online personas, present at the computer at all times, and that you will not use automated scripting tools to control them.
+
+<br><br>6. You release DrakkarZone from all liability and claim of loss resulting from any error or discrepancy to your account. In the event of a computer related error, DrakkarZone reserves the right to take back any points/monies that were won because of the computer error. 
+
+<br><br>7. You are responsible for your communications on our Services. You may not, under any circumstances, do any of the following: (a) publish, post, distribute or disseminate defamatory, infringing, obscene or other unlawful material; (b) use DrakkarZone services to threaten, harass, stalk, abuse, or otherwise violate the legal rights (including rights of privacy and publicity) of others; (c) intercept or attempt to intercept Email; (d) upload files that contain software or other material protected by intellectual property laws (or by rights of privacy or publicity) unless you own or control the rights thereto or have received all necessary consents; (e) upload files that contain a virus or corrupted data; (f) delete any author attributions, legal notices or proprietary designations or labels in a file that you upload to a forum; (g) falsify the source or origin of software or other material contained in a file that you upload to a forum; (h) use DrakkarZone products in a manner that adversely affects the availability of its resources to other Subscribers; (i) send Email to Subscribers for any purpose other than personal communication, including to advertise or offer to sell goods or services to other Subscribers ; (j) download a file that you know (or reasonably should know) cannot be legally distributed via our Service (a file may have been uploaded notwithstanding such illegality); or (k) act, or fail to act, in your use of our Service, in a manner that is contrary to applicable law or regulation. Your failure to observe any of the foregoing limitations may result in civil or criminal liability, as well as termination of your membership. 
+
+<br><br>8. Subscriber's right to access the Service cannot be assigned, transferred or sublicensed.
+
+<br><br>9. DrakkarZone does not endorse or stand behind the accuracy, truthfulness or reliability of any information (including statements of opinion or advice) provided on or by means of DrakkarZone, other than information provided by authorized DrakkarZone spokespersons. Statements made in forums, conferences and chats reflect only the views of their authors.
+
+<br><br>10. SUBSCRIBER AGREES THAT SERVICE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. NEITHER BINGOONLINE, IT'S EMPLOYEES, LICENSERS, INFORMATION PROVIDERS, SUBCONTRACTORS OR AGENTS WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED OR ERROR FREE. NEITHER DrakkarZone, IT'S EMPLOYEES, LICENSERS, INFORMATION PROVIDERS, SUBCONTRACTORS OR AGENTS WILL BE LIABLE TO THE SUBSCRIBER FOR ANY DAMAGES, INCLUDING LOST PROFITS OR LOST SAVINGS OR OTHER INCIDENTAL OR CONSEQUENTIAL DAMAGES, ARISING OUT OF ACCESS TO, OR INABILITY TO GAIN ACCESS TO, THE SERVICE. 
+
+<br><br>11. YOUR USE OF DrakkarZone PRODUCTS AND SERVICES IS AT YOUR OWN RISK. YOU ASSUME FULL RESPONSIBILITY AND RISK OF LOSS RESULTING FROM YOUR DOWNLOADING AND/OR USE OF FILES OR OTHER MATERIAL OBTAINED THROUGH DrakkarZone. YOU AGREE THAT DrakkarZone AND PROVIDERS OF TELECOMMUNICATIONS AND NETWORK SERVICES FOR DrakkarZone WILL NOT BE LIABLE FOR DAMAGES (INCLUDING CONSEQUENTIAL OR SPECIAL DAMAGES) ARISING OUT OF YOUR USE OF OR INABILITY TO USE DrakkarZone OR ANY DrakkarZone SOFTWARE OR SERVICES, OR THE ACTIONS OR INACTIONS OF DEVELOPERS OR THE GOODS OR SERVICES THEY PROVIDE, AND YOU HEREBY WAIVE ANY CLAIMS WITH RESPECT THERETO, WHETHER BASED ON CONTRACTUAL, TORT OR OTHER GROUNDS, EVEN IF DrakkarZone HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES. DrakkarZone 'S LIABILITY TO YOU FOR BREACH OF THIS AGREEMENT IS LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR ACCESS TO AND USE OF DrakkarZone, EXCLUSIVE OF PAYMENTS RELATING TO GOODS AND SERVICES PURCHASED. YOU HEREBY RELEASE DrakkarZone FROM ANY AND ALL OBLIGATIONS, LIABILITIES AND CLAIMS IN EXCESS OF THIS LIMITATION. SOME JURISDICTIONS DO NOT ALLOW IMPLIED WARRANTIES TO BE EXCLUDED OR MODIFIED OR LIABILITY TO BE LIMITED, SO NOT ALL OF THE ABOVE LIMITATIONS MAY APPLY TO YOU.
+
+<br><br>12. The laws of the State of North Carolina shall govern this agreement. Any cause of action of Subscriber with respect to the Service must be instituted in the State of North Carolina. Any cause of action of Subscriber or its designated users with respect to the Service must be instituted within one year after the claim or cause of action has arisen or be barred. 
+
+<br><br>13. Indemnification. You agree to indemnify DrakkarZone from and against any and all liabilities, expenses (including attorneys' fees) and damages arising out of claims based upon use of your DrakkarZone account, including any claim of libel, defamation, violation of rights of privacy or publicity, loss of service by other Subscribers and infringement of intellectual property or other rights. DrakkarZone will notify you promptly of any claim for which DrakkarZone seeks indemnification and will afford you the opportunity to participate in the defense of such claim, provided that your participation will not be conducted in a manner prejudicial to DrakkarZone interests, as reasonably determined by DrakkarZone. 
+
+<br><br>14. These terms and any other Operating Rules published over the Service shall constitute the entire and only agreement between DrakkarZone and Subscriber. 
+
+<br><br>15. If you wish to cancel your account, please email help@DrakkarZone.com and enclose you full name and account number within the body of the message. Your cancelled account will be functionally deleted. 
+
+<br><br>And for your safety and fun: 
+
+<br><br>Disclosing personally identifiable information online through Chat Rooms, Forums, and Message Boards makes the information submitted public information; such disclosure may increase your chance of receiving "spam" or unsolicited email. Be careful and use discretion when disclosing information online! 
+
+<br><br>
+                  Welcome to Drakkar. 
+                  <p><font size="2">- Instructions - <BR><BR>
+                    1) For the full 8 bit install select this <A HREF="http://www1.drakkarzone.com/downloads/DrakkarZone.exe">Drakkar 
+                    Download</A> link. <BR>
+                    <BR>
+                    2) For the full 24 bit install select this <A HREF="http://www1.drakkarzone.com/beta/dv20.exe">Drakkar 
+                    Download</A> link. <BR>
+                    </font></p> </span></font></p>
+                        </td>
+                      </tr>
+                      <tr> 
+                        <td align="right"></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <table width="777" border="0" cellspacing="0" cellpadding="0" background="images/index_21.gif">
+          <tr> 
+            <td><img src="images/index_20.gif" width=10 height=34 alt=""></td>
+            <td align="center"><span class="text"><font color="#CCCCCC">Copyright (c) Drakkar 2001, All rights 
+          reserved.</font></span></td>
+            <td align="right"><img src="images/index_22.gif" width=8 height=34 alt=""></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+
+
+  <map name="Map">
+                      <area shape="poly" coords="14,1,1,37,92,36,108,2" href="http://www.kingdomofdrakkar.com/download" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/downover.gif',1)">
+                      <area shape="poly" coords="110,0,97,36,200,35,212,2,178,1" href="http://www.kingdomofdrakkar.com/screen" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/screenover.gif',1)">
+                      <area shape="poly" coords="217,1,204,35,294,35,307,3" href="http://www.kingdomofdrakkar.com/forums/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/forumover.gif',1)">
+                      <area shape="poly" coords="312,3,301,35,389,35,403,3" href="http://www.kingdomofdrakkar.com/store" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/drakover.gif',1)">
+                      <area shape="poly" coords="409,3,396,36,484,35,496,3" href="http://www.kingdomofdrakkar.com/faq" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/faqover.gif',1)">
+</map>
+
+</form>
+</BODY>
+</HTML>

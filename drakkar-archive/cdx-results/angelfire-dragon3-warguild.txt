@@ -1,0 +1,6 @@
+20051230194939 http://www.angelfire.com:80/dragon3/warguild/ text/html 200
+20090711021712 http://www.angelfire.com:80/dragon3/warguild/dragon3/warguild/index.html text/html 404
+20150116103532 http://www.angelfire.com/dragon3/warguild/index.html text/html 200
+20090710230021 http://www.angelfire.com:80/dragon3/warguild/Members text/plain 200
+20141020051419 http://www.angelfire.com/dragon3/warguild/sitemap.xml application/xml 200
+20090711021712 http://www.angelfire.com:80/dragon3/warguild/www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink text/html 302

@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>Tripod Member Page</title>
+    <link rel="stylesheet" href="http://a4.g.akamai.net/7/4/445/0000/www.tripod.lycos.com/css/tripod.css" title="main" media="screen" type="text/css" />
+<!-- javascript for TR survey popup begins -->
+	  <script LANGUAGE="Javascript">
+	  <!--
+
+	  function randomSurvey(scale)
+	   {
+	  	var expdate = new Date ();
+	  	var surveyCookieName = "WEBINFO";
+	  	var percentOfferedSurvey = .0000000001;
+	  	var surveyLocation = "/adm/redirect/www/popup/market_pop.html";
+	  	var popupNewWindow = true;
+
+	  	expdate.setTime (expdate.getTime() + (112 * 24 * 60 * 60 * 1000));
+	                    var stored_value = GetCookie(surveyCookieName);
+	  		var dd=new Date();
+	          cn= dd.getTime() % 100;
+	  	if ((cn <= percentOfferedSurvey) && (stored_value == null))
+	  	{
+	  	        SetCookie(surveyCookieName, "alreadyOffered", expdate, "", "");
+	                  window.open(surveyLocation,'new_window','width=500,height=300,resizable=no,scrollbars=no');
+	  	}
+	   }
+
+	  function SetCookie (name,value,expires,path,domain,secure)
+	  {
+	          document.cookie = name + "=" + escape (value) +
+	          ((expires) ? "; expires=" + expires.toGMTString() : "") +
+	          ((path) ? "; path=" + path : "") +
+	          ((domain) ? "; domain=" + domain : "") +
+	          ((secure) ? "; secure" : "");
+	  }
+
+	  function getCookieVal (offset)
+	  {
+	          var endstr = document.cookie.indexOf (";", offset);
+	          if (endstr == -1)
+	                  endstr = document.cookie.length;
+	          return unescape(document.cookie.substring(offset, endstr));
+	  }
+
+	  function GetCookie (name)
+	  {
+	          var arg = name + "=";
+	          var alen = arg.length;
+	          var clen = document.cookie.length;
+	          if( (document.cookie == null) || (document.cookie.length == null))
+	          {
+	                  return null;
+	          }
+	          var i = 0;
+	          while (i < clen)
+	          {
+	                  var j = i + alen;
+	                  if (document.cookie.substring(i, j) == arg)
+	                          return getCookieVal (j);
+	                  i = document.cookie.indexOf(" ", i) + 1;
+	                  if (i == 0) break;
+	          }
+	         return null;
+	  }
+
+	  //-->
+	  </script>
+	 <!-- javascript for TR survey popup ends -->
+</head>
+<BODY onLoad="randomSurvey();" marginheight="0" marginwidth="0" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" bgcolor="#FFFFFF" link="#0000FF" vlink="#FF00FF">
+<table cellpadding="0" cellspacing="0" border="0" width="745">
+    <tr>
+        <td valign="bottom" align="left" class="darkGrey"><a href="/adm/redirect/www/" target="_PARENT"><img src="http://a4.g.akamai.net/7/4/445/0000/www.tripod.lycos.com/img/common/tripod_ad_top.gif" width="151" height="14" alt="Tripod" border="0" /></a></td>
+        <Form name="lycos_search" action="http://r.hotbot.com/r/member_popup__nonhubgroup_lycos_search/http://www.tripod.com/bin/search/pursuit" method="get" target="_new">
+            <td class="darkGrey"><span class="textWhite">Search: <input type="radio" name="cat" value="lycos" checked> The Web <input type="radio" name="cat" value="tripod"> Tripod <input type="text" name="query" size="5" value> <input type="submit" name="submit" value="Submit"></td>
+        </form>
+        <td class="darkGrey" align="center"><span class="textWhite"><a class="textWhite" href="http://r.hotbot.com/r/tp_poptxt1/http://www.tripod.lycos.com/host/plus.html" target="_NEW">Get rid of this ad!</a></td>
+    </tr>
+    <tr>
+        <td colspan="3" class="white"><img src="http://c.lygo.com/s.gif" width="1" height="1" alt="" /></td>
+    </tr>
+    <tr>
+        <td colspan="3" class="orange" valign="top"><a href="/adm/redirect/www/" target="_PARENT"><img src="http://a4.g.akamai.net/7/4/445/0000/www.tripod.lycos.com/img/common/tripod_ad_bottom.gif" width="151" height="6" border="0" alt="" /></a></td>
+    </tr>
+</table>
+<table cellpadding="8" cellspacing="0" border="0" width="745">
+    <tr>
+        <td valign="middle" align="center" colspan="4"><A HREF="http://ln.doubleclick.net/jump/tr.ln/memberpopup;h=misc;sz=728x90;ord=379943703665?" target=_top><IMG WIDTH=728 HEIGHT=90 SRC="http://ln.doubleclick.net/ad/tr.ln/memberpopup;h=misc;sz=728x90;ord=379943703665?"></A></td>
+    </tr>
+    <tr>
+        <td class="textBlack">&#149; <a href="http://r.hotbot.com/r/tp_poptxthb/http://www.hotbot.com/" target="_NEW">Check out the NEW Hotbot</a></td>
+        <td class="textBlack">&#149; <a href="http://r.hotbot.com/r/tp_poptxt4/http://www.tripod.lycos.com/bin/membership/pref_link?to=buy&plan=free" target="_NEW">Get your own website on Tripod</a></td>
+        <td class="textBlack">&#149; <a href="http://r.hotbot.com/r/tp_poptxt3/http://domains.lycos.com" target="_NEW">Get your own web address!</a></td>
+        <td class="textBlack">&#149; <a href="http://r.hotbot.com/r/tp_poptxt2/http://matchmaker.lycos.com" target="_NEW">Go meet somebody</a></td>
+    </tr>
+</table>
+<script language="javascript">
+<!--
+
+    var searchStringLong = "(none)";
+    var searchString = searchStringLong.substr(0,6);
+    //if(searchString != "(none)"){
+    //  document.lycos_search.query.value = searchStringLong;
+    //}
+//-->
+</script>
+<script language="JavaScript">
+<!--
+// Cache-busting LUBID bug.
+var ran = Math.round(Math.random() * 899999) + 100000;
+var lubid_string = "<img src=\"http://hb.lycos.com/header?VID=5905&LHIG=1&ord=" + ran + "\" height=\"1\" width=\"1\">";
+document.write(lubid_string);
+//-->
+</script>
+
+<noscript><img src="http://hb.lycos.com/header?VID=5905&LHIG=1" height="1" width="1"></noscript>
+
+
+</BODY>
+</html>

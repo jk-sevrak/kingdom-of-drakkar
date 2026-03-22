@@ -1,0 +1,965 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<link rel="top" href="./index.php?sid=59209853b2e8eea490953f4aa121e776" title="Taverne Foren-Übersicht" />
+<link rel="search" href="./search.php?sid=59209853b2e8eea490953f4aa121e776" title="Suchen" />
+<link rel="help" href="./faq.php?sid=59209853b2e8eea490953f4aa121e776" title="FAQ" />
+<link rel="author" href="./memberlist.php?sid=59209853b2e8eea490953f4aa121e776" title="Mitgliederliste" />
+<link rel="prev" href="viewtopic.php?t=1072&amp;view=previous&amp;sid=59209853b2e8eea490953f4aa121e776" title="Vorheriges Thema anzeigen" />
+<link rel="next" href="viewtopic.php?t=1072&amp;view=next&amp;sid=59209853b2e8eea490953f4aa121e776" title="Nächstes Thema anzeigen" />
+<link rel="up" href="viewforum.php?f=1&amp;sid=59209853b2e8eea490953f4aa121e776" title="Schankraum" />
+<link rel="chapter forum" href="viewforum.php?f=1&amp;sid=59209853b2e8eea490953f4aa121e776" title="Schankraum" />
+<link rel="chapter forum" href="viewforum.php?f=19&amp;sid=59209853b2e8eea490953f4aa121e776" title="Pausenraum" />
+
+<title>Taverne :: Thema anzeigen - Camelot Unchained Mark Jacobs</title>
+<!-- link rel="stylesheet" href="templates/subSilver/subSilver.css" type="text/css" -->
+<style type="text/css">
+<!--
+/*
+  The original subSilver Theme for phpBB version 2+
+  Created by subBlue design
+  http://www.subBlue.com
+
+  NOTE: These CSS definitions are stored within the main page body so that you can use the phpBB2
+  theme administration centre. When you have finalised your style you could cut the final CSS code
+  and place it in an external file, deleting this section to save bandwidth.
+*/
+
+/* General page style. The scroll bar colours only visible in IE5.5+ */
+body {
+	background-color: #c0c0c0;
+	scrollbar-face-color: #707DB2;
+	scrollbar-highlight-color: #284169;
+	scrollbar-shadow-color: #707DB2;
+	scrollbar-3dlight-color: #838AC0;
+	scrollbar-arrow-color:  #e0bd57;
+	scrollbar-track-color: #374c85;
+	scrollbar-darkshadow-color: #98AAB1;
+}
+
+/* General font families for common tags */
+font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
+a:link,a:active,a:visited { color : #e0bd57; }
+a:hover		{ text-decoration: underline; color : #DD6900; }
+hr	{ height: 0px; border: solid #838AC0 0px; border-top-width: 1px;}
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ background-color: #284169; border: 1px #98AAB1 solid; }
+
+/* This is the outline round the main forum tables */
+.forumline	{ background-color: #284169; border: 2px #006699 solid; }
+
+/* Main table cell colours and backgrounds */
+td.row1	{ background-color: #374c85; }
+td.row2	{ background-color: #707DB2; }
+td.row3	{ background-color: #838AC0; }
+
+/*
+  This is for the table cell above the Topics, Post & Last posts on the index.php page
+  By default this is the fading out gradiated silver background.
+  However, you could replace this with a bitmap specific for each forum
+*/
+td.rowpic {
+		background-color: #284169;
+		background-image: url(templates/subSilver/images/cellpic2.jpg);
+		background-repeat: repeat-y;
+}
+
+/* Header cells - the blue and silver gradient backgrounds */
+th	{
+	color: #e54c01; font-size: 11px; font-weight : bold;
+	background-color: #e0bd57; height: 25px;
+	background-image: url(templates/subSilver/images/cellpic3.gif);
+}
+
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+			background-image: url(templates/subSilver/images/cellpic1.gif);
+			background-color:#838AC0; border: #384d86; border-style: solid; height: 28px;
+}
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+td.cat,td.catHead,td.catBottom {
+	height: 29px;
+	border-width: 0px 0px 0px 0px;
+}
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+	font-weight: bold; border: #284169; border-style: solid; height: 28px;
+}
+td.row3Right,td.spaceRow {
+	background-color: #838AC0; border: #384d86; border-style: solid;
+}
+
+th.thHead,td.catHead { font-size: 12px; border-width: 1px 1px 0px 1px; }
+th.thSides,td.catSides,td.spaceRow	 { border-width: 0px 1px 0px 1px; }
+th.thRight,td.catRight,td.row3Right	 { border-width: 0px 1px 0px 0px; }
+th.thLeft,td.catLeft	  { border-width: 0px 0px 0px 1px; }
+th.thBottom,td.catBottom  { border-width: 0px 1px 1px 1px; }
+th.thTop	 { border-width: 1px 0px 0px 0px; }
+th.thCornerL { border-width: 1px 0px 0px 1px; }
+th.thCornerR { border-width: 1px 1px 0px 0px; }
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle	{
+	font-weight: bold; font-size: 22px; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none; line-height : 120%; color : #000000;
+}
+
+/* General text */
+.gen { font-size : 12px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #000000; }
+a.gen,a.genmed,a.gensmall { color: #e0bd57; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #DD6900; text-decoration: underline; }
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #000000 }
+a.mainmenu		{ text-decoration: none; color : #e0bd57;  }
+a.mainmenu:hover{ text-decoration: underline; color : #DD6900; }
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 12px ; letter-spacing: 1px; color : #e0bd57}
+a.cattitle		{ text-decoration: none; color : #e0bd57; }
+a.cattitle:hover{ text-decoration: underline; }
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 12px; color : #e0bd57; }
+a.forumlink 	{ text-decoration: none; color : #e0bd57; }
+a.forumlink:hover{ text-decoration: underline; color : #DD6900; }
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #000000;}
+a.nav			{ text-decoration: none; color : #e0bd57; }
+a.nav:hover		{ text-decoration: underline; }
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle,h1,h2	{ font-weight: bold; font-size: 11px; color : #000000; }
+a.topictitle:link   { text-decoration: none; color : #e0bd57; }
+a.topictitle:visited { text-decoration: none; color : #5493B4; }
+a.topictitle:hover	{ text-decoration: underline; color : #DD6900; }
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #000000;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #000000; }
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 12px; line-height: 18px}
+a.postlink:link	{ text-decoration: none; color : #e0bd57 }
+a.postlink:visited { text-decoration: none; color : #5493B4; }
+a.postlink:hover { text-decoration: underline; color : #DD6900}
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #006600;
+	background-color: #FAFAFA; border: #838AC0; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #707070; line-height: 125%;
+	background-color: #FAFAFA; border: #838AC0; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #707070; letter-spacing: -1px;}
+a.copyright		{ color: #707070; text-decoration: none;}
+a.copyright:hover { color: #000000; text-decoration: underline;}
+
+/* Form elements */
+input,textarea, select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border-color : #000000;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #284169;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	background-color : #374c85;
+	color : #000000;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* The main submit button option */
+input.mainoption {
+	background-color : #FAFAFA;
+	font-weight : bold;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	background-color : #FAFAFA;
+	font-weight : normal;
+}
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline { background-color: #707DB2; border-style: none; }
+
+/* Import the fancy styles for IE only (NS4.x doesn't use the @import function) */
+@import url("templates/subSilver/formIE.css");
+-->
+</style>
+</head>
+<body bgcolor="#c0c0c0" text="#000000" link="#e0bd57" vlink="#5493B4">
+
+<a name="top"></a>
+
+<table width="950" cellspacing="0" cellpadding="10" border="0" align="center">
+	<tr>
+		<td class="bodyline"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td><a href="index.php?sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/logo_phpBB.gif" border="0" alt="Taverne Foren-Übersicht" vspace="1" /></a></td>
+				<td align="center" width="100%" valign="middle"><span class="maintitle">Taverne</span><br /><span class="gen">der Lords of Entropy<br />&nbsp; </span>
+				<table cellspacing="0" cellpadding="2" border="0">
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="faq.php?sid=59209853b2e8eea490953f4aa121e776" class="mainmenu"><img src="templates/subSilver/images/icon_mini_faq.gif" width="12" height="13" border="0" alt="FAQ" hspace="3" />FAQ</a>&nbsp; &nbsp;<a href="search.php?sid=59209853b2e8eea490953f4aa121e776" class="mainmenu"><img src="templates/subSilver/images/icon_mini_search.gif" width="12" height="13" border="0" alt="Suchen" hspace="3" />Suchen</a>&nbsp; &nbsp;<a href="memberlist.php?sid=59209853b2e8eea490953f4aa121e776" class="mainmenu"><img src="templates/subSilver/images/icon_mini_members.gif" width="12" height="13" border="0" alt="Mitgliederliste" hspace="3" />Mitgliederliste</a>&nbsp; &nbsp;<a href="groupcp.php?sid=59209853b2e8eea490953f4aa121e776" class="mainmenu"><img src="templates/subSilver/images/icon_mini_groups.gif" width="12" height="13" border="0" alt="Benutzergruppen" hspace="3" />Benutzergruppen</a>&nbsp;
+						&nbsp;<a href="profile.php?mode=register&amp;sid=59209853b2e8eea490953f4aa121e776" class="mainmenu"><img src="templates/subSilver/images/icon_mini_register.gif" width="12" height="13" border="0" alt="Registrieren" hspace="3" />Registrieren</a>&nbsp;
+						</span></td>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="profile.php?mode=editprofile&amp;sid=59209853b2e8eea490953f4aa121e776" class="mainmenu"><img src="templates/subSilver/images/icon_mini_profile.gif" width="12" height="13" border="0" alt="Profil" hspace="3" />Profil</a>&nbsp; &nbsp;<a href="privmsg.php?folder=inbox&amp;sid=59209853b2e8eea490953f4aa121e776" class="mainmenu"><img src="templates/subSilver/images/icon_mini_message.gif" width="12" height="13" border="0" alt="Einloggen, um private Nachrichten zu lesen" hspace="3" />Einloggen, um private Nachrichten zu lesen</a>&nbsp; &nbsp;<a href="login.php?sid=59209853b2e8eea490953f4aa121e776" class="mainmenu"><img src="templates/subSilver/images/icon_mini_login.gif" width="12" height="13" border="0" alt="Login" hspace="3" />Login</a>&nbsp;</span></td>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="http://killboard.lords-of-entropy.de" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Lords of Entropy-Killboard</a>
+						<span class="mainmenu">&nbsp;<a href="http://vega-home.de/KB/" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Allianz-Killboard</a>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="http://www.lords-of-entropy.de/sepp-index.php" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />SEPP Schiffsversicherung für LoE</a>
+						<span class="mainmenu">&nbsp;<a href="http://vega-home.de/wbblite/" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Allianz-Forum</a>
+					</tr>
+				</table></td>
+			</tr>
+		</table>
+
+		<br />
+
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr>
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="viewtopic.php?t=1072&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=&amp;sid=59209853b2e8eea490953f4aa121e776">Camelot Unchained Mark Jacobs</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr>
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=newtopic&amp;f=1&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/post.gif" border="0" alt="Neues Thema eröffnen" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=reply&amp;t=1072&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/reply.gif" border="0" alt="Neue Antwort erstellen" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="index.php?sid=59209853b2e8eea490953f4aa121e776" class="nav">Taverne Foren-Übersicht</a>
+	  -> <a href="viewforum.php?f=1&amp;sid=59209853b2e8eea490953f4aa121e776" class="nav">Schankraum</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="1" cellpadding="3" border="0">
+	<tr align="right">
+		<td class="catHead" colspan="2" height="28"><span class="nav"><a href="viewtopic.php?t=1072&amp;view=previous&amp;sid=59209853b2e8eea490953f4aa121e776" class="nav">Vorheriges Thema anzeigen</a> :: <a href="viewtopic.php?t=1072&amp;view=next&amp;sid=59209853b2e8eea490953f4aa121e776" class="nav">Nächstes Thema anzeigen</a> &nbsp;</span></td>
+	</tr>
+	
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Nachricht</th>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="5504"></a><b>Osran</b></span><br /><span class="postdetails">Grillmeister<br /><br /><br />Anmeldedatum: 25.03.2007<br />Beiträge: 206<br />Wohnort: 91589 Aurch</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5504&amp;sid=59209853b2e8eea490953f4aa121e776#5504"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Di, 05.02.2013 19:09<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: Camelot Unchained Mark Jacobs</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5504&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"><a href="http://www.buffed.de/Camelot-Unchained-PC-256881/News/Camelot-Unchained-Mark-Jacobs-kuendigt-neues-MMO-mit-Fokus-auf-RvR-an-1052675/" target="_blank">http://www.buffed.de/Camelot-Unchained-PC-256881/News/Camelot-Unchained-Mark-Jacobs-kuendigt-neues-MMO-mit-Fokus-auf-RvR-an-1052675/</a></span><span class="postbody"><br />_________________<br /><a href="http://www.blutrausch-uthgard.de/sig/autosig.php?osra" target="_blank">http://www.blutrausch-uthgard.de/sig/autosig.php?osra</a></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=10&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=10&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="5505"></a><b>Jemihi</b></span><br /><span class="postdetails">Häuptling<br /><img src="images/avatars/6820386846b464f0e93a6.jpg" alt="" border="0" /><br /><br />Anmeldedatum: 22.03.2007<br />Beiträge: 1237<br />Wohnort: Braunschweig</span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5505&amp;sid=59209853b2e8eea490953f4aa121e776#5505"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Di, 05.02.2013 21:08<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5505&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">yeehaa !! da muss ich wohl beim crowdfunding was springen lassen <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /></span><span class="postbody"><br />_________________<br />Jemihi Schlachtenheiler
+<br />
+- Gildenmeister der Lords of Entropy -
+<br />
+---
+<br />
+&quot;Es hat kein Herz, wer mit 20 nicht Kommunist ist, und kein Verstand, wer es mit 40 immer noch ist.&quot;
+<br />
+---
+<br />
+&quot;Hallo Mythic, mein Name ist Schere, Papier ist ok, aber plz nerf Stein.&quot;
+<br />
+---
+<br />
+<img src="http://www.lords-of-entropy.de/files/Magnus-Banner1.jpg" border="0" /> <img src="http://killboard.lords-of-entropy.de/sig.php/39013/rokh/signature.jpg" border="0" />
+<br />
+[/<a href="http://killboard.lords-of-entropy.de?a=pilot_detail&amp;plt_id=39013" target="_blank" class="postlink">..: Im Killboard :..</a></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> <a href="profile.php?mode=email&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a> <a href="http://www.braunschweiger.org" target="_userwww"><img src="templates/subSilver/images/lang_german/icon_www.gif" alt="Website dieses Benutzers besuchen" title="Website dieses Benutzers besuchen" border="0" /></a>   <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' <a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a>');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></div><div style="position:absolute;left:3px;top:-1px"><a href="http://wwp.icq.com/97126325#pager"><img src="http://web.icq.com/whitepages/online?icq=97126325&img=5" width="18" height="18" border="0" /></a></div></div>');
+
+				//--></script><noscript><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="5506"></a><b>Adrogord</b></span><br /><span class="postdetails"><br /><img src="images/avatars/213309481146b48a1181d29.jpg" alt="" border="0" /><br /><br />Anmeldedatum: 22.03.2007<br />Beiträge: 300<br /></span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5506&amp;sid=59209853b2e8eea490953f4aa121e776#5506"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Di, 05.02.2013 23:28<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5506&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Nur leider noch relativ nichts sagend das ganze, in welche Richtung es genau geht.
+<br />
+
+<br />
+Aber hoffen wir mal das das was wird <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /></span><span class="postbody"><br />_________________<br /><img src="http://killboard.lords-of-entropy.de/sig.php/39092/apoc/signature.jpg" border="0" /></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=4&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=4&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> <a href="profile.php?mode=email&amp;u=4&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a>    <a href="profile.php?mode=viewprofile&amp;u=4&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_msnm.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a><script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' <a href="http://wwp.icq.com/scripts/search.dll?to=94827977"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a>');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"><a href="http://wwp.icq.com/scripts/search.dll?to=94827977"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></div><div style="position:absolute;left:3px;top:-1px"><a href="http://wwp.icq.com/94827977#pager"><img src="http://web.icq.com/whitepages/online?icq=94827977&img=5" width="18" height="18" border="0" /></a></div></div>');
+
+				//--></script><noscript><a href="http://wwp.icq.com/scripts/search.dll?to=94827977"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="5516"></a><b>Hunty</b></span><br /><span class="postdetails"><br /><br /><br />Anmeldedatum: 23.03.2007<br />Beiträge: 63<br /></span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5516&amp;sid=59209853b2e8eea490953f4aa121e776#5516"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Di, 23.04.2013 15:39<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: Hmm</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5516&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Hmm war lange nicht mehr hier ...
+<br />
+
+<br />
+Hoffe das Spiel wird das bringen und das man sich dann auch mal Ingame wieder sieht ... <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" />
+<br />
+
+<br />
+Mfg. Sascha
+<br />
+
+<br />
+ps: ich bin immer noch Daoc Spieler jedoch auch classic Freshard Uthgard <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" />
+<br />
+Falls sich da wer altes rum treibt könnte er ja mal Hallo sagen <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /> Hibernia spiele ich da aber Primär und nen kleinen Luri ranger Nali <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /></span><span class="postbody"></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=7&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=7&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="5519"></a><b>Kastoll</b></span><br /><span class="postdetails"><br /><br /><br />Anmeldedatum: 06.05.2013<br />Beiträge: 5<br /></span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5519&amp;sid=59209853b2e8eea490953f4aa121e776#5519"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Mo, 06.05.2013 15:21<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: daoc problem</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5519&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">hi leute hab ein problem und zwar hab ich damals daoc gespielt und wolte jetzt weider so nebenbei daoc zocken der alten zeiten willen. ich hab leider meinen alten account daten nicht mehr und wolte frage ob man irgend wie daoc zocken kann ohne sich das spiel neu zu kaufen. hab mir auch schon den daoy client runtergeladen und gepatch dann hab ihc versucht mit daoc-portalv2.8c was zu machen aber da kommt immer eine fehler meldung ``the game client could not be started´´ kann mir da einer helfen ??? <img src="images/smiles/icon_cry.gif" alt="Crying or Very sad" border="0" />  <img src="images/smiles/icon_cry.gif" alt="Crying or Very sad" border="0" /> 
+<br />
+
+<br />
+lg euer kastoll</span><span class="postbody"></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="5520"></a><b>Jemihi</b></span><br /><span class="postdetails">Häuptling<br /><img src="images/avatars/6820386846b464f0e93a6.jpg" alt="" border="0" /><br /><br />Anmeldedatum: 22.03.2007<br />Beiträge: 1237<br />Wohnort: Braunschweig</span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5520&amp;sid=59209853b2e8eea490953f4aa121e776#5520"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Mo, 06.05.2013 18:03<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5520&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Also Uthgard (das, was du da probierst) funktioniert bei mir prima. Unter Settings musst du den Installationsort hinterlegen, wo du DAoC installiert hast. Wenn du DAoC noch nicht auf den neusten Stand gepatcht haben solltest, dann solltets du das vorher tun.
+<br />
+Unter dem Mod-Manager alles anhaken, beim ersten Start werden die Sachen dann automtisch gepatcht. Falls es da mal nicht weitergehen sollte, einfach neu starten, bei den meisten Leuten hat es danach mit dem Patchen gut funktioniert.
+<br />
+Dann einfach starten und losspielen. Wenn du dich das erste Mal einloggst, dann wird dein Benutzername und Passwort vom Server gespeichert und du hast damit deinen Account erstellt.</span><span class="postbody"><br />_________________<br />Jemihi Schlachtenheiler
+<br />
+- Gildenmeister der Lords of Entropy -
+<br />
+---
+<br />
+&quot;Es hat kein Herz, wer mit 20 nicht Kommunist ist, und kein Verstand, wer es mit 40 immer noch ist.&quot;
+<br />
+---
+<br />
+&quot;Hallo Mythic, mein Name ist Schere, Papier ist ok, aber plz nerf Stein.&quot;
+<br />
+---
+<br />
+<img src="http://www.lords-of-entropy.de/files/Magnus-Banner1.jpg" border="0" /> <img src="http://killboard.lords-of-entropy.de/sig.php/39013/rokh/signature.jpg" border="0" />
+<br />
+[/<a href="http://killboard.lords-of-entropy.de?a=pilot_detail&amp;plt_id=39013" target="_blank" class="postlink">..: Im Killboard :..</a></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> <a href="profile.php?mode=email&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a> <a href="http://www.braunschweiger.org" target="_userwww"><img src="templates/subSilver/images/lang_german/icon_www.gif" alt="Website dieses Benutzers besuchen" title="Website dieses Benutzers besuchen" border="0" /></a>   <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' <a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a>');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></div><div style="position:absolute;left:3px;top:-1px"><a href="http://wwp.icq.com/97126325#pager"><img src="http://web.icq.com/whitepages/online?icq=97126325&img=5" width="18" height="18" border="0" /></a></div></div>');
+
+				//--></script><noscript><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="5521"></a><b>Kastoll</b></span><br /><span class="postdetails"><br /><br /><br />Anmeldedatum: 06.05.2013<br />Beiträge: 5<br /></span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5521&amp;sid=59209853b2e8eea490953f4aa121e776#5521"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Di, 07.05.2013 08:33<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: noch probleme</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5521&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">hi danke dir das hatt mich ein bischchen weitergebracht. nach dem ich die settings eingestellt hatte und bei mod alle häckchen gesetzt hatte und bei mod noch nen patch gezogen hatte ging das einlogen leider immer noch nicht. es kommt wieder die selbe fehler meldung wie voher. ich kann auch wenn ich auf normal daoc klicke wo dann das sound bild kommt und wo man dann da die account daten wie früher eingeben kommt nicht mehr und es kommt die selbe fehlermeldung wieder. wenn ich bei settings den unteren patcher benutzte kommt eine blaue meldung die lautet ´´ daocportal will run camelot.exe-let the camelot patcher finfish in order to patch your client´´ . hatt das vieleicht damit zu tun das ich windows7 64 bit version hab, und das das darunter nicht läuft ?</span><span class="postbody"></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="5522"></a><b>Jemihi</b></span><br /><span class="postdetails">Häuptling<br /><img src="images/avatars/6820386846b464f0e93a6.jpg" alt="" border="0" /><br /><br />Anmeldedatum: 22.03.2007<br />Beiträge: 1237<br />Wohnort: Braunschweig</span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5522&amp;sid=59209853b2e8eea490953f4aa121e776#5522"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Di, 07.05.2013 20:24<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5522&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Ich habe auch Win7 mit 64-bit, also daran kann es nicht liegen.
+<br />
+
+<br />
+Hast du denn alles wortgetreu abgearbeitet, was hier steht?
+<br />
+
+<br />
+<a href="http://www.uthgard.net/howtoconnect" target="_blank">http://www.uthgard.net/howtoconnect</a>
+<br />
+
+<br />
+Wichtig ist, dass du den DAoC-Clienten komplett auf aktuellen Stand patchst. Das kann je nach deinem lokalen Patchstand ziemlich lange dauern ...
+<br />
+
+<br />
+Gruß,
+<br />
+Jem
+<br />
+
+<br />
+PS: Hier ist auch noch eine alte, aber hilfreiche Anleitung <a href="http://www.allianzdesblutes.de/viewtopic.php?f=8&amp;t=28" target="_blank">http://www.allianzdesblutes.de/viewtopic.php?f=8&amp;t=28</a></span><span class="postbody"><br />_________________<br />Jemihi Schlachtenheiler
+<br />
+- Gildenmeister der Lords of Entropy -
+<br />
+---
+<br />
+&quot;Es hat kein Herz, wer mit 20 nicht Kommunist ist, und kein Verstand, wer es mit 40 immer noch ist.&quot;
+<br />
+---
+<br />
+&quot;Hallo Mythic, mein Name ist Schere, Papier ist ok, aber plz nerf Stein.&quot;
+<br />
+---
+<br />
+<img src="http://www.lords-of-entropy.de/files/Magnus-Banner1.jpg" border="0" /> <img src="http://killboard.lords-of-entropy.de/sig.php/39013/rokh/signature.jpg" border="0" />
+<br />
+[/<a href="http://killboard.lords-of-entropy.de?a=pilot_detail&amp;plt_id=39013" target="_blank" class="postlink">..: Im Killboard :..</a></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> <a href="profile.php?mode=email&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a> <a href="http://www.braunschweiger.org" target="_userwww"><img src="templates/subSilver/images/lang_german/icon_www.gif" alt="Website dieses Benutzers besuchen" title="Website dieses Benutzers besuchen" border="0" /></a>   <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' <a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a>');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></div><div style="position:absolute;left:3px;top:-1px"><a href="http://wwp.icq.com/97126325#pager"><img src="http://web.icq.com/whitepages/online?icq=97126325&img=5" width="18" height="18" border="0" /></a></div></div>');
+
+				//--></script><noscript><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="5523"></a><b>Kastoll</b></span><br /><span class="postdetails"><br /><br /><br />Anmeldedatum: 06.05.2013<br />Beiträge: 5<br /></span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5523&amp;sid=59209853b2e8eea490953f4aa121e776#5523"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Do, 09.05.2013 10:35<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: endlich</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5523&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">hi so endlich hatt das gefuntzt und ihc kann einloggen, aber hab noch ne frage kann man das auch auf deutsch kriegen das interface und die quest und die alles auf deutsch ?</span><span class="postbody"></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="5524"></a><b>Jemihi</b></span><br /><span class="postdetails">Häuptling<br /><img src="images/avatars/6820386846b464f0e93a6.jpg" alt="" border="0" /><br /><br />Anmeldedatum: 22.03.2007<br />Beiträge: 1237<br />Wohnort: Braunschweig</span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5524&amp;sid=59209853b2e8eea490953f4aa121e776#5524"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Do, 09.05.2013 13:03<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5524&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Du kannst nur die Serversprache auf deutsch umstellen, aber die Quests, Skills etc. bleibt alles auf Englisch. Der Befehl lautet /language ...</span><span class="postbody"><br />_________________<br />Jemihi Schlachtenheiler
+<br />
+- Gildenmeister der Lords of Entropy -
+<br />
+---
+<br />
+&quot;Es hat kein Herz, wer mit 20 nicht Kommunist ist, und kein Verstand, wer es mit 40 immer noch ist.&quot;
+<br />
+---
+<br />
+&quot;Hallo Mythic, mein Name ist Schere, Papier ist ok, aber plz nerf Stein.&quot;
+<br />
+---
+<br />
+<img src="http://www.lords-of-entropy.de/files/Magnus-Banner1.jpg" border="0" /> <img src="http://killboard.lords-of-entropy.de/sig.php/39013/rokh/signature.jpg" border="0" />
+<br />
+[/<a href="http://killboard.lords-of-entropy.de?a=pilot_detail&amp;plt_id=39013" target="_blank" class="postlink">..: Im Killboard :..</a></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> <a href="profile.php?mode=email&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a> <a href="http://www.braunschweiger.org" target="_userwww"><img src="templates/subSilver/images/lang_german/icon_www.gif" alt="Website dieses Benutzers besuchen" title="Website dieses Benutzers besuchen" border="0" /></a>   <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' <a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a>');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></div><div style="position:absolute;left:3px;top:-1px"><a href="http://wwp.icq.com/97126325#pager"><img src="http://web.icq.com/whitepages/online?icq=97126325&img=5" width="18" height="18" border="0" /></a></div></div>');
+
+				//--></script><noscript><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="5525"></a><b>Osran</b></span><br /><span class="postdetails">Grillmeister<br /><br /><br />Anmeldedatum: 25.03.2007<br />Beiträge: 206<br />Wohnort: 91589 Aurch</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5525&amp;sid=59209853b2e8eea490953f4aa121e776#5525"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Do, 09.05.2013 19:32<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5525&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">in welchen reich spielste denn?</span><span class="postbody"><br />_________________<br /><a href="http://www.blutrausch-uthgard.de/sig/autosig.php?osra" target="_blank">http://www.blutrausch-uthgard.de/sig/autosig.php?osra</a></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=10&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=10&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="5526"></a><b>Kastoll</b></span><br /><span class="postdetails"><br /><br /><br />Anmeldedatum: 06.05.2013<br />Beiträge: 5<br /></span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5526&amp;sid=59209853b2e8eea490953f4aa121e776#5526"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Fr, 10.05.2013 08:32<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: h</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5526&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">ok danke dann muss ich mich dran gewönen mit englisch quest´s. ich danke euch auf alle fälle für eure hilfe sehr nett. auf welchem server naja ka genau wo steht das und wo kann man sich die aussuchen ?</span><span class="postbody"></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="5527"></a><b>Jemihi</b></span><br /><span class="postdetails">Häuptling<br /><img src="images/avatars/6820386846b464f0e93a6.jpg" alt="" border="0" /><br /><br />Anmeldedatum: 22.03.2007<br />Beiträge: 1237<br />Wohnort: Braunschweig</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5527&amp;sid=59209853b2e8eea490953f4aa121e776#5527"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Fr, 10.05.2013 08:43<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5527&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">es gibt nur den server uthgard ... osran meinte, welches reich ... (midgard, albion, hibernia)</span><span class="postbody"><br />_________________<br />Jemihi Schlachtenheiler
+<br />
+- Gildenmeister der Lords of Entropy -
+<br />
+---
+<br />
+&quot;Es hat kein Herz, wer mit 20 nicht Kommunist ist, und kein Verstand, wer es mit 40 immer noch ist.&quot;
+<br />
+---
+<br />
+&quot;Hallo Mythic, mein Name ist Schere, Papier ist ok, aber plz nerf Stein.&quot;
+<br />
+---
+<br />
+<img src="http://www.lords-of-entropy.de/files/Magnus-Banner1.jpg" border="0" /> <img src="http://killboard.lords-of-entropy.de/sig.php/39013/rokh/signature.jpg" border="0" />
+<br />
+[/<a href="http://killboard.lords-of-entropy.de?a=pilot_detail&amp;plt_id=39013" target="_blank" class="postlink">..: Im Killboard :..</a></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a> <a href="profile.php?mode=email&amp;u=2&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_email.gif" alt="E-Mail senden" title="E-Mail senden" border="0" /></a> <a href="http://www.braunschweiger.org" target="_userwww"><img src="templates/subSilver/images/lang_german/icon_www.gif" alt="Website dieses Benutzers besuchen" title="Website dieses Benutzers besuchen" border="0" /></a>   <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' <a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a>');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></div><div style="position:absolute;left:3px;top:-1px"><a href="http://wwp.icq.com/97126325#pager"><img src="http://web.icq.com/whitepages/online?icq=97126325&img=5" width="18" height="18" border="0" /></a></div></div>');
+
+				//--></script><noscript><a href="http://wwp.icq.com/scripts/search.dll?to=97126325"><img src="templates/subSilver/images/lang_german/icon_icq_add.gif" alt="ICQ-Nummer" title="ICQ-Nummer" border="0" /></a></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="5528"></a><b>Kastoll</b></span><br /><span class="postdetails"><br /><br /><br />Anmeldedatum: 06.05.2013<br />Beiträge: 5<br /></span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5528&amp;sid=59209853b2e8eea490953f4aa121e776#5528"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Fr, 10.05.2013 11:23<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: kk</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5528&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">jo genau da bin ich drauf mh ? mal kucken wo finde ich den ne gute gilde wo ich auch rvr machen kann welche fragtion ? mir egal welche seite. früher war ich auf stonehenge in der stammgrp ´´wächter von walhalla´´ der bgler ´Kastoll`der kleine zwerg mit der großen tür an der hand.</span><span class="postbody"></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=517&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="5529"></a><b>Osran</b></span><br /><span class="postdetails">Grillmeister<br /><br /><br />Anmeldedatum: 25.03.2007<br />Beiträge: 206<br />Wohnort: 91589 Aurch</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic.php?p=5529&amp;sid=59209853b2e8eea490953f4aa121e776#5529"><img src="templates/subSilver/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: Sa, 11.05.2013 11:38<span class="gen">&nbsp;</span>&nbsp; &nbsp;Titel: </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=5529&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Blutrausch macht viel zerg rvr gibt aber noch viele gilden in unserer ally die 8v8 machen (alles in mid)
+<br />
+
+<br />
+auf alb und hib weiß ich es leider nicht musst lokai fragen</span><span class="postbody"><br />_________________<br /><a href="http://www.blutrausch-uthgard.de/sig/autosig.php?osra" target="_blank">http://www.blutrausch-uthgard.de/sig/autosig.php?osra</a></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="18">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=10&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_profile.gif" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=10&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>     <script language="JavaScript" type="text/javascript"><!--
+
+	if ( navigator.userAgent.toLowerCase().indexOf('mozilla') != -1 && navigator.userAgent.indexOf('5.') == -1 && navigator.userAgent.indexOf('6.') == -1 )
+		document.write(' ');
+	else
+		document.write('</td><td>&nbsp;</td><td valign="top" nowrap="nowrap"><div style="position:relative"><div style="position:absolute"></div><div style="position:absolute;left:3px;top:-1px"></div></div>');
+
+				//--></script><noscript></noscript></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/subSilver/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr align="center">
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=1072&amp;start=0&amp;sid=59209853b2e8eea490953f4aa121e776">
+				<td align="center"><span class="gensmall">Beiträge der letzten Zeit anzeigen: <select name="postdays"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="364">1 Jahr</option></select>&nbsp;<select name="postorder"><option value="asc" selected="selected">Die ältesten zuerst</option><option value="desc">Die neusten zuerst</option></select>&nbsp;<input type="submit" value="Los" class="liteoption" name="submit" /></span></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr>
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=newtopic&amp;f=1&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/post.gif" border="0" alt="Neues Thema eröffnen" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=reply&amp;t=1072&amp;sid=59209853b2e8eea490953f4aa121e776"><img src="templates/subSilver/images/lang_german/reply.gif" border="0" alt="Neue Antwort erstellen" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="index.php?sid=59209853b2e8eea490953f4aa121e776" class="nav">Taverne Foren-Übersicht</a>
+	  -> <a href="viewforum.php?f=1&amp;sid=59209853b2e8eea490953f4aa121e776" class="nav">Schankraum</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Alle Zeiten sind GMT + 2 Stunden</span><br /><span class="nav"></span>
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Seite <b>1</b> von <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap">
+<form method="get" name="jumpbox" action="viewforum.php?sid=59209853b2e8eea490953f4aa121e776" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Forum auswählen</option><option value="-1">&nbsp;</option><option value="-1">Taverne zum stinkenden Karl_nai</option><option value="-1">----------------</option><option value="1"selected="selected">Schankraum</option><option value="-1">&nbsp;</option><option value="-1">EVE Observatorium</option><option value="-1">----------------</option><option value="19">Pausenraum</option></select><input type="hidden" name="sid" value="59209853b2e8eea490953f4aa121e776" />&nbsp;<input type="submit" value="Los" class="liteoption" /></span></td>
+	</tr>
+</table></form>
+
+<span class="gensmall">Du <b>kannst keine</b> Beiträge in dieses Forum schreiben.<br />Du <b>kannst</b> auf Beiträge in diesem Forum <b>nicht</b> antworten.<br />Du <b>kannst</b> deine Beiträge in diesem Forum <b>nicht</b> bearbeiten.<br />Du <b>kannst</b> deine Beiträge in diesem Forum <b>nicht</b> löschen.<br />Du <b>kannst</b> an Umfragen in diesem Forum <b>nicht</b> mitmachen.<br />You <b>cannot</b> attach files in this forum<br />You <b>cannot</b> download files in this forum<br /></span></td>
+  </tr>
+</table>
+
+
+<div align="center"><span class="copyright"><br /><br />
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB 2.0. If you cannot (for good
+	reason) retain the full copyright we request you at least leave in place the
+	Powered by phpBB line, with phpBB linked to www.phpbb.com. If you refuse
+	to include even this then support on our forums may be affected.
+
+	The phpBB Group : 2002
+// -->
+Powered by <a href="http://www.phpbb.com/" target="_phpbb" class="copyright">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Deutsche Übersetzung von <a href="http://www.phpbb.de/" target="_blank" class="copyright">phpBB.de</a></span></div>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+

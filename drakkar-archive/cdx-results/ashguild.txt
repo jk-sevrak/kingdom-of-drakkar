@@ -1,0 +1,3 @@
+20010505084415 http://www.ashguild.com:80/ text/html 200
+20130801204824 http://ashguild.com/favicon.ico image/x-icon 200
+20011207162800 http://www.ashguild.com:80/robots.txt text/html 200

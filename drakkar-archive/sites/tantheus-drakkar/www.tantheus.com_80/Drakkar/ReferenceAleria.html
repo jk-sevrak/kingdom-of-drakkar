@@ -1,0 +1,64 @@
+<HTML>
+<HEAD>
+<TITLE>Tantheus' Drakkar Aleria Reference Information</TITLE>
+<META NAME="Kingdom of Drakkar" CONTENT="Drakkar">
+
+<BASE TARGET="_top">
+
+<STYLE type=text/css>
+BODY {
+	SCROLLBAR-FACE-COLOR: #000000; SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; SCROLLBAR-SHADOW-COLOR: #2e425a; SCROLLBAR-3DLIGHT-COLOR: #2e425a; SCROLLBAR-ARROW-COLOR: #bccbdc; SCROLLBAR-TRACK-COLOR: #2e425a; SCROLLBAR-DARKSHADOW-COLOR: #000000; BACKGROUND-COLOR: #287764
+}
+A:link {
+	COLOR: #66CC6D; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #66CC6D; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #66CC6D; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #B1ECDE; TEXT-DECORATION: underline
+}
+
+
+</STYLE>
+</HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var r1c1 = 'RefAleriaNames.html';
+var r1c2 = 'RefAleriaInfo.html';
+
+var s = window.location.search;
+for( row = 1 + 1; --row >= 1; )
+{
+	for( col = 2 + 1; --col >= 1; )
+	{
+		eval( 'i = s.indexOf( "row' + row + 'col' + col + '=" );' );
+		if( i >= 0 )
+		{
+			i = s.indexOf( '=', i ) + 1;
+			j = s.indexOf( '&amp;amp;amp;amp;amp;amp;amp;amp;', i );
+			eval( 'r' + row + 'c' + col + '= j >= 0 ? s.substring( i, j ) : s.substring( i );' );
+		}
+	}
+}
+
+document.write( "<FRAMESET FRAMESPACING=0 BORDER=0 ROWS='1*' COLS='200,1*'>" );
+document.write( "<FRAME SRC='" + r1c1 + "' NAME='row1col1' SCROLLING='auto' NORESIZE BORDERWIDTH=0 BORDER=0 FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0>" );
+document.write( "<FRAME SRC='" + r1c2 + "' NAME='row1col2' SCROLLING='auto' NORESIZE BORDERWIDTH=0 BORDER=0 FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0>" );
+document.write( "<NOFRAMES><BODY><P>example</P><BR><A HREF='othersite_framesetrow1col1.html'>Click here</A></BODY></NOFRAMES></FRAMESET>" );
+//-->
+</SCRIPT>
+
+<NOSCRIPT>
+<FRAMESET FRAMESPACING=0 BORDER=0 ROWS='1*' COLS='160,1*'>
+<FRAME SRC="othersite_framesetrow1col1.html" NAME="row1col1" SCROLLING="auto" NORESIZE BORDERWIDTH=0 BORDER=0 FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<FRAME SRC="othersite_framesetrow1col2.html" NAME="row1col2" SCROLLING="auto" NORESIZE BORDERWIDTH=0 BORDER=0 FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<NOFRAMES><BODY><P>example</P><BR><A HREF='othersite_framesetrow1col1.html'>Click here</A></BODY></NOFRAMES></FRAMESET>
+</NOSCRIPT>
+</HTML>
+
+

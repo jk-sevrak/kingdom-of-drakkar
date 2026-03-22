@@ -1,0 +1,97 @@
+<html>
+
+<head>
+
+<title>Lords of Entropy </title>
+<style type="text/css">
+<!--
+body {margin: 0px;}
+body.blank, .print, .printsmall {
+ background: #FFFFFF;
+ color: #000000;
+ font-family: Times, Times New Roman, Arial, Verdana;
+ font-size: 14px;
+ }
+
+font.printsmall {
+ font-size: 12px;}
+
+.printheads {
+ background: #000000;
+ color: #FFFFFF;
+ font-family: Arial, Verdana;
+ font-size: 13px;
+ font-weight: bold;}
+
+-->
+</style>
+</head>
+
+<body class="blank" onLoad="top()">
+<script language="JavaScript">
+function top() {
+self.focus();
+}
+</script>
+
+<table border="0" cellsapcing="0" cellpadding="4" width="760">
+ <tr>
+  <td><table class="print" width="500" border="0" cellpadding="1" cellspacing="0">
+ <tr>
+  <td class="print" align="left"><u>Öffentlich</u> </td>
+ </tr>
+ <tr>
+  <td class="printheads">Thunderbird</td>
+ </tr>
+ <tr>
+  <td class="print" align="right">18.06.2005 - 22:10</td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><br />Moin,<br />
+<br />
+da viele immernoch nicht den Thunderbird statt Webmail oder statt Outlook/Express benutzen, möchte ich hier nochmal den Thunderbird promoten:<br />
+<br />
+Hier ist die deutsche Seite: <a target="_blank" href="http://www.thunderbird-mail.de/thunderbird/">http://www.thunderbird-mail.de/thunderbird/</a><br />
+<br />
+Die deutsche Seite des Thunderbird bietet sehr viel, z.B. eine Menge an Tips&Tricks. Aber vor allem bietet sie eine komplett deutsche Anleitung , besonders sinnvoll sind für Einsteiger die ersten Schritte, die auch super mit Bildern dargestellt wurden.<br />
+<br />
+Hier ist der direkte Link zu der Anleitung:<br />
+<a target="_blank" href="http://www.thunderbird-mail.de/hilfe/dokumentation/">http://www.thunderbird-mail.de/hilfe/dokumentation/</a> <br />
+<br />
+Eine kleine Addon-Sammlung habe ich hier für euch zusammengestellt: <a target="_blank" href="http://www.lords-of-entropy.de/include.php?path=content/content.php&contentid=109&catid=1&themeid=8">KLICK</a><br />
+<br />
+Auch möchte ich an dieser Stelle nochmal auf das  <a target="_blank" href="http://www.lords-of-entropy.de/include.php?path=content/content.php&contentid=84&catid=2&themeid=4">OpenSSL-Paket</a> hinweisen, mit dem ihr eure Mails verschlüsseln lassen könnt (falls ihr noch kein eigenes Zertifikat, zB von <a target="_blank" href="http://www.trustcenter.de/homeframes/homeframes_de/privatanwender.htm">http://www.trustcenter.de</a> habt). <br />
+<br />
+Viele Grüße,<br />
+Jem<br />
+<br />
+PS: Die <a target="_blank" href="http://www.lords-of-entropy.de/include.php?path=content/content.php&contentid=44&catid=1&themeid=3">Charplaner-Software</a> ist auch wieder auf dem neusten Stand.</td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><br />
+	<br />Jemihi</td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><br />
+	<br /><font class="printsmall">gedruckt am 27.10.2005 - 19:23</font></td>
+ </tr>
+ <tr>
+  <td><img border="0" height="1" width="100%" alt="" src="images/black.gif" /></td>
+ </tr>
+ <tr>
+  <td class="print" align="left"><font class="printsmall">http://www.lords-of-entropy.de/include.php?path=content/content.php&contentid=110</font></td>
+ </tr>
+</table>
+
+<!--
+<script language="JavaScript">
+	window.print()
+</script>
+-->
+</td>
+ </tr>
+</table>
+
+</body>
+
+</html>

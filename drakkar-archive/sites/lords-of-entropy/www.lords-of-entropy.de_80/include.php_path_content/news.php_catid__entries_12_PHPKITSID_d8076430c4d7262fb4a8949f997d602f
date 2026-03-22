@@ -1,0 +1,887 @@
+<html>
+<head>
+<meta name="author" content="Pierre moonrise Gersöne">
+<meta name="copyight" content="(c) 2002 by moonrise made@phpkit.de">
+<meta name="publisher" content="phpkit der webbaukasten www.phpkit.de"> 
+<meta name="language" content="de">
+<meta name="generator" content="handmade by moonrise">
+<meta name="Keywords" content="phpkit, php, html, css, style, stylesheet, stylesheets, design, homepage, hp, java, javascript, script, scripte,	guest, guestbook, gast, gästebuch, news, newsletter, free, frei, freeware, kostenlos, umsonst, webbaukasten, web, baukasten, kit, internet, content, management, contentmanagement, community, com, verwaltung, seite, seiten, site, sites, forum, foren, forums	erstellung, design, designs, gestalltung, bau">
+<meta name="description" content="phpkit der webbaukasten Kostenlose PHP scripte, Fragen und Antworten auf allgemeine und spezielle PHP HTML und CSS Fragen, kostenloses Gästebuch, Newssystem, Kommentarsystem, Contentverwaltung">
+<meta name="robots" content="all">
+<meta name="revisit-after" content="2 weeks">
+
+<link rev="made" content="mailto:webmaster@phpkit.de">
+<style type="text/css">
+<!--
+body	{ background-color: #000000;
+ margin: 0px; 
+ font-family: arial, verdana; 
+ color: #B4B4B4; 
+ font-size: 12px; 
+ scrollbar-base-color: #;}
+
+font {
+ font-size: 12px;
+ font-family: arial, verdana;
+ font-size: 12px;
+ color: #B4B4B4;}
+
+table.standard,
+table.userhead,
+table.userbody,
+table.userbottom,
+table.quote,
+table.contenthead,
+table.contentbody,
+table.contentbottom,
+table.forumhead,
+table.forumbody,
+table.forumbottom,
+table.event,
+table.commentbody  {
+ background: #0;}
+
+td, th {
+ font-size: 12px;
+ font-family: arial, verdana;
+ color: #0;}
+
+hr {
+ color: #;}
+
+input, 
+option, 
+select,
+textarea {
+ font-family: ;
+ font-size: 12px;
+ color: #;
+ }
+
+.radio, .checkbox {background: none;}
+.w90	{width: 90%;}
+
+
+.big {
+ font-size: 14px;}
+
+.small, .forumedit {
+ font-size: 10px;}
+
+.bg, .bgsmall {
+ color: #B4B4B4;}
+
+.bgsmall {
+ font-size: 10px;}
+
+a, a.forumcat, a.forumthread {
+ font-family: arial, verdana;
+ font-size: 12px;}
+
+a:link, a:visited,
+a.forumcat:link, a.forumcat:visited, 
+a.forumthread:link, a.forumthread:visited {
+ color: #507090;}
+
+a:hover, a:active,
+a.forumcat:active, a.forumcat:hover,
+a.forumthread:active, a.forumthread:hover {
+ color: #FFFFFF;}
+
+a.big:hover, a.big:active {
+ color: #FFFFFF;}
+
+a.small:hover, a.small:active {
+ color: #FFFFFF;}
+
+.heads, .headssmall {
+ font-family: tahoma, verdana, arial;
+ color: #FFFFFF;
+ }
+a.heads, td.heads, th.heads {
+ font-size: 13px;
+ }
+
+td.heads, th.heads {
+ background-color: #000000; background-image: url(images/style/blackdream/heads2.gif);}
+
+
+a.heads:link, 
+a.heads:visited {
+ color: #FFFFFF;
+ }
+
+a.heads:active, 
+a.heads:hover {
+ color: #DDDDDD;
+}
+
+a.headssmall, font.headssmall {
+ font-size: 10px;}
+
+a.headssmall:link, 
+a.headssmall:visited {
+ color: #FFFFFF;
+ }
+
+a.headssmall:active, a.headssmall:hover {
+ color: #DDDDDD;}
+
+td,th {color: #0;}
+
+td.left,
+th.left,
+td.commentleft,
+th.commentleft  {
+ background-color: #161616;
+ color: #0; }
+
+td.right,
+th.right, 
+td.commentright,
+th.commentright {
+ background-color: #202020;
+ color: #0; }
+
+td.standard,
+th.standard,
+td.event,
+th.event {
+ background-color: #252525;
+ color: #0; }
+
+td.highlight,
+th.highlight {
+ background-color: #202020;
+ color: #0; }
+
+td.odd,
+th.odd,
+td.contentodd,
+th.contentodd,
+td.forum1,
+th.forum1 {
+ background-color: #161616;
+ color: #0; 
+ }
+
+td.odd2,
+th.odd2,
+td.contentodd2,
+th.contentodd2,
+td.forum2,
+th.forum2 {
+ background-color: #242424;
+ color: #0; 
+ }
+
+td.even,
+th.even,
+td.contenteven,
+th.contenteven,
+td.forum3,
+th.forum3 {
+ background-color: #202020;
+ color: #0;  
+ }
+
+td.even2,
+th.even2,
+td.contenteven2,
+th.contenteven2,
+td.forum4,
+th.forum4 {
+ background-color: #282828;
+ color: #0; 
+ }
+
+table.navtabletop,
+table.navtableleft,
+table.navtableright,
+table.navtablebottom {
+ background: #101010;} 
+
+td.quote {background-color: 404040; font-family: arial; font-size: 12;}
+
+
+td.navheadtop,
+ th.navheadtop,
+td.navheadleft,
+ th.navheadleft,
+td.navheadright,
+ th.navheadright,
+td.navheadbottom,
+ th.navheadbottom {
+ background-color: #000000;
+ color: #FFFFFF;
+ font-family: tahoma, verdana, arial;
+ font-size: 14px;
+ background-image: url(images/style/blackdream/heads2.gif);
+ }
+
+A.navheadtop:link,
+A.navheadtop:visited,
+A.navheadleft:link,
+A.navheadleft:visited,
+A.navheadright:link,
+A.navheadright:visited,
+A.navheadbottom:link,
+A.navheadbottom:visited	{
+ text-decoration: underline;
+ color: #FFFFFF;
+ font-family: tahoma, verdana, arial;
+ font-size: 14px; }
+
+A.navheadtop:active,
+A.navheadtop:hover,
+A.navheadleft:active,
+A.navheadleft:hover,
+A.navheadright:active,
+A.navheadright:hover,
+A.navheadbottom:active,
+A.navheadbottom:hover {
+ text-decoration: none;
+ color: #FFFFFF;
+ font-family: tahoma, verdana, arial;
+ font-size: 14px; } 
+ 
+td.navbgtop,
+ th.navbgtop,
+td.navbgleft,
+ th.navbgleft,
+td.navbgright,
+ th.navbgright,
+td.navbgbottom,
+ th.navbgbottom {
+ background-color: #0D1FC7;
+ color: #B4B4B4;
+ font-family: arial;
+ font-size: 12px; }
+
+A.navtop:link,
+A.navtop:visited,
+A.navleft:link,
+A.navleft:visited,
+A.navright:link,
+A.navright:visited,
+A.navbottom:link,
+A.navbottom:visited	{
+ text-decoration: none;
+ color: #B4B4B4;
+ font-family: arial;
+ font-size: 12px; }
+
+A.navtop:active,
+A.navtop:hover,
+A.navleft:active,
+A.navleft:hover,
+A.navright:active,
+A.navright:hover,
+A.navbottom:active,
+A.navbottom:hover {
+ text-decoration: none;
+ color: #FFFFFF;
+ font-family: arial;
+ font-size: 12px;
+ }
+ 
+
+-->
+</style>
+<title>Lords of Entropy </title>
+<link rel="shortcut icon" href="images/site/favicon.ico">
+</head>
+
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+ <tr>
+  <td valign="top">
+	<table border="0" cellspacing="0" cellpadding="0" width="980" align="center">
+	 <tr>
+	  <td align="center" valign="top"><table class="sitehead" border="0" cellspacing="0" cellpadding="1" width="100%">
+ <tr>
+  <td class="designbodyhead">
+	<table  border="0" cellpadding="0" cellspacing="0" width="100%">
+	 <tr>
+	  <td colspan="2" class="design">
+		<a name="#head"><img border="0" height="1" width="1" alt="" src="images/blank.gif" /></a></td>
+	 </tr>
+	 <tr>
+	  <td class="design">
+		<a href="include.php?path=start.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a"><img border="0" width="980" height="150" alt="Lords of Entropy " src="content/images/LoE_Logo_oben.jpg" /></a></td>
+        
+	 </tr>
+	 <tr>
+	  <td class="design" colspan="2">
+		<img border="0" height="1" width="1" alt="" src="images/blank.gif" /></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td align="center" valign="top"></td>
+	 </tr>
+	 <tr>
+	  <td align="center" valign="top"><table class="sitebody" border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+	  <td valign="top" class="designbodyleft">
+	<table border="0" cellspacing="0" cellpadding="0" width="135">
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadleft">Pic of the Moment</td>
+ </tr>
+ <tr>
+  <td class="navbgleft"><a target="_blank" href="content/images/sshot152.jpg?PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a"><img border="0"  height="110" width="135" alt="Zum verg&ouml;ßern anklicken" src="content/images/sshot152_small.jpg" /></a></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+
+ <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=start.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Startseite</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=forum/index.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a"><b>Forum</b></a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" target="_blank" href="http://www.warlordclan.de"><b>Allianzforum</b></a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/news.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">News</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=guestbook/viewgb.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Gästebuch</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=clankasse/cash.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Gildenkasse</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" target="_blank" href="usermap/usermap.php?PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Usermap</a></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadleft"><< Wichtiges >></td>
+ </tr>
+ <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=27&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a"><b>Join NOW !!!</b></a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=22&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Regeln</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=23&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Gildenränge</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=24&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Der Name</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=highlords.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Highlords</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/content.php&contentid=25&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Über LoE</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" target="_blank" href="http://pgp.lords-of-entropy.de">PGP-Keys</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=rltreffen.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">RL-Bilder 1</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=intern/Stuff/rltreffen2/index.htm&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">RL-Bilder 2</a></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadleft">Service</td>
+ </tr>
+ <tr>
+  <td class="navbgleft"><a class="navleft" target="_blank" href="http://wow.lords-of-entropy.de">LoE goes WoW</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=member.php?id=279&orderby=lrp&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a"><b>Liste der Lords</b></a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=statistik.php?id=279&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Statistiken</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?src=phptest/ws.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Waffenskill-Kalkulator</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="http://www.lords-of-entropy.de/include.php?path=content/overview.php&type=4&catid=&letter=&entries=0&searchtext=&order=title">Downloads</a></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft"  href="include.php?path=content/overview.php&type=3&catid=&letter=&entries=0&searchtext=&order=title&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Links</a></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableleft" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadleft">Member</td>
+ </tr>
+ <tr>
+  <td class="navbgleft"><table border="0" cellspacing="1" cellpadding="0" width="90%">
+	<form name="login" method="post" action="include.php?login=1"><input type="hidden" name="PHPKITSID" value="a16bc1a4a9f6b7faaa7b6a71d1bd0e7a" />
+	<input type="hidden" name="login_setcookie" value="1" />
+	<input type="hidden" name="remove_path" value="path=content/news.php&catid=&entries=12&PHPKITSID=d8076430c4d7262fb4a8949f997d602f" />
+ <tr>
+  <td><input class="small" type="text" name="user" style="width: 100%" size="8" maxlength="50" value="Benutzername" onBlur="if (value =='') {value = 'Benutzername'}" onFocus="if (value == 'Benutzername') {value =''}" /></td>
+ </tr>
+ <tr>
+  <td><input class="small" type="password" name="userpw" style="width: 100%" size="8" maxlength="50" value="passwort" onFocus="if (value == 'passwort') {value =''}"/></td>
+ </tr>
+ <tr>
+  <td><input class="small" type="submit" value="Login" /></td>
+ </tr>
+	</form>
+ <tr>
+  <td nowrap><a class="navleft" href="include.php?path=login/subpass.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Passwort vergessen?</a></td>
+ </tr> 
+</table></td>
+ </tr> <tr>
+  <td class="navbgleft"><a class="navleft" href="include.php?path=login/register.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Registrieren</a></td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	</table>
+  </td>
+  <td class="designbodycenter"><img border="0" alt="0" height="1" width="4" src="images/blank.gif" /></td>
+  <td width="100%" valign="top" class="designbodycenter">
+	<table class="sitebody" cellspacing="0" cellpadding="0" width="100%">
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	 <tr>
+	  <td width="100%" valign="top" class="sitebody"><table class=contentbody cellspacing=1 cellpadding=4 width="100%">
+ <tr>
+  <td class="heads"><a class="heads" href="include.php?path=content/news.php&catid=1&type=2&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Öffentlich</a> &#187; TL-Feedback und Patch 1.71</td>
+ </tr>
+ <tr>
+  <td class=contentodd>
+	<a href="include.php?path=content/news.php&contentid=81&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a"><img width="32" height="32" hspace="2" vspace="2" border="0" align=right alt="Öffentlich" src="images/catimages/notice2.gif"></a>
+	<p class=contenttitle>
+	<font class=big>TL-Feedback und Patch 1.71</font><br>
+	<font class=small>27.08.2004 - 18:28 von <a href="include.php?path=login/userinfo.php&id=1&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Jemihi</a></font></p>
+	<font class=contenttext>Die meisten TL-Reports (<a target="_blank" href="http://vnboards.ign.com/DAoC_TL_Reports/b22181/">hier</a> ) haben nun das offizielle Feedback von Mythic erhalten. Da es einige Konfusion über das neue Format der Reports gab, sind die Feedbacks etwas ungenau (bei vielen steht "genauere Angaben benötigt" obwohl Mythic in seinem Online-TL-Formular nur sehr wenig Platz für genauere Erklärungen gelassen hat - dies wurde berichtigt). Das Feedback kann man wie folgt zusammenfassen: <br />
+<br />
+Caster <br />
+- MCL/RP bleibt so teuer <br />
+- Bolts werden nicht verändert (in NF leiden diese unter hoher Blockrate) <br />
+- an den Speclinien wird bis Catacombs nichts mehr verändert, nur beim Wizard ist man am überlegen wegen etwas mehr utility <br />
+<br />
+Heiler/Buffer <br />
+- Desease wird vielleicht überarbeitet, da Spreadheal und Healfonts Desease ignorieren <br />
+<br />
+Maintanks <br />
+- Es werden Mittel gesucht Maintanks attraktiver im Zerg zu machen <br />
+- Determination und Stoicism sollen nicht verändert werden (viele Tanks trauern in NF dem alten - wesentlich besseren - Determination nach). <br />
+<br />
+Damagetanks <br />
+- keine wesentlichen Änderungen geplant, charge ist eine sehr starke ability <br />
+<br />
+Hybriden <br />
+- keine wesentlichen Änderungen geplant <br />
+<br />
+Generell <br />
+- Der Reichweitenvorteil von Albion (bester Bogi, bester Mezz, beste Boltklasse) wird beobachtet <br />
+<br />
+Patch 1.71 soll morgen (Dienstag) live gehen (<a target="_blank" href="http://www.camelotherald.com/patches.php">hier</a> ). Der Patch enthält im wesentliche drei große Änderungen: <br />
+<br />
+1. ML's & Artefakte <br />
+Viele ML's wurden überarbeitet und etwas einfacher gemacht (z.B. kann man die Quests für 3.5 und 3.7 jetzt im Dungeon abschliessen und muss nicht erst nach Meso). Alle Artefakte wurden jetzt in 6 "Levelarten" unterteilt: mainland outdoors, mainland dungeons, Shrouded Isles outdoors, Shrouded Isles dungeons, Trials of Atlantis outdoors, or Trials of Atlantis dungeons - alle erhalten nun zusätzlich Exp in den Frontiers (egal ob RvR oder PvE). <br />
+<br />
+2. Leveln & Realmbalance <br />
+Ein neuer Char erhält nun alle 7 Tage von seinem Trainer einen neuen Level (und etwas Gold) sobald er in dieser Zeit mindestens einen Level selbst gemacht hat. Dies soll Neuanfängern auf anderen Servern (die also nicht gezogen werden) den Einstieg erleichtern. Der Zeitraum ist kürzer für Realms die unterbevölkert sind (bis zu alle 2 Tage). Ebenso erhalten unterbevölkerte Realms Ihre Upgrades zu Festungen und Türmen wesentlich schneller und billiger. Dies dürfte in Europa aber kein Reich betreffen (vielleicht noch Hib/Dart). Generell erhält ein Reich, das viele Festungen erobert hat, die Angriffsmeldungen (Flammen auf der Karte) verzögert oder gar nicht mehr. <br />
+<br />
+3. Relics <br />
+Man kann nun jedes Relic klauen, nicht nur sein eigenes. Boni erhält man aber für Relics nur, wenn man auch sein eigenes hat. Fremde Relics werden nun nicht mehr zusammen mit dem eigenen in der Relic-Feste aufbewahrt, sondern in einer Heimat-Festung beim Lord (pro Festung nur ein Relic)! Dies macht das zurückerobern etwas einfacher auch wenn die neuen LvL10 Keeps in NF seht hart sein sollen (wesentlich härter als heute Relic-Festungen). Sobald man die Festung erobert hat, kann man das Relic aufnehmen. <br />
+<br />
+Sonstiges: <br />
+- Single Target Heals werden um 1/3 billiger und sollen so zu einer alternative zu Spreads entwickeln <br />
+- Alle Damage Adds und Damage Shields die nicht sowieso schon instacast sind werden zu uninterruptible casts.</font>
+	
+  </td>
+ </tr>
+ <tr>
+  <td class=contenteven>
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	 <tr>
+	  <td width="33%"><b><a href="include.php?path=comment/comment.php&comcat=cont&subid=81&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">keine Kommentare</a></b></td>
+	  <td width="33%" align="center" nowrap>
+		<a href="include.php?path=misc/suggest.php&suggest_path=path%3Dcontent%2Fnews.php%26contentid%3D81&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">News empfehlen</a></td>
+	  <td width="33%" align="right" nowrap>
+		<a target="printable" href="blank.php?path=content/printable.php&contentid=81&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Druckbare Version</a></td>
+	  <td width="1%" align="right"><a href="#head"><img src="images/pageup.gif" border="0" alt="nach oben" width="20" height="16" align="top"></a></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" height="5" width="1" alt="" src="images/blank.gif" /></td>
+ </tr>
+</table><table class=contentbody cellspacing=1 cellpadding=4 width="100%">
+ <tr>
+  <td class="heads"><a class="heads" href="include.php?path=content/news.php&catid=1&type=2&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Öffentlich</a> &#187; ML10 Raid-Video von Jemihi</td>
+ </tr>
+ <tr>
+  <td class=contentodd>
+	<a href="include.php?path=content/news.php&contentid=78&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a"><img width="32" height="32" hspace="2" vspace="2" border="0" align=right alt="Öffentlich" src="images/catimages/notice2.gif"></a>
+	<p class=contenttitle>
+	<font class=big>ML10 Raid-Video von Jemihi</font><br>
+	<font class=small>01.08.2004 - 21:33 von <a href="include.php?path=login/userinfo.php&id=1&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Jemihi</a></font></p>
+	<font class=contenttext>Ich habe einen kürzlich stattgefundenen ML10-Raid auf Video aufgenommen. Ich hoffe er gefällt und wünsche viel Spass bei meinem allerersten Versuch ein Video zu drehen.<br />
+<br />
+Viele Grüße<br />
+Jem<br />
+<br />
+Hier der Link: <a target="_blank" href="http://www.lords-of-entropy.de/include.php?path=content/download.php&contentid=77&download=go">http://www.lords-of-entropy.de/include.php?path=content/download.php&contentid=77&download=go</a> (Mit "Ziel speichern unter ..." speichern)</font>
+	
+  </td>
+ </tr>
+ <tr>
+  <td class=contenteven>
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	 <tr>
+	  <td width="33%"><b><a href="include.php?path=comment/comment.php&comcat=cont&subid=78&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">keine Kommentare</a></b></td>
+	  <td width="33%" align="center" nowrap>
+		<a href="include.php?path=misc/suggest.php&suggest_path=path%3Dcontent%2Fnews.php%26contentid%3D78&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">News empfehlen</a></td>
+	  <td width="33%" align="right" nowrap>
+		<a target="printable" href="blank.php?path=content/printable.php&contentid=78&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Druckbare Version</a></td>
+	  <td width="1%" align="right"><a href="#head"><img src="images/pageup.gif" border="0" alt="nach oben" width="20" height="16" align="top"></a></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" height="5" width="1" alt="" src="images/blank.gif" /></td>
+ </tr>
+</table><table class=contentbody cellspacing=1 cellpadding=4 width="100%">
+ <tr>
+  <td class="heads"><a class="heads" href="include.php?path=content/news.php&catid=1&type=2&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Öffentlich</a> &#187; Zergmeister Fanclub</td>
+ </tr>
+ <tr>
+  <td class=contentodd>
+	<a href="include.php?path=content/news.php&contentid=76&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a"><img width="32" height="32" hspace="2" vspace="2" border="0" align=right alt="Öffentlich" src="images/catimages/notice2.gif"></a>
+	<p class=contenttitle>
+	<font class=big>Zergmeister Fanclub</font><br>
+	<font class=small>28.07.2004 - 13:31 von <a href="include.php?path=login/userinfo.php&id=1&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Jemihi</a></font></p>
+	<font class=contenttext><div align="center">In Tribute to teh uborskilled Erzmeister<br />
+<br />
+haben wir gestern nacht angefangen ein Video zu drehen.<br />
+<br />
+Eine Vorabversion ist schon jetzt zum Download verfügbar<br />
+<br />
+<a target="_blank" href="http://download.lords-of-entropy.de/Neu01.mpg">http://download.lords-of-entropy.de/Neu01.mpg</a> <br />
+<br />
+Viel Spass !!</div><br />
+<br />
+PS: <img src="images/smilies/willspielen.gif" border="0" alt="Will Spielen !!!!!!!!!!" width="100" height="46" /> <br />
+<br />
+Zitat:<br />
+<table class="quote" width="98%" cellpadding="4" cellspacing="1" align="center"><tr><td class="quote"><b>Zitat</b><br /><font class="quote">muahahahahah, das ihr es überhaupt wagt über mich zu schreiben.....Ich spiele Daoc seit der Beta auf vielen Servern und hab auch mit Public Enemys und auch mal mit Nolby gespielt auf camlann.....natürlich nur 8vs8 wie es auf Camlann üblich ist und diese Leute haben mehr drauf als Jeder von euch Spaseln...ich hab nich einen Funken Respekt vor eurem 8vs8 können....ihr seid bis auf laraxa oder Agron/wilde und Raccorgruppe oder Gorthakgruppe oder Lios, überwiegend alles Schafe in meinen Augen....ich geb nen Fick auf eure Meinung....Public Enemies usw sagten alle ich bin ein sehr guter Spieler und wenn ich die passenden Leute hier hätte für eine Stammgruppe dann würde der Grossteil von euch noch mehr heulen als ihr es jetzt schon macht....für mich klingt das so.....äääähhhh der erzmeister hat mich gefarmt...buäääähhh.......ich kam auf Albion/Lyo mit mehreren guten Leuten die leider zurückgegangen sind oder aufgehört haben zu spielen..und ich kam hier hin um mit meinen Leuten hier was zu reissen denn ich dachte mir, das Realm saugt...da kannste noch was werden....ich bin seit Toa hier und bin rr9 nu - weil ich nich einen Funken Bock habe mit Randomkaspergruppen zu spielen spiele ich so wie es mir schnell RPs bringt damit ich bei den oberen leuten des Servers mitspielen kann..denn der RP schnitt is hoch mittlerweile durch die Zeit die es den Server schon gibt... Ich spiele so wie ich Bock habe und wenn die Gruppe die mit der ich rumziehe gerade zergt...zerge ich mit...feddich aus...Jeder der morgends von 10-15 Uhr spielt weiss das ich immer mit 8ern rumgerannt bin bis der standard Mid Zerg von 3 gruppen der immer 15 uhr +/- auftaucht da war..zack zerge ich auch damit RPs in den Kasten kommen denn ich bin kein Schaf und lass mich Farmen....ich habe sowohl Albion als auch Midgard als auch hibernia so Intensiv gespielt das ich meiner meinung nach mindestens 90% von dem kompletten server hier in den fetten Arsch treten würde wenn man mit allen Klassen hintereinander die es gibt , mit gleicher ausrüstung und gleichen Reichsrang single duelle machen würde bis alle klassen durch sind.....Euch Hampelmänner und rumheuler hier nehme ich überwiegend nicht ernst denn ihr wollt mich nur diskreditieren und über mich lästern damit ihr ne ausrede habt wenn ich euch mit Randoms auf die bretter schicke..und ich will mich mit dem Dreck hier auch net rechtfertigen, da ich schon zu 2 mann hier ganze gruppen gelegt habe... Klar sticht mein Name aus dem Zerg wenn ich zerge...denk mal drüber nach warum.....Du solltest deine dumme Klappe zumachen und lieber etwas üben...zieh den Stock aus dem Arsch und geh lernen, Newbie <br />
+<br />
+__________________<br />
+Je mehr dich deine Feinde hassen desto mehr hast du ihnen weh getan...schade das ich so beliebt bin...<br />
+<br />
+<br />
+9xrr5-9 Public Enemy&Nolby Pride-experienced<br />
+Rubik Schattenbringer als nr.1 Caster auf Avalon/Alb verkauft</font></td></tr></table><br /></font>
+	
+  </td>
+ </tr>
+ <tr>
+  <td class=contenteven>
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	 <tr>
+	  <td width="33%"><b><a href="include.php?path=comment/comment.php&comcat=cont&subid=76&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">2 Kommentare</a></b></td>
+	  <td width="33%" align="center" nowrap>
+		<a href="include.php?path=misc/suggest.php&suggest_path=path%3Dcontent%2Fnews.php%26contentid%3D76&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">News empfehlen</a></td>
+	  <td width="33%" align="right" nowrap>
+		<a target="printable" href="blank.php?path=content/printable.php&contentid=76&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Druckbare Version</a></td>
+	  <td width="1%" align="right"><a href="#head"><img src="images/pageup.gif" border="0" alt="nach oben" width="20" height="16" align="top"></a></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" height="5" width="1" alt="" src="images/blank.gif" /></td>
+ </tr>
+</table><table border="0" width="100%" cellpadding="0" cellspacing="0">
+ <tr>
+  <td class="sitebody"><font class="sitebodysmall"><table class="sitebodysmall" border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td class="sitebodysmall"><font class="sitebodysmall"><b>Seiten</b> (11): <a class="sitebodysmall" href="include.php?path=content/news.php&catid=&entries=0&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">&lt;</a> <a class="sitebodysmall" href="include.php?path=content/news.php&catid=&entries=9&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">zur&uuml;ck</a>
+<a class="sitebodysmall" href="include.php?path=content/news.php&catid=&entries=6&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">3</a> <a class="sitebodysmall" href="include.php?path=content/news.php&catid=&entries=9&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">4</a> <b>(5)</b> <a class="sitebodysmall" href="include.php?path=content/news.php&catid=&entries=15&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">6</a> <a class="sitebodysmall" href="include.php?path=content/news.php&catid=&entries=18&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">7</a> <a class="sitebodysmall" href="include.php?path=content/news.php&catid=&entries=15&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">weiter</a> <a class="sitebodysmall" href="include.php?path=content/news.php&catid=&entries=30&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">&gt;</a></font></td>
+ </tr>
+</table></font></td>
+  <td class="sitebody" align="right"><a class="sitebody" href="include.php?path=content/overview.php&type=2&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Newsarchiv</a></td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	</table>
+  </td>
+	  <td class="designbodycenter"><img border="0" alt="0" height="1" width="4" src="images/blank.gif" /></td>
+  <td class="designbodyright" valign="top">
+	<table border="0" cellspacing="0" cellpadding="0" width="135">
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><table class="navtableright" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadright">Kalender</td>
+ </tr>
+ <tr>
+  <td class="navbgright">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<form method="post" action="include.php?path=content/news.php&catid=&entries=12&PHPKITSID=d8076430c4d7262fb4a8949f997d602f"><input type="hidden" name="PHPKITSID" value="a16bc1a4a9f6b7faaa7b6a71d1bd0e7a" />
+ <tr>
+  <td align="center" nowrap>
+	<select name="calender_month" class="small" size="1">
+	<option value="1" selected>Januar</option><option value="2">Februar</option><option value="3">M&auml;rz</option><option value="4">April</option><option value="5">Mai</option><option value="6">Juni</option><option value="7">Juli</option><option value="8">August</option><option value="9">September</option><option value="10">Oktober</option><option value="11">November</option><option value="12">Dezember</option>
+	</select>
+	<select name="calender_year" class="small" size="1">
+	<option value="2006" selected>2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option>
+	</select> </td>
+ </tr>
+</table>
+<table class="standard" cellspacing="1" cellpadding="0" width="100%">
+ <tr>
+  <th class="highlight" width="14%">M</th>
+  <th class="highlight" width="14%">D</th>
+  <th class="highlight" width="14%">M</th>
+  <th class="highlight" width="14%">D</th>
+  <th class="highlight" width="14%">F</th>
+  <th class="highlight" width="15%">S</th>
+  <th class="highlight" width="15%">S</th>
+ </tr>
+	 </tr>
+ <tr>  <td class="left" colspan="6"><font class="small">&nbsp;</font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=1&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">1</a></font></td> </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=2&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">2</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=3&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">3</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=4&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">4</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=5&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">5</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=6&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">6</a></font></td>  <td class="left" align="right" valign="top" style="border: solid #C0C000 1px; background: #800000;">
+	<font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=7&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">7</a></font></td>
+  <td class="right" align="right" valign="top" style="border: solid #C0C000 1px;">
+	<font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=8&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">8</a></font></td>
+ </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=9&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">9</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=10&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">10</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=11&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">11</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=12&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">12</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=13&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">13</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=14&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">14</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=15&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">15</a></font></td> </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=16&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">16</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=17&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">17</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=18&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">18</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=19&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">19</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=20&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">20</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=21&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">21</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=22&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">22</a></font></td> </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=23&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">23</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=24&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">24</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=25&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">25</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=26&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">26</a></font></td>  <td class="right" align="right" valign="top" style="border: solid #C0C000 1px;">
+	<font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=27&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">27</a></font></td>
+  <td class="right" align="right" valign="top" style="border: solid #C0C000 1px;">
+	<font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=28&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">28</a></font></td>
+  <td class="right" align="right" valign="top" style="border: solid #C0C000 1px;">
+	<font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=29&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">29</a></font></td>
+ </tr>
+ <tr>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=30&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">30</a></font></td>  <td class="right" align="right" valign="top"><font class="small"><a style="text-decoration:none" href="include.php?path=termine/event_day.php&day=31&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">31</a></font></td>  <td class="left" colspan="5"><font class="small">&nbsp;</font></td>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+ <tr>
+  <td width="25%" align="left">&nbsp;</td>
+  <td width="50%" align="center">
+	<input type="submit" name="action" value="Auswahl" class="small" /></td>
+  <td width="25%" align="right">&nbsp;<input type="submit" name="nextCalender" class="small" value="&nbsp;&gt;&nbsp;" /></td>
+ </tr>
+ </form>	
+<form method="post" action="include.php?path=termine/event_all.php&rep=alle"><input type="hidden" name="PHPKITSID" value="a16bc1a4a9f6b7faaa7b6a71d1bd0e7a" />
+ <tr>
+  <td width="25%" align="left"></td>
+  <td width="50%" align="center"><input type="submit" name="action" value="alle Termine" class="small" /></td>
+  <td width="25%" align="right"></td>
+ </tr>
+</form>
+</table></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableright" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadright">Status</td>
+ </tr>
+ <tr>
+  <td class="navbgright"><font class="small">292 registrierte Benutzer.<br />
+Online: 2 G&auml;ste</font></td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="1" cellpadding="0">
+ <tr>
+  <td colspan="3">Besucher</td>
+ </tr>
+ <tr>
+  <td><font class="small">heute:</font></td>
+  <td>&nbsp;</td>
+  <td align="right"><font class="small">12</font></td>
+ </tr>
+ <tr>
+  <td><font class="small">gestern:</font></td>
+  <td>&nbsp;</td>
+  <td align="right"><font class="small">34</font></td>
+ </tr>
+ <tr>
+  <td><font class="small">gesamt:</font></td>
+  <td>&nbsp;</td>
+  <td align="right"><font class="small">30942</font></td>
+ </tr>
+</table></td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableright" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadright">Zuletzt online</td>
+ </tr>
+ <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=22&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Chelest</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=271&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Wake</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=1&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Jemihi</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=137&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Osran</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=8&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Adrogord</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=232&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Fraba</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=85&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Karsak</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=20&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Mia</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=167&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Cleilia</a></td>
+ </tr>
+</table>
+</td>
+ </tr> <tr>
+  <td class="navbgright"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td><img border="0" alt="offline" src="images/offline.gif" /></td>
+  <td>&nbsp;</td>
+  <td width="100%"><a class="navright" href="include.php?path=login/userinfo.php&id=13&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Jive</a></td>
+ </tr>
+</table>
+</td>
+ </tr>
+</table><table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img border="0" width="1" height="5" alt="" src="images/blank.gif"></td>
+ </tr>
+</table><table class="navtableright" border="0" cellspacing="1" cellpadding="2" width="100%">
+ <tr>
+  <td class="navheadright">Eure Meinung</td>
+ </tr>
+ <tr>
+  <td class="navbgright"><table border=0 cellspacing=2 cellpadding=0 width="100%">
+ <tr>	
+  <td align=center><font class=small>Zur Zeit sind leider keine Umfragen aktiv.<br />
+	<br /><a href="include.php?path=vote/archiv.php&PHPKITSID=a16bc1a4a9f6b7faaa7b6a71d1bd0e7a">Archiv</a></font></td>
+ </tr>
+</table></td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td valign="top"><img border="0" alt="0" height="4" width="1" src="images/blank.gif" /></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table></td>
+	 </tr>
+	 <tr>
+	  <td align="center" valign="top"></td>
+	 </tr>
+	 <tr>
+	  <td align="center" valign="top"><br />
+<table class="standard" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td class="designbodyfoot">
+	<table border="0" cellspacing="1" cellpadding="2" width="100%">
+	 <tr>
+	  <td class="heads" align="center">Lords of Entropy &copy 2006</td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table>
+<div align="right"><font class="bgsmall">Seite in 1.47943 sec generiert</font></div><br/><div style="text-align:center;"><br/><p><a href="http://external.phpkit.de/incoming/copyright" target="_blank" style="font-family:verdana;font-size:11px;text-decoration:none;">Diese Webseite wurde mit PHPKIT Version 1.6.1 erstellt<br/>PHPKIT ist eine eingetragene Marke der Gers&ouml;ne & Schott GbR - Copyright © 2002-2004</a></p><p>&#160;</p></div></td>
+	 </tr>
+	</table>
+  </td>
+ </tr>
+</table>
+
+</body>
+
+
+</html>

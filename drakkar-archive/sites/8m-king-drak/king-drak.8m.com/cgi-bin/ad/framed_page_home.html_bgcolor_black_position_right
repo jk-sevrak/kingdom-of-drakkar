@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <title>Advertisement</title>
+    </head>
+    <base target=_blank>
+    <body bgcolor="#FFFFFF" >
+    <div align=center>
+        <div id='TopWrap' style="width:728px;height:90px"></div>
+<div id='Frame1Wrap' style="width:1px;height:1px"></div>
+  
+    <script type="text/javascript" src="//static.uolcontent.com/js_api/as-1.0.1.min.js"></script>
+    <script>
+        var myasInfo = {
+          adSettings : {
+              'Frame1': {width:1, height:1},
+'Top': {width:728, height:90},
+'x01': {width:300, height:250}
+          },
+          phInfo : {
+                host : "phoenix.untd.com",
+                site : "webservices",
+          },
+          adPage : "/fs_img/blankPhnx-1.0.1.min.html"
+         };
+
+        window.top.__as.init(myasInfo);
+        window.top.__as.get("general", ["Top","Frame1"]);
+    </script>
+
+    </div>
+    </body>
+    </html>
+  <script><!--
+    top.awsad_loaded = true;
+  //--></script>
+  

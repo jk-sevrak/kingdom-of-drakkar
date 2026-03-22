@@ -1,0 +1,114 @@
+<html>
+<head>
+	<title>Mitgliederkarte</title>
+	<script language="Javascript" type="text/javascript">
+	<!--
+		function changeStatusBar(text){
+			window.status=text;
+			return true;
+		}
+		
+		function hide(){
+			document.getElementById('fenster').style.visibility='hidden';
+		}
+			
+		function makeVisible(e){
+			if(navigator.appName=="Netscape"){
+				X=e.pageX;
+				Y=e.pageY;
+			}else{
+				X=window.event.clientX+document.body.scrollLeft;
+				Y=window.event.clientY+document.body.scrollTop;
+			}
+			X+=20;
+			Y-=20;
+			document.getElementById("fenster").style.top=Y;
+			document.getElementById("fenster").style.left=X;
+			document.getElementById("fenster").style.visibility="visible";
+		}
+	-->
+	</script>
+	<style type="text/css">
+		a.close {color:#FFFFFF; font-weight:bold;  text-decoration:none;}
+		a.close:visited {color:#FFFFFF; font-weight:bold; text-decoration:none;}
+		body{background: url('../images/celtback.jpg') fixed;}
+		img{border:none;}
+		#fenster{position:absolute; top:0px; left:0px; border: none; visibility:hidden;}
+		#profiles{height:100px; width:100px; border:none; padding:0px; margin:0px;}
+		.verdana{font-family:Verdana,sans-serif; font-size:12px;}
+	</style>	
+</head>
+<body>
+<div class="verdana">
+<b style="font-size:130%">Mitgliederkarte</b><br>
+Wer in seinem Profil seine Postleitzahl eingegeben hat (egal ob mit Stadt oder ohne) erscheint<br>
+automatisch in dieser Usermap.
+<hr width="75%">
+<form name="Suche" action="usermap.php" method="get" style="text-align:center"><input type="hidden" name="PHPSESSID" value="ec7f51a6199cb11f98f11918f63a2f65" />
+Suche nach: <input class="verdana" type=text name="usernames" value=""><input class="verdana" type="submit" name="Suchen" value="Suchen"><br>
+(Es können mehrere Benutzernamen durch komma getrennt angegeben werden, z.B. user_1,user_2,...)
+</form>
+</div>
+	<img src="karte.php?PHPSESSID=ec7f51a6199cb11f98f11918f63a2f65" usemap="#map">
+	<map name="map">
+<area shape="circle" coords="670,475,4" href="viewusers.php?names=164:Bronc" alt="Bronc" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Bronc');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="636,540,4" href="viewusers.php?names=51:Crilawin" alt="Crilawin" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Crilawin');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="568,494,4" href="viewusers.php?names=125:mohese,160:junon" alt="mohese,junon" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('mohese,junon');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="555,500,4" href="viewusers.php?names=131:Bummelletste" alt="Bummelletste" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Bummelletste');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="503,163,4" href="viewusers.php?names=172:Nympfe" alt="Nympfe" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Nympfe');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="491,915,4" href="viewusers.php?names=226:Kima" alt="Kima" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Kima');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="474,915,4" href="viewusers.php?names=216:Bomfur" alt="Bomfur" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Bomfur');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="466,955,4" href="viewusers.php?names=8:nydoec" alt="nydoec" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('nydoec');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="387,769,4" href="viewusers.php?names=212:Darunija" alt="Darunija" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Darunija');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="384,387,4" href="viewusers.php?names=4:Skoll,20:Mia,1:Jemihi,15:Lawless,2:Palladium,13:Jive" alt="Skoll,Mia,Jemihi,Lawless,Palladium,Jive" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Skoll,Mia,Jemihi,Lawless,Palladium,Jive');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="374,766,4" href="viewusers.php?names=155:Gast,22:Chelest,137:Osran" alt="Gast,Chelest,Osran" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Gast,Chelest,Osran');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="359,949,4" href="viewusers.php?names=14:Hegi" alt="Hegi" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Hegi');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="353,354,4" href="viewusers.php?names=130:Kerrigon,126:Lyx" alt="Kerrigon,Lyx" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Kerrigon,Lyx');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="348,343,4" href="viewusers.php?names=118:shannalia,108:Puenktchen" alt="shannalia,Puenktchen" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('shannalia,Puenktchen');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="342,873,4" href="viewusers.php?names=7:Quilly" alt="Quilly" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Quilly');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="342,226,4" href="viewusers.php?names=79:Forget" alt="Forget" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Forget');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="336,480,4" href="viewusers.php?names=95:Donnerstag" alt="Donnerstag" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Donnerstag');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="296,520,4" href="viewusers.php?names=26:Gohr" alt="Gohr" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Gohr');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="277,827,4" href="viewusers.php?names=251:Kharagh" alt="Kharagh" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Kharagh');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="268,205,4" href="viewusers.php?names=121:ille" alt="ille" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('ille');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="250,646,4" href="viewusers.php?names=38:daniello" alt="daniello" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('daniello');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="241,635,4" href="viewusers.php?names=136:Silly" alt="Silly" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Silly');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="238,658,4" href="viewusers.php?names=222:cusac,151:Ocondra,12:dalida,257:Walkurion,221:Honigbleute,243:stoffy" alt="cusac,Ocondra,dalida,Walkurion,Honigbleute,stoffy" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('cusac,Ocondra,dalida,Walkurion,Honigbleute,stoffy');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="226,781,4" href="viewusers.php?names=214:Dornwolf" alt="Dornwolf" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Dornwolf');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="219,737,4" href="viewusers.php?names=285:Wotans" alt="Wotans" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Wotans');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="209,442,4" href="viewusers.php?names=173:Inoeth" alt="Inoeth" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Inoeth');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="204,829,4" href="viewusers.php?names=167:Cleilia" alt="Cleilia" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Cleilia');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="183,371,4" href="viewusers.php?names=224:Orochimaru" alt="Orochimaru" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Orochimaru');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="173,923,4" href="viewusers.php?names=5:Arnfiodoll" alt="Arnfiodoll" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Arnfiodoll');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="143,503,4" href="viewusers.php?names=288:Shorty" alt="Shorty" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Shorty');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="131,477,4" href="viewusers.php?names=25:Hunty" alt="Hunty" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Hunty');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="128,574,4" href="viewusers.php?names=23:Ashrak,47:ashgaladh,170:stampfi,104:Honigmaja,16:boradil" alt="Ashrak,ashgaladh,stampfi,Honigmaja,boradil" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Ashrak,ashgaladh,stampfi,Honigmaja,boradil');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="123,486,4" href="viewusers.php?names=9:Minor" alt="Minor" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Minor');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="115,762,4" href="viewusers.php?names=21:Enkel" alt="Enkel" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Enkel');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="114,733,4" href="viewusers.php?names=48:Sirathor" alt="Sirathor" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Sirathor');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="114,580,4" href="viewusers.php?names=209:Uthuk" alt="Uthuk" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Uthuk');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="93,534,4" href="viewusers.php?names=3:Bardit" alt="Bardit" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Bardit');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="79,597,4" href="viewusers.php?names=162:Ultrog" alt="Ultrog" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Ultrog');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="79,490,4" href="viewusers.php?names=18:FuKsz" alt="FuKsz" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('FuKsz');" onmouseout="return changeStatusBar('');" >
+<area shape="circle" coords="38,570,4" href="viewusers.php?names=275:Ami" alt="Ami" target="profiles"onclick="(navigator.appName=='Netscape')? makeVisible(event) : makeVisible();" onmouseover="return changeStatusBar('Ami');" onmouseout="return changeStatusBar('');" >
+</map>
+	<div class="verdana" style="text-align:right; font-size:10px">
+		Es werden 59 Mitglieder angezeigt<br>
+		Karte erstellt in 0.351 Sekunden
+	</div>
+	<div id="fenster">
+		<table style="spacing:0px; border:solid black 1px; margin:0px; border-collapse:collapse;">
+			<tr>
+				<td style="text-align:right; border:none; background: url('title.gif')">
+					<a class="verdana close" href="Javascript:hide()">X</a>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding:0px; margin:0px;">
+					<iframe frameborder=0 id="profiles" src="viewusers.php" name="profiles">
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

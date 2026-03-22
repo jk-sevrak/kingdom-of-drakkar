@@ -1,0 +1,4 @@
+19970809071000 http://www.csoon.com:80/issue27/e3.htm text/html 200
+19970809071022 http://www.csoon.com:80/issue27/e3_2.htm text/html 200
+19970811210739 http://www.csoon.com:80/issue27/e3_3.htm text/html 200
+19970811210800 http://www.csoon.com:80/issue27/e3_4.htm text/html 200

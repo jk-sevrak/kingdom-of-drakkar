@@ -1,0 +1,513 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<link rel="top" href="./index.php?sid=46ed53b52c5666addef050b3cc7d7cf5" title="Taverne Foren-Übersicht" />
+<link rel="search" href="./search.php?sid=46ed53b52c5666addef050b3cc7d7cf5" title="Suchen" />
+<link rel="help" href="./faq.php?sid=46ed53b52c5666addef050b3cc7d7cf5" title="FAQ" />
+<link rel="author" href="./memberlist.php?sid=46ed53b52c5666addef050b3cc7d7cf5" title="Mitgliederliste" />
+<link rel="up" href="index.php?sid=46ed53b52c5666addef050b3cc7d7cf5" title="Taverne Foren-Übersicht" />
+
+<title>Taverne :: Forum anzeigen - Schankraum</title>
+<!-- link rel="stylesheet" href="templates/subSilver/subSilver.css" type="text/css" -->
+<style type="text/css">
+<!--
+/*
+  The original subSilver Theme for phpBB version 2+
+  Created by subBlue design
+  http://www.subBlue.com
+
+  NOTE: These CSS definitions are stored within the main page body so that you can use the phpBB2
+  theme administration centre. When you have finalised your style you could cut the final CSS code
+  and place it in an external file, deleting this section to save bandwidth.
+*/
+
+/* General page style. The scroll bar colours only visible in IE5.5+ */
+body {
+	background-color: #c0c0c0;
+	scrollbar-face-color: #707DB2;
+	scrollbar-highlight-color: #284169;
+	scrollbar-shadow-color: #707DB2;
+	scrollbar-3dlight-color: #838AC0;
+	scrollbar-arrow-color:  #e0bd57;
+	scrollbar-track-color: #374c85;
+	scrollbar-darkshadow-color: #98AAB1;
+}
+
+/* General font families for common tags */
+font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
+a:link,a:active,a:visited { color : #e0bd57; }
+a:hover		{ text-decoration: underline; color : #DD6900; }
+hr	{ height: 0px; border: solid #838AC0 0px; border-top-width: 1px;}
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ background-color: #284169; border: 1px #98AAB1 solid; }
+
+/* This is the outline round the main forum tables */
+.forumline	{ background-color: #284169; border: 2px #006699 solid; }
+
+/* Main table cell colours and backgrounds */
+td.row1	{ background-color: #374c85; }
+td.row2	{ background-color: #707DB2; }
+td.row3	{ background-color: #838AC0; }
+
+/*
+  This is for the table cell above the Topics, Post & Last posts on the index.php page
+  By default this is the fading out gradiated silver background.
+  However, you could replace this with a bitmap specific for each forum
+*/
+td.rowpic {
+		background-color: #284169;
+		background-image: url(templates/subSilver/images/cellpic2.jpg);
+		background-repeat: repeat-y;
+}
+
+/* Header cells - the blue and silver gradient backgrounds */
+th	{
+	color: #e54c01; font-size: 11px; font-weight : bold;
+	background-color: #e0bd57; height: 25px;
+	background-image: url(templates/subSilver/images/cellpic3.gif);
+}
+
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+			background-image: url(templates/subSilver/images/cellpic1.gif);
+			background-color:#838AC0; border: #384d86; border-style: solid; height: 28px;
+}
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+td.cat,td.catHead,td.catBottom {
+	height: 29px;
+	border-width: 0px 0px 0px 0px;
+}
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+	font-weight: bold; border: #284169; border-style: solid; height: 28px;
+}
+td.row3Right,td.spaceRow {
+	background-color: #838AC0; border: #384d86; border-style: solid;
+}
+
+th.thHead,td.catHead { font-size: 12px; border-width: 1px 1px 0px 1px; }
+th.thSides,td.catSides,td.spaceRow	 { border-width: 0px 1px 0px 1px; }
+th.thRight,td.catRight,td.row3Right	 { border-width: 0px 1px 0px 0px; }
+th.thLeft,td.catLeft	  { border-width: 0px 0px 0px 1px; }
+th.thBottom,td.catBottom  { border-width: 0px 1px 1px 1px; }
+th.thTop	 { border-width: 1px 0px 0px 0px; }
+th.thCornerL { border-width: 1px 0px 0px 1px; }
+th.thCornerR { border-width: 1px 1px 0px 0px; }
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle	{
+	font-weight: bold; font-size: 22px; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none; line-height : 120%; color : #000000;
+}
+
+/* General text */
+.gen { font-size : 12px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #000000; }
+a.gen,a.genmed,a.gensmall { color: #e0bd57; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #DD6900; text-decoration: underline; }
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #000000 }
+a.mainmenu		{ text-decoration: none; color : #e0bd57;  }
+a.mainmenu:hover{ text-decoration: underline; color : #DD6900; }
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 12px ; letter-spacing: 1px; color : #e0bd57}
+a.cattitle		{ text-decoration: none; color : #e0bd57; }
+a.cattitle:hover{ text-decoration: underline; }
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 12px; color : #e0bd57; }
+a.forumlink 	{ text-decoration: none; color : #e0bd57; }
+a.forumlink:hover{ text-decoration: underline; color : #DD6900; }
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #000000;}
+a.nav			{ text-decoration: none; color : #e0bd57; }
+a.nav:hover		{ text-decoration: underline; }
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle,h1,h2	{ font-weight: bold; font-size: 11px; color : #000000; }
+a.topictitle:link   { text-decoration: none; color : #e0bd57; }
+a.topictitle:visited { text-decoration: none; color : #5493B4; }
+a.topictitle:hover	{ text-decoration: underline; color : #DD6900; }
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #000000;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #000000; }
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 12px; line-height: 18px}
+a.postlink:link	{ text-decoration: none; color : #e0bd57 }
+a.postlink:visited { text-decoration: none; color : #5493B4; }
+a.postlink:hover { text-decoration: underline; color : #DD6900}
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #006600;
+	background-color: #FAFAFA; border: #838AC0; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #707070; line-height: 125%;
+	background-color: #FAFAFA; border: #838AC0; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #707070; letter-spacing: -1px;}
+a.copyright		{ color: #707070; text-decoration: none;}
+a.copyright:hover { color: #000000; text-decoration: underline;}
+
+/* Form elements */
+input,textarea, select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border-color : #000000;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #284169;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	background-color : #374c85;
+	color : #000000;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* The main submit button option */
+input.mainoption {
+	background-color : #FAFAFA;
+	font-weight : bold;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	background-color : #FAFAFA;
+	font-weight : normal;
+}
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline { background-color: #707DB2; border-style: none; }
+
+/* Import the fancy styles for IE only (NS4.x doesn't use the @import function) */
+@import url("templates/subSilver/formIE.css");
+-->
+</style>
+</head>
+<body bgcolor="#c0c0c0" text="#000000" link="#e0bd57" vlink="#5493B4">
+
+<a name="top"></a>
+
+<table width="950" cellspacing="0" cellpadding="10" border="0" align="center">
+	<tr>
+		<td class="bodyline"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td><a href="index.php?sid=46ed53b52c5666addef050b3cc7d7cf5"><img src="templates/subSilver/images/logo_phpBB.gif" border="0" alt="Taverne Foren-Übersicht" vspace="1" /></a></td>
+				<td align="center" width="100%" valign="middle"><span class="maintitle">Taverne</span><br /><span class="gen">der Lords of Entropy<br />&nbsp; </span>
+				<table cellspacing="0" cellpadding="2" border="0">
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="faq.php?sid=46ed53b52c5666addef050b3cc7d7cf5" class="mainmenu"><img src="templates/subSilver/images/icon_mini_faq.gif" width="12" height="13" border="0" alt="FAQ" hspace="3" />FAQ</a>&nbsp; &nbsp;<a href="search.php?sid=46ed53b52c5666addef050b3cc7d7cf5" class="mainmenu"><img src="templates/subSilver/images/icon_mini_search.gif" width="12" height="13" border="0" alt="Suchen" hspace="3" />Suchen</a>&nbsp; &nbsp;<a href="memberlist.php?sid=46ed53b52c5666addef050b3cc7d7cf5" class="mainmenu"><img src="templates/subSilver/images/icon_mini_members.gif" width="12" height="13" border="0" alt="Mitgliederliste" hspace="3" />Mitgliederliste</a>&nbsp; &nbsp;<a href="groupcp.php?sid=46ed53b52c5666addef050b3cc7d7cf5" class="mainmenu"><img src="templates/subSilver/images/icon_mini_groups.gif" width="12" height="13" border="0" alt="Benutzergruppen" hspace="3" />Benutzergruppen</a>&nbsp;
+						&nbsp;<a href="profile.php?mode=register&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="mainmenu"><img src="templates/subSilver/images/icon_mini_register.gif" width="12" height="13" border="0" alt="Registrieren" hspace="3" />Registrieren</a>&nbsp;
+						</span></td>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="profile.php?mode=editprofile&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="mainmenu"><img src="templates/subSilver/images/icon_mini_profile.gif" width="12" height="13" border="0" alt="Profil" hspace="3" />Profil</a>&nbsp; &nbsp;<a href="privmsg.php?folder=inbox&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="mainmenu"><img src="templates/subSilver/images/icon_mini_message.gif" width="12" height="13" border="0" alt="Einloggen, um private Nachrichten zu lesen" hspace="3" />Einloggen, um private Nachrichten zu lesen</a>&nbsp; &nbsp;<a href="login.php?sid=46ed53b52c5666addef050b3cc7d7cf5" class="mainmenu"><img src="templates/subSilver/images/icon_mini_login.gif" width="12" height="13" border="0" alt="Login" hspace="3" />Login</a>&nbsp;</span></td>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="http://killboard.lords-of-entropy.de" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Lords of Entropy-Killboard</a>
+						<span class="mainmenu">&nbsp;<a href="http://vega-home.de/KB/" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Allianz-Killboard</a>
+					</tr>
+					<tr>
+						<td height="25" align="center" valign="top" nowrap="nowrap"><span class="mainmenu">&nbsp;<a href="http://www.lords-of-entropy.de/sepp-index.php" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />SEPP Schiffsversicherung für LoE</a>
+						<span class="mainmenu">&nbsp;<a href="http://vega-home.de/wbblite/" class="mainmenu"><img src="templates/subSilver/images/icon_mini_ext_link.gif" width="12" height="13" border="0" hspace="3" />Allianz-Forum</a>
+					</tr>
+				</table></td>
+			</tr>
+		</table>
+
+		<br />
+
+
+<form method="post" action="viewforum.php?f=1&amp;start=0&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">
+  <table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+	<tr>
+	  <td align="left" valign="bottom" colspan="2"><a class="maintitle" href="viewforum.php?f=1&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Schankraum</a><br /><span class="gensmall"><b><b>Moderator</b>: <a href="groupcp.php?g=4&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Highlords und andere Offiziere</a><br /><br />Benutzer in diesem Forum: Keine</b></span></td>
+	  <td align="right" valign="bottom" nowrap="nowrap"><span class="gensmall"><b>Gehe zu Seite <b>1</b>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=15&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">2</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=30&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">3</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=45&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">4</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=60&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">5</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=75&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">6</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=90&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">7</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=105&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">8</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=120&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">9</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=135&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">10</a>&nbsp;&nbsp;<a href="viewforum.php?f=1&amp;topicdays=0&amp;start=15&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Weiter</a></b></span></td>
+	</tr>
+	<tr>
+	  <td align="left" valign="middle" width="50"><a href="posting.php?mode=newtopic&amp;f=1&amp;sid=46ed53b52c5666addef050b3cc7d7cf5"><img src="templates/subSilver/images/lang_german/post.gif" border="0" alt="Neues Thema eröffnen" /></a></td>
+	  <td align="left" valign="middle" class="nav" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="index.php?sid=46ed53b52c5666addef050b3cc7d7cf5" class="nav">Taverne Foren-Übersicht</a> -> <a class="nav" href="viewforum.php?f=1&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Schankraum</a></span></td>
+	  <td align="right" valign="bottom" class="nav" nowrap="nowrap"><span class="gensmall"><a href="viewforum.php?f=1&amp;mark=topics&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Alle Themen als gelesen markieren</a></span></td>
+	</tr>
+  </table>
+
+  <table border="0" cellpadding="4" cellspacing="1" width="100%" class="forumline">
+	<tr>
+	  <th colspan="2" align="center" height="25" class="thCornerL" nowrap="nowrap">&nbsp;Themen&nbsp;</th>
+	  <th width="50" align="center" class="thTop" nowrap="nowrap">&nbsp;Antworten&nbsp;</th>
+	  <th width="100" align="center" class="thTop" nowrap="nowrap">&nbsp;Autor&nbsp;</th>
+	  <th width="50" align="center" class="thTop" nowrap="nowrap">&nbsp;Aufrufe&nbsp;</th>
+	  <th align="center" class="thCornerR" nowrap="nowrap">&nbsp;Letzter&nbsp;Beitrag&nbsp;</th>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder_announce.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><b>Ankündigungen:</b> <a href="viewtopic.php?t=25&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Anmeldung im Forum</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">3</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Jemihi</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">3684</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Mo, 13.10.2008 10:37<br /><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Jemihi</a> <a href="viewtopic.php?p=1447&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#1447"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder_announce.gif" width="19" height="18" alt="Dieses Thema ist gesperrt, du kannst keine Beiträge editieren oder beantworten." title="Dieses Thema ist gesperrt, du kannst keine Beiträge editieren oder beantworten." /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><b>Ankündigungen:</b> <a href="viewtopic.php?t=191&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Server in Warhammer Online</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">0</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Jemihi</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">1989</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Mo, 15.09.2008 14:40<br /><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Jemihi</a> <a href="viewtopic.php?p=1379&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#1379"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder_sticky.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><b>Wichtig:</b> <a href="viewtopic.php?t=100&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Ventrilo Download</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">0</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Jemihi</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">2705</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Fr, 24.08.2007 21:32<br /><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Jemihi</a> <a href="viewtopic.php?p=679&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#679"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1082&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Emails verschlüsseln</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">0</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Jemihi</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">112</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">So, 11.08.2013 00:53<br /><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Jemihi</a> <a href="viewtopic.php?p=5542&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5542"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1081&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Wieder auferstanden!</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">0</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=404&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Horny</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">124</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Mi, 31.07.2013 01:00<br /><a href="profile.php?mode=viewprofile&amp;u=404&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Horny</a> <a href="viewtopic.php?p=5541&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5541"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1079&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">League of Legends Free Game</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">0</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=399&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Merciu Baele</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">223</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Sa, 06.07.2013 11:36<br /><a href="profile.php?mode=viewprofile&amp;u=399&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Merciu Baele</a> <a href="viewtopic.php?p=5534&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5534"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1058&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Hemden</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">6</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=483&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Lukas</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">1042</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Fr, 17.05.2013 14:53<br /><a href="profile.php?mode=viewprofile&amp;u=371&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Belinya</a> <a href="viewtopic.php?p=5531&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5531"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder_hot.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1072&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Camelot Unchained Mark Jacobs</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">14</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=10&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Osran</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">982</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Sa, 11.05.2013 11:38<br /><a href="profile.php?mode=viewprofile&amp;u=10&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Osran</a> <a href="viewtopic.php?p=5529&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5529"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1070&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Einschlafen</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">0</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=373&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Antonie Ibaka</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">359</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Di, 29.01.2013 22:22<br /><a href="profile.php?mode=viewprofile&amp;u=373&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Antonie Ibaka</a> <a href="viewtopic.php?p=5498&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5498"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1066&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Tennis</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">3</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=483&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Lukas</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">443</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">So, 20.01.2013 20:44<br /><a href="profile.php?mode=viewprofile&amp;u=297&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Wutzel</a> <a href="viewtopic.php?p=5476&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5476"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1064&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">LoL Bots Kill Runde</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">1</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=315&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">TranJo Chan</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">518</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Mo, 03.12.2012 20:18<br /><a href="profile.php?mode=viewprofile&amp;u=399&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Merciu Baele</a> <a href="viewtopic.php?p=5457&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5457"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1063&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Elder Scrolls Online</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">6</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=17&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Gastt</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">853</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Di, 20.11.2012 22:50<br /><a href="profile.php?mode=viewprofile&amp;u=10&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Osran</a> <a href="viewtopic.php?p=5455&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5455"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1054&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Eure Zockerecke</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">2</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=483&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Lukas</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">628</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Di, 30.10.2012 10:40<br /><a href="profile.php?mode=viewprofile&amp;u=483&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Lukas</a> <a href="viewtopic.php?p=5434&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5434"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1055&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Möp</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">8</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=236&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Mikhal</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">995</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Mi, 24.10.2012 16:56<br /><a href="profile.php?mode=viewprofile&amp;u=236&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Mikhal</a> <a href="viewtopic.php?p=5425&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5425"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1053&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Termine LoL Team EB1000</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">8</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=399&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Merciu Baele</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">1195</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Do, 18.10.2012 16:06<br /><a href="profile.php?mode=viewprofile&amp;u=495&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">HAWX</a> <a href="viewtopic.php?p=5414&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5414"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder_hot.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1025&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Guild Wars 2</a></span><span class="gensmall"><br />
+		 [ <img src="templates/subSilver/images/icon_minipost.gif" alt="Gehe zu Seite" title="Gehe zu Seite" />Gehe zu Seite: <a href="viewtopic.php?t=1025&amp;start=0&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">1</a>, <a href="viewtopic.php?t=1025&amp;start=15&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">2</a> ] </span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">16</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=297&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Wutzel</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">2656</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Mi, 17.10.2012 15:00<br /><a href="profile.php?mode=viewprofile&amp;u=483&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Lukas</a> <a href="viewtopic.php?p=5409&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5409"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="row1" align="center" valign="middle" width="20"><img src="templates/subSilver/images/folder.gif" width="19" height="18" alt="Keine neuen Beiträge" title="Keine neuen Beiträge" /></td>
+	  <td class="row1" width="100%"><span class="topictitle"><a href="viewtopic.php?t=1052&amp;sid=46ed53b52c5666addef050b3cc7d7cf5" class="topictitle">Immer diese Toner</a></span><span class="gensmall"><br />
+		</span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">2</span></td>
+	  <td class="row3" align="center" valign="middle"><span class="name"><a href="profile.php?mode=viewprofile&amp;u=483&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Lukas</a></span></td>
+	  <td class="row2" align="center" valign="middle"><span class="postdetails">659</span></td>
+	  <td class="row3Right" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">Mi, 17.10.2012 14:59<br /><a href="profile.php?mode=viewprofile&amp;u=483&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Lukas</a> <a href="viewtopic.php?p=5408&amp;sid=46ed53b52c5666addef050b3cc7d7cf5#5408"><img src="templates/subSilver/images/icon_latest_reply.gif" alt="Letzten Beitrag anzeigen" title="Letzten Beitrag anzeigen" border="0" /></a></span></td>
+	</tr>
+	<tr>
+	  <td class="catBottom" align="center" valign="middle" colspan="6" height="28"><span class="genmed">Siehe Beiträge der letzten:&nbsp;<select name="topicdays"><option value="0" selected="selected">Alle Themen anzeigen</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="364">1 Jahr</option></select>&nbsp;
+		<input type="submit" class="liteoption" value="Los" name="submit" />
+		</span></td>
+	</tr>
+  </table>
+
+  <table width="100%" cellspacing="2" border="0" align="center" cellpadding="2">
+	<tr>
+	  <td align="left" valign="middle" width="50"><a href="posting.php?mode=newtopic&amp;f=1&amp;sid=46ed53b52c5666addef050b3cc7d7cf5"><img src="templates/subSilver/images/lang_german/post.gif" border="0" alt="Neues Thema eröffnen" /></a></td>
+	  <td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="index.php?sid=46ed53b52c5666addef050b3cc7d7cf5" class="nav">Taverne Foren-Übersicht</a> -> <a class="nav" href="viewforum.php?f=1&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Schankraum</a></span></td>
+	  <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall">Alle Zeiten sind GMT + 2 Stunden</span><br /><span class="nav">Gehe zu Seite <b>1</b>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=15&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">2</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=30&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">3</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=45&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">4</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=60&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">5</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=75&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">6</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=90&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">7</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=105&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">8</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=120&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">9</a>, <a href="viewforum.php?f=1&amp;topicdays=0&amp;start=135&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">10</a>&nbsp;&nbsp;<a href="viewforum.php?f=1&amp;topicdays=0&amp;start=15&amp;sid=46ed53b52c5666addef050b3cc7d7cf5">Weiter</a></span>
+		</td>
+	</tr>
+	<tr>
+	  <td align="left" colspan="3"><span class="nav">Seite <b>1</b> von <b>10</b></span></td>
+	</tr>
+  </table>
+</form>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td align="right">
+<form method="get" name="jumpbox" action="viewforum.php?sid=46ed53b52c5666addef050b3cc7d7cf5" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Forum auswählen</option><option value="-1">&nbsp;</option><option value="-1">Taverne zum stinkenden Karl_nai</option><option value="-1">----------------</option><option value="1">Schankraum</option><option value="-1">&nbsp;</option><option value="-1">EVE Observatorium</option><option value="-1">----------------</option><option value="19">Pausenraum</option></select><input type="hidden" name="sid" value="46ed53b52c5666addef050b3cc7d7cf5" />&nbsp;<input type="submit" value="Los" class="liteoption" /></span></td>
+	</tr>
+</table></form>
+
+</td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="0" border="0" align="center" cellpadding="0">
+	<tr>
+		<td align="left" valign="top"><table cellspacing="3" cellpadding="0" border="0">
+			<tr>
+				<td width="20" align="left"><img src="templates/subSilver/images/folder_new.gif" alt="Neue Beiträge" width="19" height="18" /></td>
+				<td class="gensmall">Neue Beiträge</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" align="center"><img src="templates/subSilver/images/folder.gif" alt="Keine neuen Beiträge" width="19" height="18" /></td>
+				<td class="gensmall">Keine neuen Beiträge</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" align="center"><img src="templates/subSilver/images/folder_announce.gif" alt="Ankündigung" width="19" height="18" /></td>
+				<td class="gensmall">Ankündigung</td>
+			</tr>
+			<tr>
+				<td width="20" align="center"><img src="templates/subSilver/images/folder_new_hot.gif" alt="Neue Beiträge [ Top-Thema ]" width="19" height="18" /></td>
+				<td class="gensmall">Neue Beiträge [ Top-Thema ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" align="center"><img src="templates/subSilver/images/folder_hot.gif" alt="Keine neuen Beiträge [ Top-Thema ]" width="19" height="18" /></td>
+				<td class="gensmall">Keine neuen Beiträge [ Top-Thema ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" align="center"><img src="templates/subSilver/images/folder_sticky.gif" alt="Wichtig" width="19" height="18" /></td>
+				<td class="gensmall">Wichtig</td>
+			</tr>
+			<tr>
+				<td class="gensmall"><img src="templates/subSilver/images/folder_lock_new.gif" alt="Neue Beiträge [ Gesperrt ]" width="19" height="18" /></td>
+				<td class="gensmall">Neue Beiträge [ Gesperrt ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td class="gensmall"><img src="templates/subSilver/images/folder_lock.gif" alt="Keine neuen Beiträge [ Gesperrt ]" width="19" height="18" /></td>
+				<td class="gensmall">Keine neuen Beiträge [ Gesperrt ]</td>
+			</tr>
+		</table></td>
+		<td align="right"><span class="gensmall">Du <b>kannst keine</b> Beiträge in dieses Forum schreiben.<br />Du <b>kannst</b> auf Beiträge in diesem Forum <b>nicht</b> antworten.<br />Du <b>kannst</b> deine Beiträge in diesem Forum <b>nicht</b> bearbeiten.<br />Du <b>kannst</b> deine Beiträge in diesem Forum <b>nicht</b> löschen.<br />Du <b>kannst</b> an Umfragen in diesem Forum <b>nicht</b> mitmachen.<br />You <b>cannot</b> attach files in this forum<br />You <b>cannot</b> download files in this forum<br /></span></td>
+	</tr>
+</table>
+
+
+<div align="center"><span class="copyright"><br /><br />
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB 2.0. If you cannot (for good
+	reason) retain the full copyright we request you at least leave in place the
+	Powered by phpBB line, with phpBB linked to www.phpbb.com. If you refuse
+	to include even this then support on our forums may be affected.
+
+	The phpBB Group : 2002
+// -->
+Powered by <a href="http://www.phpbb.com/" target="_phpbb" class="copyright">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Deutsche Übersetzung von <a href="http://www.phpbb.de/" target="_blank" class="copyright">phpBB.de</a></span></div>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+

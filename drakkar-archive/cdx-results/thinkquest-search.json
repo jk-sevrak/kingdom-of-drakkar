@@ -1,0 +1,1 @@
+{"responseHeader":{"status":0,"QTime":26,"params":{"query":"collection:thinkquest (text:drakkar OR text:drakkar OR text__reviews:drakkar)","qin":"collection:thinkquest drakkar","fields":"identifier,title","wt":"json","rows":50,"start":0}},"response":{"numFound":0,"start":0,"docs":[]}}
