@@ -118,6 +118,9 @@ The Hit Doctor allows characters to purchase additional HP up to their class max
 - Higher Charisma reduces total cost by 5% per point above 18
 - Borrowing Charisma rings (+3 CHA adds) can save millions of gold
 
+### Real-World Cost Example
+Jemihi of the NLOE guild maxed his HP for **26,327,782 coins** and still needed 8-47 million more for EP maxing.
+
 ### Class HP Maximums (Hit Doc)
 | Class | Max HP |
 |-------|--------|

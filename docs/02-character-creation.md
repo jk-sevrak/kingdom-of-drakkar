@@ -80,6 +80,27 @@ Skill is separate from Experience Level. A character might be "18/15" meaning ex
 
 Training costs increase with skill level. At skill 23+, training costs were around 450 million gold; at skill 29+, over 900 million gold. The "chit trainer" in the Guild Hall provided an alternate training method that didn't have a hard cap.
 
+### Example Character: Icetea (Level 19 Paladin, LoE Guild)
+
+This real character sheet from the Lords of Entropy guild illustrates what a developed character looked like:
+
+| Stat | Value | | Skill | Level |
+|------|-------|---|-------|-------|
+| Willpower | 19 | | Halberd | 16 + double spec |
+| Strength | 21 | | Martial Arts | 12 |
+| Charisma | 18 | | Longsword | 9 |
+| Intelligence | 19 | | Thievery | 5 |
+| Wisdom | 19 | | Bow | 4 |
+| Luck | 18 | | Shortsword | 3 |
+| Constitution | 19 | | | |
+| Agility | 19 | | **Attacks**: 6 | |
+| | | | **HP**: 559 | |
+| | | | **XP**: 220+ million | |
+
+**Gear**: Fullplate, BNR (3x), 4/4 Combat Rings (3x), +5 Hally (2x), Enmiss Bracers (2x), Dancers, HP Helm (+37), Fire/Ice Prot Ring (Lvl17), Slicer
+
+This shows a character with high stats across the board (mostly 18-19, STR at 21), multiple weapon skills, and 6 attacks per round. Notably they had Thievery at 5 (for theft defense) and Martial Arts at 12 (for dodge bonus), following the universal skill recommendations.
+
 ### Skill Gain Goals (from Developer)
 
 - **1% per hour minimum** at higher skill levels with efficient hunting

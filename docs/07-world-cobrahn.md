@@ -55,8 +55,8 @@ A settlement in the desert region of Cobrahn.
 ### Seldar
 A dungeon area requiring approximately skill 17 to hunt effectively. As of 2002, fighters were missing too often with SS (Short Sword) and daggers, and skill gain was "totally dismal" for skill 17 characters.
 
-### Thumpersville
-Referenced in Lords of Entropy guild news. A location where guild activities took place.
+### Thumpersville (Thumperviller)
+An area containing high-level content. The LoE guild member Paladium soloed the **Great Wyrm** (nicknamed "Barney") here after 2 hours of hacking, which dropped a 50k gold bar. A major solo achievement.
 
 ### Hagall
 Location where special "Coin Events" were held.

@@ -8,7 +8,7 @@ Kingdom of Drakkar had a thriving guild system and player community. Guilds were
 |-------|------------------------|---------|-------|
 | **EDGE** | "Sage Guild of Kingdom of Drakkar" | Tripod | Knowledge-gathering and information sharing. Created extensive Cobrahn guides, critter databases, and area maps. |
 | **MoY** | Merchants of Yore | drakkarmoy.com + northernwebs.com | Trade, mentoring, and community. Created class guides, developer Q&A transcripts, and game tools (Hit Doc Calculator). Had a dedicated domain. |
-| **LoE / NLOE** | Lords of Entropy / New Lords of Entropy | lords-of-entropy.de | German-speaking European guild. Multi-game (Drakkar + Dark Age of Camelot). Had phpBB forums, PHPKIT CMS, guild treasury tracking, event calendar, and real-life meetups. |
+| **LoE / NLOE** | Lords of Entropy / New Lords of Entropy | lords-of-entropy.de | German-speaking European guild founded July 18, 2001. Based in Braunschweig, Germany. Multi-game (Drakkar -> DAoC -> WoW -> EVE -> others). Had phpBB forums, PHPKIT CMS, guild treasury, event calendar, real-life meetups, and PGP encryption for member communication. Leadership: Jemihi (Guild Master), Jive/Icetea (Huntmaster), Palladium (Supreme Council/Judge), Mia, Lawless (Treasury), Arnfiodoll (Diplomat). |
 | **ROAR** | ROAR Guild | GeoCities | Prominent guild with a companion items database site. |
 | **ICE** | ICE Guild | 8m.com | Nork-based guild with tips and member roster. |
 | **ZOE** | Zone of Evil (?) | Angelfire | Combat-focused guild. |
