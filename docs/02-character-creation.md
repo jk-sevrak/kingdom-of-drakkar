@@ -34,12 +34,12 @@ The game features six playable races, each with distinct stat advantages:
 
 | Race | Advantages |
 |------|-----------|
-| **City Dwellers** | Strong and extremely lucky |
-| **Forest Dwellers** | Agile and extremely charismatic |
-| **Mountain Dwellers** | Strong and have strong constitutions |
-| **Outcasts** | Rumored to have great strength but little luck |
-| **Underground Dwellers** | Agile and have strong constitutions |
-| **Woodlands Dwellers** | Intelligent and have strong willpower |
+| **City Dwellers** | Strong and extremely lucky. Can roll 18 in ALL stats. Most common race. Best all-around. |
+| **Forest Dwellers** | Agile and extremely charismatic. Can roll 19 CHA, but Luck max 17. Tall, slim, pointed ears. |
+| **Mountain Dwellers** | Strong and have strong constitutions. Can roll 19 STR, but CHA max 17. Short, stocky. Start with more gold. |
+| **Outcasts** | Great strength but little luck. Can roll 19 CON and 19 AGI, but CHA max 16. Shunned, facial marks. |
+| **Underground Dwellers** | Agile and have strong constitutions. Hard to get high Luck. Extremely short, childlike. |
+| **Woodlands Dwellers** | Intelligent and have strong willpower. Can roll 19 INT, but STR max 17. Many great Mentalists are Woodlands Dwellers. |
 
 From the developer Q&A, Brad noted that he planned to add "more racial diversity" rather than adding items to make races more similar, preserving meaningful racial differences.
 

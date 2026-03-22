@@ -36,6 +36,8 @@ Compiled from archived fan sites, guild pages, personal pages, and the official 
 
 16. **[Cobrahn Bestiary](16-cobrahn-bestiary.md)** - Complete creature database with hit damage, XP values, locations, and notes. 60+ creatures from Timmy to Gold Dragons. Named bosses, tannable creatures, and lair-specific enemies.
 
+17. **[Glossary & Reference](17-glossary-and-reference.md)** - Common abbreviations (50+), weapon skill level names (0-30), weapon categories with range types, race stat caps, equipment slots, and key damage/cost formulas.
+
 ## Sources
 
 Information compiled from the following archived websites:
