@@ -9,7 +9,7 @@ Characters in Kingdom of Drakkar have 8 primary attributes:
 | **Strength** | STR | Physical power, melee damage, carrying capacity. Rumored to affect HP gains per level. Barbarians get HP bonuses from STR. |
 | **Intelligence** | INT | Mental ability, Mentalist spell power. Determines starting EP and EP gains per level for Mentalists. |
 | **Wisdom** | WIS | Divine/healing power. Determines starting EP and EP gains per level for Healers. |
-| **Constitution** | CON | Hit points/health. Affects Hit Doctor costs (higher CON = cheaper). Below 17 CON, there's a chance of permanent hit loss on death. |
+| **Constitution** | CON | Hit points/health. Affects Hit Doctor costs (higher CON = cheaper). **Decreases by 1 each time you die.** Below 17, chance of permanent hit loss on death. Also determines number of resurrections possible and prevents stunning. |
 | **Charisma** | CHA | Controls training costs, Hit Doctor costs, and many other economic factors in Nork. Higher CHA significantly reduces costs. |
 | **Luck** | LCK | Affects various random outcomes. Very hard to fix after creation. |
 | **Willpower** | WIL | Mental fortitude, resistance to mental attacks. Important for all classes. Fixable with willpower pots but they're expensive. |
@@ -26,24 +26,28 @@ When rolling a character, the key advice from experienced players:
 
 ## Gender
 
-Gender affects base character stats. The game had separate character worksheets for male and female characters, reflecting different stat distributions.
+According to the official site: **"In terms of game-play, it doesn't"** affect anything. However, fan-created character worksheets existed for both male and female characters, suggesting there may have been cosmetic or minor stat differences in earlier versions.
 
 ## Races
 
-The game features multiple playable races, each with different stat modifiers:
+The game features six playable races, each with distinct stat advantages:
 
-- **Human** - Balanced stats, no extreme bonuses or penalties
-- **Elf** - Higher Intelligence/Dexterity, lower Strength/Constitution
-- **Dwarf** - Higher Strength/Constitution, lower Intelligence/Charisma
-- **Halfling** - Higher Dexterity, lower Strength
-- **Half-Elf** - Mix of Human and Elf traits
-- **Half-Orc** - Higher Strength, lower Charisma/Intelligence
+| Race | Advantages |
+|------|-----------|
+| **City Dwellers** | Strong and extremely lucky |
+| **Forest Dwellers** | Agile and extremely charismatic |
+| **Mountain Dwellers** | Strong and have strong constitutions |
+| **Outcasts** | Rumored to have great strength but little luck |
+| **Underground Dwellers** | Agile and have strong constitutions |
+| **Woodlands Dwellers** | Intelligent and have strong willpower |
 
 From the developer Q&A, Brad noted that he planned to add "more racial diversity" rather than adding items to make races more similar, preserving meaningful racial differences.
 
 ## Classes
 
-Kingdom of Drakkar has 7 playable classes:
+New characters arrive in the game as **Merchants** and must find the appropriate trainer to dedicate to one of six professions. **8th level Fighters may become Paladins** (making 7 total classes):
+
+Note: Thieves can form psionic disciplines but **at the cost of health points**, unlike Mentalists/Healers who use energy points. Barbarians distrust psionics and are resistant to psionic attacks but have difficulty with psionically imbued items (like Succor scrolls). Healers only regain psionic energy when undamaged.
 
 | Class | Max HP (Hit Doc) | Key Stats | Description |
 |-------|-----------------|-----------|-------------|

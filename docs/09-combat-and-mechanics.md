@@ -4,6 +4,13 @@
 
 Kingdom of Drakkar uses a **real-time combat system**. Players and creatures act in rounds, with actions happening simultaneously rather than turn-by-turn.
 
+### The Interface
+- **Creature Identity Boxes** show: Name (red = hostile, blue = trainers/shopkeepers/questors, gray = non-hostile), Flag, Health heart (red = healthy, partially red = wounded, green = poisoned, stars = stunned), right/left hand items, Armor (with bull's-eye on last attacked)
+- To attack: Choose Attack from Action Commands popup, then click the target's Identity box
+- Most weapons require being on the same hex as the target
+- **Halberds and Polearms** can attack adjacent hexes
+- **Bows** work from several hexes away
+
 ### Attack Mechanics
 - Characters attack creatures (and potentially other players) in real time
 - Damage is based on weapon stats, character attributes, skill level, and enchantment bonuses
@@ -14,20 +21,33 @@ Kingdom of Drakkar uses a **real-time combat system**. Players and creatures act
 - Mentalists get only **1 physical attack per round** regardless of level
 - Barbarians in Berserk mode get "fury rounds" (extra attacks) but lose control
 
+### Movement
+- Click on terrain window (up to 3 hexes per move)
+- Type directions in command line (e.g., N, N, N for three steps north)
+- Use number keys for directions
+- Use Twigs (Succor scrolls) to teleport
+- Click stairs to climb
+- Water movement is 1 hex per move unless Respirated
+
 ### Hit Points & Damage
-- Hit points (HP) represent health
+- Hit points (HP) represent health ("Physical damage capacity before death")
 - When HP reaches 0, the character dies
 - Damage is dealt based on weapon/spell damage, modified by armor and protection spells
 - **Armor Class** (AC) - higher defensive value means less damage taken
 - Rings provide offensive/defensive combat "adds" (e.g., a 3/3 ring gives +3 offense and +3 defense)
+- **Encumbrance**: 0-3 weight indicators; being encumbered slows movement
 
 ## Death & Penalties
 
 ### Normal Death
+- **Lose 1 Constitution point per death** (permanent!)
 - Experience loss
 - Possible item loss
-- Character respawns at a designated restoration point
-- With Constitution below 17 (or 16), there's a chance of permanent HP loss on normal death
+- Higher-level creatures may strip possessions after killing you
+- Type "restore" to return to recall area of Nork
+- Must restore quickly or lose all acquired items
+- Set a Healer recall point by standing on a Healer trainer and typing "[name], recall me"
+- With Constitution below 17, there's a chance of additional permanent HP loss on death
 
 ### Lair Creature Death
 - **Lair creatures can permanently take hit points** - this applies even outside the lair itself
@@ -150,6 +170,22 @@ Certain powerful spells cause character aging:
 - Characters who commit PK offenses may need to be "atoned"
 - Players asked for easier atonement options for lower-level characters
 - Brad found the suggestion "interesting"
+
+## Communication
+
+- **Normal speech** (double quote "): Anyone on screen can hear
+- **Shout** (@): Those within 5 steps can hear, even unseen
+- **Address individual**: Click Identity box, type message
+- **Greet**: Action Commands > Greet > click Identity box
+- **Hug**: Returns accidentally red-tagged players to gray; removes accidental targeting bull's-eye
+
+## Inventory System
+
+- **Sack/Pouch**: Hold small/medium items (gems, scrolls, twigs, bottles, wearables except armor/cloaks/robes, daggers only). The sack is the only place for coins besides the bank.
+- **Belt**: 5 item slots. Holds shields, most weapons (except halberds/polearms), scrolls, and succor twigs.
+- **Lockers**: Personal storage in the Steel Flower Pub (first right inside)
+- Items with a "faint glow" or that "twinge" when picked up have special properties
+- Drag items to face or body to wear them
 
 ## Items & Equipment
 

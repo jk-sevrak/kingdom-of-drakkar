@@ -2,7 +2,21 @@
 
 ## Aleria
 
-Aleria is one of the advanced game worlds in Kingdom of Drakkar, alongside Cobrahn. Less thoroughly documented in the fan site archives than Nork or Cobrahn.
+Aleria is one of the advanced game worlds in Kingdom of Drakkar, described as "a new realm, a land of danger and mystery." Less thoroughly documented in the fan site archives than Nork or Cobrahn.
+
+### Lore
+
+The lore of Aleria is delivered through the character **Finri**:
+
+> *"Come, gather 'round once again, ye mighty. Urmak the Boatman has returned to me with tales of Aleria. A terrible war rages across its lands. Duke Talinar has rallied the Forces of Light to his banner, but equal is the call from the dread Lord Koss to his Minions of Darkness. Little information has he gathered so far, except that heroes of all colors, of Light of Darkness and of the Grey Mists, are preparing for the day when Mayor Dagano gives his nod to Urmak, to begin the great ferry to Aleria. Undoubtedly, he will choose those with the Honor of Ratburrow to make the perilous crossing. What we do know from Urmak's fearful chattering is that a mighty war rages between the Citadel and the dread Tower of Koss. Where there is war, there is gold and glory... and early death."*
+
+**Key lore elements:**
+- **Duke Talinar** leads the Forces of Light from the Citadel
+- **Lord Koss** commands the Minions of Darkness from the Tower of Koss
+- **The Grey Mists** represent a third faction
+- **Urmak the Boatman** ferries players to Aleria
+- **Mayor Dagano** authorizes the crossing
+- Players need the **Honor of Ratburrow** to travel there
 
 ### Key Information
 

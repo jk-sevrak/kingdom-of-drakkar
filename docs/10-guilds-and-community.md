@@ -16,6 +16,11 @@ Kingdom of Drakkar had a thriving guild system and player community. Guilds were
 | **War** | War Guild | Angelfire | PvP/combat focused guild. |
 | **RELM** | RELM Guild | GuildHappy | Community guild. |
 | **SAS** | Special Attack Squad (?) | GameChatter | Guild focused on combat. |
+| **Bored** | Bored Guild | (official listing) | Listed on official fan sites page. |
+| **Ash** | Ash Guild | (official listing) | Listed on official fan sites page. |
+| **POW** | POW Guild | (official listing) | Listed on official fan sites page. |
+| **King** | King Guild | (official listing) | Listed on official fan sites page. |
+| **Justitia Aurora** | Justitia Aurora Guild | (official listing) | Listed on official fan sites page. |
 
 ## Guild Organization
 

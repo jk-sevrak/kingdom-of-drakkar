@@ -1,6 +1,21 @@
 # The World of Cobrahn
 
-Cobrahn (commonly called "Cob") is an advanced world in Kingdom of Drakkar, accessible to characters level 18 and above. It represents a significant step up in difficulty and rewards from Nork.
+Cobrahn (commonly called "Cob") is the most advanced and dangerous scenario in Kingdom of Drakkar. It is accessed through a portal discovered deep in the dungeons beneath Nork and represents a significant step up in difficulty and rewards.
+
+## The Lore of Cobrahn
+
+The story of Cobrahn is told through the tale of the **Four Champions of the Norkken Guard** who defended the city of Frore from the rapacious attacks of the Snowbeast:
+
+- **Uther**: Surrendered to "the evil draw of an almost limitless power" and was corrupted by the power of his dark blade
+- **Chipuda**: A master mentalist who "descended into the madness of unbound paranoia"; his protege/love was **Loriapi**, who was lost in Cobrahn
+- **Breshard**: His mind "snapped under the strain of the ever-escalating demand to be more and more psionically disciplined"
+- **The nameless Knight**: "became a mere shadow of his former self in his quest for greater power"
+
+The Four ventured into Nork's dungeons with 100 warriors. They found an iron door leading to a marble-tiled room containing "a flickering energy field" -- a portal to Cobrahn. The King of Frore revealed it led to "the fabled land of Cobrahn, from which emanated the essence of evil so powerful that it had corrupted the guardians of Nork and even rivaled the power of the legendary Dark Queen, the Drakkar."
+
+All 100 warriors were lost. The Four Champions returned broken and bloodied but with vastly increased power (at least ten-fold). The mentalist **Dwarkanath** and Chipuda sealed the portal. Chipuda inscribed: *"Sealed in here, the flower of Frore, my love, Loriapi."*
+
+The Four Champions were later corrupted by the Dark Queen and became tormentors of Frore. The King had nightmares screaming *"Ningizidda! The feathered one! He stirs!"* Rumors spread that the portal was being unsealed by misguided mentalists.
 
 ## Entering Cobrahn
 

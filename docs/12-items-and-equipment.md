@@ -132,7 +132,7 @@ Characters can equip items in the following slots:
 | **CritCure Twigs** | Various (Timmy level 20) | Consumable resurrection items. |
 | **Fireball Twigs** | Timmy (level 25) | Consumable area fire damage. |
 | **Icestorm Twigs** | Timmy (level 20, 25) | Consumable area ice damage. |
-| **Succor Twigs** | Various | Teleport back to a set location. Mentalists at skill 14 can sense where a twig goes. |
+| **Succor Scrolls/Twigs** | Scroll vendors / Various | Succor scrolls become teleport Twigs. To create: stand where you want to return, hold scroll in right hand, type "form succor". Drop the twig later to teleport back. Mentalists at skill 14 can sense where a twig goes. |
 
 ## Item Mechanics
 

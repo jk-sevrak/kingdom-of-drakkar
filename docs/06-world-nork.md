@@ -4,12 +4,16 @@ Nork is the starting world of Kingdom of Drakkar, where all new characters begin
 
 ## Major Locations
 
-### Nork Town
-The main starting settlement. Contains:
+### The City of Nork
+The main starting settlement. New players begin here. Contains:
 - Shops and vendors for buying/selling gear
-- Trainers for all classes
-- The **Steel Flower** - a social gathering area/tavern
-- Scroll vendors selling magical scrolls
+- Trainers for all classes (new characters arrive as Merchants and must find a trainer to dedicate to a profession)
+- The **Steel Flower Inn/Pub** - social gathering area with personal lockers for item storage (first right inside)
+- Scroll vendors selling Succor scrolls, Respirate scrolls, and discipline-imbued scrolls
+- Dungeons beneath the city, at least **10 levels deep** (the 9th and 10th levels contain "formidable foes")
+
+### The Town of Maeling
+A town in the Nork world area. Maeling -3 (M-3) is noted as a good area for Mentalist Illusion spell use.
 
 ### Volcano Town (VT)
 Located south of the main area. Notable for:
