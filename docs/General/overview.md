@@ -62,6 +62,8 @@ In the 2002 Q&A, Brad described his vision:
 - **2016**: Android client released; tutorial video contest; Christmas free-play event.
 - **2019**: Pocket Drakkar units shipped; new data center migration; "Uber Aleria" events; creature aging system (monsters worth up to 3X XP over time); Find Friendly replaced with pet/follower system.
 - **2022**: Arcane Cobrahn Special Event launched (new quests, unique items, over-max experience spending).
+- **2016 (Jan)**: Sullen Keep expansion (levels 85-90, mini bosses, new damage types).
+- **2016 (Dec)**: Major free-to-play update — Aleria and Cobrahn now free, level cap raised to 100, new "Arcane Abilities" skill tree, "Sidekick" party mechanic, Invaders Refuge scenario for NL subscribers.
 - **2024**: Guild hall experience/skill bonuses increased; legendary weapon system (dropped weapons get permanent 10% damage bonus + blocking); daily play bonus system; player-suggested event system.
 
 ### Relationship to Island of Kesmai
