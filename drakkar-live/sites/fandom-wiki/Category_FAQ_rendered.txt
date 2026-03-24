@@ -1,0 +1,204 @@
+Contents 
+
+ 1 Is Drakkar Free? 
+ 2 How do I get help? 
+ 3 How do I start a game? 
+ 4 How do I win the game? 
+ 5 What are the laws of the Land? 
+ 6 How do I create a character? 
+ 7 How does Gender affect my character? 
+ 8 How does Race affect my character? 
+ 9 What are character Attributes? 
+ 10 How do I move around in the game? 
+ 11 How do I attack? 
+ 12 Tell me more about the creatures I'll meet. 
+ 13 How do I communicate with other characters? 
+ 14 How do I look around? 
+ 15 What is dedicating to a profession? 
+ 16 How do I dedicate to a profession? 
+ 17 What are my professional choices? 
+ 18 Tell me about weapons. 
+ 19 Are clothes useful here? 
+ 20 How do I carry items? 
+ 21 What if I have too much stuff to carry? 
+ 22 A creature is pounding on me! What if I die? 
+ 23 I beat the creature. How do I look for loot? 
+ 24 How do I buy/sell/appraise loot? 
+ 25 What are scroll vendors for? 
+
+ Is Drakkar Free? [ ] 
+ Right now, Drakkar Nork World One access is completely free. Additional scenarios are available through the purchase of the Drakkar Silver and Drakkar Gold plans. There is also monthly, per-character charge for guildhall access as well as additional per character charges for new scenarios.
+DrakkarZone Pricing Plans
+ DrakkarZone Free - Free
+ Free access to the DrakkarZone browser and Nork World One.
+ DrakkarZone Silver - $4.95/Month
+ One low price gains all your characters access to Nork Worlds One and Two, Aleria and Cobrahn
+ DrakkarZone Gold - $9.95/Month
+ All features of Drakkar Silver PLUS future in game bonuses and faster skill gain!
+ Additional Products
+ DrakkarZone Guild Halls
+ Basic Access - $4.50/month per character (includes training discount, not so greedy merchants, additional locker space, portals to different places, and more!)
+ Premier Access - $7.50/month per character (includes MORE training discounts, even less greedy merchants, MORE locker space, MORE portals to different places, and even more goodies!)
+ Additional Fees
+ Returned check/Cancelled Money Order/Reversed Credit Card Payment - $10.00
+ Declined/Insufficient Funds Credit Card Payment - $0.35
+
+ How do I get help? [ ] 
+ When you first start the game, play the tutorial adventure in the City of Nork (also known as the School of Nork - follow the gold tiles on the ground). It will run through Drakkar basics. Other resources are:
+Display Tool tips for the areas of the user interface by pausing the mouse pointer over the area.
+Hang around the Pub or the lockers, and talk to other players. You can also read notes from players in the Drakkar forums.
+Click What Is? on the Help menu, and then click the area of the game interface you want help with.
+Display or print the map of Nork.
+Visit the many player made web sites to gain unofficial information about the game.
+You can also check out our extensive Help File here on the website.
+You can also send an email to Mars Email - mars@drakkarzone.com.
+
+ How do I start a game? [ ] 
+ You must first download and install the DrakkarZone software. This will place a gold DrakkarZone icon on your desktop. When you double click on this icon you will start the DrakkarZone launcher software.
+ Since Drakkar is an ongoing environment, simply enter the game to play. Simply select play drakkar from your launch page, or right click on the drakkar icon in your tray and select play drakkar.
+
+ How do I win the game? [ ] 
+ Drakkar is a living world where you build your character by gaining experience and improve your skills through training, thereby enabling you to venture further in search of greater adventures.
+
+ What are the laws of the Land? [ ] 
+ Killing player characters is strictly forbidden. PKing is not allowed here.
+Killing non-hostile creatures is left to your discretion, but be warned that slaughtering innocents will affect your alignment.
+Abusive players will be suspended or banned at the discretion of the game managers.
+Killing hostile creatures is the point of the game. This is how you build your experience levels and your skill levels.
+5A. What happens if another player kills (PKs) me?
+ The first thing you do is contact a Sysop in the lobby. If there is not a Sysop avaliable you may email one. You may not Player Kill in return. We frown upon PKing in this game and doing so may result in you account(s) being locked.
+
+ How do I create a character? [ ] 
+ If this is your first time playing Drakkar, you will need to create a character by selecting a character slot and pressing the Create button on the main screen (After launching DrakkarZone and logging in). If you have not yet created an account, press the "New Account" button on the login dialog that appears when DrakkarZone is launched.
+
+ How does Gender affect my character? [ ] 
+ It terms of game-play, it doesn't.
+
+ How does Race affect my character? [ ] 
+ The six races each have certain advantages:
+ City Dwellers are strong and extremely lucky.
+Forest Dwellers are agile and extremely charismatic.
+Mountain Dwellers are strong and have strong constitutions.
+Outcasts are rumored to have great strength but little luck.
+Underground Dwellers are agile and have strong constitutions.
+Woodlands Dwellers are intelligent and have strong willpower.
+
+ What are character Attributes? [ ] 
+ After you choose your race, the next screen in the game setup displays your character --with randomly generated statistics for your attributes. These stats can be anywhere from a low of 3 to a high of 18, and will affect your abilities in the game. You may use the reroll option as many times as you wish until you are satisfied with your stats.
+The Attributes are:
+ Strength: Essential for physical combat. It determines how much damage you inflict when you attack with a weapon, and how much weight you can carry without becoming encumbered.
+ Intelligence: Essential for forming psionic disciplines. Intelligence determines how much psionic energy a character initially possesses and how much energy he or she gains at each experience level.
+ Wisdom: Essential for forming healing disciplines.
+ Willpower: Determines your tenacity and ability to resist the effects of psionic disciplines.
+ Constitution: A strong constitution determines the number of health points you initially possess and the number of health points you gain at each experience level. It also prevents you from being stunned in combat, and it determines the number of times you can be raised from the dead.
+ Agility: Determines how accurately you hit and how quickly you dodge blows in combat.
+ Charisma: Determines how well you get along with others. If you are particularly charismatic, you might get better prices from the shopkeepers or have a better chance of forming disciplines that influence creatures.
+ Health: Determines how much physical damage you can sustain before dying. Your constitution determines your initial health and the number of health points you gain at each experience level.
+ Gold: Indicates how many gold coins are in your sack when you arrive in the kingdom.
+ Luck: Influences the outcome of random events. The higher your luck, the better your chances of successfully forming psionic disciplines or setting and disarming traps.
+ Most stats remain the same throughout a character's life, although you may increase some through potions. Your constitution decreases each time you are killed, and the weaker your constitution, the more damage you suffer in combat, and the more easily you are killed.
+
+ How do I move around in the game? [ ] 
+ There are several ways to move your character in the game.
+Click where you wish to go on the terrain window. You can move up to three hexes each move. If you click one hex away from your present position, footprints will appear. To move that one hex, press <enter> .
+Type in the command line the direction you wish to go (N, N, N for three steps north), and then press <enter>.
+Use the number keys to enter directions, which will appear in the command line and then <enter>
+Use a Twig to teleport. See "Scroll Vendors"
+To climb stairs, click the stairs and <enter>.
+
+ How do I attack? [ ] 
+ Choose Attack from the Action Commands pop-up menu, then click on the target's Identity box.
+
+ Tell me more about the creatures I'll meet. [ ] 
+ The Kingdom is filled with creatures. Some are good, and some are bad---you distinguish which by looking at the color of the character's name tag in his or her Identity box. The Identity box also shows the following information about a character or creature:
+Name: Hostile creatures have red name boxes. Trainers, shopkeepers, and questors have blue name boxes. Non-hostile characters have gray name boxes.
+Flag: The flag in the upper-left corner of the Identity box corresponds to a creature in the Terrain window. If an Identity box does not have a flag, that character is standing on your hex. If it's a hostile creature, you'd better be swinging at it!
+Health heart: The heart in the upper-right corner of the Identity box indicates a creature's health. If he is at full health, the heart is completely red. If he is wounded, the heart is only partially red according to the severity of the wound. If the creature is poisoned, the heart is green. And if he is stunned, the heart has a halo of stars.
+Right and left hands: The right and left squares of the Identity box display the items a character is holding.
+Armor: The center square of the Identity box shows the armor a character is wearing. A bull's-eye appears over the armor of the creature you last attacked.
+
+ How do I communicate with other characters? [ ] 
+ To talk to other player characters
+When you speak in a normal tone, anyone you can see on screen can 'hear' you. Type a double quotation mark ("), and then type your message. You do not need to end your message with a double quotation mark.
+To address an individual character
+Click the character's Identity box. Then type your message and hit <enter>.
+ To greet an individual character
+Click the Action Commands pop-up menu and point to Greet. Then click the Initiate Action button and the Identity box of the character you want to greet.
+ To shout to a player character
+When you shout, those within five steps of you can hear you, even if you cannot see them. Type @ and then type your message. For example, if you wander away from your adventuring party, type @Hey! Where is everyone? and <enter>.
+ To hug a character
+Hugging a player character who has accidentally attacked another player character returns the color of the offending character's Identity box from red to gray. Hugging a character or creature you have accidentally targeted also removes the bull's-eye from the character or creature's Identity box. Choose Hug from the Action Commands pop-up menu, then click the character's Identity box.
+
+ How do I look around? [ ] 
+ Nork is not such a tidy place. If you look around as you move through Nork you'll often see something on the ground (often something worth selling--or wearing. Any helmet is better than none). Looking at and taking items from the ground are important skills to learn.
+To look at an item on the ground
+Stand on the item. Click the Ground button. The items appear in the Ground window. To take items from the ground one of your hands must be empty to pick up items.
+ If the item you want to pick up is in the right column of the Ground window, drag the item to your hand (or you can drag it to your pouch, sack or belt icon). If the item is in the left column of the Ground window, click on the item to move it to the right column, and then drag the item to your hand (or pouch, etc. . ). To move multiple items of the same kind, hold down the SHIFT key and drag the items from the right column.
+ To look at an item in your hand
+Hold the item in one of your hands. Type look at and then type the name of the item in your hand and <enter>. A description of the item appears in the Narrative window. *Note* You must be specific about what an item is called. For example, if you are holding a sword, you must specify whether it is a short sword, long sword, or other kind of sword.
+ To look at others
+Type look at and then click the Identity box of the character you want to look at and hit <enter>. The character's description appears in the Narrative window.
+ To look in a direction
+Type look and then type the direction you want to look For example, to look one square north, type look n or to look two squares north, type look n n. A description of the items you can see appears in the Narrative window.
+ To read the scrolls you come across, drag them to your face.
+
+ What is dedicating to a profession? [ ] 
+ New characters arrive in Drakkar as members of the merchant brotherhood. Merchants are welcome to explore the kingdom, but after looking around, you'll want to chose a profession as a Fighter, Barbarian, Martial Artist, Mentalist, Healer, or Thief. When you decide which profession to pursue, you must find the appropriate trainer and dedicate your life to the pursuit of that profession.
+
+ How do I dedicate to a profession? [ ] 
+ Find the trainer in the profession you wish to dedicate and stand on the trainer icon in the terrain window. Click the trainer's Identity box. The trainer appears. If you want to become a member of that profession, click Dedicate. When you dedicate to a profession, you receive credit toward your first weapons training session.
+
+ What are my professional choices? [ ] 
+ Fighter: masters of weapons who Attack, Shoot, or Stab their opponents. Fighters must have sufficient strength to damage their opponents in combat, sufficient agility to hit accurately and parry blows, and a strong constitution to withstand injuries from physical combat. 8th level Fighters may become Paladins.
+ Barbarian: A Barbarian is a tough brute, with the highest combat adds and health points. Barbarians distrust all forms of psionics, and are especially resistant to psionic attacks and have some difficulty with psionically imbued items like Succor scrolls. Since Barbarians are berserker fighters, the same attributes important to Fighters are crucial to the mighty Barb.
+ Martial Artist: Martial Artists attack or kick their opponents with their hands or feet rather than using weapons. As they advance in skill level, Martial Artists can also jumpkick, sweep, and attack their opponents using the Chi art forms. Martial Artists must be quite agile to kick, jump, block and parry blows, and to move quickly in close quarters. They must also have sufficient strength to damage their opponents and a strong constitution to withstand injuries from physical combat.
+ Mentalist: Mentalists focus the power of their minds into psionic energy. They can slay their foes quickly and from a distance, without dirtying their hands in physical combat. However, Mentalists must concentrate and make each psionic attack count to avoid wastefully depleting their psionic energy. Mentalists must have sufficient intelligence to form psionic disciplines. Intelligence also determines how much psionic energy they initially possess and how many psionic energy points they gain at each experience level.
+ Healer: Although they rely primarily on psionics, Healers should also be adept with weapons. A Healer uses more psionic energy to form an offensive psionic discipline than a Mentalist, so when Healers are in heavy combat, they might deplete their psionic energy and have to fall back on physical combat. Also, unlike Mentalists, Healers only regain psionic energy points over time if they are undamaged, so they must stay fully healed. Healers must have sufficient wisdom to form psionic disciplines and sufficient strength to wield weapons. Wisdom also determines how much psionic energy Healers initially possess and how many psionic energy points they gain at each experience level. Healers have the special ability to use the Heal discipline to heal damage to themselves and others. A good Healer is always aware of the health of others and is willing to lay a healing hand upon the wounded. Healers who attain the healing skill level of Healer can restore life to a corpse using the CritCure discipline.
+ Thief: Thieves prefer hiding in the shadows and backstabbing their foes in surprise attacks rather than engaging in prolonged physical combat. They also enjoy picking locks and pilfering the possessions of other characters by stealing, mugging, and using traps. Thieves are also able to form psionic disciplines; however, they draw on their health points each time they form a discipline. Thieves must have sufficient agility to set and disarm traps, sufficient strength to backstab, and sufficient intelligence to form disciplines.
+After dedicating, you may train in your weapon of choice. Select the icon of the weapon you wish to develop skill with, and click Skill Train.
+
+ Tell me about weapons. [ ] 
+ You can use any of several weapons to defend yourself against the unsavory creatures you are apt to find in your adventures. Carry your weapon in your right hand. Each character class begins with a weapon and a small amount of skill in that weapon. You may use that weapon, or change to another. For the beginning player, it is wise to choose one weapon and build your skill as high as possible in the use of that weapon, instead of building a little skill in multiple weapons.
+With most weapons, you must be standing on the same hex as the creature you are attacking. Halberds and Polearms can attack creatures on adjacent hexes. Bows work from several hexes away. Once you have chosen a weapon to develop skill in, go to a trainer.
+
+ Are clothes useful here? [ ] 
+ You should also wear proper clothing to protect yourself from possible harm. You can buy or pick up garments to help protect you from attack.
+To see what you are wearing Click the Body, Disciplines, Ground button. Clicking once shows what you are wearing, twice what disciplines are active, and a third click shows the ground. To wear an item, drag it to your face or body.
+ Different types of garments within each category offer different kinds of protection. For example, chain armor is better than leather. Some wearable items 'tie' and can only be worn by the owner of the item. In addition, some items are purely ornamental, while some have special abilities. If you 'look' at an item and it has some type of faint glow, or if it 'twinges' when you pick it up, you can be sure that it possesses some special properties.
+
+ How do I carry items? [ ] 
+ You will find weapons, bottles, scrolls, and other treasure as you adventure in Drakkar. You can carry items in your hands, but since you generally need to keep your weapon in your hand(s) to do battle, carry extra items in your sack, pouch, and belt. Click on an item and drag it to your sack, pouch or belt to carry it.
+Sack and Pouch: Your sack (and your pouch) hold most small- and medium-sized items, such as gems, scrolls, succor twigs, bottles, and anything you can wear except armor, cloaks, and robes. Daggers are the only weapon small enough to put in your sack or pouch. Other weapons hang from your belt. Your sack is the only place you can stash coins (other than the bank).
+ Belt: There is space on your belt for five items. Your belt holds shields and most weapons, except halberds and polearms. Scrolls and succor twigs are the only non-weapon items that can hang on your belt. Most other items fit in your sack or pouch. Each time you start the game, be sure to take stock of what you are carrying in your hands, and in your sack, pouch, and belt.
+
+ NOTE* If what you are wearing and/or carrying is very heavy, you will become encumbered. If you are encumbered, even lightly, you move slower. The Encumbrance Display in the main window shows zero to three weights, indicating the degree to which you are encumbered. 
+
+ What if I have too much stuff to carry? [ ] 
+ Instead of selling all your goods, you may wish to store some items in your personal locker. The Lockers are located within the Steel Flower Pub. Go into the pub, and take the first right. Stand on the lockers, click Show from the pull down menu and then Locker. You may drag items from your hand, sack, belt, pouch, and store them here.
+
+ A creature is pounding on me! What if I die? [ ] 
+ If your health points drop to zero, you are dead. When you die, you hover above your bloody corpse. You can yell for help but can do nothing else.
+To return from the dead type restore in the command line. Before you die, you might try drinking a health potion to restore your health points.
+ You lose one constitution point each time you die, and some creatures (in higher level areas) may strip you of your possessions after they slay you. Restore returns you to the recall area of Nork.
+ It's healthier to return to a Healer. To choose a Healer trainer to return to, before you venture into the dungeons go to a Healer trainer ( there is only one in the town of Nork) Stand on the Healer trainer, type the Healer's name, followed by a comma, and then type recall me. For example, to have a Healer named Dru recall you, type Dru, recall me. If you have done this correctly, he will acknowledge you. If you are killed and type restore you are recalled to this healer. If you don't restore quickly you will lose all the items you have acquired.
+
+ I beat the creature. How do I look for loot? [ ] 
+ If you survive and slay your opponent, well, now you're having fun. Search the corpse and take any gold, gems, weapons, garments, or other treasure your opponent was carrying. To search a corpse Stand on the corpse and click the Ground button. Press SHIFT, and then click the corpse in the left column of the Ground window. All corpses are searched and their possessions appear in the Ground window. Okay, now you've got stuff. Continue adventuring, or go back to Nork and trade it for money so that you may train.
+
+ How do I buy/sell/appraise loot? [ ] 
+ To buy from a shopkeeper 
+Stand in front of the counter and click the shopkeeper's Identity box. The shopkeeper appears. The items he or she sells are displayed on the shelves. The cost of each item is beneath the item. Drag the item you want to buy to your hand, sack, belt, or pouch. Type the number of items you want to buy, or click Maximum.
+To sell to a shopkeeper
+Stand in front of the counter and click the shopkeeper's Identity box. Drag the item you want to sell to the shopkeeper's face. The shopkeeper places the appropriate amount of gold in your sack. To sell multiple items, hold down the SHIFT key, click on the items you want to sell, and then drag any one item to the shopkeeper's face.
+ To have an item appraised
+Stand in front of the counter and click on the shopkeeper as you normally would. Click the Show menu, and then point to Counter. Drag the item you want to appraise to the Counter window. Type the shopkeeper's name, followed by a comma, and then type appraise and the item you want appraised. For example, to have a shopkeeper named Duk appraise a gem, type Duk, appraise gem.
+ Having an item appraised might give you some idea of its worth, even if you don't know what it is used for. For example, if you find an interesting helm and don't know whether you should sell it, you can have it appraised. If it is worth more coins than a typical helm, it might have special powers.
+
+ What are scroll vendors for? [ ] 
+ Scroll vendors stand in the busy areas of the kingdom and bark their wares and prices. In Nork, you may purchase Succor and Respirate scrolls, as well as various discipline-imbued scrolls. Succor scrolls may be transformed into teleport Twigs, and Respirate scrolls allow you to move across water at a normal rate. Otherwise you would only swim 1 hex per move.
+To buy a scroll from a scroll vendor
+Stand on the scroll vendor and click the scroll vendor's Identity box. The scroll vendor appears. Click the Discuss button. The scroll vendor places the scroll in your hand and removes the appropriate number of coins from your sack.
+ If you have purchased a Succor scroll, you can turn this scroll into a Twig that will teleport you back to where it was formed (a handy thing when surrounded by Stunners. . . ).
+ To create a succor twig from a succor scroll
+Be sure you are standing in the location you want to return to when you use the succor twig. Hold the succor scroll in your right hand, type form succor in the command line and press <enter>. You may also click the Disciplines pop-up menu, and then point to Succor. Click the Form Discipline button. The succor scroll crumbles to dust, and a succor twig appears in your hand. Store escape twigs in your belt.
+ To use a succor twig, drag the succor twig from where you have stored it and throw it on the ground. If it is in your belt, use the Drop Succor button.

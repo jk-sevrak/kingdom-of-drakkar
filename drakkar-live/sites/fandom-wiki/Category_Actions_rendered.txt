@@ -1,0 +1,360 @@
+Contents 
+
+ 1 An Important Action! 
+
+ 1.1 Returning from the dead 
+
+ 2 Movement Actions 
+
+ 2.1 Walking 
+ 2.2 Ascending and descending stairs 
+ 2.3 Climbing 
+ 2.4 Chasing a character 
+
+ 3 Combat actions 
+
+ 3.1 Attack 
+ 3.2 Shooting 
+ 3.3 Throwing 
+ 3.4 Charge 
+ 3.5 Kicking 
+ 3.6 Jumpkick 
+ 3.7 Sweep 
+ 3.8 Stab 
+
+ 4 Thievery Actions 
+
+ 4.1 Hide 
+ 4.2 Backstab 
+ 4.3 Steal 
+ 4.4 Mug 
+ 4.5 Reveal 
+ 4.6 Traps 
+ 4.7 Disarm 
+
+ 5 Interaction 
+
+ 5.1 Talking to player characters 
+ 5.2 Hugging characters 
+ 5.3 Expressing Yourself 
+
+ 6 Party commands 
+
+ 6.1 To join a party 
+ 6.2 To leave a party 
+ 6.3 To eject a party member 
+ 6.4 To break up a party 
+
+ 7 Miscellaneous actions 
+
+ 7.1 Swapping the items in your hands 
+ 7.2 Wearing garments and jewelry 
+ 7.3 Searching a corpse 
+ 7.4 Reading a scroll 
+ 7.5 Opening, closing, and unlocking doors 
+ 7.6 Resting 
+ 7.7 Repeat . 
+ 7.8 Setting Macros 
+
+ An Important Action! [ ] 
+ Returning from the dead [ ] 
+ When your health points drop to zero, you are dead. When you die, you hover above your bloody corpse. You can yell for help but can do nothing else.
+To return from the dead
+ Type restore
+ If your character's constitution is strong enough to stand the shock of resurrection, you appear in the recall area for the land you are adventuring in. You lose one constitution point each time you die, and some creatures may strip you of your possessions after they slay you.
+ To choose a Healer trainer to return to
+ 1 Stand on the Healer trainer.
+
+2 Type the Healer's name, followed by a comma, and then type recall me
+ For example, to have a Healer named Ewok recall you, type Ewok, recall me
+
+ Movement Actions [ ] 
+ Walking [ ] 
+ You can walk one step or multiple steps at a time.
+To walk multiple steps
+ In the Terrain window, click a location that is multiple steps from where you are standing. You move to the location (or as far in that direction as your move rate allows).
+ To walk one step
+ 1 In the Terrain window, click a location that is one step (horizontally, vertically, or diagonally) from where you are standing. A pair of footsteps appears in the location.
+2 Press ENTER to move to the location of the footsteps. Or click the right mouse button.
+ To walk along a path
+ Note This is useful for walking around traps.
+ 1 In the Terrain window, click a location that is one step (horizontally, vertically, or diagonally) from where you are standing. A pair of footsteps appears in the location.
+2 Click a second location that is one step from where you are standing. A second pair of footsteps appears in the location.
+3 Click a third location that is one step from where you are standing. A third pair of footsteps appears in the location.
+4 Press ENTER. You move to the location of the last set of footsteps. Or click the right mouse button.
+
+ Ascending and descending stairs [ ] 
+ To ascend or descend stairs
+
+1 Stand on the stairs.
+2 Click the stairs.
+3 Press ENTER.
+ If you were at the bottom of the stairs, you move to the top of the stairs. If you were at the top of the stairs, you move to the bottom of the stairs.
+
+ Climbing [ ] 
+ Some of the rocks in the kingdom are suitable for climbing.
+To climb up
+ 1 Type Climb up.
+2 Press ENTER..
+ To climb down
+ 1 Type Climb down.
+2 Press ENTER
+
+ Chasing a character [ ] 
+ Chasing is a good way to follow another character over a distance without taking a wrong turn. Chasing moves you to where a character is standing, or to where a moving character most recently stood.
+To chase a character
+ Type chase and then click the Identity box of the character you want to chase.
+ Note You must repeat the command each time the character moves.
+
+ Combat actions [ ] 
+ Attack [ ] 
+ You can attack using any weapon in your right hand. If you are not holding a weapon, you attack with your bare hands using martial skill. In order to attack with your hands and most weapons, you and your opponent must be standing in the same spot.
+To attack
+ 1 Click the Attack button on the macro bar. The name of the command appears on the button.
+2 Click the Identity box of the opponent you want to attack.
+
+ Shooting [ ] 
+ You can shoot using any weapon in your right hand. If you are not holding a weapon, you attack with your bare hands using martial skill. In order to attack with your hands and most weapons, you and your opponent must be standing in the same spot.
+You shoot a bow by holding the bow in your right hand and leaving your left hand empty. You can also shoot a bow using the Attack command.
+To shoot
+ 1 If you are shooting a bow, hold the bow in your right hand. Your left hand must be empty to draw the bow.
+2 Click the Attack button on the macro bar, The name of the command appears on the button.
+3 Click the Identity box of the opponent to shoot.
+
+ Throwing [ ] 
+ throwing right or left
+ You can throw any weapon or item at an opponent.
+To throw the weapon in your right hand
+ 1 In your right hand, hold the weapon you want to throw.
+2 Type Throw Right
+3 Click the Identity Box of the opponent you want to throw the weapon at.
+ To throw the weapon in your left hand
+ 1 In your left hand, hold the weapon you want to throw.
+2 Type Throw Left.
+3 Click the Identity box of the opponent you want to throw the weapon at.
+
+ Charge [ ] 
+ Fighters, Paladins, and Barbarians who attain the weapon skill level of Adept can move toward and attack an opponent in a single motion. The distance of the charge depends on the character's skill level. You must have a weapon in your right hand to charge.
+To charge
+ 1 Type Charge. 
+2 Click the Identity box of the opponent you want to charge.
+
+The Ground window, Sack window, Pouch window, Belt window, Locker window, Counter window, Body window, and Disciplines window return to their default positions.
+
+ Kicking [ ] 
+ All characters can kick. The amount of damage caused by kicking depends on your martial skill. In order to kick, you and your opponent must be standing in the same spot.
+To kick
+ 1 Type Kick 
+2 Click the Identity box of the opponent you want to kick.
+
+ Jumpkick [ ] 
+ Martial Artists who attain the martial skill level of Red Belt can leap toward their opponents and kick them. The distance of a jumpkick depends on the Martial Artist's skill level.
+To jumpkick
+ 1 Type Jumpkick
+2 Click the Identity box of the opponent you want to jumpkick.
+
+ Sweep [ ] 
+ Martial Artists who attain the martial skill level of Brown Belt can sweep multiple opponents who are standing in their location. The Sweep command inflicts less damage than the Attack, Kick, or Jumpkick commands, but it may kill a number of weak creatures more quickly than if you attacked them individually. The number of opponents wounded or slain depends on the character's martial skill level. Sweeping attacks everything in the character's location, even allies. Martial Artists who attain the martial skill level of Black Belt, sixth degree, have a greater chance of striking every creature in their location.
+ To sweep
+ Type Sweep.
+
+ Stab [ ] 
+ You can stab using any weapon in your right hand. If you are not holding a weapon, you attack with your bare hands using martial skill. In order to attack with your hands and most weapons, you and your opponent must be standing in the same spot.
+To stab
+ 1 Type Stab.
+2 Click the Identity box of the opponent you want to stab.
+
+ Thievery Actions [ ] 
+ Hide [ ] 
+ Thieves who attain the thievery skill level of adept can hide in the shadows and surprise an opponent with a stab in the back. Thieves must be in hiding to attempt to backstab. A successful backstab inflicts more damage than a normal attack because the element of surprise adds to a creature's vulnerability.
+To hide
+ 1 Stand next to a wall or other concealing terrain.
+2 Type Hide.
+
+ Backstab [ ] 
+ Thieves hide in concealing terrain or the shadows next to walls so they can backstab an opponent. How successfully Thieves hide depends on their thievery skill and the size of the items in their hands. Thieves carrying large weapons, such as halberds and polearms or hammers are often unable to hide. Thieves with high thievery skill can stand closer to creatures without being seen. Thieves who are wounded often have difficulty finding a good shadow. Thieves Reveal themselves to come out of hiding.
+ To backstab
+ 1 Type Backstab. 
+2 Click the Identity box of the opponent you want to backstab.
+
+ Steal [ ] 
+ To steal from a character
+ 1 Type Steal From.
+2 Click the Identity box of the opponent you want to steal from.
+ To steal a particular item from a character
+ Type steal and then type the name of the item you want to steal followed by the name of the character. For example, to steal a gem from Halifax, type steal gem from Halifax
+ Note: It is considered very bad form to steal from other players. If they catch you at it, they may attack/kill you for your efforts.
+
+ Mug [ ] 
+ True Thieves who attain the thievery skill level of Swift can move toward, scuffle with, and steal an item or coins from an opponent in a single motion by mugging them. Thieves must Hide before they can Mug a creature or character.
+To mug
+ 1 Type Mug. 
+2 Click the Identity box of the opponent you want to mug.
+
+ Reveal [ ] 
+ Thieves reveal themselves when they want to come out of hiding. Thieves who attain the thievery skill level of Master Thief can use the Reveal command to bring other thieves out of hiding.
+To reveal
+ Type reveal
+
+ Traps [ ] 
+ True Thieves can set and disarm traps. You gain experience points if your trap activates and slays a creature when you are online. You are responsible for any traps you place, and killing non-hostile creatures with traps is reflected in your alignment. Traps of various strengths are for sale in the Thieves' Guild and from some shady merchants in the kingdom.
+If you drop a trap that has not been set, the trap is destroyed. However, Thieves do not set off their own traps, so you can pick them up and set them in a new location without worry.
+ To disguise a trap
+ Hold the item you want to disguise the trap as in your left hand before you set the trap. For example, to disguise a trap as a gem, hold a gem in your left hand.
+
+To set a trap
+
+Type trap and then type the power and direction and parameters of the trap.
+ For example, to set a trap north of where you are standing, type trap n
+To set a power 10 trap north of where you are standing, type trap 10 n
+To set a power 10 trap that is north of where you are standing and that is tripped by a character or creature carrying a gem, type trap 10 n carrying
+ Note: Setting traps within town limits where NPCs are not normally found, i.e. Steel Flower Inn and other town areas, is considered abusive play and will be dealt with.
+
+ Disarm [ ] 
+ All characters with some degree of thievery skill, not just Thieves, can attempt to disarm a trap. Thieves do not need to disarm their own traps; they can simply pick them up.
+To attempt to disarm a trap
+ Type disarm and then type the direction of the trap. For example, to disarm a trap one step north of where you are standing, type disarm n
+ Valid directions are n, s, e, w, ne, nw, se, and sw.
+ Note An unsuccessful attempt to disarm a trap may activate it.
+
+ Interaction [ ] 
+ Interaction with Players and Non-players
+
+ Talking to player characters [ ] 
+ To talk in a normal tone
+When you speak in a normal tone, anyone you can see can hear you.
+ 1 Type a double quotation mark, and then type your message. For example, type "Happy hunting!
+ You do not need to end your message with a double quotation mark.
+ 2 To send the message, press ENTER.
+ To address a character privately
+ When you address a character privately, only that character can hear you.
+ 1 Type the character's name, followed by a comma, and then type your message. For example, Halifax, do you have any succor scrolls?
+2 To send the message, press ENTER.
+ To shout
+ When you shout, anyone within five steps of you can hear you, even if you cannot see them.
+ 1 Type @ and then type your message. For example, if you wander away from your adventuring party, type @Hey! Where is everyone?
+2 To send the message, press ENTER.
+
+ Hugging characters [ ] 
+ Hugging a player character who has accidentally attacked another player character returns the color of the offending character's Identity box from red to gray. Hugging a character or creature you have accidentally targeted also removes the bull's-eye from the character or creature's Identity box.
+To hug a character
+ 1 Type Hug and offending charater's name. Press ENTER.
+
+ Expressing Yourself [ ] 
+ Singing, dancing, and rolling on the floor with laughter
+You can use the following commands to express yourself:
+ agree jostle ROFL* think
+dance kiss scratch tickle
+Disagree laugh scream wink
+growl mock sing yell
+Grumble pinch sneeze
+holler prod spit
+
+ roll on the floor laughing 
+ To use a command on yourself
+ Type I and then type the command. For example, to roll on the floor laughing, type I ROFL
+ To direct a command toward a character
+ 1 Type I and then type the command. For example, to roll on the floor laughing, type I ROFL
+2 Click the character's Identity box.
+
+ Party commands [ ] 
+ Adventuring in a party
+
+Characters who explore the kingdom in parties share experience points and skill gains. For example, if one member of a party slays a sanquin, each member of the party gets experience points. Each member of the party also gets the skill gain toward their most-recently used skill.
+Thieves who are members of adventuring parties contribute all their weapon experience to the party, but receive thieving skill for half of their skill gain from Backstabbing.
+ Parties of four or more receive a skill-gain bonus. The larger the party, the greater the skill-gain bonus.
+To reap the benefits of adventuring in a party, you must not be invisible, and you must stay within yelling distance of the party creator. If you stray too far from the party creator, you will not gain any experience from your kills.
+To create a party
+ Type party create and the name of the party. For example, to create a party called Slayers, type party create slayers
+ The party name can contain 3 to 14 letters or numbers.
+
+ To join a party [ ] 
+ Type party join and the name of the party. For example, to join a party called Slayers, type party join slayers
+ To list the party members
+ Type party list
+
+ To leave a party [ ] 
+ Type party leave
+
+ To eject a party member [ ] 
+ Note You must be the creator of the party to eject a member.
+ Type party eject and the name of the character. For example, to eject a character named Halifax, type party eject Halifax
+
+ To break up a party [ ] 
+ Note You must be the creator of the party to break it up.
+ Type party break
+ If the Party creator leaves the party, a new leader will automatically be assigned.
+When killing NPCs which require tanning, it's a good idea for the party to remain and the player that gave the killing blow to accompany the tanning player to the tanners. This will ensure a successful tan of the corpse.
+
+ Miscellaneous actions [ ] 
+ Swapping the items in your hands [ ] 
+ Swap hands when you want to quickly move an item from one hand to the other without first moving one of them to another location, such as your belt, pouch, or sack.
+To swap the items in your hands
+ Type swap
+
+ Wearing garments and jewelry [ ] 
+ To see what you are wearing
+ Click the Body button.
+ To wear garments and jewelry
+ Drag the item to your face or body.
+ To remove garments and jewelry
+ Drag the item to a new location.
+
+ Searching a corpse [ ] 
+ After you slay an opponent, you should search the corpse and take any gold, gems, weapons, garments, or other treasure your opponent was carrying.
+To search a corpse
+ 1 Stand on the corpse.
+2 Click the Search button.
+3 All corpses are searched and their possessions appear in the Ground window.
+ Note: You may only search corpses killed by you or a member of your party.
+
+ Reading a scroll [ ] 
+ One of your hands must be empty to read a scroll.
+ Drag the scroll to your face.
+ The scroll appears in your hand and the contents of the scroll appear in a separate window. If the scroll is imbued with a psionic discipline, the discipline appears on the macro bar.
+
+ Opening, closing, and unlocking doors [ ] 
+ To open a door
+ 1 Stand in front of the door.
+2 Double-click the door.
+3 Press ENTER. Or click the right mouse button. If the door is unlocked, it will open.
+ To close a door
+ 1 Stand in front of the door.
+2 Double-click the door.
+3 Press ENTER..
+ To unlock a door
+ 1 Hold the key (or other item) in one of your hands.
+2 Stand in front of the door, and then double-click it. If you have the key or item that fits the lock, the door opens.
+
+ Resting [ ] 
+ When you are wounded, resting restores missing health points faster than they would naturally be restored over time. When you have accumulated enough experience points and are fully healed, resting advances you to the next experience level.
+To rest
+ 1 Click the Rest button on the macro bar.
+2 Or Type Rest, press ENTER..
+
+ Repeat . [ ] 
+ To repeat the previous command
+
+Type a period.
+
+ Setting Macros [ ] 
+ To set a new macro
+ 1 Click the Macros menu, and then point to Set Macro.
+
+2 In the dialog box, click an empty space, and then click OK.
+
+3 In the Name text box, type a name for the macro. For example, to set a macro for the Swap command, type swap
+
+4 In the Macro text box, type the command to assign to the macro. For example, to use the Swap command, type swap
+
+5 In the Key text box, type the letter you want to assign to the macro. For example, if you are setting a macro for the Swap command, you might type the letter s
+ 6 Click the check box of the key (CTRL, ALT, or SHIFT) that you want to assign to the macro.
+ To use a macro
+ Press the key combination you assigned to the macro, and then press ENTER..
+ For example, if you set a macro of CTRL+S for the Swap command, press CTRL and S to display the word "Swap" on the command line, and then press ENTER.
+ To edit a macro
+ 1 Click the Macros menu, and then point to Set Macro.
+
+2 In the dialog box, click a macro name, and then click OK.
+
+3 Edit the name, macro, or key combination of the macro.
