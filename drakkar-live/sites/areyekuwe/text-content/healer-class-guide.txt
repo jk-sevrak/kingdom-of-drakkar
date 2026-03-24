@@ -1,0 +1,23 @@
+# Drakkar Healer Class Guide
+Source: https://areyekuwe.wordpress.com/2015/11/11/healer-class-guide/
+Date: November 11, 2015
+
+## Overview
+The Healer is a hybrid class combining Fighter and Mentalist abilities. Healers possess unique healing disciplines unavailable to other classes, including the power to restore fallen comrades to life.
+
+## Core Characteristics
+Healers rely primarily on psionics but must develop weapon skills as backup. "A Healer's offensive Disciplines usually take more Energy Points to form than do the offensive Disciplines of Mentalists," meaning energy depletion during combat is a significant concern.
+
+## Recommended Stats
+Players should prioritize Charisma and Luck at 18+, with high Wisdom and Intelligence values. Physical attributes (Strength, Constitution, Agility) should be solid but needn't match Fighters.
+
+## Key Mechanics
+- **Extra Attacks**: Gain one additional attack per round at Experience levels 8, 16, 24, etc.
+- **Energy Regeneration**: Healers must be fully healed to regain Energy Points (regeneration items like Uzi don't count)
+- **Primary Spells**: Mend and Assault for skill development; first attack spell available at level 3
+
+## Weapon Selection
+Recommended weapon skills include Thrown, Axe, Martial Artist, and Staff disciplines.
+
+## Discipline Progression
+The guide provides a complete level-by-level breakdown of available disciplines, ranging from Mend (Level 1, 5 EP cost) through PowerWord Heal and Cure Disease (Level 21-22, up to 200 EP).

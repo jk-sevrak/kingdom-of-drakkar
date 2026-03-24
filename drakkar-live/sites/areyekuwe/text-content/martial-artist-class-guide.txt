@@ -1,0 +1,24 @@
+# Martial Artist Class Guide
+Source: https://areyekuwe.wordpress.com/2015/11/11/martial-artist-class-guide/
+Date: November 11, 2015
+
+This comprehensive guide for Kingdom of Drakkar's Martial Artist class was authored by Snake-Eyes and originally published on the MoY Guild website around 2000.
+
+## Core Class Information
+
+**Special Attacks by Skill Level:**
+The guide details progression from skill 6 (Jumpkick) through skill 29 (Deathtouch). Key abilities include Sweep at skill 8, Chi Sweep at 17, Shield at 23, and Power Sweep at 24.
+
+## Equipment Recommendations
+
+**Armor:** MAs perform best in Griffin or Bruce Griffin armor, which provide fire/ice protection. Black Ninja Robes are highly valued for their "+2 agility" bonus per robe worn.
+
+**Gauntlets:** The guide ranks equipment damage potential, listing Red Dragon gauntlets as beginner options, progressing to Alerian gripclaws, Katsumo gauntlets, and Vampire Gripclaws as top-tier choices. "The Kings Quest Vampire Gripclaws are totally badass grips" offering excellent damage and blocking capabilities.
+
+## Party Hunting Tips
+
+Essential guidance includes positioning beside teammates rather than on their hex, maintaining healer proximity, and prioritizing spell-casting NPCs as targets.
+
+## Advanced Hunting Strategies
+
+The guide recommends soloing Griffins for skill development and identifies optimal farming locations including double griffin lairs, Minotaurs, and high-level zones like KM4 and KM5. It emphasizes wearing proper attire for each location and maintaining full healing status during dangerous encounters.

@@ -1,0 +1,18 @@
+# Fighter/Paladin Class Guide
+Source: https://areyekuwe.wordpress.com/2015/11/11/fighter-paladin-class-guide/
+Date: November 11, 2015
+
+## Fighter Basics
+Fighters are beginner-friendly warriors who engage in direct melee combat. "Strength is probably the most important attribute for fighters because that determines how hard they will hit." Constitution and Agility are also critical, as they affect health points and dodge capabilities respectively.
+
+## Paladin Path
+Good-aligned fighters reaching level 8 can become Paladins by training with a specialized instructor located on an island south of Nork. Paladins gain enhanced psionic resistance and combat abilities while maintaining good alignment. Killing non-hostile creatures results in losing Paladin status until atonement.
+
+## Combat Skills & Specializations
+Both classes gain weapon specializations at levels 15, 17, and 20, increasing skill effectiveness and armor penetration. Additional attacks per round are gained at levels 5, 10, 15, and 20. Paladins receive one bonus attack upon achieving their class.
+
+## Paladin Equipment Recommendations
+"A well dressed pally is a sign of strength." Essential gear includes full plate armor, specialized bracers, amulets, and protective rings. Advanced setups incorporate slith robes, attack sashes, and various defensive items depending on hunting scenarios.
+
+## Advanced Paladin Abilities
+High-level Paladins unlock focused combat techniques including Charge (level 15), Focus Parry, Focus Strike, Focus Multistrike, and destructive abilities like Focus Pierce and Focus Maxstrike, each requiring specific weapon skill thresholds.

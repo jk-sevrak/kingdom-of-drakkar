@@ -1,0 +1,1 @@
+import{o}from"./load-ZZK8h_Se.js";import{i as n}from"./tracking-DlQ0vo1p.js";import{c as i,e as a}from"./events-BSBx4DSD.js";var t=new Event("globalComponentsLoaded");o((function(){window.initializeGlobalComponentsTracking=n,window.dispatchEvent(t),i(a)}));

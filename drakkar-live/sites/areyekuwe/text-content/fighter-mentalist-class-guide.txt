@@ -1,0 +1,26 @@
+# Fighter/Mentalist Class Guide
+Source: https://areyekuwe.wordpress.com/2015/11/11/fighter-mentalist-class-guide/
+Date: November 11, 2015
+
+This guide, authored by Genesis of the MoY Guild (circa 2000), provides foundational information about the Fighter/Mentalist class in Kingdom of Drakkar.
+
+## Location and Dedication
+
+The Fighter/Mentalist trainer is located "South West of Frore" in an isolated area. Players can reach this trainer by climbing toward hill giants, then jumping off a cliff south of the stairs (requiring a succor twig to escape). Mentalists can alternatively use illusion magic to traverse water barriers.
+
+## Prerequisites and Warnings
+
+The guide strongly cautions against dedicating to this hybrid class early in gameplay. Instead, the author recommends: "you need the power one way or the other" through extensive leveling as either a pure Mentalist or high-level Paladin with multiple specializations first.
+
+## Class Limitations
+
+Once dedicated to Fighter/Mentalist, players face significant trade-offs compared to pure class specialization:
+
+- "Fighter Mentalist skill gain in Mentalism about half as fast as normal"
+- Players cannot access all Mentalist spells
+- Weapon specialization becomes unavailable
+- Advancement in either discipline becomes slower
+
+## Conversion Paths
+
+Players may dedicate from Merchant, Mentalist, or Fighter classes. However, "you cannot become a Barbarian or Paladin once you dedicate to Fighter / Mentalist," creating permanent restrictions on future class choices.

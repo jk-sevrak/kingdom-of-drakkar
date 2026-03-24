@@ -1,0 +1,1 @@
+import{i,d as o}from"./StickyWikiNavigation-DmNwdSer.js";import{e as t}from"./events-BSBx4DSD.js";import{E as s}from"./consts-BiK2oEMg.js";import"./StickyWikiNavigationShared-ifcE7o19.js";t.on(s.stickyNavRendered,(function(){i()})),t.on(s.stickyNavDestroyed,(function(){o()}));

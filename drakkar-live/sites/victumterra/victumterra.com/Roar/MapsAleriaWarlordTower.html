@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="Roar Guild page of the RPG Kingdom of Drakkar">
+<meta name="Keywords" content="Guild, Kingdom, Drakkar, Roar, roleplay, massive">
+<meta name="Author" content="Brandon Jansma">
+<title>Drakkar Roar Guild</title>
+
+<link href="css/roarlayoutgoth.css" title="New Theme" rel="stylesheet" type="text/css"/>
+	
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<!-- Add maphilight plugin -->
+<script type="text/javascript" src="scripts/jquery.maphilight.min.js"></script>
+
+<!-- Activate maphilight plugin -->
+<script type="text/javascript">$(function() {
+		$('.map').maphilight();
+    });
+</script>
+	
+	
+<style type="text/css">
+	
+#main 
+{
+	height:auto;
+}
+	
+#mapcontainer 
+{
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	width:1024px;
+}
+	
+td 
+{
+	padding-top:none;
+	padding-bottom:none;
+}
+
+.mapcontainer 
+{		
+	margin-left:auto;
+	margin-right:auto;
+	width:1280px;
+	max-width:1280px;
+	height: auto;
+	border:#C88624 solid 1px;
+}
+	
+.mapcontainer 
+{
+  position: relative;  
+}
+	
+.mapcontainer .MapOverlay 
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.mapcontainer:hover .MapOverlay 
+{
+  display: block;
+}	
+		
+</style>
+       
+
+</head>
+
+<body>
+<div id="banner"></div>
+<div id="seperator"></div>
+<div id="mapcontainer"><table id="placestable" width="100" border="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><strong><a href="MapsAleriaCarrena.html">Back To Carrena Town</a></strong></td>
+    </tr>
+  <tr>
+    <td width="426"><strong>Warlord Tower<br />
+      <br />
+      Click steps to explore further<br />
+      <br />
+    </strong></td>
+    <td colspan="2"><strong>Area Information</strong></td>
+    </tr>
+  <tr>
+    <td><img src="images/Maps/Aleria/WarlordTower.png" width="448" height="640" usemap="#Map" border="0" class="map" /></td>
+    <td width="517">Come here to defeat the Warlord at the top of the tower <br />
+      Or<br />
+      Head below to the dungeon known as clickers</td>
+    <td width="73"><br /></td>
+  </tr>
+</table>
+</div>
+<div id="lowbanner"></div>
+
+<map name="Map" id="Map">
+  <area shape="circle" coords="283,416,33" href="MapsAleriaWarlordTower+1.html"  data-maphilight='{"strokeColor":"FFFFFF","strokeWidth":2,"fillColor":"808080","fillOpacity":0.5}' />
+  <area shape="circle" coords="162,420,32" href="MapsAleriaWarlord-1html.html"  data-maphilight='{"strokeColor":"FFFFFF","strokeWidth":2,"fillColor":"808080","fillOpacity":0.5}' />
+	
+</map>
+</body>
+</html>

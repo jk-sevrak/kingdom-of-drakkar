@@ -1,0 +1,32 @@
+# Drakkar Thief Class Guide
+Source: https://areyekuwe.wordpress.com/2015/11/11/thief-class-guide/
+Date: November 11, 2015
+
+## Starting Out
+New thieves should prioritize Luck, Will, and Charisma stats. The guide recommends dedicating fully to thief skill training and committing to "full pay in thief skill" with trainers. Players should acquire the best available armor, typically "full plate and 2 dex type robes" like sliths or assassin cloaks.
+
+## Skill Progression
+The guide outlines advancement milestones:
+- **Skills 1-9**: Can hide from critical hits in lower-level dungeons
+- **Skill 12**: Should avoid lairs; can hide from mid-tier crits
+- **Skills 14-15**: Ready to attempt multi-target scenarios
+- **Skill 17**: Backstab damage multiplies tenfold
+
+## Core Mechanics
+
+**Hiding**: Darkness and concealing terrain are essential. The guide notes that "hide will not break if you end up near a hiding obstacle" after being stunned, suggesting potential game mechanics to exploit.
+
+**Backstabbing**: This ability requires hidden status and deals dramatically increased damage. Interestingly, backstabs work "with any object in hand, including keys, corpses, rings."
+
+## Weapon Arsenal
+Recommended equipment includes:
+- Silver thief dagger (starting weapon)
+- M4 Katana from ninja lairs
+- Various bows and crossbows with enchantments
+- Throwing weapons like M4 Tanto and KM5 RAxe
+
+## Disciplines Unlocked
+Thieves gain special abilities at different levels, including Disarm, Hide, Backstab, Mug, Transmute, Traps, and Limited Invisibility.
+
+## Economic Strategy
+The guide suggests that despite slow early progression, "a high level thief can turn into the biggest money maker" through lair raiding and transmutation of items.
