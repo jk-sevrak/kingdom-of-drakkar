@@ -55,11 +55,18 @@ A dangerous version of the Nork area. Contains lair-type creatures that roam fre
 
 ### Funhouse
 Sells **EP pots** for 500,000 gold each (give 1-5 EP, average ~3).
+- Room 1: Buy key from Jeremy, step on X tile. Room 2: Step on X tile. Room 3: Cast FindFriendly, shout to next room. Subsequent rooms: X tiles, get out fast or die. Final: trade ivory arrow to dog for key.
+- **WARNING**: Mjorin stairs strip you.
+- **Barker** (Fun House end): Embroiders items for 10K
+- **Alex** (Fun House end): Sells EP Permanent Potions for 500K
 
 ### Fishery
 A location where:
 - Fishery Bows are obtained (needed for Muzi quest)
 - Fishery Staff available as starting weapon for casters
+- Home of Twin Griffons (cast Icestorm). Rare "Bruce" spawn
+- Get 2 Silver Bows for Muzi trade
+- Blow/Door wall in large room to reach Black Dragon Lair
 
 ### Guild Hall
 Contains:
