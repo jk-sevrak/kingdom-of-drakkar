@@ -1,0 +1,18 @@
+Drakkar Conversion Chart (Drakvision)
+Original URL: https://www.angelfire.com/dragon2/drakvision/
+Download attempted: 2026-03-24
+
+STATUS: FAILED - Site unavailable from all sources
+
+Attempts made:
+1. wget direct from Angelfire -> 403 Forbidden (Angelfire returns error page; site no longer exists)
+2. WebFetch direct from Angelfire -> 403 Forbidden
+3. wget from Wayback Machine (web.archive.org) -> Blocked by egress policy
+4. WebFetch from Wayback Machine -> Blocked by egress policy
+5. curl with user-agent spoofing -> 403 Forbidden
+6. Google Cache -> Not cached
+7. wolfguild.com mirrors -> No mirror exists for this site
+8. Web search for cached/mirrored copies -> No results found
+
+The Angelfire page has been removed/deleted and no cached or mirrored copy could be located.
+The Wayback Machine (archive.org) is blocked in this environment and could not be checked.

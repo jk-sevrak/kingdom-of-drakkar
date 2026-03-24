@@ -1,0 +1,31 @@
+# Drakkar Guides Tag Page
+Source: https://areyekuwe.wordpress.com/tag/drakkar_guides/
+
+## Posts Tagged "drakkar_guides":
+
+1. **IRC chat and a good IRC client** (December 14, 2016)
+   - Recommends Chatzilla Firefox plugin for connecting to the game's IRC chat at irc://losangeles.ca.us.starlink.org
+
+2. **Dartz, Guides, Info, Quests, the wholla lot of wiki** (November 28, 2015)
+   - Highlights a community-created wiki resource at dartzinfozone.wikia.com with game information
+
+3. **Drakkar IRC chat web client** (November 12, 2015)
+   - Provides web-based IRC access links for in-browser chatting without additional software
+
+4. **Martial Artist Class Guide** (November 11, 2015)
+   - Comprehensive class guide covering armor, weapons, special attacks by skill level, hunting strategies
+
+5. **Healer Class Guide** (November 11, 2015)
+   - Details Healer abilities, unique healing and resurrection powers, disciplines with energy point costs
+
+6. **Fighter/Mentalist Class Guide** (November 11, 2015)
+   - Notes hybrid class limitations and trainer location details
+
+7. **Fighter/Paladin Class Guide** (November 11, 2015)
+   - Extensive guide covering specializations, defensive tactics, gear recommendations, skill progression through level 29
+
+8. **Barbarian Class Guide** (November 11, 2015)
+   - Details berserking mechanics, health advantages, autohealing features, and solo hunting warnings
+
+9. **Mentalist Class Guide** (November 11, 2015)
+   - Covers psionic discipline mechanics, energy management, attribute optimization, and skilling strategies

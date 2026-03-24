@@ -1,0 +1,39 @@
+# Drakkar Blog - Page 2
+Source: https://areyekuwe.wordpress.com/page/2/
+
+## Posts (Most Recent First)
+
+1. **Drakkar IRC chat web client** (November 12, 2015)
+   - Provides web-based IRC chat links for connecting to Drakkar community channels
+   - Tags: drakkar_guides, drakkar_links
+
+2. **Map of the Nork World** (November 12, 2015)
+   - Historical map resource showing the game world layout, originally from the MoY site
+   - Tags: maps
+
+3. **Martial Artist Class Guide** (November 11, 2015)
+   - Comprehensive guide covering party hunting strategies, armor, weapon progression
+   - Tags: drakkar_guides
+
+4. **Healer Class Guide** (November 11, 2015)
+   - Details healer capabilities, discipline progression, party role
+   - Tags: drakkar_guides
+
+5. **Fighter/Mentalist Class Guide** (November 11, 2015)
+   - Explains hybrid class mechanics and dedication requirements
+   - Tags: drakkar_guides
+
+6. **Fighter/Paladin Class Guide** (November 11, 2015)
+   - Covers fighter basics, paladin transformation, weapon specializations, focus abilities through level 29
+   - Tags: drakkar_guides
+
+7. **Barbarian Class Guide** (November 11, 2015)
+   - Details barbarian advantages, berserk mechanics, autobalm healing
+   - Tags: drakkar_guides
+
+8. **Mentalist Class Guide** (November 11, 2015)
+   - Comprehensive mentalist guide covering energy points management, skill training locations
+   - Tags: drakkar_guides
+
+Blog Tagline: "For the Kingdom of Drakkar, KOD, an ancient online MMORPG that goes back to 1980ties"
+Official Homepage: https://www.kingdomofdrakkar.com
