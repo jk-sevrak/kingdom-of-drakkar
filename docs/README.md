@@ -9,7 +9,7 @@ Compiled from archived fan sites, guild pages, personal pages, and the official 
 - **[Overview](General/overview.md)** - What is Kingdom of Drakkar? History, developer info, game worlds, core gameplay.
 - **[Character Creation](General/character-creation.md)** - Attributes, races, classes, gender effects, skills system, rolling tips.
 - **[Combat & Game Mechanics](General/combat-and-mechanics.md)** - Combat system, death penalties, party mechanics, skill system, Hit Doctor, EP system, aging, PK rules, item mechanics.
-- **[Items & Equipment](General/items-and-equipment.md)** - Catalog of notable items by slot: armor, weapons, amulets, potions. Enchanting, imbuing, and sensing mechanics.
+- **[Item Mechanics](General/item-mechanics.md)** - Equipment slots, enchanting, imbuing, sensing, padding, appraising.
 - **[Encrusting & Crafting](General/encrusting-and-crafting.md)** - Ring encrusting with gems (stat bonuses), armor tanning from creature hides.
 - **[Experience & Leveling](General/experience-and-leveling.md)** - Complete XP chart (levels 1-75), stat potion prices, EP/HP potions, level 13 milestone, recommended skill targets by area.
 - **[Weapon Skills](General/weapon-skills.md)** - Weapon types, universal skill recommendations, known power weapons.
@@ -30,20 +30,24 @@ Compiled from archived fan sites, guild pages, personal pages, and the official 
 ### The World of Nork
 
 - **[World Guide](Nork/world-nork.md)** - Starting world locations, dungeon levels, lairs, economy, gear progression.
+- **[Items & Equipment](Nork/items-and-equipment.md)** - Nork armor, weapons, amulets, potions, and consumables.
 - **[Quests](Nork/quests.md)** - The Mausoleum Quest (unsolved mystery), Cobrahn HP quests, Muzi/Uzi quests, Sash Quest, Snowbeast, and more.
 
 ### The World of Cobrahn
 
 - **[World Guide](Cobrahn/world-cobrahn.md)** - Advanced world guide: entering Cob, locations, dungeons, lairs, HP quests, gear, economy, skill training.
+- **[Items & Equipment](Cobrahn/items-and-equipment.md)** - Cobrahn armor, weapons, amulets, potions, and consumables.
 - **[Bestiary](Cobrahn/bestiary.md)** - Complete creature database with hit damage, XP values, locations, and notes. 60+ creatures from Timmy to Gold Dragons.
 
 ### The World of Aleria
 
 - **[World Guide](Aleria/world-aleria.md)** - War-torn advanced world with Light vs. Darkness factions, accessed via Urmak the Boatman.
+- **[Items & Equipment](Aleria/items-and-equipment.md)** - Aleria-specific armor, weapons, and consumables.
 
 ### The World of Mjorin
 
 - **[World Guide](Mjorin/world-mjorin.md)** - Equipment-stripping challenge world accessed via the Funhouse portal, home of Luck Pots.
+- **[Items & Equipment](Mjorin/items-and-equipment.md)** - Mjorin-specific items including Luck Pots.
 
 ### The Nameless Lands
 
