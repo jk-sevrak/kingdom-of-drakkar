@@ -1,0 +1,374 @@
+<html>
+
+<!-- Mirrored from www.angelfire.com/games4/drakkar1/cloaksandrobes.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 20:48:00 GMT -->
+<head>
+<title>Cloaks and Robes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000" text="#FF0000"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://www.angelfire.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+/////// Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'games4/drakkar1', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+////// Lycos Initialization /////////////////////
+var lycos_ad = Array();
+var lycos_search_query = "";
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "angelfire.lycos.com";
+var cm_taxid = "/memberembedded";
+var angelfire_member_name = "games4/drakkar1";
+var angelfire_member_page = "games4/drakkar1/cloaksandrobes.htm";
+var angelfire_ratings_hash = "1359233260:59f90807dec822b0d0d37f52eb3b631c";
+
+var lycos_ad_category = {"dmoz":"sports\/martial_arts","ontarget":"&CAT=sports%20and%20recreation","find_what":"What is a website?"};
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.angelfire.lycos.com";
+var edit_site_url = "www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/js/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript">
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+
+
+
+window.onload = function() {
+    var f = document.getElementById("lycosFooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://www.angelfire.com/adm/ad/footerAd.iframe.html';
+
+    // Slider Injection
+    (function() {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+        e.src = 'http://www.angelfire.com/adm/ad/sliderAd.iframe.html';
+        var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+        var sliderHolder = document.getElementById('lyslider-adblock-holder');
+        var sliderClose = document.getElementById('lyslider-adblock-close');
+        sliderBlock.style.display = 'block';
+
+        sliderClose.onclick = function() {
+            sliderBlock.parentNode.removeChild(sliderBlock);
+            return false;
+        }
+
+        var iframeOnload = function() {
+            setTimeout((function sliiide() {
+                var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                if (s <= 0) {
+                    sliderHolder.style.right = (s + 6) + 'px';
+                    setTimeout(sliiide, 10);
+                }
+                else {
+                    sliderHolder.style.right = '0px';
+                    sliderClose.style.display = 'block';
+                }
+            }), 1000);
+        }
+
+        if (e.attachEvent) {
+            e.attachEvent('onload', iframeOnload);
+        }
+        else {
+            e.addEventListener('load', iframeOnload, false);
+        }
+
+        sliderHolder.insertBefore(e, sliderHolder.firstChild);
+    })();
+}
+
+
+</script>
+
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div style="background:#abe6f6; border-bottom:1px solid #507a87; position:relative; z-index:9999999">
+    <div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; float:left; width:186px; border:0">
+        <img src="../../adm/ad/angelfire-freeAd.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="lycosFooterAd" style="background:#abe6f6; border-top:1px solid #507a87; clear:both; display:none; position:relative; z-index:9999999">
+<div class="adCenterClass" style="display:block!important; overflow:hidden; width:936px;">
+	<div id="aflinksholder" style="float:left; width:186px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; border:0">
+            <img src="../../adm/ad/angelfire-freeAd2.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <div style="text-align:center">
+        	<span style="color:#393939!important; font-size:12px!important; position:relative; top:-6px">
+            	Sponsored by
+            </span>
+            
+            <a href="http://www.listen.com/disty/index.jsp?from=lycos" target="_blank">
+                <img src="../../../af.lygo.com/d/toolbar/sponsors/rhapsody_logo.jpg" alt="sponsor logo" title="Rhapsody"/>
+            </a>
+        </div>
+    </div>
+    <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+</div>
+</div>
+
+<noscript>
+<img src="../../../www.angelfire.lycos.com/doc/images/track/ot_noscript8437.gif?rand=684446" alt="" width="1" height="1" />
+<!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Angelfire Fallthrough - DO NOT MODIFY -->
+<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=280303"></iframe>
+<!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=002&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+<div id="Layer3" style="position:absolute; left:234px; top:116px; width:198px; height:21px; z-index:3"> 
+  The Black Ninja Robe (BNR)</div>
+<div id="Layer4" style="position:absolute; left:233px; top:226px; width:197px; height:21px; z-index:4"> 
+  The Silver Ninja Robe (SNR)</div>
+<div id="Layer5" style="position:absolute; left:593px; top:127px; width:204px; height:19px; z-index:5"> 
+  Camo Cloak </div>
+<div id="Layer6" style="position:absolute; left:590px; top:230px; width:196px; height:19px; z-index:6"> 
+  Easter Robe </div>
+<div id="Layer8" style="position:absolute; left:225px; top:401px; width:196px; height:50px; z-index:8"> 
+  <p>Has 1-3 charges of door</p>
+  </div>
+<div id="Layer9" style="position:absolute; left:589px; top:376px; width:197px; height:21px; z-index:9"> 
+  <p>Tarak G/G Robe </p>
+  </div>
+<div id="Layer10" style="position:absolute; left:590px; top:534px; width:196px; height:20px; z-index:10"> 
+  <p>Tarak N/N Robe </p>
+  </div>
+<div id="Layer11" style="position:absolute; left:590px; top:719px; width:197px; height:21px; z-index:11"> 
+  <p>Tarak E/E Robe</p>
+  </div>
+<div id="Layer12" style="position:absolute; left:235px; top:560px; width:202px; height:47px; z-index:12"> 
+  <p>a.k.a. Kitty Cloak. 250 Ice protection</p>
+  </div>
+<div id="Layer13" style="position:absolute; left:230px; top:746px; width:199px; height:55px; z-index:13"> 
+  <p>This cloak is great for thief adding to ability to hide </p>
+  </div>
+<div id="Layer15" style="position:absolute; left:588px; top:885px; width:201px; height:22px; z-index:15"> 
+  <p>Rakshasa Cloak </p>
+  </div>
+<div id="Layer16" style="position:absolute; left:231px; top:1055px; width:203px; height:56px; z-index:16"> 
+  <p>has oncontact ES and 30% PSI mirror</p>
+  </div>
+<div id="Layer17" style="position:absolute; left:584px; top:1031px; width:203px; height:21px; z-index:17">Royal 
+  Moon Robe</div>
+<div id="Layer18" style="position:absolute; left:227px; top:1205px; width:202px; height:22px; z-index:18">The 
+  Sea Hag </div>
+<div id="Layer19" style="position:absolute; left:583px; top:1170px; width:206px; height:82px; z-index:19"> 
+  <p><font size="2">this cloak has 250PSI crush prot.</font></p>
+  <p><font size="2"> If you trade with PSI user it comes with 3/3 adds and +15 
+    Eps.</font></p>
+  <p><font size="2"> If traded for by theif or fighter it gives +15 hps and 3/3 
+    combat adds. </font></p>
+  <p><font size="2">If traded for with MA you get +1 str +1 agil and 3/3 adds.</font></p>
+  </div>
+<div id="Layer20" style="position:absolute; left:222px; top:1384px; width:208px; height:28px; z-index:20"> 
+  <p>Your basic cloak</p>
+  </div>
+<div id="Layer21" style="position:absolute; left:571px; top:1361px; width:208px; height:21px; z-index:21">Sun 
+  Robe/Yellow Robe</div>
+<div id="Layer23" style="position:absolute; left:435px; top:1463px; width:59px; height:39px; z-index:23"> 
+  <p><a href="index-2.html">HOME</a></p>
+  </div>
+<div id="Layer14" style="position:absolute; left:229px; top:876px; width:93px; height:20px; z-index:24"> 
+  <p>Power Robe </p>
+</div>
+<div id="Layer1" style="position:absolute; left:145px; top:126px; width:67px; height:63px; z-index:25"><img src="chaosguild_files/chaoshome/items/bnr.gif" width="66" height="49"></div>
+<div id="Layer24" style="position:absolute; left:145px; top:229px; width:67px; height:66px; z-index:26"><img src="chaosguild_files/chaoshome/items/snr.gif" width="63" height="58"></div>
+<div id="Layer25" style="position:absolute; left:503px; top:129px; width:73px; height:60px; z-index:27"><img src="chaosguild_files/chaoshome/items/camocloak.gif" width="69" height="56"></div>
+<div id="Layer26" style="position:absolute; left:504px; top:229px; width:60px; height:78px; z-index:28"><img src="chaosguild_files/chaoshome/items/easter_robe.gif" width="58" height="69"></div>
+<div id="Layer27" style="position:absolute; left:142px; top:1205px; width:63px; height:71px; z-index:29"><img src="chaosguild_files/chaoshome/items/sea_hag_cloak.gif" width="54" height="57"></div>
+<div id="Layer7" style="position:absolute; left:147px; top:375px; width:57px; height:69px; z-index:30"><img src="chaosguild_files/chaoshome/items/ghost_closk.gif" width="58" height="62"></div>
+<div id="Layer28" style="position:absolute; left:507px; top:373px; width:51px; height:77px; z-index:31"><img src="chaosguild_files/chaoshome/items/good_tarak_robe.gif" width="43" height="63"></div>
+<div id="Layer29" style="position:absolute; left:511px; top:536px; width:45px; height:77px; z-index:32"><img src="chaosguild_files/chaoshome/items/neutral_tarak_robe.gif" width="40" height="60"></div>
+<div id="Layer30" style="position:absolute; left:506px; top:717px; width:60px; height:86px; z-index:33"><img src="chaosguild_files/chaoshome/items/tarakevil.gif" width="56" height="74"></div>
+<div id="Layer31" style="position:absolute; left:151px; top:530px; width:65px; height:84px; z-index:34"><img src="chaosguild_files/chaoshome/items/kitty_fur.gif" width="59" height="70"></div>
+<div id="Layer32" style="position:absolute; left:145px; top:715px; width:63px; height:87px; z-index:35"><img src="chaosguild_files/chaoshome/items/mummy_cloak.gif" width="58" height="76"></div>
+<div id="Layer33" style="position:absolute; left:143px; top:879px; width:69px; height:83px; z-index:36"><img src="chaosguild_files/chaoshome/items/power_robe.gif" width="62" height="71"></div>
+<div id="Layer34" style="position:absolute; left:228px; top:900px; width:226px; height:55px; z-index:37"> 
+  <p><font size="2">This robe has Earthcrush protection.</font> The Robe works 
+    very well with the Excalibur GS.</p>
+</div>
+<div id="Layer35" style="position:absolute; left:504px; top:886px; width:65px; height:76px; z-index:38"><img src="chaosguild_files/chaoshome/items/rak_cloak.gif" width="65" height="74"></div>
+<div id="Layer36" style="position:absolute; left:140px; top:1037px; width:64px; height:75px; z-index:39"><img src="chaosguild_files/chaoshome/items/reggiecloak.gif" width="58" height="59"></div>
+<div id="Layer37" style="position:absolute; left:506px; top:1033px; width:60px; height:72px; z-index:40"><img src="chaosguild_files/chaoshome/items/royal_moon_robe.gif" width="57" height="69"></div>
+<div id="Layer38" style="position:absolute; left:497px; top:1198px; width:68px; height:80px; z-index:41"><img src="chaosguild_files/chaoshome/items/slith_cloak.gif" width="62" height="73"></div>
+<div id="Layer39" style="position:absolute; left:144px; top:1360px; width:56px; height:58px; z-index:42"><img src="chaosguild_files/chaoshome/items/wool_cloak.gif" width="57" height="47"></div>
+<div id="Layer40" style="position:absolute; left:495px; top:1360px; width:58px; height:68px; z-index:43"><img src="chaosguild_files/chaoshome/items/yellow_robe.gif" width="55" height="65"></div>
+<div id="Layer41" style="position:absolute; left:585px; top:1144px; width:87px; height:12px; z-index:44">Slith 
+  Cloak </div>
+<div id="Layer42" style="position:absolute; left:230px; top:720px; width:193px; height:21px; z-index:45">Mummy 
+  cloak</div>
+<div id="Layer43" style="position:absolute; left:230px; top:1034px; width:158px; height:16px; z-index:46">Reggie 
+  cloak</div>
+<div id="Layer44" style="position:absolute; left:223px; top:1356px; width:123px; height:13px; z-index:47">Wool 
+  Cloak </div>
+<div id="Layer45" style="position:absolute; left:234px; top:529px; width:140px; height:16px; z-index:48">Sabertooth 
+  Cloak</div>
+<div id="Layer46" style="position:absolute; left:225px; top:377px; width:151px; height:16px; z-index:49">Ghost 
+  Cloak </div>
+<div id="Layer47" style="position:absolute; left:233px; top:142px; width:222px; height:34px; z-index:50">Gives 
+  +2 to agility and has 20-30% chance of cutting PSI damage</div>
+<div id="Layer48" style="position:absolute; left:593px; top:150px; width:207px; height:47px; z-index:51"></div>
+<div id="Layer49" style="position:absolute; left:589px; top:256px; width:221px; height:56px; z-index:52">Special 
+  event Robe. 250 fire/Ice Protection and 3/3 combat adds.</div>
+<div id="Layer50" style="position:absolute; left:584px; top:1058px; width:242px; height:47px; z-index:53">MoonShadow's 
+  Robe. Unatainable as of now.</div>
+<div id="Layer51" style="position:absolute; left:569px; top:1389px; width:219px; height:39px; z-index:54">50 
+  fire and Ice protection</div>
+<div id="Layer52" style="position:absolute; left:232px; top:253px; width:211px; height:40px; z-index:55">250 
+  Fire and Ice protection. May have combat adds.</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e140b3ceed3844d',t:'MTc3NDMzODE5NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from www.angelfire.com/games4/drakkar1/cloaksandrobes.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 20:48:05 GMT -->
+</html>

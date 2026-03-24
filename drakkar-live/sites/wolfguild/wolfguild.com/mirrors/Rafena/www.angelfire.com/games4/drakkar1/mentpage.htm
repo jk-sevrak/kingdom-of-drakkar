@@ -1,0 +1,1005 @@
+<html>
+
+<!-- Mirrored from www.angelfire.com/games4/drakkar1/mentpage.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 20:47:50 GMT -->
+<head>
+<title>Ments page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000" text="#FF0000" link="#0000FF" vlink="#FFFFFF" alink="#0000FF"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://www.angelfire.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+/////// Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'games4/drakkar1', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+////// Lycos Initialization /////////////////////
+var lycos_ad = Array();
+var lycos_search_query = "";
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "angelfire.lycos.com";
+var cm_taxid = "/memberembedded";
+var angelfire_member_name = "games4/drakkar1";
+var angelfire_member_page = "games4/drakkar1/mentpage.htm";
+var angelfire_ratings_hash = "1359233251:af15f9d8b3e72032396c12fbceae9f61";
+
+var lycos_ad_category = {"dmoz":"sports\/martial_arts","ontarget":"&CAT=sports%20and%20recreation","find_what":"What is a website?"};
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.angelfire.lycos.com";
+var edit_site_url = "www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/js/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript">
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+
+
+
+window.onload = function() {
+    var f = document.getElementById("lycosFooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://www.angelfire.com/adm/ad/footerAd.iframe.html';
+
+    // Slider Injection
+    (function() {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+        e.src = 'http://www.angelfire.com/adm/ad/sliderAd.iframe.html';
+        var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+        var sliderHolder = document.getElementById('lyslider-adblock-holder');
+        var sliderClose = document.getElementById('lyslider-adblock-close');
+        sliderBlock.style.display = 'block';
+
+        sliderClose.onclick = function() {
+            sliderBlock.parentNode.removeChild(sliderBlock);
+            return false;
+        }
+
+        var iframeOnload = function() {
+            setTimeout((function sliiide() {
+                var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                if (s <= 0) {
+                    sliderHolder.style.right = (s + 6) + 'px';
+                    setTimeout(sliiide, 10);
+                }
+                else {
+                    sliderHolder.style.right = '0px';
+                    sliderClose.style.display = 'block';
+                }
+            }), 1000);
+        }
+
+        if (e.attachEvent) {
+            e.attachEvent('onload', iframeOnload);
+        }
+        else {
+            e.addEventListener('load', iframeOnload, false);
+        }
+
+        sliderHolder.insertBefore(e, sliderHolder.firstChild);
+    })();
+}
+
+
+</script>
+
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div style="background:#abe6f6; border-bottom:1px solid #507a87; position:relative; z-index:9999999">
+    <div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; float:left; width:186px; border:0">
+        <img src="../../adm/ad/angelfire-freeAd.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="lycosFooterAd" style="background:#abe6f6; border-top:1px solid #507a87; clear:both; display:none; position:relative; z-index:9999999">
+<div class="adCenterClass" style="display:block!important; overflow:hidden; width:936px;">
+	<div id="aflinksholder" style="float:left; width:186px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; border:0">
+            <img src="../../adm/ad/angelfire-freeAd2.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <div style="text-align:center">
+        	<span style="color:#393939!important; font-size:12px!important; position:relative; top:-6px">
+            	Sponsored by
+            </span>
+            
+            <a href="http://www.listen.com/disty/index.jsp?from=lycos" target="_blank">
+                <img src="../../../af.lygo.com/d/toolbar/sponsors/rhapsody_logo.jpg" alt="sponsor logo" title="Rhapsody"/>
+            </a>
+        </div>
+    </div>
+    <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+</div>
+</div>
+
+<noscript>
+<img src="../../../www.angelfire.lycos.com/doc/images/track/ot_noscript1bfa.gif?rand=466420" alt="" width="1" height="1" />
+<!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Angelfire Fallthrough - DO NOT MODIFY -->
+<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=280303"></iframe>
+<!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=002&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+<div id="Layer1" style="position:absolute; left:108px; top:690px; width:806px; height:60px; z-index:1">This 
+  is the Ments page and is limited to what details and experiances I have or had 
+  myself. I could have easily coppied all this information down but that would 
+  lack first hand knowlage on my part. The information Iprovide on the Mentalist 
+  page is first hand knowlage of what I have obtained in my gameing experance.</div>
+<div id="Layer2" style="position:absolute; left:115px; top:3204px; width:790px; height:1193px; z-index:2"> 
+  <table width="98%" border="1" name="Skills" height="996">
+    <tr> 
+      <td width="12%">SKILL LVL</td>
+      <td width="12%">DISCIPLINE</td>
+      <td width="10%">EP COST</td>
+      <td width="66%">SHORT DISCRIPTION</td>
+    </tr>
+    <tr> 
+      <td width="12%" height="22">
+        <div align="center">1)</div>
+      </td>
+      <td width="12%" height="22">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/enmiss.jpg" width="32" height="33"></p>
+          <p>Enmiss</p>
+          </div>
+      </td>
+      <td width="10%" height="22">5 EP</td>
+      <td width="66%" height="22">You shoot a missle of pure energy at your target.</td>
+    </tr>
+    <tr> 
+      <td width="12%" height="30">
+        <div align="center">2)</div>
+      </td>
+      <td width="12%" height="30">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/detect.jpg" width="32" height="32"></p>
+          <p>Detect</p>
+        </div>
+      </td>
+      <td width="10%" height="30">10 EP</td>
+      <td width="66%" height="30"> 
+        <p>This enchantment grants the ability to see most Illousionary walls.</p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">3)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/sense.jpg" width="32" height="33"></p>
+          <p>Sense</p>
+        </div>
+      </td>
+      <td width="10%">10 EP</td>
+      <td width="66%">Detects properties of items. At higer levels alows you to 
+        see what ammy's do.</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">4)</div>
+      </td>
+      <td width="12%"> 
+        <p align="center"><img src="chaosguild_files/chaoshome/mentalist/respirate.jpg" width="32" height="32"></p>
+        <p align="center">Resperate</p>
+      </td>
+      <td width="10%">20 EP</td>
+      <td width="66%">Enchantment that keeps from drowning and alows you to move 
+        full speed in water.</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">5)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/protfire.jpg" width="32" height="32"></p>
+          <p>Protfire</p>
+        </div>
+      </td>
+      <td width="10%">10 EP</td>
+      <td width="66%">This enchantment absorbs some of the damage delt by fire.</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">6)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/fireball.jpg" width="32" height="32"></p>
+          <p>Fireball</p>
+        </div>
+      </td>
+      <td width="10%">10 EP</td>
+      <td width="66%">You let forth a firy blaze. 3x3 area can set a path for 
+        it. </td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/illusion.jpg" width="32" height="32"></p>
+          <p>Illousion</p>
+        </div>
+      </td>
+      <td width="10%">25 EP</td>
+      <td width="66%">Creates and EXTRAMLY realistic illousion. Advised to set 
+        a path.</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">7)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/protice.jpg" width="32" height="32"></p>
+          <p>Protice</p>
+        </div>
+      </td>
+      <td width="10%">20 EP</td>
+      <td width="66%">This enchantment offers protection from the element of ICE.</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">8)</div>
+      </td>
+      <td width="12%"> 
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/icestorm.jpg" width="32" height="32"></p>
+          <p>IceStorm</p>
+        </div>
+      </td>
+      <td width="10%">15 EP</td>
+      <td width="66%">This spell brings forth a storm of ice that covers a 3x3 
+        area. Can set path</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">9)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/firebreath.jpg" width="32" height="32"></p>
+          <p>FireBreath</p>
+        </div>
+      </td>
+      <td width="10%">50 EP</td>
+      <td width="66%">Fire engulfs almost the entire screen as you breath a hot 
+        firy liquid. covers 4x4 area and can be set to a path.</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/door.jpg" width="32" height="32"></p>
+          <p>Door</p>
+        </div>
+      </td>
+      <td width="10%">10 EP</td>
+      <td width="66%">Simply creates a door in a wall. &lt;NOTE: some walls cant 
+        be target of this spell.&gt;</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">10)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/xmute.jpg" width="32" height="32"></p>
+          <p>Transmute</p>
+        </div>
+      </td>
+      <td width="10%">10 EP</td>
+      <td width="66%">Turns a pile of goods on the floor to gold! &lt;NOTE: the 
+        amount of gold is less then the actual items value&gt;</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/darkness.jpg" width="32" height="32"></p>
+          <p>Darkness</p>
+        </div>
+      </td>
+      <td width="10%">10 EP</td>
+      <td width="66%">This spell creates a magical darkness that covers a 3x3 
+        area.</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">11)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/blast.jpg" width="32" height="32"></p>
+          <p>Blast</p>
+        </div>
+      </td>
+      <td width="10%">20 EP</td>
+      <td width="66%">Blows a 3x3 area up. Will distroy weak or unsuported walls.</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/infravision.jpg" width="32" height="32"></p>
+          <p>InfraVission</p>
+        </div>
+      </td>
+      <td width="10%">25 EP</td>
+      <td width="66%">Alows you to see in the dark! &lt;NOTE: this spell only 
+        works on you untill you reach skill 12&gt;</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/disintegrate.jpg" width="32" height="32"></p>
+          <p>Disintegrate</p>
+        </div>
+      </td>
+      <td width="10%">10 EP</td>
+      <td width="66%">All wall in sight will blow up distroying small items and 
+        damaging monster and players alike. You can lose alighnment if you kill 
+        a player.</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">12)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/enchant.jpg" width="32" height="32"></p>
+          <p>Enchant</p>
+        </div>
+      </td>
+      <td width="10%">30 EP</td>
+      <td width="66%">You can now enchant shields and weapons to +3. Later skill 
+        levels you may enchant to higher levels.</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/embue.jpg" width="32" height="32"></p>
+          <p>Imbue</p>
+        </div>
+      </td>
+      <td width="10%">30 EP</td>
+      <td width="66%"> You can enjoy recharging spell twigs. I know little of 
+        this spell. See drakkar help for more on this spell. **Now how do you 
+        work this spell again?!?**</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/findfriendly.jpg" width="32" height="32"></p>
+          <p>FindFriendly</p>
+        </div>
+      </td>
+      <td width="10%">30 EP</td>
+      <td width="66%">Sommons a Friendly Monster to aid you. Skill 12 bear, Skill 
+        14 Roc.</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/energyshield.jpg" width="32" height="32"></p>
+          <p>EnergyShield</p>
+        </div>
+      </td>
+      <td width="10%">20 EP</td>
+      <td width="66%">This enchantment grants absorbtion of a small amount of 
+        physical damage.</td>
+    </tr>
+    <tr> 
+      <td width="12%" height="38">
+        <div align="center">13)</div>
+      </td>
+      <td width="12%" height="38">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/icebreath.jpg" width="32" height="32"></p>
+          <p>IceBreath</p>
+        </div>
+      </td>
+      <td width="10%" height="38">55 EP</td>
+      <td width="66%" height="38">You unleash a great breath of Ice that damages 
+        all in a 4x4 area. Can set a path for this spell.</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/acidbreath.jpg" width="32" height="33"></p>
+          <p>AcidBreath</p>
+        </div>
+      </td>
+      <td width="10%">10EP</td>
+      <td width="66%">You breath becomes foul and crosive. Covers a 3x3 area and 
+        must train at mentalist trainer in Tree town in Cobrahan to receave this 
+        spell..</td>
+    </tr>
+    <tr> 
+      <td width="12%">
+        <div align="center">14)</div>
+      </td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/energyspear.jpg" width="32" height="33"></p>
+          <p>EnergySpear</p>
+        </div>
+      </td>
+      <td width="10%">35 EP</td>
+      <td width="66%">You shoot a shaft of Pure energy that perces the target 
+        for better damage then the enmiss spell.</td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/absorbtion.jpg" width="32" height="32"></p>
+          <p>Absorbtion</p>
+        </div>
+      </td>
+      <td width="10%">20 EP</td>
+      <td width="66%"> 
+        <p>This spell stops a portion of damage agenst poison or spell damage. 
+        </p>
+        <p>**Ahh, so this is how it feels to be Imune to most poisons!**</p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="12%">
+        <div align="center"> 
+          <p><img src="chaosguild_files/chaoshome/mentalist/push.jpg" width="32" height="32"></p>
+          <p>Push</p>
+        </div>
+      </td>
+      <td width="10%">15 EP</td>
+      <td width="66%">Your mental powers forces a monster or friend in a random 
+        ajacent direction and you become hostile. **Hug me!! I was only trying 
+        to save you!**</td>
+    </tr>
+    <tr> 
+      <td width="12%" height="28">
+        <div align="center">15)</div>
+      </td>
+      <td width="12%" height="28">
+        <div align="center">Scry</div>
+      </td>
+      <td width="10%" height="28">25 EP</td>
+      <td width="66%" height="28"> 
+        <p>This spell give you the ability to see though the eyes of another player. 
+        </p>
+        <p>**monkey see monkey do.**</p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" height="25">&nbsp;</td>
+      <td width="12%" height="25">
+        <div align="center">Featherfall</div>
+      </td>
+      <td width="10%" height="25">30 EP</td>
+      <td width="66%" height="25">This enchantment prevents damage from long falls 
+        and from loosing a turn from a prone. **Lighter then air!?! My this was 
+        a long drop**</td>
+    </tr>
+    <tr> 
+      <td width="12%" height="24">&nbsp;</td>
+      <td width="12%" height="24">
+        <div align="center">Confusion</div>
+      </td>
+      <td width="10%" height="24">25 EP</td>
+      <td width="66%" height="24">You cause a foe to attack at random targets 
+        for the duration of this spell.</td>
+    </tr>
+  </table>
+</div>
+<div id="Layer3" style="position:absolute; left:397px; top:278px; width:224px; height:321px; z-index:3"><img src="chaosguild_files/chaoshome/otherpics/thement.jpg" width="244" height="370"></div>
+<div id="Layer4" style="position:absolute; left:416px; top:889px; width:190px; height:269px; z-index:4"><img src="chaosguild_files/chaoshome/otherpics/Pheonix.jpg" width="212" height="275"></div>
+<div id="Layer5" style="position:absolute; left:471px; top:5778px; width:51px; height:71px; z-index:5"> 
+  <p align="center"><a href="index-2.html">Home</a></p>
+</div>
+<div id="Layer6" style="position:absolute; left:188px; top:769px; width:624px; height:68px; z-index:6">Here 
+  I will list some details about the Mentalist class that makes it so great! I 
+  will explain why it is that the Mentalist is concidered the best coining class, 
+  I will tell you where you should hunt at what skill levels to obtain the best 
+  skill possable. and a list of gear that should be obtained by what levels to 
+  make adventures more entertaining and livable.</div>
+<div id="Layer7" style="position:absolute; left:118px; top:1219px; width:800px; height:72px; z-index:7"> 
+  <div align="center"><font size="+7">The Pluses</font></div>
+</div>
+<div id="Layer8" style="position:absolute; left:218px; top:1326px; width:572px; height:225px; z-index:8">
+  <p>The Mentalist is arguably the best coining and Exp. gathering class in the 
+    game. A Mentalist uses her area spells to great effect to slay a large party 
+    of villins and/or monsters in a short period of time. </p>
+  <p>The Mentalist can Telleport to any location in the game (even the no-twig-zones), 
+    and at later skill levels can telleport masses of players to mimorized locations.</p>
+  <p>The Mentalist gets awsome protective spells that allow them and their party 
+    to go places that no other class can easly access.</p>
+  <p>The Mentalist is able to avoid close hand to hand combat and slay foes from 
+    a distance.</p>
+  <p>On lair hunts a Mentalist is greatly appreciated for the ability to give 
+    telleports to the entrance and the ability to Deplete the lair creature of 
+    its protections and EP.</p>
+</div>
+<div id="Layer9" style="position:absolute; left:182px; top:155px; width:668px; height:118px; z-index:9"> 
+  <div align="center">
+    <p>So, you want to be a</p>
+    <p><font size="+7">Mentalist</font></p>
+  </div>
+</div>
+<div id="Layer10" style="position:absolute; left:116px; top:1662px; width:800px; height:68px; z-index:10"> 
+  <div align="center"><font size="+7">The Negitives</font></div>
+</div>
+<div id="Layer11" style="position:absolute; left:222px; top:1772px; width:564px; height:126px; z-index:11">
+  <p>On the down side to things... the mentalist gets a very low amount of health 
+    points, and the spells can cost an extensive amount.</p>
+  <p>The mentalist is arguably a class that will age the fastest and require the 
+    most Youth pots.</p>
+  <p>The mentalist does not excell in phyical combat.</p>
+  <p>The mentalist is NOT usefull in lair hunts untill higher skill levels are 
+    acheaved. </p>
+</div>
+<div id="Layer12" style="position:absolute; left:96px; top:1985px; width:834px; height:64px; z-index:12">
+  <div align="center"><font size="+7">The Places to Hunt</font></div>
+</div>
+<div id="Layer13" style="position:absolute; left:114px; top:2081px; width:780px; height:970px; z-index:13">
+  <table width="91%" border="1">
+    <tr> 
+      <td height="31" width="21%"> 
+        <div align="center">Skill Level</div>
+      </td>
+      <td height="31" width="38%"> 
+        <div align="center">Place</div>
+      </td>
+      <td height="31" width="41%"> 
+        <div align="center">Gear Recomended</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">1</div>
+      </td>
+      <td width="38%"> 
+        <div align="center">Nork -1</div>
+      </td>
+      <td width="41%"> 
+        <div align="center">What you can find on the ground!</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">2</div>
+      </td>
+      <td width="38%"> 
+        <div align="center">Nork -1</div>
+      </td>
+      <td width="41%"> 
+        <div align="center">If you can find anything better use it.</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">3</div>
+      </td>
+      <td width="38%"> 
+        <div align="center">Nork -2</div>
+      </td>
+      <td width="41%"> 
+        <div align="center">Plate found here.</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">4</div>
+      </td>
+      <td width="38%"> 
+        <div align="center">Nork -2</div>
+      </td>
+      <td width="41%"> 
+        <div align="center">Try LizardKing (will need Fire prots)</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">5</div>
+      </td>
+      <td width="38%"> 
+        <div align="center">Nork -3</div>
+      </td>
+      <td width="41%"> 
+        <div align="center">Fire and Ice protection</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">6</div>
+      </td>
+      <td width="38%">
+        <div align="center">Nork -3.5</div>
+      </td>
+      <td width="41%">
+        <div align="center">best combat you have, some fire and ice</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">7</div>
+      </td>
+      <td width="38%"> 
+        <div align="center">Nork -3.5 (Lairs)</div>
+      </td>
+      <td width="41%"> 
+        <div align="center">you will probaly have an RD by now</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">8</div>
+      </td>
+      <td width="38%"> 
+        <div align="center">Nork -3.5 (Lairs), Prisons</div>
+      </td>
+      <td width="41%"> 
+        <div align="center">You should have an RD, kitty, and Rak by now.</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">9</div>
+      </td>
+      <td width="38%"> 
+        <div align="center">N-4, Prisions</div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">10</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">11</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">12</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">13</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">14</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">15</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">16</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">17</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">18</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">19</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">20</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">21</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">22</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">23</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">24</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">25</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="21%"> 
+        <div align="center">26</div>
+      </td>
+      <td width="38%"> 
+        <div align="center"></div>
+      </td>
+      <td width="41%"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="Layer14" style="position:absolute; left:108px; top:3094px; width:796px; height:72px; z-index:14"> 
+  <div align="center"><font size="+7">The SPELLS!!!</font></div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e140acc6ba1844d',t:'MTc3NDMzODE3Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from www.angelfire.com/games4/drakkar1/mentpage.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 20:47:57 GMT -->
+</html>

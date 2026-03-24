@@ -1,0 +1,770 @@
+<html>
+
+<!-- Mirrored from www.angelfire.com/games4/drakkar1/monsters.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 20:47:45 GMT -->
+<head>
+<title>Monsters</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000" text="#FF0000" link="#0000FF" vlink="#FFFFFF" alink="#0000FF"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://www.angelfire.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+/////// Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'games4/drakkar1', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+////// Lycos Initialization /////////////////////
+var lycos_ad = Array();
+var lycos_search_query = "";
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "angelfire.lycos.com";
+var cm_taxid = "/memberembedded";
+var angelfire_member_name = "games4/drakkar1";
+var angelfire_member_page = "games4/drakkar1/monsters.htm";
+var angelfire_ratings_hash = "1359233251:af15f9d8b3e72032396c12fbceae9f61";
+
+var lycos_ad_category = {"dmoz":"sports\/martial_arts","ontarget":"&CAT=sports%20and%20recreation","find_what":"What is a website?"};
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.angelfire.lycos.com";
+var edit_site_url = "www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/js/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript">
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+
+
+
+window.onload = function() {
+    var f = document.getElementById("lycosFooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://www.angelfire.com/adm/ad/footerAd.iframe.html';
+
+    // Slider Injection
+    (function() {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+        e.src = 'http://www.angelfire.com/adm/ad/sliderAd.iframe.html';
+        var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+        var sliderHolder = document.getElementById('lyslider-adblock-holder');
+        var sliderClose = document.getElementById('lyslider-adblock-close');
+        sliderBlock.style.display = 'block';
+
+        sliderClose.onclick = function() {
+            sliderBlock.parentNode.removeChild(sliderBlock);
+            return false;
+        }
+
+        var iframeOnload = function() {
+            setTimeout((function sliiide() {
+                var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                if (s <= 0) {
+                    sliderHolder.style.right = (s + 6) + 'px';
+                    setTimeout(sliiide, 10);
+                }
+                else {
+                    sliderHolder.style.right = '0px';
+                    sliderClose.style.display = 'block';
+                }
+            }), 1000);
+        }
+
+        if (e.attachEvent) {
+            e.attachEvent('onload', iframeOnload);
+        }
+        else {
+            e.addEventListener('load', iframeOnload, false);
+        }
+
+        sliderHolder.insertBefore(e, sliderHolder.firstChild);
+    })();
+}
+
+
+</script>
+
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div style="background:#abe6f6; border-bottom:1px solid #507a87; position:relative; z-index:9999999">
+    <div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; float:left; width:186px; border:0">
+        <img src="../../adm/ad/angelfire-freeAd.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="lycosFooterAd" style="background:#abe6f6; border-top:1px solid #507a87; clear:both; display:none; position:relative; z-index:9999999">
+<div class="adCenterClass" style="display:block!important; overflow:hidden; width:936px;">
+	<div id="aflinksholder" style="float:left; width:186px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; border:0">
+            <img src="../../adm/ad/angelfire-freeAd2.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <div style="text-align:center">
+        	<span style="color:#393939!important; font-size:12px!important; position:relative; top:-6px">
+            	Sponsored by
+            </span>
+            
+            <a href="http://www.listen.com/disty/index.jsp?from=lycos" target="_blank">
+                <img src="../../../af.lygo.com/d/toolbar/sponsors/rhapsody_logo.jpg" alt="sponsor logo" title="Rhapsody"/>
+            </a>
+        </div>
+    </div>
+    <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+</div>
+</div>
+
+<noscript>
+<img src="../../../www.angelfire.lycos.com/doc/images/track/ot_noscriptf85f.gif?rand=336203" alt="" width="1" height="1" />
+<!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Angelfire Fallthrough - DO NOT MODIFY -->
+<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=280303"></iframe>
+<!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=002&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+<div id="Layer1" style="position:absolute; left:101px; top:129px; width:838px; height:115px; z-index:1"> 
+  <div align="center">
+    <p><font size="7">Drakkar's Monsters</font></p>
+    <p><font size="6">Page 1 Nork</font></p>
+  </div>
+</div>
+<div id="Layer2" style="position:absolute; left:161px; top:299px; width:640px; height:1560px; z-index:2"> 
+  <table width="100%" border="1">
+    <tr> 
+      <td height="77" width="26%"> 
+        <div align="center">Moster Name</div>
+      </td>
+      <td height="77" width="26%"> 
+        <div align="center">MONSTER PIC!</div>
+      </td>
+      <td height="77" width="27%"> 
+        <div align="center"> Average Damage (Based on a 13/13 Thief)</div>
+      </td>
+      <td height="77" width="25%"> 
+        <div align="center">NOTES</div>
+      </td>
+      <td height="77" width="22%"> 
+        <div align="center">Location</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Kobold</div>
+      </td>
+      <td width="26%">
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">3 damage</div>
+      </td>
+      <td width="25%">Leather to Chain Short sword or dagger</td>
+      <td width="22%"> 
+        <div align="center">Nork School</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Goblin</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Varies</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-1, 2, 3, 3.5, Prisons and Yeti Island Caves</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Orc</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/orc.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Varies</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">n-1, 2, 3, 3.5, Prisons and Yeti Island caves</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Rockman</div>
+      </td>
+      <td width="26%">
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Varies</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%">N-1, N-2, and Yeti Island caves</td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Troll</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/troll.gif" width="44" height="53"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Varies</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%">N-1, 2, 3, 4, 5</td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Ogre</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/Ogre.jpg" width="52" height="53"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Varies</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%">Most Everywhere!</td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Troglodyte</div>
+      </td>
+      <td width="26%">
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-2, 3, 3.5, 4, and N-5</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Trolkin</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/trolkin.jpg" width="28" height="40"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">12 damage</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%"> 
+        <div align="center"> N-3.5</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Shaman</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/orc.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">21 damage</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-3.5</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Champion</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/Gnoll.jpg" width="43" height="53"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">24 damage</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">Proning crossbow</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-3.5</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Gnoll</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/Gnoll.jpg" width="43" height="53"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Varies</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-3.7, N-8</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Sanquin</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center"> 
+          <p>30 IceStorm damage</p>
+        </div>
+      </td>
+      <td width="25%"> 
+        <div align="center">Drake egg for the Rat Burrow Sash Quest, May tan for 
+          sanquin scales</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-3, 3.5,4, 5, 8 Yeti Island caves top floor</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">phantom</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Varies</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-3.5 and Haunted area</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Skeleton</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Varies</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">n-5 secret area, and N-3.5</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Stunner</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">35 damage</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">Stuns</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">Prisons, N-4, 5, and N-8</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">NPC </div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/npc.gif" width="55" height="65"> 
+          <img src="chaosguild_files/chaoshome/monsters/npcheal.gif" width="55" height="65"> 
+          <img src="chaosguild_files/chaoshome/monsters/npcment.gif" width="55" height="65"> 
+        </div>
+      </td>
+      <td width="27%"> 
+        <div align="center"> 
+          <p>Varies,</p>
+          <p>may be fighting or spell caster.</p>
+        </div>
+      </td>
+      <td width="25%"> 
+        <div align="center">verious rings and armor, GD</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-3 and down, Prisons, and Yeti Island caves</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Rakshasa</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/rakshasa.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center"> 
+          <p>Varies</p>
+          <p>and</p>
+          <p>19 Enmiss Damage</p>
+        </div>
+      </td>
+      <td width="25%"> 
+        <div align="center">May tan body for a Raskasha Cloak.</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">Prisons and N-5</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Yeti</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/yeti.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">18 damage</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">May tan for a Sm Yetie armor</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">Found on Yeti Island and Prison Island</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Dog</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/dog.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">Poisons</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">May tan for Dog Armor</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">Town and N-2</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Bear</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/bear.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">May Tan for Bear Body Armor</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">Yeti Island and Prisons Island</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Dolphin</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/dolphin.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">G/G creature Never evil</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">Waters in N-3.5 and around town.</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Deer</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/deer.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">-----</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">occationaly evil</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">Prison Island or Yeti Island</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Alligator</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"><img src="chaosguild_files/chaoshome/monsters/alligator.gif" width="55" height="65"></div>
+      </td>
+      <td width="27%">
+        <div align="center">15 damage</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">Poisons</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">N-3.5 and waters around town</div>
+      </td>
+    </tr>
+    <tr>
+      <td width="26%">
+        <div align="center">Whale</div>
+      </td>
+      <td width="26%">
+        <div align="center"></div>
+      </td>
+      <td width="27%">
+        <div align="center">-----</div>
+      </td>
+      <td width="25%">
+        <div align="center">Big and Tough!</div>
+      </td>
+      <td width="22%">
+        <div align="center">Waters around town</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%" height="22">
+        <div align="center">Shark</div>
+      </td>
+      <td width="26%" height="22">
+        <div align="center"></div>
+      </td>
+      <td width="27%" height="22">
+        <div align="center">38 damage</div>
+      </td>
+      <td width="25%" height="22">
+        <div align="center">Poisons</div>
+      </td>
+      <td width="22%" height="22">
+        <div align="center">N-3 and waters around town</div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="26%"> 
+        <div align="center">Wolf</div>
+      </td>
+      <td width="26%"> 
+        <div align="center"></div>
+      </td>
+      <td width="27%"> 
+        <div align="center">17 damage</div>
+      </td>
+      <td width="25%"> 
+        <div align="center">Poisons</div>
+      </td>
+      <td width="22%"> 
+        <div align="center">Yeti island and Prison Island</div>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="Layer4" style="position:absolute; left:660px; top:257px; width:122px; height:19px; z-index:4">Varies 
+  = depends on location</div>
+<div id="Layer5" style="position:absolute; left:303px; top:2328px; width:376px; height:198px; z-index:5">Thank 
+  you Rasheed for playing Gofor as I asked Questions on locations of some of these 
+  monsters and Recorded this Information. </div>
+<div id="Layer6" style="position:absolute; left:420px; top:2395px; width:69px; height:16px; z-index:6">Nork 
+  Lairs </div>
+<div id="Layer7" style="position:absolute; left:499px; top:2396px; width:96px; height:17px; z-index:7">To 
+  Maeling </div>
+<div id="Layer8" style="position:absolute; left:466px; top:2421px; width:62px; height:9px; z-index:8"><a href="index-2.html">HOME</a></div>
+<div id="Layer3" style="position:absolute; left:430px; top:267px; width:142px; height:26px; z-index:9">Be 
+  calm it is comming!</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e140ac5c884844d',t:'MTc3NDMzODE3Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from www.angelfire.com/games4/drakkar1/monsters.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 20:47:49 GMT -->
+</html>

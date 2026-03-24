@@ -1,0 +1,329 @@
+<html>
+
+<!-- Mirrored from www.angelfire.com/games4/drakkar1/shieldsofdrakkar.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 20:48:06 GMT -->
+<head>
+<title>Shields</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000" text="#FF3300" link="#0000FF" vlink="#FFFF00" alink="#0000FF"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://www.angelfire.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+/////// Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'games4/drakkar1', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+////// Lycos Initialization /////////////////////
+var lycos_ad = Array();
+var lycos_search_query = "";
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "angelfire.lycos.com";
+var cm_taxid = "/memberembedded";
+var angelfire_member_name = "games4/drakkar1";
+var angelfire_member_page = "games4/drakkar1/shieldsofdrakkar.htm";
+var angelfire_ratings_hash = "1359233260:59f90807dec822b0d0d37f52eb3b631c";
+
+var lycos_ad_category = {"dmoz":"sports\/martial_arts","ontarget":"&CAT=sports%20and%20recreation","find_what":"What is a website?"};
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.angelfire.lycos.com";
+var edit_site_url = "www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/js/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript">
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+
+
+
+window.onload = function() {
+    var f = document.getElementById("lycosFooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://www.angelfire.com/adm/ad/footerAd.iframe.html';
+
+    // Slider Injection
+    (function() {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+        e.src = 'http://www.angelfire.com/adm/ad/sliderAd.iframe.html';
+        var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+        var sliderHolder = document.getElementById('lyslider-adblock-holder');
+        var sliderClose = document.getElementById('lyslider-adblock-close');
+        sliderBlock.style.display = 'block';
+
+        sliderClose.onclick = function() {
+            sliderBlock.parentNode.removeChild(sliderBlock);
+            return false;
+        }
+
+        var iframeOnload = function() {
+            setTimeout((function sliiide() {
+                var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                if (s <= 0) {
+                    sliderHolder.style.right = (s + 6) + 'px';
+                    setTimeout(sliiide, 10);
+                }
+                else {
+                    sliderHolder.style.right = '0px';
+                    sliderClose.style.display = 'block';
+                }
+            }), 1000);
+        }
+
+        if (e.attachEvent) {
+            e.attachEvent('onload', iframeOnload);
+        }
+        else {
+            e.addEventListener('load', iframeOnload, false);
+        }
+
+        sliderHolder.insertBefore(e, sliderHolder.firstChild);
+    })();
+}
+
+
+</script>
+
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div style="background:#abe6f6; border-bottom:1px solid #507a87; position:relative; z-index:9999999">
+    <div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; float:left; width:186px; border:0">
+        <img src="../../adm/ad/angelfire-freeAd.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="lycosFooterAd" style="background:#abe6f6; border-top:1px solid #507a87; clear:both; display:none; position:relative; z-index:9999999">
+<div class="adCenterClass" style="display:block!important; overflow:hidden; width:936px;">
+	<div id="aflinksholder" style="float:left; width:186px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; border:0">
+            <img src="../../adm/ad/angelfire-freeAd2.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <div style="text-align:center">
+        	<span style="color:#393939!important; font-size:12px!important; position:relative; top:-6px">
+            	Sponsored by
+            </span>
+            
+            <a href="http://www.listen.com/disty/index.jsp?from=lycos" target="_blank">
+                <img src="../../../af.lygo.com/d/toolbar/sponsors/rhapsody_logo.jpg" alt="sponsor logo" title="Rhapsody"/>
+            </a>
+        </div>
+    </div>
+    <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+</div>
+</div>
+
+<noscript>
+<img src="../../../www.angelfire.lycos.com/doc/images/track/ot_noscriptdc6d.gif?rand=677798" alt="" width="1" height="1" />
+<!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Angelfire Fallthrough - DO NOT MODIFY -->
+<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=280303"></iframe>
+<!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=002&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+<div id="Layer1" style="position:absolute; left:84px; top:131px; width:715px; height:71px; z-index:1"><font size="+4">THE 
+  SHIELDS OF DRAKKAR</font> </div>
+<div id="Layer3" style="position:absolute; left:194px; top:199px; width:109px; height:21px; z-index:3"> 
+  <p>Baskilisk Shield </p>
+</div>
+<div id="Layer4" style="position:absolute; left:197px; top:302px; width:105px; height:19px; z-index:4">Breshard 
+  Shield<font size="2"> </font></div>
+<div id="Layer5" style="position:absolute; left:195px; top:390px; width:110px; height:20px; z-index:5">Duke's 
+  Shield </div>
+<div id="Layer7" style="position:absolute; left:355px; top:878px; width:63px; height:88px; z-index:7"> 
+  <p><a href="index-2.html">HOME</a></p>
+  </div>
+<div id="Layer8" style="position:absolute; left:122px; top:213px; width:41px; height:54px; z-index:8"><img src="chaosguild_files/chaoshome/items/baskieshield.gif" width="36" height="50"></div>
+<div id="Layer2" style="position:absolute; left:116px; top:305px; width:54px; height:48px; z-index:9"><img src="chaosguild_files/chaoshome/items/breshsheild.gif" width="49" height="47"></div>
+<div id="Layer9" style="position:absolute; left:123px; top:397px; width:44px; height:61px; z-index:10"><img src="chaosguild_files/chaoshome/items/dukeshield.gif" width="36" height="54"></div>
+<div id="Layer10" style="position:absolute; left:195px; top:227px; width:408px; height:16px; z-index:11"> 
+  <div align="center">This shield is better then the steal shield. Has fairly 
+    good protection if enchanted to +3. You must compleat the Baskilisk Quest 
+    to acheave this shield</div>
+</div>
+<div id="Layer11" style="position:absolute; left:195px; top:333px; width:415px; height:36px; z-index:12"> 
+  <div align="center"><font size="2">This shield is the best blocking shild Nork 
+    side. You can achieve the Breshard Shield by killing Breshard. Comes with 
+    +4 adds.</font></div>
+</div>
+<div id="Layer12" style="position:absolute; left:193px; top:416px; width:411px; height:29px; z-index:13">
+  <div align="center"><font size="2">The Duke's Shield give the posseser +30 HPS 
+    when held. This shield can be found by compleating the alerian Evil Quest. 
+    Blocks same as the Breshard shield but needs to be enchated to same level 
+    for same results.</font></div>
+</div>
+<div id="Layer13" style="position:absolute; left:119px; top:500px; width:50px; height:54px; z-index:14"><img src="chaosguild_files/chaoshome/items/round.gif" width="40" height="40"></div>
+<div id="Layer14" style="position:absolute; left:192px; top:491px; width:138px; height:15px; z-index:15">Round 
+  Wood Shield</div>
+<div id="Layer15" style="position:absolute; left:192px; top:527px; width:415px; height:27px; z-index:16"> 
+  <div align="left"><font size="2">Found in fisheries and on Warlord. Has no adds</font></div>
+</div>
+<div id="Layer16" style="position:absolute; left:110px; top:594px; width:57px; height:67px; z-index:17"><img src="chaosguild_files/chaoshome/items/roundshild.jpg" width="59" height="65"></div>
+<div id="Layer17" style="position:absolute; left:183px; top:588px; width:299px; height:19px; z-index:18">Black 
+  Round Shield/ A.K.A. Bubble Shield</div>
+<div id="Layer18" style="position:absolute; left:184px; top:618px; width:423px; height:34px; z-index:19"> 
+  <div align="left"><font size="2">Found in Cobrahn Swamps.</font></div>
+</div>
+<div id="Layer19" style="position:absolute; left:109px; top:700px; width:62px; height:72px; z-index:20"><img src="chaosguild_files/chaoshome/items/snakeshield.jpg" width="55" height="64"></div>
+<div id="Layer20" style="position:absolute; left:183px; top:700px; width:141px; height:17px; z-index:21">Snake 
+  Shield </div>
+<div id="Layer21" style="position:absolute; left:183px; top:726px; width:428px; height:48px; z-index:22"><font size="2">Snake 
+  Shield casts lvl 14 Energy Shield</font></div>
+<div id="Layer22" style="position:absolute; left:125px; top:815px; width:27px; height:40px; z-index:23"><img src="chaosguild_files/chaoshome/items/steelshield.gif" width="24" height="38"></div>
+<div id="Layer23" style="position:absolute; left:182px; top:803px; width:145px; height:14px; z-index:24">Steel 
+  Shield </div>
+<div id="Layer24" style="position:absolute; left:181px; top:832px; width:434px; height:32px; z-index:25">
+  <div align="center"><font size="2">Found in N-6, Fisheries, and Frore. Most 
+    common shield for low lvl players. Can be enchanted by Mentalist.</font></div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e140b4b2f0b844d',t:'MTc3NDMzODE5OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from www.angelfire.com/games4/drakkar1/shieldsofdrakkar.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 20:48:08 GMT -->
+</html>
