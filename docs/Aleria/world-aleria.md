@@ -1,10 +1,8 @@
-# The World of Aleria & The Land of Mjorin
-
-## Aleria
+# The World of Aleria
 
 Aleria is one of the advanced game worlds in Kingdom of Drakkar, described as "a new realm, a land of danger and mystery." Less thoroughly documented in the fan site archives than Nork or Cobrahn.
 
-### Lore
+## Lore
 
 The lore of Aleria is delivered through the character **Finri**:
 
@@ -18,7 +16,7 @@ The lore of Aleria is delivered through the character **Finri**:
 - **Mayor Dagano** authorizes the crossing
 - Players need the **Honor of Ratburrow** to travel there
 
-### Key Information
+## Key Information
 
 - One of the end-game worlds with challenging content
 - Has its own unique monsters, items, and quests
@@ -31,51 +29,10 @@ The lore of Aleria is delivered through the character **Finri**:
 - Aleria had its own alt world (Alt 2)
 - Stat pot traders in Nork Alt 2 could raise stats to 19 - players suggested this be added to help with Aleria preparation
 
-### Stormwind's Aleria Guide
+## Stormwind's Aleria Guide
 
 Stormwind's Archives contained an Aleria section covering:
 - Area descriptions and navigation tips
 - Monster information and difficulty levels
 - Points of interest and landmarks
 - Quest information specific to Aleria
-
-## The Land of Mjorin
-
-Mjorin (sometimes spelled "Majorin" or "Mjorin") is a less commonly documented area of Drakkar with unique access requirements.
-
-### How to Access Mjorin
-
-1. Go up the **Funhouse** in Nork Town
-2. At the top, take the steps to a portal room
-3. Take the **lower portal** (the upper portal returns to Nork)
-4. **WARNING: When stepping into the lower portal, you will be STRIPPED of all equipment!**
-
-This stripping mechanic makes Mjorin a unique challenge - you enter with nothing and must survive with whatever you find inside.
-
-### Key Information
-
-- Contains **Luck Pots** (Mjorin Luck pots) - one of the very few ways to boost the Luck stat, which is otherwise nearly impossible to fix after character creation
-- Contains an **Orc King** boss
-- Contains a **Black Dragon** (the EDGE guild hunted "the BD wherever he hides")
-- Was explored by the EDGE "Sage Guild" as part of their knowledge-gathering mission
-- Less commonly visited than the main worlds, making documentation of it particularly valuable
-- The EDGE guild deliberately tried to explore and document Mjorin fresh, ignoring existing Kings Quest information
-
-## The Nameless (NL)
-
-"Nameless" or "NL" is another game region referenced in item databases. The ROAR Guild maintained lists of NL Items, NL Weapons, NL Rings, and NL Robes. This appears to be a distinct content area with its own equipment sets.
-
-## Dion
-
-A higher-level area referenced by the ROAR Guild, which maintained a "Dion Info" page and "Dion Map." Less documented than other areas.
-
-## Alt Worlds
-
-The game had "alt" versions of the main segments:
-- **Nork Alt / Alt 2** - Alternate version of Nork
-- **Aleria Alt** - Alternate version of Aleria
-- **Cobrahn Alt** - Alternate version of Cobrahn
-
-Mentalists could memorize 20 teleport locations per segment, with a total of 80 locations across all segments (20 Nork, 20 Aleria, 20 Cob, 20 across 2 alts).
-
-Players could not scry or teleport across different segments (e.g., can't scry from Nork to Cob, can't sense Cob twigs while in Nork).
