@@ -21,12 +21,20 @@ A town in the Nork world area. Maeling -3 (M-3) is noted as a good area for Ment
 ### Volcano Town (VT)
 Located south of the main area. Notable for:
 - **Hit Doctor** - Located just south of Volcano Town. Available at level 13. Allows characters to purchase additional HP up to their class maximum. Costs vary by Charisma (15-30+ million gold).
+  - **Hit Doctor Access**: Drop down hole in lower Volcano Town, run lava flow to stairs. Command: drop coin at feet, say "[npc name],train". Wear charisma rings and indian beads for cheaper prices.
 - VT Griffin - a dangerous creature. Being eaten by VT Griffin could cause loss of ALL purchased hit points.
+- **Kuron** (Lower VT): Enchants for Basilisk access: "Kur,secret"
+- **Bavic** (Lower VT): Trades Basilisk scales for shield
+- **Thieves Guild**: Contains Phestus (trades key for small green gem), Otec (banker), Jack (sells traps)
 
 ### Frore
 An icy/frozen area within the Nork world. Contains:
 - Multiple lairs (see below)
 - The **Deplete trainer** for Mentalists (skill 17) - accessed via a hole by Frore's north gate, through water paths. Bring a teleport twig - there's no way out without one!
+- **Fighter/Mentalist Trainer**: SW of Frore gates, climb Halberd Giant steps, continue south to cliff edge, jump down. Bring a twig (no way out otherwise).
+- **Fate Pools**: Door/blow open wall to drop down 2 levels to Mama Red Dragon (plus Baby RD). Fating changes any stat including gender.
+- **Fate Card Seller**: North Gate of Frore, east at wall, follow path to drop-down, jump in, SE in water, follow waterway West to junction, South, through doors. Cards cost 50K, don't tie. Must be level 15+.
+- **Malcom** (East of Frore): Trade Leviathan egg for FullPlate
 
 ### Rat Burrow
 Contains a **Strength Fountain** that provides a strength boost when drunk from. Requires a Rat Burrow sash to enter. Used by players before resting to maximize HP gains per level. (There are rumors the fountain causes faster aging.)
@@ -56,13 +64,23 @@ The Nork dungeon has multiple levels of increasing difficulty (at least 10 level
 
 ### Vertical Grid Layout
 The dungeon levels are stacked vertically: Nork surface sits directly above N-1, which is above N-3 (confirmed via Naga Lair), N-3 above N-4. Ratburrow is at the top. Maeling surface stairs connect directly to M-1/M-2 below. This was confirmed when a mining exploit in Aleria allowed players to create passable stairs between levels, bypassing progression gates (mining was permanently disabled as a result).
-- **Nork -1 (N-1)** through **Nork -7 (N-7)** - Standard dungeon levels
+
+### Nork Dungeon Level Details
+
+- **Nork -1 (N-1)**: Enter via stairs at Last Chance Saloon, OR stairs west of Hector the Ring trader (south of Portals), OR hole south of East Bank
+- **Nork -2 (N-2)**: Red hexes = stairs to N-3; Green hexes = stairs to N-2. Link to Lizard King from N-2
+- **Nork -3 (N-3)**: MummyKing behind locked door; find key on random kill. Tan MummyKing for thief cloak. Left red hex to N-4; right red hex to N-4 by RatBurrow
 - **Nork -3.5** - Key area containing: Ghost Lair (good skill, tan for Door Cloak, Door Pearl for Muzi quest), Mummy Lair (good skilling, no tan), Ogre Chief (good skill; trade club to Gabagimli for diamond), Spider Queen Lair (egg for Sash Quest), Sanquins (egg for sash quest, hide for beginner armor), Ratburrow Portal, Barbarian Trainer, and boat access to Aleria
+- **Nork -5 (N-5)**: Fire Room, Red Dragon, store, Roc lair. East side = "Haunted area." Good pot regen area
+- **Nork -6 (N-6)**: Links to N-5, N-7, and FireStorm Red Dragon Lair
+- **Nork -7 (N-7)**: Smasher Lair SE, Slicer Lair E, Red Dragon Lair W. Dancers Boots Trader requires wooden bolt + key. Step on Tile Hex with Slicer in hand to open door to N-8
+- **Nork -8 (N-8)**: Contains Mama Naga and Reggies
 - **Nork -9, -10** - Deepest levels with "formidable foes"
 - **M-1, M-2, M-3** - Maeling levels (M-2 has the key for Muzi quest, traded for a flawless black pearl; M-3 good for water illusion trick)
-- **KM-2, KM-4, KM-5** - KM-2 has Peewee (Muzi quest); KM-4/-5 have Transmute twigs
+- **KM-2** - Has Peewee (Muzi quest)
+- **KM-4**: Jump into pit (you die, get stripped, rats pop). Stunners present; bring ProtStun. Good skill area. Transmute twigs found here
+- **KM-5**: Contains: Slith Lair, Attack Sash Trader, Minotaur Cages, Slith Staff Trader, STR Halberd Trader, Slith Robe Trader. Transmute twigs found here
 - **-5, -6, -7** - Heavy assault areas (need Rak cloak)
-- **N-5 fire room** - Mid-level hunting area
 - **Acid Caves** - Mid-level hunting, connected to Evil Nork
 
 ## Nork Lairs
