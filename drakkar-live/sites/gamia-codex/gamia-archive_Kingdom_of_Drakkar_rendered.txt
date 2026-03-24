@@ -1,0 +1,72 @@
+Name::Kingdom of Drakkar 
+
+	 Basic Information 
+
+		 Type(s) 
+
+	 {{#arraydefine:pagetype|Video Game|,}}{{#arrayprint:pagetype|, |@| Video Game }} 
+
+		 Developer(s) 
+
+	 {{#arraydefine:developers|Drakkarzone|,}}{{#arrayprint:developers|, |@| @ }} 
+
+		 Publisher(s) 
+
+	 {{#arraydefine:publishers|Drakkarzone|,}}{{#arrayprint:publishers|, |@| @ }} 
+
+		 Status(es) 
+
+	 {{#arraydefine:status|Released|,}}{{#arrayprint:status|, |@| Released }} 
+
+		 Genre(s) 
+
+	 {{#arraydefine:genres| MMORPG |,}}{{#arrayprint:genres|, |@|@}} 
+
+		 Input 
+
+	 {{#arraydefine:input| Keyboard , mouse |,}}{{#arrayprint:input|, |@|@}} 
+
+		 Platform (s) 
+
+	 {{#arraydefine:platform| Windows |,}}{{#arrayprint:platform|, |@|@|print=pretty |limit=20}} 
+
+	 Ratings 
+
+	 {{#arraydefine:ratings|N/A|,}}{{#arrayprint:ratings| |@|@}} 
+
+	 Main Credits 
+
+		 Designer(s) 
+
+	 {{#arraydefine:designers|Brad Lineberger|,}}{{#arrayprint:designers|, |@| @ |print=pretty}} 
+
+	 Awards | Changelog | Cheats | Codes | Codex Compatibility | Covers | Credits | DLC | Help Patches | Ratings | Reviews | Manifest Screenshots | Soundtrack | Videos Walkthrough 
+
+ {{#arraydefine:platformcount|{{#ask: PageName::Kingdom of Drakkar |?Platform= |mainlabel=-}}|,}}
+{{#arraydefine:dplatformcount|{{#ask: PageName::Kingdom of Drakkar |?Digital_Platform= |mainlabel=-}}|,}}
+{{#arraydefine:regioncount|{{#ask: PageName::Kingdom of Drakkar |?Region= |mainlabel=-}}|,}}
+{{#arraydefine:vrplatformcount|{{#ask: PageName::Kingdom of Drakkar |?VR_Platform= |mainlabel=-}}|,}}
+
+ Kingdom of Drakkar is a massively multiplayer online role-playing game . It started in 1984 as a text-based MUD called Realm operated by Digital Information Systems of Kentucky. It was converted to be used with an 8-bit Frontend (FE) and was renamed Kingdom of Drakkar in 1989. It continues to be operated by Drakkarzone.
+
+ Contents 
+
+ 1 Gameplay 
+ 2 Front End 
+ 3 Screenshot 
+ 4 External links 
+
+ Gameplay [ ] 
+ Character creation involves selecting a gender, race and class. Each race has its own hidden advantages. The player may choose for their character to be a Fighter, Barbarian, Martial artist, Mentalist, Healer or Thief.
+ A character in the Fighter class can become a Paladin. Fighters and Mentalists can also become the hybrid class Fighter/Mentalist.
+ Players travel the various lands attacking creatures of various types, growing in experience and skill, solving quests, slaying lairs for special items, and with experience, moving on to more challenging scenarios which yield greater growth and items.
+
+ Front End [ ] 
+ Although the first FE was 8bit, a 24-bit FE was created to modernize the look of the game. An option was added to allow a player to toggle back to the 8-bit legacy graphics for a retrograde nostalgic feel.
+ The game is considered a top-down isometric 2D game and is tick-based. While this is a simple interface with simple graphics, the community cohesion is the largest draw to players both from the past and the present and is part of this game's charm.
+
+ Screenshot [ ] 
+
+ External links [ ] 
+ Kingdom of Drakkar Official Site 
+ Kingdom of Drakkar Wiki

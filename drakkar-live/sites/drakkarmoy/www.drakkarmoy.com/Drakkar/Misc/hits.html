@@ -1,0 +1,170 @@
+<html>
+
+<head>
+
+<title>Barbarian's Hits Computation Page</title>
+<script language="JavaScript">
+<!--
+  function calculate()
+  {
+    // *************************** Read Input from forms **************
+    var Hits = new Number(document.hitsForm.hits.value);
+    var Con = new Number(document.hitsForm.con.value);
+    var Max = new Number(document.hitsForm.max.value);
+    var Cost = new Number(document.hitsForm.cost.value); 	
+	
+    //*****************************Calculations************************
+    var Kvalue;
+    var Avalue;
+    var Counter = new Number(++Hits);
+    var TotalCost = 0;
+    var TestCount = 0;
+    var pCost = new Number(Cost);
+
+    //*****************************Loop********************************
+    for(;Counter <= Max; Counter++)
+    {
+       pCost = pCost + Counter + Counter + 25
+       TotalCost += pCost;
+       TestCount += 1;
+    }
+    TotalCost  =TotalCost * (1 - ((Con - 18) *.05))
+    Kvalue = TotalCost / 1000;
+    Avalue = Kvalue *.9
+    // *************************** Output *****************************
+    document.hitsForm.Output.value = Math.floor(Kvalue) + "k gold";
+    document.hitsForm.Adds.value = Math.floor(Avalue) + "k gold";
+  }
+  
+  function ResetForm()
+  {
+    document.hitsForm.con.value = "";
+    document.hitsForm.cost.value = "";
+    document.hitsForm.hits.value = "";
+    document.hitsForm.max.value = "";
+    document.hitsForm.Output.value = "";
+    document.hitsForm.Adds.value = "";
+    document.hitsForm.hits.focus();
+  }
+
+
+// -->
+</script>
+</head>
+
+<body background="/moyguild/gif/misc/skyback.gif" text="#000000" link="#0000ff" vlink="#551a8b" alink="#ff0000">
+
+<p align="center">[ <a href="/moyguild/Drakkar/index.html">Home</a> | <a href="comments.html">Comments</a> |
+<a href="/moyguild/Drakkar/Misc/links.html">Drakkar Links</a> ] </p>
+
+<h1 align="center">Hits Computation</h1>
+
+<form name="hitsForm" onsubmit="calculate();return false">
+  <div align="center"><center><table border="1" width="354" height="181">
+    <tr>
+      <td width="115" height="38" align="left">Current Charisma: </td>
+      <td width="228" height="38" align="left"><input type="text" name="con" size="3" maxlength="3"> </td>
+    </tr>
+    <tr>
+      <td width="115" height="38" align="left">Current hit points: </td>
+      <td width="228" height="38" align="left"><input type="text" name="hits" size="3" maxlength="3"> </td>
+    </tr>
+    <tr>
+      <td width="115" height="37" align="left">Maximum hits: </td>
+      <td width="228" height="37" align="left"><input type="text" name="max" size="3" maxlength="3"> </td>
+    </tr>
+    <tr>
+      <td width="115" height="45" align="left">Cost per Hit: </td>
+      <td width="228" height="45" align="left"><input type="text" name="cost" size="6" maxlength="6"> </td>
+    </tr>
+    <tr>
+      <td align="left" width="115" height="6">Result: </td>
+      <td valign="top" width="228" height="6" align="left"><input type="text" name="Output" readonly size="20"> </td>
+    </tr>
+    <tr>
+      <td align="left" width="115" height="6">Result w Adds: </td>
+      <td valign="top" width="228" height="6" align="left"><input type="text" name="Adds" readonly size="20"> </td>
+    </tr>
+    <tr>
+      <td width="115" height="25" align="left"><div align="left"><p><input type="button" value="Compute" onclick="calculate()"> </td>
+      <td width="228" height="25" align="left"><div align="center"><center><p><input type="button" value="Reset" onclick="ResetForm()"> </td>
+    </tr>
+  </table>
+  </center></div>
+</form>
+
+<p align="center">Fill out the form above. <b>Note:</b> All fields must be filled in.
+Failure to do so will cause an inaccurate result. </p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><p align="left"><b>Current Charisma:</b> is your charisma
+      when you are buying hits. </p>
+
+<p align="left"><b>Current hit points:</b> is your current hits with no hit helm or
+other items to increase your hits. </p>
+
+<p align="left"><b>Character maximum hits:</b> is the max hits you can buy for your
+character class..Check out the table below if you're not sure. </p>
+    </td>
+  </tr>
+</table>
+<div align="center"><center>
+
+<table border="1" width="171" height="219">
+  <tr>
+    <td align="left" width="132" height="23">Mentalist</td>
+    <td align="left" width="3" height="23"><p align="left">350 </td>
+  </tr>
+  <tr>
+    <td align="left" width="175" height="30">Healer</td>
+    <td align="center" width="3" height="30"><p align="left">380</td>
+  </tr>
+  <tr>
+    <td align="left" width="132" height="28">Thief</td>
+    <td align="left" width="3" height="28"><p align="left">380 </td>
+  </tr>
+  <tr>
+    <td align="left" width="175" height="24"><p align="left">Martial Artist</td>
+    <td align="center" width="3" height="24"><p align="left">480</td>
+  </tr>
+  <tr>
+    <td align="left" width="132" height="26">Fighter</td>
+    <td align="left" width="3" height="26"><p align="left">480 </td>
+  </tr>
+  <tr>
+    <td align="left" width="175" height="22">Paladin</td>
+    <td align="center" width="3" height="22"><p align="left">480</td>
+  </tr>
+  <tr>
+    <td align="left" width="132" height="24"><p align="left">Barbarian</td>
+    <td align="left" width="3" height="24"><p align="left">580</td>
+  </tr>
+</table>
+</center></div>
+
+<p align="center"><b>Cost per hit:</b> is the cost for your next hit. You can find out
+what it is by trying to buy hit's with no money down. He will tell you how much it will
+cost you for one Hit Point. </p>
+
+<p align="center"><b>Result:</b> Is the total of how much it will cost you to max your
+character. </p>
+
+<p align="center">Please let me know what you think of my calucations. This should be
+close to right. <grins> thanks </p>
+</body>
+</html>
+
+<!--
+playback timings (ms):
+  captures_list: 224.094
+  PetaboxLoader3.datanode: 190.698 (4)
+  exclusion.robots: 0.252
+  LoadShardBlock: 203.055 (3)
+  exclusion.robots.policy: 0.235
+  RedisCDXSource: 2.619
+  esindex: 0.02
+  PetaboxLoader3.resolve: 87.979 (2)
+  load_resource: 90.532
+  CDXLines.iter: 13.859 (3)
+-->
