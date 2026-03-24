@@ -117,7 +117,7 @@
 | **Fireball Twigs** | Floor twigs in Timmy (level 25). Consumable area fire damage. |
 | **Icestorm Twigs** | Floor twigs in Timmy (level 20, 25). Consumable area ice damage. |
 | **Instant Heals** | Essential consumable healing items for casters in Cobrahn. Sold by IH/succor seller in Doom Town. |
-| **Fate Pots** | From Dion (wandering NPC). Related to HP doc and Cthon egg trades. |
+| **Dion Bottles (Fate Water)** | From Dion (wandering NPC). Complex probability system with 20+ outcomes. Common: -1 STR/CON (23%), +1 AGI (10%), +1 WIS (10%). Can give +1-6 EP, +2 CON, +1-2 any stat, training boosts, temporary +3x HP, or spell casts (Absorb, Aid, Strength). Negative outcomes include stat losses and poison. **Warning**: EP cap at 50 resets to 15 if exceeded. Based on a 230-bottle statistical analysis. |
 | **STR Pots** | Available from traders in NW Caves (north end) and Giants Keep (west). |
 | **EPS Pots** | Available from trader in SW Caves (SE). |
 

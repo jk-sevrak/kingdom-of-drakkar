@@ -27,6 +27,8 @@ Mentalists can enchant items to increase their combat bonus:
 - Up to +6 at skill 19 (costs 15 permanent HP per plus above +4)
 - Up to +9 at skill 24 (costs 15 permanent HP per plus above +4)
 
+**Full enchanting cost (+0 to +9)**: ~134 permanent HP, ~150M experience, ~28 Constitution, plus aging effects.
+
 ## Imbuing
 
 Mentalists can recharge magical items or imbue new disciplines:
