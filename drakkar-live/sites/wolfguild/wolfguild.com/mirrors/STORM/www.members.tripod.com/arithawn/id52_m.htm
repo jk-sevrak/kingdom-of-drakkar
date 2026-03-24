@@ -1,0 +1,477 @@
+<HTML>
+
+<!-- Mirrored from www.members.tripod.com/arithawn/id52_m.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 19:09:30 GMT -->
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso8859-1">
+<META name="description" content="Reflections">
+<SCRIPT language="JavaScript">
+var n4p = (self.innerHeight != null && self.innerHeight == 0);
+if ((parent.TlxPgNm==null || parent.TlxPgNm!='id52') && !n4p){
+    location.replace('id52.htm');
+}
+</SCRIPT>
+<META http-equiv="GENERATOR" CONTENT="Created with Trellix Web, HTML Exporter 2.5.1454"> 
+</HEAD>
+<body BGCOLOR="#000000" TEXT="#F7F7FF" bgproperties="fixed" background="14600c00dvldtc.jpg" LINK="#FF0033" ALINK="#000426" VLINK="#BF0000"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://www.members.tripod.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+////// OwnerIQ  /////////////////////
+var __oiq_pct = 50;
+if( __oiq_pct>=100 || Math.floor(Math.random()*100/(100-__oiq_pct)) > 0 ) {
+    var _oiqq = _oiqq || [];
+    _oiqq.push(['oiq_addPageBrand', 'Lycos']);
+    _oiqq.push(['oiq_addPageCat', 'Internet > Websites']);
+    _oiqq.push(['oiq_addPageLifecycle', 'Intend']);
+    _oiqq.push(['oiq_doTag']);
+
+    (function() {
+        var oiq = document.createElement('script'); oiq.type = 'text/javascript'; oiq.async = true;
+        oiq.src = document.location.protocol + '//px.owneriq.net/stas/s/lycosn.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oiq, s);
+    })();
+}
+
+
+
+/////// Google Analytics ////////////
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-19']);
+_gaq.push(['_setDomainName', 'tripod.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'arithawn', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+
+/////// Lycos Initialization ////////////
+function getReferrer() {
+    // Reads the referrer out of the cookie, if available.
+    var all= this.document.cookie;
+    if (all== '') return false;
+    var cookie_name = 'REFERRER=';
+    var start = all.lastIndexOf(cookie_name);
+    if (start == -1) return false;  // referrer URL not found.
+    start += cookie_name.length;
+    var end = all.indexOf(';', start);
+    if (end == -1) end = all.length;
+    return all.substring(start, end);
+}
+function getQuery() {
+    // Get the referrer search query from cookie, if available.
+    var rfr = getReferrer();
+    if (rfr == '') return false;
+    var q = extractQuery(rfr, 'yahoo.com', 'p=');
+    if (q) return q;
+    q = extractQuery(rfr, '', 'q=');
+    return q ? q : "";
+}
+function extractQuery(full, site, q_param) {
+    var start = full.lastIndexOf(site);
+    if (start == -1) return false;
+    start = full.lastIndexOf(q_param);
+    if (start == -1) return false;
+    start += q_param.length;
+    var end = full.indexOf('&', start);
+    if (end == -1) end = full.length;
+    return unescape(full.substring(start, end)).split(" ").join("+");
+}
+
+function generateHref(atag, template){
+    atag.href=template.replace('_MYURL_', window.location.href.replace('http://', '')).replace('_MYTITLE_', 'Check%20out%20this%20Tripod%20Member%20site!'); 
+}
+
+
+var lycos_ad = Array();
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "tripod.lycos.com";
+var cm_taxid = "/memberembedded";
+var tripod_member_name = "arithawn";
+var tripod_member_page = "arithawn/id52_m.htm";
+var tripod_ratings_hash = "1359227173:791ac1386bcc4ccb3f264589cb08f328";
+
+var lycos_ad_category = null;
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.tripod.lycos.com";
+var lycos_ad_track_small = "../../members.tripod.com/adm/img/common/ot_smallframe0f87.gif?rand=461626";
+var lycos_ad_track_served = "../../members.tripod.com/adm/img/common/ot_adserved0f87.gif?rand=461626";
+var lycos_search_query = getQuery();
+
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../members.tripod.com/adm/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+
+<script type="text/javascript" src="../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript"> 
+
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+    
+window.onload = function() {
+    var f = document.getElementById("FooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://www.members.tripod.com/adm/ad/footerAd.iframe.html';
+
+
+    // DOM Injection Ad
+    (function(isTrellix) {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+
+        var getCommentNodes = function(regexPattern) {
+            var nodes = {};
+            var nodesA = [];
+            var preferredNodesList = ['a', 'c', 'b'];
+
+            (function getNodesThatHaveComments(n, pattern) {
+                if (n.hasChildNodes()) {
+                    if (n.tagName === 'IFRAME') {
+                        return false;
+                    }
+                    for (var i = 0; i < n.childNodes.length; i++) {
+                        if ((n.childNodes[i].nodeType === 8) && (pattern.test(n.childNodes[i].nodeValue))) {
+                            var areaName = pattern.exec(n.childNodes[i].nodeValue)[1];
+                            nodes[areaName] = n;
+                        }
+                        else if (n.childNodes[i].nodeType === 1) {
+                            getNodesThatHaveComments(n.childNodes[i], pattern);
+                        }
+                    }
+                }
+            }(document.body, regexPattern));
+
+            for (var i in preferredNodesList) {
+                if (nodes[preferredNodesList[i]]) {
+                    if (nodes[preferredNodesList[i]].parentNode.parentNode.parentNode.parentNode) {
+                        nodesA.push(nodes[preferredNodesList[i]].parentNode.parentNode.parentNode.parentNode);
+                    }
+                }
+            }
+
+            return nodesA;
+        }
+
+        var properNode = null;
+        var areaNodes = getCommentNodes(new RegExp('^area Type="area_(\\w+)"'));
+        for (var i = 0; i < areaNodes.length; i++) {
+            var a = parseInt(getComputedStyle(areaNodes[i]).width);
+            if ((a >= 300) && (a <= 400)) {
+                properNode = areaNodes[i];
+                break;
+            }
+        }
+
+        if ((isTrellix) && (properNode)) {
+            e.src = 'http://www.members.tripod.com/adm/ad/injectAd.iframe.html';
+            properNode.insertBefore(e, properNode.firstChild);
+        }
+        else {
+            e.src = 'http://www.members.tripod.com/adm/ad/sliderAd.iframe.html';
+            var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+            var sliderHolder = document.getElementById('lyslider-adblock-holder');
+            var sliderClose = document.getElementById('lyslider-adblock-close');
+            sliderBlock.style.display = 'block';
+
+            sliderClose.onclick = function() {
+                sliderBlock.parentNode.removeChild(sliderBlock);
+                return false;
+            }
+
+            var iframeOnload = function() {
+                setTimeout((function sliiide() {
+                    var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                    if (s <= 0) {
+                        sliderHolder.style.right = (s + 6) + 'px';
+                        setTimeout(sliiide, 10);
+                    }
+                    else {
+                        sliderHolder.style.right = '0px';
+                        sliderClose.style.display = 'block';
+                    }
+                }), 1000);
+            }
+
+            if (e.attachEvent) {
+                e.attachEvent('onload', iframeOnload);
+            }
+            else {
+                e.addEventListener('load', iframeOnload, false);
+            }
+
+            sliderHolder.insertBefore(e, sliderHolder.firstChild);
+        }
+    }(document.isTrellix));
+
+}
+
+
+
+</script>
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div id="tb_container" style="background:#DFDCCF; border-bottom:1px solid #393939; position:relative; z-index:999999999!important">
+    <div id="tb_ad" class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+    <a href="http://adtrack.ministerial5.com/clicknew/?a=637394" title="build your own website at Tripod.com" style="float:left; width:186px; border:0">
+    	<img src="../../ly.lygo.com/ly/tpSite/images/freeAd2.jpg" alt="Make your own free website on Tripod.com" style="border:0; display:block" />
+    </a> 
+        <div id="ad_container" style="display:block!important; float:left; width:728px ">
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+        </div>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="FooterAd" style="background:#DFDCCF; border-top:1px solid #393939; clear:both; display:none; width:100%!important; position:relative; z-index:999999!important; height:90px!important"> 
+	<div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+	<a href="http://adtrack.ministerial5.com/clicknew/?a=637394" title="build your own website at Tripod.com" style="float:left; display:block; width:186px; border:0">
+    	<img src="../../ly.lygo.com/ly/tpSite/images/freeAd2.jpg" alt="Make your own free website on Tripod.com" style="border:0; display:block; " />
+    </a> 
+        <div id="footerAd_container" style="display:block!important; float:left; width:728px">
+        <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+        <!-- <script type="text/javascript">document.write(lycos_ad['leaderboard2']);</script> -->
+        </div>
+	</div>
+</div>
+<noscript>
+ <img src="../../members.tripod.com/adm/img/common/ot_noscript0f87.gif?rand=461626" alt="" width="1" height="1" />
+ <!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Tripod Fallthrough - DO NOT MODIFY -->
+ <iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=209094"></iframe>
+ <!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=003&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+    <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" VSPACE="0" HSPACE="0" >
+ <TR>
+  <TD ALIGN="LEFT"><FONT SIZE="6" COLOR="#FF0033" FACE="Arial Black">Reflections</FONT></TD>
+ </TR>
+ <TR>
+  <TD HEIGHT="11"></TD></TR>
+</TABLE>
+<bR>
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" VSPACE="0" HSPACE="0" >
+ <TR>
+  <TD ALIGN="LEFT"><FONT SIZE="6" COLOR="#FF0033" FACE="Arial Black">As I sit here and write this the Storm guild is fast approaching it's 2nd birthday and in the 2 years since I started this guild all I can say is Wow. From being level 13 and not quite maxxed to being what some would consider as a top end lair guild. Hard to imagine how far we have come in the last 2 years. We have DPed and conquered every lair we can get our hands on with the exception of 2 as of yet undoable lairs. All thanks to the warmest group of friends who followed me into sure death and never thought twice about it. A special thank you from me for all you have made this guild to be and all that we will ever be. I could not have done it without each and everyone of the contributions made by the former members, The present members and everyone that has helped us along the way. To each and every one of you I say congratulations. I hope we have many further adventures and I look forward to the next big challenge we come across. I made this page for all of you to post your thoughts and comments about your time in Drak and the adventures you have seen. </FONT></TD>
+ </TR>
+ <TR>
+  <TD HEIGHT="11"></TD></TR>
+</TABLE>
+<bR>
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" VSPACE="0" HSPACE="0" >
+ <TR>
+  <TD ALIGN="LEFT"><FONT SIZE="6" COLOR="#FF0033" FACE="Arial Black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sincerely,</FONT></TD>
+ </TR>
+ <TR>
+  <TD HEIGHT="11"></TD></TR>
+</TABLE>
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" VSPACE="0" HSPACE="0" >
+ <TR>
+  <TD ALIGN="LEFT"><FONT SIZE="6" COLOR="#FF0033" FACE="Arial Black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arithawn_STORM</FONT></TD>
+ </TR>
+ <TR>
+  <TD HEIGHT="11"></TD></TR>
+</TABLE>
+<bR>
+<bR>
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" VSPACE="0" HSPACE="0" >
+ <TR>
+  <TD ALIGN="LEFT"><FONT SIZE="6" COLOR="#FF0033" FACE="Arial Black">From Mick:Posted January 6, 2003</FONT></TD>
+ </TR>
+ <TR>
+  <TD HEIGHT="11"></TD></TR>
+</TABLE>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>The Wardens and Other Musings, why I love the guild:</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>I'm sitting here all broken hearted,</b></FONT><BR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>Went to </b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>Never mind</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>Drak is down for a bit and my mind is wandering. I've been thinking about the recent departures of people, where the guild was when I started and where it is now.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>I would hope that from time to time we remember all the defeats and death piles we have made. It keeps things somewhat in perspective since there are few things that we can no longer do.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>True, we have grown quite a bit. Even the mighty Wardens fell to us. Excalibur is in the hands of the mighty Par, though I found it amusing that we fully expected to die horribly, we went anyway. This is the first and foremost and maybe the reason I joined Storm in the first place.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>I am reminded of a story from the book &quot;A Lion in Winter&quot; about King Richard. It seems that Richard and his knights were facing a sure death when the following exchange happened.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>Geoffrey to Richard: &quot;YOU FOOL, as if it matters how a man falls down.&quot;</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>to which Richard the Lion Hearted quietly replied</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>Richard: &quot;When the fall is all that is left, it matters a great deal&quot;.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>I am sure that from time to time we will all fall again. I simply hope we remember how to do it.</b></FONT><BR>
+<bR>
+<FONT SIZE="5" COLOR="#FF0033" FACE="Arial Black"><B>From Ari:Posted January 6, 2003</b></FONT><BR>
+<bR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>Quiet Thoughts:</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>I read Mick's posts and thought I would respond with a few of my own. As I am the only person left of the original 5 Stormies that started this I think I will tell you all a bit about the Early days and why I am so honored and proud to lead the Greatest group of players in this game.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>March of 2001 I had just left DREAD after personal differences with the way the guild was run and the gear distributed. I stayed long enough for Relic to get his vamps and stick for the hunt and detagged right after. Relic and I talked for about a week about a new guild and he offered some ideas and a few names None of which ever saw the light of day once I decided STORM would be neat. I sent countless messages to Irish and Raistlin and Tanya for advice on how to start what to do what makes a guild great with people and personalities.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>The very first STORM only hunt was the RD VT and the first 3 liches. Soon we were teaming up with JA doing SER's and the power lair that they are we saw many deaths in there not to mention the nasty golem's in M-4. Now Looking back at Wardens....Here we are Masters of all the land. Rightfully earned I can count almost 1000 lost HP on my pally alone. </b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>There have been several that have come and gone. They are remembered and I think of each and every member that is here and was here all the time. This game and guild are my pride and joy. Each and every member is special in his or her own way. What we all bring together in this game is what makes this guild great. </b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>The massive DP's to each and every lair worthwhile to hunt in this game prove alot. No matter the laughter the criticism the ridicule we had to endure not all that long ago because we didn't hunt like any other group at all. No matter what and through it all We stuck together and learned each and every lair in the game to hunt it our own way and do it like no other group in the game.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>So Here we are almost 2 years later. As I sit here now and reflect a bit all I can do is smile. Each and every one of you should be proud of all we have accomplished. The warm and caring personalities behind the KB are what makes this group the best and most special group I have ever seen in this game. The loyalty to each other and our tag are uncanny in these new days of Drak. </b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>To each and every one of you I can say only this. The day I die I can look back and say I have never known such wonderful people as I knew in the Storm guild. Thank you to each and every one of you for your countless hours of skilling and killing so we could have all we wanted or needed. Thanks to every one of you for your loyalty,Your support and the love of this guild and the game that make us the best of the best in all of Drak.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>Unfortunately there will be more DP's followed buy hours of puzzling and guessing before we are able to conquer with ease. I know each and every one of you will do your best to face the new challenges as they come and to preserver through all the challenges we face in and out of this game.</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>Congratulations to all of you. I am proud of you all</b><FONT  FACE="Arial,Helvetica,sans-serif" COLOR="#000000" SIZE= 3 >.</FONT>
+</FONT><BR>
+<bR>
+<bR>
+<FONT SIZE="5" COLOR="#FF0033" FACE="Arial Black">From Jester:Posted January 6, 2003</FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>I</b><B> </b><B>tend to live by the rallying cry of the Spanish Revolution:</b></FONT><BR>
+<bR>
+<FONT SIZE="4" COLOR="#FF0033" FACE="Arial Black"><B>&quot;It is better to die on your feet than to live on your knees!&quot;</b></FONT><BR>
+<bR>
+<bR>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e13eb969d79aef5',t:'MTc3NDMzNjg5OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from www.members.tripod.com/arithawn/id52_m.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 19:09:36 GMT -->
+</HTML>
