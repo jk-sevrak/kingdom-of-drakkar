@@ -1,0 +1,40 @@
+{{Infobox
+|title = Kingdom of Drakkar
+|image = [[Image:Drakbancombined.jpg|center|240px]]
+|developer = Drakkarzone
+|publisher = Drakkarzone
+|designer = Brad Lineberger
+|released = [[1989]]
+|genre = [[MMORPG]]
+|modes = [[Multiplayer]]
+|ratings = N/A
+|platforms = [[Windows]]
+|input = [[Keyboard]], [[mouse]]
+|requirements = 54MB download, Internet connection
+}}
+'''Kingdom of Drakkar''' is a [[massively multiplayer online role-playing game]]. It started in 1984 as a text-based MUD called Realm operated by Digital Information Systems of Kentucky. It was converted to be used with an 8-bit Frontend (FE) and was renamed Kingdom of Drakkar in 1989. It continues to be operated by Drakkarzone.
+
+==Gameplay==
+Character creation involves selecting a gender, race and class. Each race has its own hidden advantages. The player may choose for their character to be a Fighter, Barbarian, Martial artist, Mentalist, Healer or Thief.
+
+A character in the Fighter class can become a Paladin. Fighters and Mentalists can also become the hybrid class Fighter/Mentalist.
+
+Players travel the various lands attacking creatures of various types, growing in experience and skill, solving quests, slaying lairs for special items, and with experience, moving on to more challenging scenarios which yield greater growth and items.<!-- Basically like every other MMORPG ever created. Is this paragraph even needed? -->
+
+==Front End==
+Although the first FE was 8bit, a 24-bit FE was created to modernize the look of the game. An option was added to allow a player to toggle back to the 8-bit legacy graphics for a retrograde nostalgic feel.
+
+The game is considered a top-down isometric 2D game and is tick-based. While this is a simple interface with simple graphics, the community cohesion is the largest draw to players both from the past and the present and is part of this game's charm.
+
+==Screenshot==
+[[File:GiantKing_Lair.jpg|280px]]
+
+==External links==
+*[http://www.kingdomofdrakkar.com Kingdom of Drakkar Official Site]
+*[http://kingdomofdrakkar.gamepedia.com/Kingdom_of_Drakkar_Wiki Kingdom of Drakkar Wiki]
+[[Category:Windows-only freeware games]]
+[[Category:Massively multiplayer online role-playing games]]
+[[Category:Freeware games]]
+[[Category:PC games]]
+[[Category:Role playing games]]
+[[Category:1989 video games]]
