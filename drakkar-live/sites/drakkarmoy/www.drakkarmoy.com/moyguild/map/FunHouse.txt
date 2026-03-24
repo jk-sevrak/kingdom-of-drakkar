@@ -1,0 +1,69 @@
+Entry Way:
+
+                                 /\/\/\/\
+                                 /\  dn/\  stairs to Nork
+                                 /\A   /\  A: key salesman (25,000)
+                               []/\/\  /\  B: need key from salesman to open
+                       [][][][][]      /\  C: door to equipment storage
+                       []      []      /\     not in use since autostrip
+                       []      | B     /\     disabled
+                     [][]--[][][]  C   /\  D: portal - ejects to beginning
+                     []        [][]--[]/\  E: opens secret door
+             [][][][][]        []          F: portal to next room - #2
+             []:F    SD:D    :E[]
+             [][][][][][][][][][]
+
+#2                                #3
+  [][][][]                          [][][][][][]
+  []    :G                          :H        []
+  []    []                          [][]      []
+  []    []                            []      []
+  [][][][]                            [][][][][]
+
+     G: portal to next room         H: portal to next room
+     NOTE: you must be the          NOTE:  you CANNOT be alone in
+           only person in this             this room to go thru portal
+           room to go thru portal          we used a findfriendly to escape
+     NOTE: this was the only room
+           with NPCs in it
+
+
+#4
+   [][][]        I:  portal to next room
+   []:I[]        J:  entry point into room
+   []  [][][]        to reach portal, you MUST move
+   []      []           W N NW N
+   []     J[]        or you will be ejected
+   [][][][][]
+
+#5
+   [][][][]    K: portal to next room
+   []:K  []    L: entry point into room
+   []L   []       you must move N (or NW) to reach portal
+   [][][][]
+
+#6
+   [][][][][]
+   []    :M    M: portal to next room
+   []    [][]  N: entry point
+   []N   []       the move to portal is NE SW
+   [][][][]
+
+#7
+   [][][][][][][]  O: dog - trade ivory arrow for key
+   []    dn[]dn[]           to the door
+   []  O   []dn[]  dn - the stairs by the dog lead to the exit out
+   []      []dn[]       of the fun house
+   [][]--[][]  []  P:  Kax's Lair
+   []  P   []  []  Q: you must kill Kax to get the key to this door
+   []      []  []
+   []  []  []  []  the dn stairs in this hallway go to various places
+   []      []  []  READ THE DESCRIPTIONS CAREFULLY:  THEY ARE ONE WAY
+   []  []  | Q []  One set goes to store, bank, perm-ep seller
+   []      []  []  One is to portal room (nork, mjorin, random nasty spot)
+   [][][][][][][]  One to equipment stroage room
+
+
+
+
+

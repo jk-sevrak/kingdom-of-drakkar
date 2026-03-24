@@ -1,0 +1,47 @@
+Source: https://rair.land/docs/drakkar-differences/
+Retrieved: 2026-03-24
+
+Drakkar Differences: Land of the Rair
+=======================================
+
+How Land of the Rair diverges from Kingdom of Drakkar through numerous mechanical
+and interface improvements:
+
+User Interface & Quality of Life
+---------------------------------
+The game features "an entirely rearrangeable (sometimes resizable)" UI that saves
+positions automatically. Message logging includes filters for environmental, chat,
+and combat messages, while visual indicators show gear damage status and gem
+encrustation details.
+
+Combat & Status Effects
+------------------------
+An active target display shows "accurate percentage of their HP, an HP bar, their
+alignment towards you and their direction, and what buffs/debuffs they have."
+Elemental spell casting builds effects (burns, chills), with "recently" mechanics
+preventing chain-stun situations.
+
+Character Progression
+----------------------
+Character creation uses "fixed stats, no roller." Players level at trainers rather
+than via rest commands. Skill trees enable customization across four base classes
+with three specialization paths each, replacing seven distinct classes.
+
+Inventory & Equipment
+----------------------
+A dedicated potion slot prioritizes healing. Equipment slots indicate gear types.
+Dragging gear displays compatible drop locations. Banks are account-wide rather
+than per-character, with accessible regional wardrobe systems.
+
+Gameplay Mechanics
+-------------------
+True instanced dungeons eliminate wait times. Nourishment requirements impose stat
+penalties without food/water. Teleportation lacks distance limits. Lairs deposit
+stripped gear in safe zones rather than danger areas. Daily quests and RNG boxes
+provide regular engagement opportunities.
+
+Additional Systems
+-------------------
+Enhanced GM tools, obtainable resources, star-rated item quality indicators, and
+improved identification systems round out major improvements over Kingdom of
+Drakkar's design.

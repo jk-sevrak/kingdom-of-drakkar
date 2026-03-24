@@ -1,0 +1,41 @@
+Source: https://landsofkes.com/archive/iok/miscellaneous/articles/kod_iok_discussion_1.htm
+Retrieved: 2026-03-24
+
+Kingdom of Drakkar Forum Discussion - "Past Lives" Part 1
+==========================================================
+
+Main Topic
+----------
+A player named purg2 initiated a discussion seeking information about the historical
+versions of Kingdom of Drakkar to document the game's evolution on a webpage.
+
+Island of Kesmai (IOK) Background
+----------------------------------
+- Originated on CompuServe in the early-to-mid 1980s as "Dungeons of Kesmai"
+- Evolved through versions: Island of Kesmai -> Legends of Kesmai (mid-90s)
+- Featured text-based ASCII maps with symbols representing game elements
+- Eventually closed when EA acquired GameStorm in 1999
+
+Kesmai Game Features
+--------------------
+- Five character classes: Paladins, Thaumaturges, Wizards, Thieves, and Martial Artists
+- Complex spell system requiring chanting before casting
+- Demon summoning mechanics with seven demons (only six summonable)
+- Advanced Segment (AG) as end-game content
+- Resurrection system with underworld quests
+- Guild-based secrecy regarding tactics and rare items
+
+Drakkar's Relationship to IOK
+-------------------------------
+Contributors noted that while not directly related, Drakkar was created by former IOK
+programmers. Brad (identified as having played IOK under names like "Soyer" and "Cure")
+is credited as Drakkar's primary creator.
+
+Notable Differences Between Games
+-----------------------------------
+- Round time: IOK (15 seconds) vs. Drakkar (5 seconds)
+- Screen view: IOK (3x3) vs. Drakkar (4x4)
+- Map scale: IOK (~80x80 or 100x100) vs. Drakkar (200x200 hexes across multiple layers)
+
+The thread demonstrates extensive nostalgia among veteran players sharing memories
+spanning decades.

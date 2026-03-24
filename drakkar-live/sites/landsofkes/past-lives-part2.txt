@@ -1,0 +1,39 @@
+Source: https://landsofkes.com/archive/iok/miscellaneous/articles/kod_iok_discussion_2.htm
+Retrieved: 2026-03-24
+
+Kingdom of Drakkar Forum Discussion - "Past Lives" Part 2
+==========================================================
+
+Thread Overview
+---------------
+This forum thread discusses memories of Legends of Kesmai (LoK) and Isle of Kesmai
+(IoK), predecessor games to The Kingdom of Drakkar (KoD).
+
+Game Mechanics & Exploits
+--------------------------
+Players debated moonstone rings, HP gain mechanics, and various bugs. A significant
+exploit involved a duplication hex in Leng Hell that GM-only areas contained for
+legitimate item creation. When players discovered access to this area, some flooded
+the market with rare items before permanent lockouts were issued.
+
+Notable Characters
+------------------
+- Ironuzak (player Brem): Early famous Martial Artist who discovered Iron Lich Boots
+  with a wizard character. Known as an independent player outside guild politics.
+- Mord: Described as the first Ninja (MA/Thief hybrid), never joining any guild
+- Frugle: Exploiter who created a webpage bragging about accessing restricted areas
+
+Game History
+------------
+Toasticle asked about player permanence in Axe Glacier to prevent server crashes.
+Ztinktoof explained a "xeroxing bug" requiring the last player to exit to trigger
+it -- a long-standing exploit that took over a year of player reports before
+developers addressed it.
+
+Creator's Statement - Brad Lineberger
+---------------------------------------
+Brad (KoD Creator) clarified: "I am the sole creator of Realm which became
+Drakkar...The game was developed on a PDP11, and later ported to unix."
+
+He distinguished KoD from IoK, noting superficial similarities but fundamentally
+different development paths, influenced by Rogue, Moria, and IoK.

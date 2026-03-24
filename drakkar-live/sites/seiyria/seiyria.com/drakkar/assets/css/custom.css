@@ -1,0 +1,67 @@
+
+.sprite-container-wrap {
+  width: 20%;
+  display: inline-block;
+}
+
+.sprite-container {
+  text-align: center;
+}
+
+.sprite-container img {
+  width: 64px;
+  height: 64px;
+}
+
+.quest-list {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.page {
+  padding-right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 20%;
+  flex: 20%;
+  max-width: 20%;
+}
+
+.scrolls-auto {
+  height: calc(100vh - 81px);
+  overflow-y: auto;
+}
+
+.sound-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.maps-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.map {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.map img {
+  width: 200px !important;
+  height: 200px !important;
+}
