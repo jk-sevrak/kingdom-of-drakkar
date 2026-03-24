@@ -1,0 +1,306 @@
+/* main css */
+body {
+	background-color: black;
+	font-family: 'trebuchet ms', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+table {
+	background: black;
+	font-family: 'trebuchet ms', sans-serif;
+	font-size: 12px;
+}
+
+table.structure {
+	margin: auto;
+	width: 1000px;
+}
+
+td.logo {
+	background-image: url('images/logo.gif');
+	height: 101px;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+td.drakkaranim {
+	text-align: center;
+}
+
+img.drakkaranim {
+	height: 101px;
+}
+
+td.body {
+	width: 800px;
+	height: 100%;
+	text-align: center;
+	vertical-align: top;
+}
+
+td.menu {
+	vertical-align: top;
+}
+
+a {
+	font-family: 'trebuchet ms', sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+span.ajax {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+span.floatajax {
+	cursor: pointer;
+	text-decoration: underline;
+	float: right;
+}
+
+img.previewimage {
+	vertical-align: middle;
+	width: 80px;
+}
+
+/* section css */
+table.section {
+	width: 200px;
+	background-image: url('images/sectiontablebg.gif');
+	background-repeat: repeat;
+	border-collapse: collapse;
+}
+
+tr.section {
+}
+
+th.section {
+	height: 40px;
+	background: url('images/sectiontitlebg.gif');
+}
+
+td.section {
+	background: url('images/sectionbg.gif');
+	background-repeat: repeat-y;
+	text-align: center;
+}
+
+td.sectionbottom {
+	height: 10px;
+	text-align: center;
+	background: url('images/sectionbottombg.gif');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+/* body table border css */
+table.bodyborder {
+	width: 800px;
+	height: 100%;
+	border-collapse: collapse;
+}
+
+tr.bodyborder {
+}
+
+td.bodybordertitle {
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 40px;
+	background: url('images/bodybordertitlebg.gif');
+}
+
+td.bodyborder {
+	vertical-align: top;
+	height: 100%;
+	background: url('images/bodyborderbg.gif');
+	background-repeat: repeat-y;
+	text-align: left;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+td.bodyborderbottom {
+	height: 10px;
+	background: url('images/bodyborderbottombg.gif');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+/* section main css */
+p.sectionmaintitle {
+	font-size: 150%;
+}
+
+p.sectionmainblurb {
+}
+
+
+/* area main css */
+p.areamaintitle {
+	font-size: 150%;
+}
+
+p.areamainblurb {
+}
+
+p.areamainerror {
+	font-weight: bold;
+	color: red;
+}
+
+table.areamain {
+	/*margin: auto;*/
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td.areamaintitle {
+	font-weight: bold;
+	border-bottom: 1px solid white;
+}
+
+/* item page css */
+table.items {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+
+th.items {
+	border: 1px solid white;
+}
+
+td.items {
+	border: 1px solid white;
+	text-align: center;
+}
+
+span.itemdetail {
+	margin-left: 20px;
+}
+
+span.itemsub {
+	text-decoration: underline;
+}
+
+p.itemmain {
+}
+
+/* quest page css */
+table.quests {
+	width: 100%;
+	border-collapse: collapse;
+/*	border: 1px solid white;*/
+}
+
+th.quests {
+/*	border: 1px solid white;*/
+}
+
+td.quests {
+/*	border: 1px solid white;*/
+	text-align: center;
+}
+
+p.questblurb {
+	text-align: center;
+}
+
+/* place page css */
+table.places {
+	width: 100%;
+	border-collapse: collapse;
+/*	border: 1px solid white;*/
+}
+
+th.places {
+/*	border: 1px solid white;*/
+}
+
+td.places {
+/*	border: 1px solid white;*/
+	text-align: center;
+}
+
+p.placedetails {
+	text-align: left;
+}
+
+span.placedetail {
+	margin-left: 20px;
+}
+
+/* monster page css */
+table.monsters {
+	width: 100%;
+	border-collapse: collapse;
+/*	border: 1px solid white;*/
+}
+
+th.monsters {
+/*	border: 1px solid white;*/
+}
+
+td.monsters {
+/*	border: 1px solid white;*/
+	text-align: center;
+}
+
+p.monsterdetails {
+	text-align: left;
+}
+
+span.monsterdetail {
+	margin-left: 20px;
+}
+
+/* experience page css */
+table.experience {
+	width: 100%;
+	border-collapse: collapse;
+/*	border: 1px solid white;*/
+}
+
+td.experience {
+/*	border: 1px solid white;*/
+	text-align: center;
+}
+
+/* tiers page css */
+table.tiers {
+	width: 100%;
+	border-collapse: collapse;
+/*	border: 1px solid white;*/
+}
+
+td.tiers {
+/*	border: 1px solid white;*/
+	text-align: center;
+}
+
+/* quirks page css */
+table.quirks {
+	width: 100%;
+	border-collapse: collapse;
+/*	border: 1px solid white;*/
+}
+
+td.quirks {
+/*	border: 1px solid white;*/
+	text-align: center;
+}
+
+/* news page css */
+table.news {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td.news {
+	text-align: left;
+	padding-left: 20px;
+}
