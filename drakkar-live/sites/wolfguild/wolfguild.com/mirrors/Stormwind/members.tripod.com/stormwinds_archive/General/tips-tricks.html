@@ -1,0 +1,661 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="../Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<!-- Mirrored from members.tripod.com/stormwinds_archive/General/tips-tricks.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 18:46:11 GMT -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Stormwind's Archives</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body background="../Images/blueblinkbg.gif" text="#00CCFF" link="#00CCFF" vlink="#0066FF" alink="#00CCFF"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://members.tripod.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+////// OwnerIQ  /////////////////////
+var __oiq_pct = 50;
+if( __oiq_pct>=100 || Math.floor(Math.random()*100/(100-__oiq_pct)) > 0 ) {
+    var _oiqq = _oiqq || [];
+    _oiqq.push(['oiq_addPageBrand', 'Lycos']);
+    _oiqq.push(['oiq_addPageCat', 'Internet > Websites']);
+    _oiqq.push(['oiq_addPageLifecycle', 'Intend']);
+    _oiqq.push(['oiq_doTag']);
+
+    (function() {
+        var oiq = document.createElement('script'); oiq.type = 'text/javascript'; oiq.async = true;
+        oiq.src = document.location.protocol + '//px.owneriq.net/stas/s/lycosn.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oiq, s);
+    })();
+}
+
+
+
+/////// Google Analytics ////////////
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-19']);
+_gaq.push(['_setDomainName', 'tripod.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'stormwinds_archive', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+
+/////// Lycos Initialization ////////////
+function getReferrer() {
+    // Reads the referrer out of the cookie, if available.
+    var all= this.document.cookie;
+    if (all== '') return false;
+    var cookie_name = 'REFERRER=';
+    var start = all.lastIndexOf(cookie_name);
+    if (start == -1) return false;  // referrer URL not found.
+    start += cookie_name.length;
+    var end = all.indexOf(';', start);
+    if (end == -1) end = all.length;
+    return all.substring(start, end);
+}
+function getQuery() {
+    // Get the referrer search query from cookie, if available.
+    var rfr = getReferrer();
+    if (rfr == '') return false;
+    var q = extractQuery(rfr, 'yahoo.com', 'p=');
+    if (q) return q;
+    q = extractQuery(rfr, '', 'q=');
+    return q ? q : "";
+}
+function extractQuery(full, site, q_param) {
+    var start = full.lastIndexOf(site);
+    if (start == -1) return false;
+    start = full.lastIndexOf(q_param);
+    if (start == -1) return false;
+    start += q_param.length;
+    var end = full.indexOf('&', start);
+    if (end == -1) end = full.length;
+    return unescape(full.substring(start, end)).split(" ").join("+");
+}
+
+function generateHref(atag, template){
+    atag.href=template.replace('_MYURL_', window.location.href.replace('http://', '')).replace('_MYTITLE_', 'Check%20out%20this%20Tripod%20Member%20site!'); 
+}
+
+
+var lycos_ad = Array();
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "tripod.lycos.com";
+var cm_taxid = "/memberembedded";
+var tripod_member_name = "stormwinds_archive";
+var tripod_member_page = "stormwinds_archive/General/tips-tricks.htm";
+var tripod_ratings_hash = "1359225915:9a068cdab982fae905053b5ff677be7b";
+
+var lycos_ad_category = null;
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.tripod.lycos.com";
+var lycos_ad_track_small = "../../adm/img/common/ot_smallframe80b1.gif?rand=798298";
+var lycos_ad_track_served = "../../adm/img/common/ot_adserved80b1.gif?rand=798298";
+var lycos_search_query = getQuery();
+
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript"> 
+
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+    
+window.onload = function() {
+    var f = document.getElementById("FooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://members.tripod.com/adm/ad/footerAd.iframe.html';
+
+
+    // DOM Injection Ad
+    (function(isTrellix) {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+
+        var getCommentNodes = function(regexPattern) {
+            var nodes = {};
+            var nodesA = [];
+            var preferredNodesList = ['a', 'c', 'b'];
+
+            (function getNodesThatHaveComments(n, pattern) {
+                if (n.hasChildNodes()) {
+                    if (n.tagName === 'IFRAME') {
+                        return false;
+                    }
+                    for (var i = 0; i < n.childNodes.length; i++) {
+                        if ((n.childNodes[i].nodeType === 8) && (pattern.test(n.childNodes[i].nodeValue))) {
+                            var areaName = pattern.exec(n.childNodes[i].nodeValue)[1];
+                            nodes[areaName] = n;
+                        }
+                        else if (n.childNodes[i].nodeType === 1) {
+                            getNodesThatHaveComments(n.childNodes[i], pattern);
+                        }
+                    }
+                }
+            }(document.body, regexPattern));
+
+            for (var i in preferredNodesList) {
+                if (nodes[preferredNodesList[i]]) {
+                    if (nodes[preferredNodesList[i]].parentNode.parentNode.parentNode.parentNode) {
+                        nodesA.push(nodes[preferredNodesList[i]].parentNode.parentNode.parentNode.parentNode);
+                    }
+                }
+            }
+
+            return nodesA;
+        }
+
+        var properNode = null;
+        var areaNodes = getCommentNodes(new RegExp('^area Type="area_(\\w+)"'));
+        for (var i = 0; i < areaNodes.length; i++) {
+            var a = parseInt(getComputedStyle(areaNodes[i]).width);
+            if ((a >= 300) && (a <= 400)) {
+                properNode = areaNodes[i];
+                break;
+            }
+        }
+
+        if ((isTrellix) && (properNode)) {
+            e.src = 'http://members.tripod.com/adm/ad/injectAd.iframe.html';
+            properNode.insertBefore(e, properNode.firstChild);
+        }
+        else {
+            e.src = 'http://members.tripod.com/adm/ad/sliderAd.iframe.html';
+            var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+            var sliderHolder = document.getElementById('lyslider-adblock-holder');
+            var sliderClose = document.getElementById('lyslider-adblock-close');
+            sliderBlock.style.display = 'block';
+
+            sliderClose.onclick = function() {
+                sliderBlock.parentNode.removeChild(sliderBlock);
+                return false;
+            }
+
+            var iframeOnload = function() {
+                setTimeout((function sliiide() {
+                    var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                    if (s <= 0) {
+                        sliderHolder.style.right = (s + 6) + 'px';
+                        setTimeout(sliiide, 10);
+                    }
+                    else {
+                        sliderHolder.style.right = '0px';
+                        sliderClose.style.display = 'block';
+                    }
+                }), 1000);
+            }
+
+            if (e.attachEvent) {
+                e.attachEvent('onload', iframeOnload);
+            }
+            else {
+                e.addEventListener('load', iframeOnload, false);
+            }
+
+            sliderHolder.insertBefore(e, sliderHolder.firstChild);
+        }
+    }(document.isTrellix));
+
+}
+
+
+
+</script>
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div id="tb_container" style="background:#DFDCCF; border-bottom:1px solid #393939; position:relative; z-index:999999999!important">
+    <div id="tb_ad" class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+    <a href="http://adtrack.ministerial5.com/clicknew/?a=637394" title="build your own website at Tripod.com" style="float:left; width:186px; border:0">
+    	<img src="../../../ly.lygo.com/ly/tpSite/images/freeAd2.jpg" alt="Make your own free website on Tripod.com" style="border:0; display:block" />
+    </a> 
+        <div id="ad_container" style="display:block!important; float:left; width:728px ">
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+        </div>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="FooterAd" style="background:#DFDCCF; border-top:1px solid #393939; clear:both; display:none; width:100%!important; position:relative; z-index:999999!important; height:90px!important"> 
+	<div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+	<a href="http://adtrack.ministerial5.com/clicknew/?a=637394" title="build your own website at Tripod.com" style="float:left; display:block; width:186px; border:0">
+    	<img src="../../../ly.lygo.com/ly/tpSite/images/freeAd2.jpg" alt="Make your own free website on Tripod.com" style="border:0; display:block; " />
+    </a> 
+        <div id="footerAd_container" style="display:block!important; float:left; width:728px">
+        <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+        <!-- <script type="text/javascript">document.write(lycos_ad['leaderboard2']);</script> -->
+        </div>
+	</div>
+</div>
+<noscript>
+ <img src="../../adm/img/common/ot_noscript80b1.gif?rand=798298" alt="" width="1" height="1" />
+ <!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Tripod Fallthrough - DO NOT MODIFY -->
+ <iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=209094"></iframe>
+ <!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=003&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+<table width="98%" height="580" border="5">
+  <tr> 
+    <td width="16%" height="137"> <div align="center"><img src="../Images/mansioninsky.gif" width="201" height="159"></div></td>
+    <td width="69%"> <p align="center"><font color="#00CCFF" size="7"><a href="../index-2.html">Stormwind's 
+        Archives</a></font></p>
+      <div align="center"></div></td>
+    <td width="15%"><div align="center"><img src="../Images/mansioninsky.gif" width="201" height="159"></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../whats-new.htm"><font color="#00CCFF">What's 
+        New! </font></a> </div></td>
+    <td width="69%" rowspan="9"><div align="center"><!-- InstanceBeginEditable name="EditRegion3" --> 
+        <p>You need to be Level 16 to trade for P-gear (Saber, Power Robe, Power 
+          Helm, Vamps.) </p>
+        <p>You need to be level 17 to trade for the CH.</p>
+        <p>The air hexes just before the entrance to the Cobrahn Giant's Keep 
+          form a clearly defined key.</p>
+        <p>There is a large, empty lair hidden behind a couple of walls in Tehru 
+          Prison. It is off the path to the jump down hole to the Black Dragon 
+          caves.</p>
+        <p>The Aleria caves to the NW of town, Earthshaker dungeon to the east, 
+          and Goblin King cave complex below the Dwarf Hold are all inter-connected 
+          by twisty passages and climbs.</p>
+        <p>Duke Talinar has a Hall of Champions to celebrate the first several 
+          adventurers to vanquish the great evils from Aleria. Lord Koss has a 
+          Hall of Doombringers to honor the first several adventurers who vanquished 
+          Duke Talinar.</p>
+        <p>If you climb down a certain grave in the Undead City graveyard (UC-2), 
+          you drop to an area near the stairs to the Deathsasquatch (UC-5).</p>
+        <p>If you climb up a hex just west of the stairs, you will find be teleported 
+          to UC-1, just before the portal hex to the spectre caves.</p>
+        <p>Most people now about the Frore ice plains (area just NE of town), 
+          the fire plains (drop down a hole in Evil Nork) and the earth plains 
+          (Homlet), but many have never heard of the water plains. It is a drop 
+          down hole just NE of the north town gate.</p>
+        <p>Rumor: there are discgruntled NPCs plotting to overthrow the Frore 
+          king. I hear they meet in a cellar of one of the fortress buildings 
+          and there is a teleport to a little visited area. Never fully explored 
+          that rumor, although I did have a fatal encounter with the revolutionaries 
+          awhile back.</p>
+        <p>There is a coffin behind HG lair, You have to blow up a wall to see 
+          it, but the vamp is not there. He must be on Extended Vacation. </p>
+        <p></p>
+        <p>The wine cellar in Frore was once known as the war room.</p>
+        <p>There's a hidden terrain type for the illusion disc: ice. If you type 
+          form illusion ice it will make a plain white hex.<br>
+        </p>
+        <p>Did you see the water hex by lightning hammer trader in middle of maeling 
+          (in that spiral tree park)?</p>
+        <p>Try climbing up on that water </p>
+        <p>reggie is sackable.<br>
+          a certain lair north of frore can be soloed by a skill7 ment if they 
+          use the right discs.<br>
+          seahag carries 7 ih.<br>
+          there's 7 guardians in each alt of nork.<br>
+          drinking ih on a healer saves you a round.<br>
+          power word death takes perm hp if you're hit by it. it also reflects.<br>
+          when elance reflects it hits caster and target.<br>
+          reggie is technicaly on n-6.<br>
+          the red dragons in frore come from fireplains.<br>
+          thieves can set the power level of their traps.(it's in the help but 
+          not alot of crits read it)<br>
+          mama scales were lowered in protection. ien scales are 250 f/i prot, 
+          dz scales are 200.<br>
+          no lair in aleria eats.<br>
+          uzis skill ma skill if you kill enemies with it in hand.<br>
+          succor twigs are glowing staffs.<br>
+          morningstars can never be blocked by shields, including smasher's and 
+          koss' morningstar(s).</p>
+        <p>nork npcs sometimes drop bottles that look like ih, but revitalize 
+          you(full hp and ep restore).</p>
+        <p>1 also, there's a stairs-like invisible portal next to the thief trainer 
+          in the 'secret' part of SF.</p>
+        <p>2 Also, partying with yourself while you use discipline twigs gives 
+          minimal skill *better then none*.</p>
+        <p>3 seek the trainer on the island for training in the lost arts </p>
+        <p>4 in cob, to pop those huge hexes with insane amounts of stuff on-hex, 
+          use km4 pop twigs, it will pop a small portion, and not destroy coin 
+          or left over items from each transmute. &lt;this even helps those skill 
+          30 ments &gt;</p>
+        <p>5 When playing a thief, if you use a discipline while having an equipped 
+          EP giving item &lt;many are around&gt;, and you cast such things, it 
+          will take EP instead of HP and give you psi skill in both healer and 
+          ment. Psi versions of thief discs are MUCH more powerful per skill level. 
+          IE skill 11 ment on thief, transmutes for the power of a skill 20 thief 
+          using thief based transmute. you may not train in psi abilities while 
+          skilling these up. however, i do believe Dion will train you if you 
+          get a training potion off of her. I'm not sure if the same technique 
+          would work if you get a psi discipline &lt;ie succor, sense, CC?&gt; 
+          on a stick type crit from fate cards... anyone tested? info to chew 
+          on.</p>
+        <p>6 Chippuda is mean</p>
+        <p>7 kragen is in Aleria, the NW caves, around a twisty maze, down staircase, 
+          and through the windy caves with unlocked doors. Does he give anything 
+          interesting?</p>
+        <p>8 Koss's Castle is SW of War Lord's tower. &lt;yes, many people don't 
+          know this&gt;</p>
+        <p>9 Aid VERY much helps you deplete lairs</p>
+        <p>10 even if something doesn't cause a block &lt;such as a shield&gt; 
+          you will get hit for less when you are hit on average. i guess swinging 
+          around around a shield takes more effort eh? even an ogre shield helps 
+          psi crits </p>
+        <p>11 hp doctor quests may become very difficult after lvl 20, so if it's 
+          NOT important, avoid lvl'ing past 20. &lt;ie random items, lori statue, 
+          gd brick&gt;</p>
+        <p>12 for noncharging/casting/archery crits, a thief can hide, side-step, 
+          and backstab a monster even if they are visible to them.</p>
+        <p>13 there are several weapons people don't realize are returning. i'll 
+          list the majority: rb quest hammer, lightning hammer, fs hally/LS/mace, 
+          n8 bully lookin' daggers, bullywog/manphibian daggers, Raxe, stiletto, 
+          some random plain-looking maces in timmy are returning. and if you poison 
+          a cob returning weapon, it will cast lvl 23 poison on throw, not contact.</p>
+        <p>14 bandit lord shortsword is sackable, but stiletto is not &lt;spose 
+          that razor edge would rip yer sack&gt;<br>
+          form illusion wall then form illusion empty on the same hex.</p>
+        <p>It acts as if the wall is still there, but one can see and cast disciplines, 
+          throw through the empty space. Creatures or Players cannot get through 
+          the hex. A lower mentalist's equivalent of passwall. :&gt;</p>
+        <p><br>
+          thieves can get experience with traps as long they as they stay in the 
+          same segment and the same alt. One can set traps in a hostile environment, 
+          twig bad to thief guild and rake in the experience points. Not recommended 
+          for highly traveled areas. :&gt;</p>
+        <p>The succor twig is a glowing staff weapon.</p>
+        <p>Twigging back to a different segment or the GH will detox poison.<br>
+          lets not forget for small mets that you can cast illusion water on a 
+          wall in mealing -3 and sit there after it regens and never get touched 
+        </p>
+        <p>Thief Secrets</p>
+        <p>Going up from the hex west of the Nork thief trainer places you in 
+          the Volcano Town thief guild.</p>
+        <p>There is a thief guild hidden away in Rat Burrow town. It has a secret 
+          wall into town and another into the dungeons.</p>
+        <p>&quot;put right in sack;steal from&quot; or &quot;put left in sack;steal 
+          from&quot; with needs target on will allow you to empty your hand and 
+          steal so you can attempt a theft every round.</p>
+        <p>You can determine the nature of traps before you buy them by double 
+          clicking on the trap icon on the store display. Works for twigs too.</p>
+        <p>Fighting with a lockpick in right gives thievery skill.</p>
+        <p>You can backstab with a bow.</p>
+        <p>A regular attack with any weapon while hiding will also give a small 
+          amount of thievery skill.</p>
+        <p>A proning crossbow is dropped by gnoll champions is Rat Burrow.</p>
+        <p>If you upset some of the Nork Townies, they will steal from you.</p>
+        <p>The Nork thief trainer takes your coin if you are fully trained and 
+          gives you nothing for it.<br>
+          Alerian Trivia</p>
+        <p>Koss castle is actually SE of the warlord tower.</p>
+        <p>Watcher has something mysterious to say to you. You get to it by sinking 
+          beneath the quicksand in the Alerian swamp.</p>
+        <p>Mujaba never took swimming lessons. Barney neither.</p>
+        <p>Bandit Lord is afraid of the dark.</p>
+        <p>Winterwolf likes to chew on the legs of trainers.</p>
+        <p>The first several people to complete the Duke's Quests are honored 
+          in a special hall in Talinar's Keep.<br>
+          Cobrahn Ring Trivia</p>
+        <p>Looking for something other than the 3/3 Timmy Store rings, but too 
+          small to get an 8/8 from a Cob lair? Here are some &quot;doable&quot; 
+          options...</p>
+        <p>4/4 rings with on-contact energy shield drop in SW caves.</p>
+        <p>5/5 combat rings drop in DarkOgre Town (under Juntes).</p>
+        <p>0/10 ghast eye rings drop in Undead City -1!</p>
+        <p>There are some nice pStun and pAssault rings that drop in Timmy Caves, 
+          but it can be a pain to identify them. Here is a neat trick. </p>
+        <p>Place the system protstun and protassault macros on a macro button 
+          bar. When you pick up a silver ring that has one of these discs on it, 
+          the macro button will light up! If you do not have the system macro 
+          on your macro list for either of these spells, then just pick up rings 
+          until the game asks you if you want to add the spell to your list. Answer 
+          yes, then it will be available to assign to your macro button bar. </p>
+        <p>it doesn't work everywhere, illusion is bugged.</p>
+        <p>Switch alt, or slam, to get rid of poison.</p>
+        <p>Want townies in RB, or neutral crits in other places, red to you? use 
+          illusion wall on their hex.(use this trick if hunting bears or so on 
+          yeti island, and neutral crits are killing everything)</p>
+        <p><br>
+          gabagimli, in the ratburrow pub, tells some entertaining tales, take 
+          the time to listen <br>
+          Bring Mr.Hobbit a special Egg and he gives you something in return.</p>
+        <p>There is a coffin behind the Hally Giant Lair.</p>
+        <p>There was is/was a command for mining, i believe its mine &lt;direction&gt; 
+          (i only done it a few times)</p>
+        <p>Critsort to see who all is on your hex, not a good option for lairs. 
+          There is a way to turn this command off but I forgot it also.</p>
+        <p>Banshee lair needs Hippo boots to get in, but doesnt destroy the boots. 
+          FireLizard Lair requires Hippo Boots, but it does destroy the boots.</p>
+        <p><br>
+          casting fire on water makes it walkable. </p>
+        <p>Fire storm draggie is actually on N-5 :-)</p>
+        <p>Beyond popular believe, SOME ES rings do not like being used with ES 
+          cast by ment and they neutralize each other out.</p>
+        <p>Last but not least, There are no Gods in Drakkar, just really powerful 
+          janitors hehehe </p>
+        <p>Would you mind showing me that some day? i've been searching for it 
+          a bit, coudn't find it, and then HG regenerated </p>
+        <p>#critsort enable<br>
+          #critsort disable</p>
+        <p>simple as that , i advice all barbs to use that, it will keep you on 
+          your hex a bit</p>
+        <p>the mining command exist, didn't find a place to mine yet tough.</p>
+        <p>does illusion fire also gets rid of water-damage?</p>
+        <p>use illusion path to stay away from biting fishes</p>
+        <p>my fighter likes mr.hobbit's present (are you sure you spelled it right?) 
+        </p>
+        <p>dashes enable<br>
+          l at &quot;name's&quot; item IE: look at uther's broadsword<br>
+          l at twig on ground<br>
+          count item IE: count ge </p>
+        <p>Not really a secret, but handy for baby barbs just starting to zerk<br>
+          got told about using this instead of the system drink macro for drinking 
+          while zerked and it's saved my butt on more than a few occasions (don't 
+          write over the original system one tho) - </p>
+        <p>belt right;t bottle from sack;drink bottle</p>
+        <p>has the advantage If you have a target, of either drinking or forcing 
+          an out of control round so you autobalm which the system one doesn't<br>
+          that works for ls like a dream for me, but i guess you could alter it 
+          depending on your circumstances</p>
+        <p>try typing &quot;ride&quot; in command mode. </p>
+        <p>Ghost from N-3.5 can be tanned and traded to Marco in Aleria for one 
+          of 3 random books, Sense,Heal, and Critcure<br>
+        </p>
+        <p>In Aleria there is a place that drops several pearls. When you look 
+          at the ground you hear a &quot;death squash&quot; and voila! There be 
+          pearls in that hole! </p>
+        <p>To find the hole; go to a place that you would like to make a wish...<br>
+        </p>
+        <p>This not posible no more but still<br>
+          Set fate traps in Uther lair and one of them would change his aligment 
+          making him drop the sword :P </p>
+        <p>VT can be disintegrated/blasted/doored/illusioned. </p>
+        <p>Haven't seen this on a spoiler site in quite some time, a long time 
+          ago someone with a lot of time on their hands figured out outcasts have 
+          a +2 combat bonus.<br>
+        </p>
+        <p> </p>
+        <p></p>
+        <p><br>
+        </p>
+        <!-- InstanceEndEditable --></div></td>
+    <td align="center"><div align="center">
+        <p><a href="http://www.kingdomofdrakkar.com/">The Kingdom of Drakkar </a></p>
+        <p><a href="http://www.kingdomofdrakkar.com/">Official Homepage</a></p>
+        </div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="general-info.html">General</a></div></td>
+    <td><div align="center"><a href="http://www.kingdomofdrakkar.com/forums">KoD Forums</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Nork/nork-main.html">Nork</a></div></td>
+    <td><div align="center"><a href="http://www.drakkarzone.com/Launcher/subscriptions.php">KoD Version Notes</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Aleria/aleria-main.html">Aleria</a></div></td>
+    <td><div align="center">
+        <p><a href="http://www.drakkarzone.com/Launcher/news.php">KoD Official News</a></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Cobrahn/cobrahn-main.html">Cobrahn</a></div></td>
+    <td><div align="center"><a href="../Cobrahn/cobrahn-main.html">Old Version 
+        Notes </a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Stories/Stories-main.html">Stories</a></div></td>
+    <td><div align="center"><a href="../Mausoleum/maus-main.htm">Mausoleum Quest</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Pictures/picture-main.html">Pictures &amp; 
+        Art</a></div></td>
+    <td><div align="center"><a href="../Pictures/picture-main.html">Blank</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Misc/misc-main.html">Misc</a></div></td>
+    <td><div align="center"><a href="../Misc/misc-main.html">Blank</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../links-main.html">Links</a></div></td>
+    <td><div align="center"><a href="../links-main.html">Blank</a></div></td>
+  </tr>
+</table>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e140eb4db5d2b19',t:'MTc3NDMzODMzOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<!-- InstanceEnd -->
+<!-- Mirrored from members.tripod.com/stormwinds_archive/General/tips-tricks.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 18:46:14 GMT -->
+</html>

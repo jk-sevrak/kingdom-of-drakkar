@@ -1,0 +1,517 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<!-- Mirrored from members.tripod.com/stormwinds_archive/Nork/nork-main.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 18:45:13 GMT -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body background="../Images/blueblinkbg.gif" text="#00CCFF" link="#00CCFF" vlink="#0066FF" alink="#00CCFF"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://members.tripod.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+////// OwnerIQ  /////////////////////
+var __oiq_pct = 50;
+if( __oiq_pct>=100 || Math.floor(Math.random()*100/(100-__oiq_pct)) > 0 ) {
+    var _oiqq = _oiqq || [];
+    _oiqq.push(['oiq_addPageBrand', 'Lycos']);
+    _oiqq.push(['oiq_addPageCat', 'Internet > Websites']);
+    _oiqq.push(['oiq_addPageLifecycle', 'Intend']);
+    _oiqq.push(['oiq_doTag']);
+
+    (function() {
+        var oiq = document.createElement('script'); oiq.type = 'text/javascript'; oiq.async = true;
+        oiq.src = document.location.protocol + '//px.owneriq.net/stas/s/lycosn.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oiq, s);
+    })();
+}
+
+
+
+/////// Google Analytics ////////////
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-19']);
+_gaq.push(['_setDomainName', 'tripod.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'stormwinds_archive', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+
+/////// Lycos Initialization ////////////
+function getReferrer() {
+    // Reads the referrer out of the cookie, if available.
+    var all= this.document.cookie;
+    if (all== '') return false;
+    var cookie_name = 'REFERRER=';
+    var start = all.lastIndexOf(cookie_name);
+    if (start == -1) return false;  // referrer URL not found.
+    start += cookie_name.length;
+    var end = all.indexOf(';', start);
+    if (end == -1) end = all.length;
+    return all.substring(start, end);
+}
+function getQuery() {
+    // Get the referrer search query from cookie, if available.
+    var rfr = getReferrer();
+    if (rfr == '') return false;
+    var q = extractQuery(rfr, 'yahoo.com', 'p=');
+    if (q) return q;
+    q = extractQuery(rfr, '', 'q=');
+    return q ? q : "";
+}
+function extractQuery(full, site, q_param) {
+    var start = full.lastIndexOf(site);
+    if (start == -1) return false;
+    start = full.lastIndexOf(q_param);
+    if (start == -1) return false;
+    start += q_param.length;
+    var end = full.indexOf('&', start);
+    if (end == -1) end = full.length;
+    return unescape(full.substring(start, end)).split(" ").join("+");
+}
+
+function generateHref(atag, template){
+    atag.href=template.replace('_MYURL_', window.location.href.replace('http://', '')).replace('_MYTITLE_', 'Check%20out%20this%20Tripod%20Member%20site!'); 
+}
+
+
+var lycos_ad = Array();
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "tripod.lycos.com";
+var cm_taxid = "/memberembedded";
+var tripod_member_name = "stormwinds_archive";
+var tripod_member_page = "stormwinds_archive/Nork/nork-main.html";
+var tripod_ratings_hash = "1359225906:f093ef3ba71ade2ff4dfaec18c183223";
+
+var lycos_ad_category = null;
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.tripod.lycos.com";
+var lycos_ad_track_small = "../../adm/img/common/ot_smallframe4dab.gif?rand=626182";
+var lycos_ad_track_served = "../../adm/img/common/ot_adserved4dab.gif?rand=626182";
+var lycos_search_query = getQuery();
+
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript"> 
+
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+    
+window.onload = function() {
+    var f = document.getElementById("FooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://members.tripod.com/adm/ad/footerAd.iframe.html';
+
+
+    // DOM Injection Ad
+    (function(isTrellix) {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+
+        var getCommentNodes = function(regexPattern) {
+            var nodes = {};
+            var nodesA = [];
+            var preferredNodesList = ['a', 'c', 'b'];
+
+            (function getNodesThatHaveComments(n, pattern) {
+                if (n.hasChildNodes()) {
+                    if (n.tagName === 'IFRAME') {
+                        return false;
+                    }
+                    for (var i = 0; i < n.childNodes.length; i++) {
+                        if ((n.childNodes[i].nodeType === 8) && (pattern.test(n.childNodes[i].nodeValue))) {
+                            var areaName = pattern.exec(n.childNodes[i].nodeValue)[1];
+                            nodes[areaName] = n;
+                        }
+                        else if (n.childNodes[i].nodeType === 1) {
+                            getNodesThatHaveComments(n.childNodes[i], pattern);
+                        }
+                    }
+                }
+            }(document.body, regexPattern));
+
+            for (var i in preferredNodesList) {
+                if (nodes[preferredNodesList[i]]) {
+                    if (nodes[preferredNodesList[i]].parentNode.parentNode.parentNode.parentNode) {
+                        nodesA.push(nodes[preferredNodesList[i]].parentNode.parentNode.parentNode.parentNode);
+                    }
+                }
+            }
+
+            return nodesA;
+        }
+
+        var properNode = null;
+        var areaNodes = getCommentNodes(new RegExp('^area Type="area_(\\w+)"'));
+        for (var i = 0; i < areaNodes.length; i++) {
+            var a = parseInt(getComputedStyle(areaNodes[i]).width);
+            if ((a >= 300) && (a <= 400)) {
+                properNode = areaNodes[i];
+                break;
+            }
+        }
+
+        if ((isTrellix) && (properNode)) {
+            e.src = 'http://members.tripod.com/adm/ad/injectAd.iframe.html';
+            properNode.insertBefore(e, properNode.firstChild);
+        }
+        else {
+            e.src = 'http://members.tripod.com/adm/ad/sliderAd.iframe.html';
+            var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+            var sliderHolder = document.getElementById('lyslider-adblock-holder');
+            var sliderClose = document.getElementById('lyslider-adblock-close');
+            sliderBlock.style.display = 'block';
+
+            sliderClose.onclick = function() {
+                sliderBlock.parentNode.removeChild(sliderBlock);
+                return false;
+            }
+
+            var iframeOnload = function() {
+                setTimeout((function sliiide() {
+                    var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                    if (s <= 0) {
+                        sliderHolder.style.right = (s + 6) + 'px';
+                        setTimeout(sliiide, 10);
+                    }
+                    else {
+                        sliderHolder.style.right = '0px';
+                        sliderClose.style.display = 'block';
+                    }
+                }), 1000);
+            }
+
+            if (e.attachEvent) {
+                e.attachEvent('onload', iframeOnload);
+            }
+            else {
+                e.addEventListener('load', iframeOnload, false);
+            }
+
+            sliderHolder.insertBefore(e, sliderHolder.firstChild);
+        }
+    }(document.isTrellix));
+
+}
+
+
+
+</script>
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div id="tb_container" style="background:#DFDCCF; border-bottom:1px solid #393939; position:relative; z-index:999999999!important">
+    <div id="tb_ad" class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+    <a href="http://adtrack.ministerial5.com/clicknew/?a=637394" title="build your own website at Tripod.com" style="float:left; width:186px; border:0">
+    	<img src="../../../ly.lygo.com/ly/tpSite/images/freeAd2.jpg" alt="Make your own free website on Tripod.com" style="border:0; display:block" />
+    </a> 
+        <div id="ad_container" style="display:block!important; float:left; width:728px ">
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+        </div>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="FooterAd" style="background:#DFDCCF; border-top:1px solid #393939; clear:both; display:none; width:100%!important; position:relative; z-index:999999!important; height:90px!important"> 
+	<div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+	<a href="http://adtrack.ministerial5.com/clicknew/?a=637394" title="build your own website at Tripod.com" style="float:left; display:block; width:186px; border:0">
+    	<img src="../../../ly.lygo.com/ly/tpSite/images/freeAd2.jpg" alt="Make your own free website on Tripod.com" style="border:0; display:block; " />
+    </a> 
+        <div id="footerAd_container" style="display:block!important; float:left; width:728px">
+        <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+        <!-- <script type="text/javascript">document.write(lycos_ad['leaderboard2']);</script> -->
+        </div>
+	</div>
+</div>
+<noscript>
+ <img src="../../adm/img/common/ot_noscript4dab.gif?rand=626182" alt="" width="1" height="1" />
+ <!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Tripod Fallthrough - DO NOT MODIFY -->
+ <iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=209094"></iframe>
+ <!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=003&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+<table width="98%" height="580" border="5">
+  <tr> 
+    <td width="16%" height="137"> <div align="center"><img src="../Images/mansioninsky.gif" width="201" height="159"></div></td>
+    <td width="69%"> <p align="center"><font color="#00CCFF" size="7"><a href="../index-2.html">Stormwind's 
+        Archives</a></font></p>
+      <div align="center"></div></td>
+    <td width="15%"><div align="center"><img src="../Images/mansioninsky.gif" width="201" height="159"></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../whats-new.htm"><font color="#00CCFF">What's 
+        New! </font></a> </div></td>
+    <td width="69%" rowspan="9"><div align="center"><!-- InstanceBeginEditable name="EditRegion3" --> 
+        <p>Welcome to the Norken Pages. Within this section you will find info 
+          pertaining to the oldest scenario in the kingdom of drakkar - Nork! 
+          Info on Mjorin, which is a Norken land can also be obtained here though 
+          in it's own section as it is a difficult place.</p>
+        <table width="98%" height="358" border="5">
+          <tr> 
+            <td width="19%"><div align="center"><strong>The Town of Nork</strong></div></td>
+            <td width="26%"><div align="center"><strong>The Province of Maeling</strong></div></td>
+            <td width="16%"><div align="center"><strong>Volcano Town</strong></div></td>
+            <td width="25%"><div align="center"><strong>The City-State of Frore</strong></div></td>
+            <td width="14%"><div align="center"><strong>Mjorin</strong></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><a href="nork-story.htm">Storylines</a></div></td>
+            <td><div align="center"><a href="maeling-story.htm">Storylines</a></div></td>
+            <td><div align="center"><a href="vt-story.htm">Storylines</a></div></td>
+            <td><div align="center"><a href="frore-story.htm">Storylines</a></div></td>
+            <td><div align="center"><a href="mjorin-story.htm">Storylines</a></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><a href="nork-quests.htm">Quests</a></div></td>
+            <td><div align="center"><a href="maeling-quests.htm">Quests</a></div></td>
+            <td><div align="center"><a href="vt-quests.htm">Quests</a></div></td>
+            <td><div align="center"><a href="frore-quests.htm">Quests</a></div></td>
+            <td><div align="center"><a href="mjorin-quests.htm">Quests</a></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><a href="nork-maps.htm">Maps</a></div></td>
+            <td><div align="center"><a href="maeling-maps.htm">Maps</a></div></td>
+            <td><div align="center"><a href="vt-maps.htm">Maps</a></div></td>
+            <td><div align="center"><a href="frore-maps.htm">Maps</a></div></td>
+            <td><div align="center"><a href="mjorin-maps.htm">Maps</a></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><a href="nork-lairs.htm">Lairs</a></div></td>
+            <td><div align="center"><a href="maeling-lairs.htm">Lairs</a></div></td>
+            <td><div align="center"><a href="vt-lairs.htm">Lairs</a></div></td>
+            <td><div align="center"><a href="frore-lairs.htm">Lairs</a></div></td>
+            <td><div align="center"><a href="mjorin-lairs.htm">Lairs</a></div></td>
+          </tr>
+        </table>
+        <p><strong>Item Catalog</strong></p>
+        <table width="98%" height="287" border="5">
+          <tr> 
+            <td width="22%"><div align="center"><a href="Items/nork-amulets.htm">Amulets</a></div></td>
+            <td width="21%"><div align="center"><a href="Items/nork-armor.htm">Armor</a></div></td>
+            <td width="21%"><div align="center"><a href="Items/nork-axes.htm">Axes</a></div></td>
+            <td width="20%"><div align="center"><a href="Items/nork-belts.htm">Belts 
+                &amp; Sashes</a></div></td>
+            <td width="16%"><div align="center"><a href="Items/nork-boots.htm">Boots</a></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><a href="Items/nork-bottles.htm">Bottles</a></div></td>
+            <td><div align="center"><a href="Items/nork-bows.htm">Bows</a></div></td>
+            <td><div align="center"><a href="Items/nork-bracers.htm">Bracers</a></div></td>
+            <td><div align="center"><a href="Items/nork-cloaks.htm">Cloaks &amp; 
+                Robes</a></div></td>
+            <td><div align="center"><a href="Items/nork-crossbows.htm">Crossbows</a></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><a href="Items/nork-daggers.htm">Daggers</a></div></td>
+            <td><div align="center"><a href="Items/nork-foods.htm">Foods</a></div></td>
+            <td><div align="center"><a href="Items/nork-gauntlets.htm">Gauntlets</a></div></td>
+            <td><div align="center"><a href="Items/nork-gems.htm">Gems</a></div></td>
+            <td><div align="center"><a href="Items/nork-greatswords.htm">Greatswords</a></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><a href="Items/nork-halberds.htm">Halberds</a></div></td>
+            <td><div align="center"><a href="Items/nork-helms.htm">Helms</a></div></td>
+            <td><div align="center"><a href="Items/nork-keys.htm">Keys</a></div></td>
+            <td><div align="center"><a href="Items/nork-longswords.htm">Longswords</a></div></td>
+            <td><div align="center"><a href="Items/nork-maces.htm">Maces</a></div></td>
+          </tr>
+          <tr> 
+            <td><div align="center"><a href="Items/nork-misc.htm">Misc</a></div></td>
+            <td><div align="center"><a href="Items/nork-rings.htm">Rings</a></div></td>
+            <td><div align="center"><a href="Items/nork-shields.htm">Shields</a></div></td>
+            <td><div align="center"><a href="Items/nork-shortswords.htm">Shortswords</a></div></td>
+            <td><div align="center"><a href="Items/nork-staves.htm">Staves</a></div></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <!-- InstanceEndEditable --></div></td>
+    <td align="center"><div align="center">
+        <p><a href="http://www.kingdomofdrakkar.com/">The Kingdom of Drakkar </a></p>
+        <p><a href="http://www.kingdomofdrakkar.com/">Official Homepage</a></p>
+        </div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../General/general-info.html">General</a></div></td>
+    <td><div align="center"><a href="http://www.kingdomofdrakkar.com/forums">KoD Forums</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="nork-main.html">Nork</a></div></td>
+    <td><div align="center"><a href="http://www.drakkarzone.com/Launcher/subscriptions.php">KoD Version Notes</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Aleria/aleria-main.html">Aleria</a></div></td>
+    <td><div align="center">
+        <p><a href="http://www.drakkarzone.com/Launcher/news.php">KoD Official News</a></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Cobrahn/cobrahn-main.html">Cobrahn</a></div></td>
+    <td><div align="center"><a href="../Cobrahn/cobrahn-main.html">Old Version 
+        Notes </a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Stories/Stories-main.html">Stories</a></div></td>
+    <td><div align="center"><a href="../Mausoleum/maus-main.htm">Mausoleum Quest</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Pictures/picture-main.html">Pictures &amp; 
+        Art</a></div></td>
+    <td><div align="center"><a href="../Pictures/picture-main.html">Blank</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../Misc/misc-main.html">Misc</a></div></td>
+    <td><div align="center"><a href="../Misc/misc-main.html">Blank</a></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"><a href="../links-main.html">Links</a></div></td>
+    <td><div align="center"><a href="../links-main.html">Blank</a></div></td>
+  </tr>
+</table>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e140e491a222b19',t:'MTc3NDMzODMyMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<!-- InstanceEnd -->
+<!-- Mirrored from members.tripod.com/stormwinds_archive/Nork/nork-main.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 18:45:28 GMT -->
+</html>
