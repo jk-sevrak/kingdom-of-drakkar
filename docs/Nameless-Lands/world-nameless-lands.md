@@ -19,9 +19,21 @@ A rift opened in the borderlands of Nork, leading to a mysterious realm. Rumors 
 
 ## Notable Areas
 
-- **Decaying Lands Bog**: Entry point to Mormar dungeon
-- **Sullen Keep**: Contains random stat potions (max 35)
-- **Mormar Dungeon**: 25 floors of increasing difficulty, culminating in the Rift Guardian
+- **Decaying Lands Bog**: Entry point to Mormar dungeon. The swamp gained walls on all sides and no longer wraps around.
+- **Sullen Keep**: Expansion area for levels 85-90 (added January 2016). Contains mini bosses, new damage types, and random stat potions (max 35). ![Keep Level 0](../images/maps/sullen-keep/keep-level-0.png)
+- **Mormar Dungeon**: 25 floors of increasing difficulty, culminating in the Rift Guardian.
+- **Invader's Refuge**: Special scenario area for Nameless Lands subscribers. Features recurring events (Christmas with Santa, legendary weekends), random drops, and anvil crafting locations. ![Invader's Refuge](../images/maps/invaders-refuge/invaders-refuge.png)
+
+## Lore
+
+### The Rift
+A tear opened in the borderlands of Nork, leading to the Nameless Lands. Rumors speak of **Arcturus** stirring beyond the rift.
+
+### Death of the Nameless Lord
+A major narrative event in the Nameless Lands storyline, marking a turning point in the scenario's progression.
+
+### Graine's Journal
+First-person narrative documenting the exploration of the Nameless Lands, compiled from historical forum posts and lost manuals.
 
 ## Alt Worlds
 
