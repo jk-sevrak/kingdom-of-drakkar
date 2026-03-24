@@ -1,0 +1,27 @@
+ZOE Guild Angelfire Site Download Attempt
+=========================================
+Date: 2026-03-24
+Target URL: https://www.angelfire.com/rpg/ZOE/
+
+STATUS: FAILED - Site returns 403 Forbidden
+
+Attempts made:
+1. wget recursive download - 403 Forbidden
+2. wget with browser User-Agent - 403 Forbidden
+3. curl with browser User-Agent (index) - 403 Forbidden (error page saved as index.html)
+4. curl with browser User-Agent (vocab.html) - 403 Forbidden (error page saved as vocab.html)
+5. WebFetch on live URLs - 403 Forbidden
+6. Wayback Machine (web.archive.org) - blocked by egress policy / unable to fetch
+
+The Angelfire ZOE guild site appears to be no longer hosted or has been
+taken down by Angelfire/Lycos. Both the main page and vocab.html return
+Angelfire's standard 403 error page with the message:
+"We couldn't find the page you requested. Please check the URL and try again."
+
+Files saved:
+- index.html  (403 error page from https://www.angelfire.com/rpg/ZOE/)
+- vocab.html  (403 error page from https://www.angelfire.com/rpg/ZOE/vocab.html)
+
+To recover this content, try:
+- Wayback Machine manually: https://web.archive.org/web/*/www.angelfire.com/rpg/ZOE/*
+- Contact the original site owner if known
