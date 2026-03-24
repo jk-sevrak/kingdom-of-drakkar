@@ -1,0 +1,419 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!-- Mirrored from roarguild.webuda.com/MacroCommands.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 14 Aug 2010 23:45:52 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="Roar Guild page of the RPG Kingdom of Drakkar">
+<meta name="Keywords" content="Guild, Kingdom, Drakkar, Roar, roleplay, massive">
+<meta name="Author" content="Brandon Jansma">
+<title>Drakkar Roar Guild</title>
+<link href="css/roarstyle01.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+#main {
+	height:auto;}
+	</style>
+       
+<script type="text/javascript" src="scripts/disableselect.js"></script>
+<script type="text/javascript" src="scripts/disablerightclick.js"></script>
+</head>
+
+<body>
+<div id="banner"></div>
+<div id="seperator"></div>
+<div id="main">
+    <div id="navigation">
+     <a href="index.html">Home</a>
+     <a href="ItemsIndex.html">Items</a>
+     <a href="LairsIndex.html">Lairs</a>
+     <a href="QuestsIndex.html">Quests</a>
+     <a href="ClassInfo.html">Class Info</a>
+     <a href="ChMaxes.html">Ch Maxes</a>
+     <a href="QuirkInfo.html">Quirk Info</a>
+     <a href="Tiers.html">Tier Info</a>
+     <a href="ItemLvlReq.html">Item Level Req.</a>
+     <a href="HpEpMaxes.html">Hp/Ep Maxes</a>
+     <a href="Dion.html">Dion</a>
+     <a href="Experience.html">Exp Chart</a>
+     <a href="ScreenshotIndex.html">Screenshots</a>
+     <a href="GeneralInfo.html">General Info</a>
+	 <a href="Members.html">Members</a>
+     <a href="Links.html">Links</a>
+     <a href="Joining.html">Joining Us</a>
+     <a href="http://drakkarroarguild.proboards.com/">Forums</a>
+  </div>
+  <table id="table" width="100" border="0" cellpadding="0">
+  <tr>
+    <td width="171"><strong>Command</strong></td>
+    <td width="521"><strong>Function</strong></td>
+    </tr>
+  <tr>
+    <td colspan="2"><strong><br />
+      Party related commands</strong></td>
+    </tr>
+  <tr>
+    <td>Party create &quot;name&quot;</td>
+    <td>Allows you to create a party</td>
+    </tr>
+  <tr>
+    <td>Party join &quot;name&quot;</td>
+    <td>Allows you to join a created party aslong as you see the creator</td>
+    </tr>
+  <tr>
+    <td>Party give &quot;name&quot;</td>
+    <td>Allows you to transfer leadership to another player in party if you are the current leader.</td>
+  </tr>
+  <tr>
+    <td>Party break</td>
+    <td>Dispands the party only if you are the creator</td>
+  </tr>
+  <tr>
+    <td>Party leave</td>
+    <td>Leaves the current party</td>
+  </tr>
+  <tr>
+    <td>Party eject &quot;name&quot;</td>
+    <td>Kicks a player from the party only if you are the creator</td>
+  </tr>
+  <tr>
+    <td>Party list</td>
+    <td>Lists the party creator along with all members</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong><br />
+      Commands related to a target/crit</strong></td>
+    </tr>
+  <tr>
+    <td>Attack</td>
+    <td>Attacks your target</td>
+  </tr>
+  <tr>
+    <td>Fight</td>
+    <td>Attacks your target</td>
+  </tr>
+  <tr>
+    <td>Throw &quot;item&quot; at &quot;name&quot;</td>
+    <td>Throws specified item at a specified target.</td>
+  </tr>
+  <tr>
+    <td>Chase &quot;target&quot;</td>
+    <td>Moves you towards your target</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong><br />
+      Commands related to guilds.</strong></td>
+  </tr>
+  <tr>
+    <td>Guild tag &quot;name&quot;</td>
+    <td>Allows you to tag someone into your guild if you have tagging rights</td>
+  </tr>
+  <tr>
+    <td>Guild eject &quot;name&quot;</td>
+    <td>Will remove a guild member from the guild if you have tagging rights</td>
+  </tr>
+  <tr>
+    <td>Guild display</td>
+    <td>Shows all your guild members in your viewing area</td>
+  </tr>
+  <tr>
+    <td>Guild transfer &quot;name&quot;</td>
+    <td>If you have tagging rights, this will transfer those rights to another player</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong><br />
+      System based commands.</strong></td>
+    </tr>
+  <tr>
+    <td>Cmds</td>
+    <td>Places the typed command into the scrolling region as they are being acted upon.<br />
+      Example: On a mentalist, typing form energyshield will show in the scrolling region as &gt;form energyshield.</td>
+  </tr>
+  <tr>
+    <td>Dash</td>
+    <td>At the end of every round, dashes appear in the scrolling region.</td>
+  </tr>
+  <tr>
+    <td>Echo</td>
+    <td>Enables or disables character echo. not sure what its used for.</td>
+  </tr>
+  <tr>
+    <td>Redraw</td>
+    <td>Tells to game to re-render the game window.</td>
+  </tr>
+  <tr>
+    <td>Paint</td>
+    <td>Has the same effect as redraw.</td>
+  </tr>
+  <tr>
+    <td>Critsort Enable<br />
+      Critsort Disable</td>
+    <td>Displays crits on your hex at the top of the list always.<br />
+      Helpful for zerking barbs.</td>
+  </tr>
+  <tr>
+    <td>Rest</td>
+    <td>When your health is full, will advance to the next level if you have enough experience.<br />
+Also you can recover from damage at a rate directly proportional to your current constitution.  This regenerative ability takes effect during both REST commands and normal time-bases regeneration.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><br />
+      <strong>Commands related to items.</strong></td>
+  </tr>
+  <tr>
+    <td>Look<br />
+      <br />
+      Look at &quot;name&quot;<br />
+      Look at &quot;name&quot; &quot;item&quot;</td>
+    <td>Looks list items on the current hex<br />
+      <br />
+      Looks at the target, listing what they are wearing.<br />
+      Looks at a specific item your target is using/wearing.<br /></td>
+  </tr>
+  <tr>
+    <td>Get &quot;item name&quot;</td>
+    <td>Will pick up the item from the ground</td>
+  </tr>
+  <tr>
+    <td>Put</td>
+    <td>Puts the item in your hand to where you specified.<br />
+      Example: Put shield in belt</td>
+  </tr>
+  <tr>
+    <td>Drop &quot;item&quot;</td>
+    <td>Drops the specified item</td>
+  </tr>
+  <tr>
+    <td>Break &quot;item&quot;</td>
+    <td>Allows you to break the item named if you are holding it</td>
+  </tr>
+  <tr>
+    <td>Take &quot;item&quot;</td>
+    <td>Takes a specified item from a specified place.<br />
+      example: Take gem from sack</td>
+  </tr>
+  <tr>
+    <td>Wield &quot;weapon&quot;</td>
+    <td>Takes your weapon out from your belt<br />
+      Example: Wield stiletto</td>
+  </tr>
+  <tr>
+    <td>Draw &quot;weapon&quot;</td>
+    <td>Draws specified weapon<br />
+      Example: Draw staff</td>
+  </tr>
+  <tr>
+    <td>Belt &quot;weapon&quot;</td>
+    <td>Moves specified weapon to your belt<br />
+      Example: Belt staff</td>
+  </tr>
+  <tr>
+    <td>Drink</td>
+    <td>Drinks a Health pot in your sack.</td>
+  </tr>
+  <tr>
+    <td>Trade enable</td>
+    <td>Allows you to trade items with other players.</td>
+  </tr>
+  <tr>
+    <td>Count &quot;item&quot;</td>
+    <td>Determines the exact number of a givin item currently on the ground below you.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong><br />
+      Commands that don't waste a round</strong></td>
+    </tr>
+  <tr>
+    <td>*Rtb</td>
+    <td>Right to belt<br />
+      Weapon in your right hand goes to belt</td>
+  </tr>
+  <tr>
+    <td>*Drink</td>
+    <td>Drinks an instant heal</td>
+  </tr>
+  <tr>
+    <td>*Btr</td>
+    <td>Belt to right<br />
+First weapon in your belt goes to right hand</td>
+  </tr>
+  <tr>
+    <td colspan="2"><br />
+      <strong>Ncp related commands</strong></td>
+  </tr>
+  <tr>
+    <td>Tan</td>
+    <td>Tells ncp to tan a creatures corpse.<br />
+      only works if ncp is a tanner.<br />
+      Example: eld, tan</td>
+  </tr>
+  <tr>
+    <td>Make armor</td>
+    <td>Same effect as tan.<br />
+      Example: eld, make armor</td>
+  </tr>
+  <tr>
+    <td>Appraise &quot;item&quot;</td>
+    <td>Asks trader ncp to appraise the specified item.<br />
+Example: Darwin, appraise helm.</td>
+  </tr>
+  <tr>
+    <td>Deposit</td>
+    <td>Asks ncp to deposit specific aount of coins<br />
+      Only works if ncp is a banker.<br />
+      Example: Har, Deposit 50000</td>
+  </tr>
+  <tr>
+    <td>Withdraw</td>
+    <td>Asks ncp to withdrawt specific aount of coins<br />
+Only works if ncp is a banker.<br />
+Example: Har, withdraw 50000</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong><br />
+      Player interaction commands</strong></td>
+    </tr>
+  <tr>
+    <td>Hug &quot;name&quot;</td>
+    <td>You hug the specified player.</td>
+  </tr>
+  <tr>
+    <td>I scream<br />
+      I scream at &quot;name&quot;</td>
+    <td>You scream at the specified player.<br />
+      They see &quot;Hawk screams!&quot; or &quot;Hawk screams at you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I growl<br />      
+      I growl at &quot;name&quot;</td>
+    <td>You growl at the specified player.<br />
+      They see &quot;Hawk growls!&quot; or &quot;Hawk growls at you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I grumble<br />
+      I grumble at &quot;name&quot;</td>
+    <td>You grumble at the specified player.<br />
+      They see &quot;Hawk grumbles!&quot; or &quot;Hawk grumbles at you!&quot;<br /></td>
+  </tr>
+  <tr>
+    <td>I holler<br />
+      I holler at &quot;name&quot;</td>
+    <td>You holler at the specified player.<br />      
+      They see &quot;Hawk hollers!&quot; or &quot;Hawk hollers at you!&quot;<br /></td>
+  </tr>
+  <tr>
+    <td>I yell<br />
+I yell at &quot;name&quot;</td>
+    <td>You tell at the specified player.<br />
+      They see &quot;Hawk yells!&quot; or &quot;Hawk yells at you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I jostle<br />
+      I jostle &quot;name&quot;</td>
+    <td>You jostle the specified player.<br />
+      They see &quot;Hawk jostles!&quot; or &quot;Hawk jostles you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I sing<br />
+      I sing at &quot;name&quot;</td>
+    <td>You sing to the specified player.<br />
+      They see &quot;Hawk sings!&quot; or &quot;Hawk sings at you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I wink<br />
+      I wink at &quot;name&quot;</td>
+    <td>You wink at the specified player.<br />
+      They see &quot;Hawk winks!&quot; or &quot;Hawk winks at you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I think</td>
+    <td>You think. You see &quot;Nothing seems to come to mind&quot;<br />
+      They see &quot;Hawk seems rather annoyed&quot;</td>
+  </tr>
+  <tr>
+    <td>I pinch<br />
+      
+      I pinch &quot;name&quot;</td>
+    <td>You pinch the specified player.<br />
+      They see &quot;Hawk pinches!&quot; or &quot;Hawk pinches you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I rofl</td>
+    <td>You roll on the floor laughing.<br />
+      They see &quot;Hawk rolls on the ground laughing!&quot;</td>
+  </tr>
+  <tr>
+    <td>I spit<br />
+      I spit at &quot;name&quot;</td>
+    <td>You spit at the specified player.<br />
+      They see &quot;Hawk spits!&quot; or &quot;Hawk spits at you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I tickle<br />
+      I tickle &quot;name&quot;</td>
+    <td>You tickle the specified player.<br />
+      They see &quot;Hawk tickles!&quot; or &quot;Hawk tickles you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I dance<br />
+      I dance with &quot;name&quot;</td>
+    <td>You dance with the specified player.<br />
+      They see &quot;Hawk dances!&quot; or &quot;Hawk dances with you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I sneeze<br />
+      I sneeze at &quot;name&quot;</td>
+    <td>You sneeze at the specified player.<br />
+      They see &quot;Hawk sneezes!&quot; or &quot;Hawk sneezes at you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I scratch<br />
+      I scratch &quot;name&quot;</td>
+    <td>You scratch the specified player.<br />
+      They see &quot;Hawk scratches!&quot; or &quot;Hawk scratches you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I kiss<br />
+      I kiss &quot;name&quot;</td>
+    <td>You spit at the specified player.<br />
+      They see &quot;Hawk kisses!&quot; or &quot;Hawk kisses you!</td>
+  </tr>
+  <tr>
+    <td>I agree<br />
+      I agree with &quot;name&quot;</td>
+    <td>You agree with the specified player.<br />
+      They see &quot;Hawk agrees!&quot; or &quot;Hawk agrees with you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I mock<br />
+      I mock &quot;name&quot;</td>
+    <td>You mock the specified player.<br />
+      They see &quot;Hawk mocks!&quot; or &quot;Hawk mocks you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I prod<br />
+      I prod &quot;name&quot;</td>
+    <td>You prod the specified player.<br />
+      They see &quot;Hawk prods!&quot; or &quot;Hawk prods you!&quot;</td>
+  </tr>
+  <tr>
+    <td>I disagree<br />
+      I disagree with &quot;name&quot;</td>
+    <td>You disagree with the specified player.<br />
+      They see &quot;Hawk disagrees!&quot; or &quot;Hawk disagrees with you!&quot;</td>
+  </tr>
+  </table>
+
+
+</div>
+<div id="lowbanner"></div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e1327481ed2233f',t:'MTc3NDMyODg1OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from roarguild.webuda.com/MacroCommands.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 14 Aug 2010 23:45:52 GMT -->
+</html>
+
+<!-- www.000webhost.com Analytics Code -->
+<script type="text/javascript" src="https://analytics.hosting24.com/count.php"></script>
+<noscript><a href="http://www.hosting24.com/"><img src="http://analytics.hosting24.com/count.php" alt="web hosting" /></a></noscript>
+<!-- End Of Analytics Code -->

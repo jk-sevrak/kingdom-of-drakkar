@@ -1,0 +1,1 @@
+(function(){s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src", "http://www.htmlcommentbox.com/jread?page="+escape(""+window.location).replace("+","%2B")+"&opts=22&num=4");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); if(typeof hcb_user=="undefined")hcb_user={};hcb_user.submit="";
