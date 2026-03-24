@@ -38,12 +38,20 @@ An icy/frozen area within the Nork world. Contains:
 
 ### Rat Burrow
 Contains a **Strength Fountain** that provides a strength boost when drunk from. Requires a Rat Burrow sash to enter. Used by players before resting to maximize HP gains per level. (There are rumors the fountain causes faster aging.)
+- Contains: MouseTrap Pub (same locker as Steel Flower), store with IHs, tanner, Mayor's house, stores and bank
+- Urmak's Boat accessible from RatBurrow
+- **Rackleberry**: Grants portal to Maeling Forest
+- **Mungho**: Kill rat quest, sends to Mayor
 
 ### Evil Nork (EN)
 A dangerous version of the Nork area. Contains lair-type creatures that roam freely:
 - Big crossbow guys
 - Auto strippers
 - These lair-type creatures can take permanent hit points on death
+- Cloud Giant roams surface
+- Acid Caves south
+- Guardian via NW stairs
+- **Fire Plains**: Enter Portals area, go down. Contains Spot and Fire Giant
 
 ### Funhouse
 Sells **EP pots** for 500,000 gold each (give 1-5 EP, average ~3).
