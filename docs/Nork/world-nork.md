@@ -2,7 +2,8 @@
 
 Nork is the starting world of Kingdom of Drakkar, where all new characters begin their adventure. It's the most thoroughly documented world across fan sites. The world spans over 250,000 hexes of playable area.
 
-![Nork Overview Map](../images/maps/nork/nork-homlet.png)
+![Nork World Map](../images/maps/nork/nork-world.gif)
+![Nork Detail Map](../images/maps/nork/nork-homlet.png)
 
 ## Major Locations
 

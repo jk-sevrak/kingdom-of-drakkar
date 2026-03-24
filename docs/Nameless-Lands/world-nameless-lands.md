@@ -17,6 +17,9 @@ A rift opened in the borderlands of Nork, leading to a mysterious realm. Rumors 
 - Has its own unique equipment sets distinct from other scenarios
 - Mormar floor progression requires completing the **Mormar Entry Quest**
 
+![Nameless Borderlands](../images/maps/nameless-lands/borderlands.gif)
+![Decayed Lands](../images/maps/nameless-lands/decayed-lands.jpg)
+
 ## Notable Areas
 
 - **Decaying Lands Bog**: Entry point to Mormar dungeon. The swamp gained walls on all sides and no longer wraps around.
