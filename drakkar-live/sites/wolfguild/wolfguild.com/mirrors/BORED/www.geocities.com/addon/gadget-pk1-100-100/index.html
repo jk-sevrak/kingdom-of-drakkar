@@ -1,0 +1,183 @@
+var pk1GAMESTATE = 0; // 0 = not playing, 1=dealing, 2=selecting holds, 3=dealing again, 4=concluding.
+var pk1CREDITS = 1000;
+var pk1DISCARD = new Array(0,0,0,0,0);
+var pk1HAND = new Array(0,0,0,0,0);
+var pk1WINNINGS = 0;
+var pk1CARDS = new Array(0,0,0,0,0);
+var pk1SUIT = new Array(0,0,0,0,0);
+var pk1FLUSH = false;
+var pk1CACHED = false;
+function pk1DEALROLLOVER(pk1X) {
+if ((pk1GAMESTATE == 0) || (pk1GAMESTATE == 2)) {
+  (pk1X) ? document.images.pk1DEALBUTTON.src = "http://pic.geocities.com/images/gadgetfactory/pk1/deal_over-down_56x28.gif" : document.images.pk1DEALBUTTON.src = "../../pic.geocities.com/images/gadgetfactory/pk1/deal_up_56x28.gif";
+  }
+}
+
+function pk1HOLDCARD(pk1X) {
+if (pk1GAMESTATE == 2) {
+  pk1SHELL = pk1DISCARD[pk1X];
+  pk1DISCARD[pk1X] = pk1HAND[pk1X];
+  pk1HAND[pk1X] = pk1SHELL;
+  if (pk1X == 0) {
+    (pk1HAND[0] == 0) ? document.images.pk1HOLD0.src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" : document.images.pk1HOLD0.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_over-down.gif";
+    }
+  if (pk1X == 1) {
+    (pk1HAND[1] == 0) ? document.images.pk1HOLD1.src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" : document.images.pk1HOLD1.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_over-down.gif";
+    }
+  if (pk1X == 2) {
+    (pk1HAND[2] == 0) ? document.images.pk1HOLD2.src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" : document.images.pk1HOLD2.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_over-down.gif";
+    }
+  if (pk1X == 3) {
+    (pk1HAND[3] == 0) ? document.images.pk1HOLD3.src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" : document.images.pk1HOLD3.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_over-down.gif";
+    }
+  if (pk1X == 4) {
+    (pk1HAND[4] == 0) ? document.images.pk1HOLD4.src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" : document.images.pk1HOLD4.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_over-down.gif";
+    }
+  }
+}
+
+function pk1DONEDEAL() {
+for (pk1X = 0; pk1X < 5; pk1X++) {
+  pk1DISCARD[pk1X] = pk1HAND[pk1X];
+  pk1HAND[pk1X] = 0;
+  }
+pk1GAMESTATE = 2;
+}
+
+function pk1LOADIMAGES(){
+var pk1IMAGECACHE = new Array(40);
+for (var pk1X=0; pk1X<40; pk1X++) pk1IMAGECACHE[pk1X] = new Image();
+for (var pk1X=0; pk1X<4; pk1X++) pk1IMAGECACHE[pk1X].src = "http://pic.geocities.com/images/gadgetfactory/pk1/suit" + pk1X + "_42x44.gif";
+for (var pk1X=1; pk1X<14; pk1X++) {
+                                  pk1IMAGECACHE[pk1X+3].src = "http://pic.geocities.com/images/gadgetfactory/pk1/card0" + pk1X + "_42x24.gif";
+								  pk1IMAGECACHE[pk1X+16].src = "http://pic.geocities.com/images/gadgetfactory/pk1/card1" + pk1X + "_42x24.gif";
+								  }
+for (var pk1X=0; pk1X<10; pk1X++) pk1IMAGECACHE[pk1X+29].src = "http://pic.geocities.com/images/gadgetfactory/pk1/c" + pk1X + ".gif";
+pk1CACHED=true;
+}
+
+function pk1DEAL() {
+if ((pk1GAMESTATE == 0) && (pk1CREDITS > 4)) {
+  document.images.pk1CARD1a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif";
+  document.images.pk1CARD1b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif";
+  document.images.pk1CARD2a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif";
+  document.images.pk1CARD2b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif";
+  document.images.pk1CARD3a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif";
+  document.images.pk1CARD3b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif";
+  document.images.pk1CARD4a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif";
+  document.images.pk1CARD4b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif";
+  document.images.pk1CARD5a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif";
+  document.images.pk1CARD5b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif";
+  if (pk1CACHED==false) pk1LOADIMAGES();
+  pk1CREDITS = pk1CREDITS - 5;
+  pk1DISPLAYCREDITS();
+  pk1GAMESTATE = 1;
+  for (var pk1X = 0; pk1X < 5; pk1X++) {
+    pk1HAND[pk1X] = (Math.floor(Math.random() * 52) + 1);
+	pk1DISCARD[pk1X] = 0;
+    if ((pk1HAND[pk1X] == pk1HAND[pk1X-1]) || (pk1HAND[pk1X] == pk1HAND[pk1X-2]) || (pk1HAND[pk1X] == pk1HAND[pk1X-3]) || (pk1HAND[pk1X] == pk1HAND[pk1X-4])) pk1X--;
+    } 
+pk1DISPLAYHAND();
+setTimeout("pk1DONEDEAL();",2000);
+  }
+else if (pk1GAMESTATE == 2) {
+  pk1GAMESTATE = 3;
+  if (pk1HAND[0] == 0) {document.images.pk1CARD1a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif"; document.images.pk1CARD1b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif"; }
+  if (pk1HAND[1] == 0) {document.images.pk1CARD2a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif"; document.images.pk1CARD2b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif"; }
+  if (pk1HAND[2] == 0) {document.images.pk1CARD3a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif"; document.images.pk1CARD3b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif"; }
+  if (pk1HAND[3] == 0) {document.images.pk1CARD4a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif"; document.images.pk1CARD4b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif"; }
+  if (pk1HAND[4] == 0) {document.images.pk1CARD5a.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif"; document.images.pk1CARD5b.src = "../../pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif"; }
+
+  for (var pk1X = 0; pk1X < 5; pk1X++){
+    if (pk1HAND[pk1X] == 0) {
+	  pk1NEXTCARD = (Math.floor(Math.random() * 52) + 1);
+      ((pk1NEXTCARD == pk1HAND[0]) || (pk1NEXTCARD == pk1HAND[1]) || (pk1NEXTCARD == pk1HAND[2]) || (pk1NEXTCARD == pk1HAND[3]) || (pk1NEXTCARD == pk1HAND[4]) || (pk1NEXTCARD == pk1DISCARD[0]) || (pk1NEXTCARD == pk1DISCARD[1]) || (pk1NEXTCARD == pk1DISCARD[2]) || (pk1NEXTCARD == pk1DISCARD[3]) || (pk1NEXTCARD == pk1DISCARD[4])) ? pk1X = pk1X - 1 : pk1HAND[pk1X] = pk1NEXTCARD;
+      }
+    }
+  pk1DISPLAYHAND();
+  document.images.pk1HOLD0.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif";
+  document.images.pk1HOLD1.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif";
+  document.images.pk1HOLD2.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif";
+  document.images.pk1HOLD3.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif";
+  document.images.pk1HOLD4.src="../../pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif";
+  setTimeout("pk1GAMEDONE();",2000)
+  }
+}
+
+function pk1GAMEDONE() {
+  pk1FLUSH = false;
+  pk1WINNINGS = 0;
+  for (var pk1X = 0; pk1X < 5; pk1X++) {
+    pk1CARDS[pk1X] = (pk1HAND[pk1X] - (Math.floor((pk1HAND[pk1X] - 1)/13) * 13));
+	pk1SUIT[pk1X] = Math.floor((pk1HAND[pk1X] - 1)/13);
+	}
+  if ((pk1SUIT[0] == pk1SUIT[1]) && (pk1SUIT[1] == pk1SUIT[2]) && (pk1SUIT[2] == pk1SUIT[3]) && (pk1SUIT[3] == pk1SUIT[4])) pk1FLUSH = true;
+  pk1CARDS.sort(function(pk1A,pk1B) {return pk1A - pk1B;});
+  if (((pk1CARDS[0] == pk1CARDS[1]) && (pk1CARDS[0] > 9)) || ((pk1CARDS[1] == pk1CARDS[2]) && (pk1CARDS[1] > 9)) || ((pk1CARDS[2] == pk1CARDS[3]) && (pk1CARDS[2] > 9)) || ((pk1CARDS[3] == pk1CARDS[4]) && (pk1CARDS[3] > 9))) pk1WINNINGS = 5;
+  if (((pk1CARDS[0] == pk1CARDS[1]) && (pk1CARDS[2] == pk1CARDS[3])) || ((pk1CARDS[0] == pk1CARDS[1]) && (pk1CARDS[3] == pk1CARDS[4])) || ((pk1CARDS[1] == pk1CARDS[2]) && (pk1CARDS[3] == pk1CARDS[4]))) pk1WINNINGS =10;
+  if (((pk1CARDS[0] == pk1CARDS[1]) && (pk1CARDS[1] == pk1CARDS[2])) || ((pk1CARDS[1] == pk1CARDS[2]) && (pk1CARDS[2] == pk1CARDS[3])) || ((pk1CARDS[2] == pk1CARDS[3]) && (pk1CARDS[3] == pk1CARDS[4]))) pk1WINNINGS = 15;
+  if (pk1CARDS[0] == (pk1CARDS[4] + 4)) pk1WINNINGS = 20;
+  if (pk1FLUSH == true) pk1WINNINGS = 25;
+  if (((pk1CARDS[0] == pk1CARDS[1]) && (pk1CARDS[1] == pk1CARDS[2]) && (pk1CARDS[3] == pk1CARDS[4])) || ((pk1CARDS[2] == pk1CARDS[3]) && (pk1CARDS[3] == pk1CARDS[4]) && (pk1CARDS[0] == pk1CARDS[1]))) pk1WINNINGS = 35;
+  if (((pk1CARDS[0] == pk1CARDS[1]) && (pk1CARDS[1] == pk1CARDS[2]) && (pk1CARDS[2] == pk1CARDS[3])) || ((pk1CARDS[1] == pk1CARDS[2]) && (pk1CARDS[2] == pk1CARDS[3]) && (pk1CARDS[3] == pk1CARDS[4]))) pk1WINNINGS = 100;
+  if ((pk1CARDS[0] == (pk1CARDS[4] + 4)) && (pk1FLUSH == true)) pk1WINNINGS=250;
+  if ((pk1WINNINGS == 250) && (pk1CARDS[4] == 13)) pk1WINNINGS = 5000;
+  pk1CREDITS = pk1CREDITS + pk1WINNINGS;
+  pk1DISPLAYCREDITS();
+  pk1GAMESTATE = 0;
+}
+
+function pk1DISPLAYHAND() {
+if (document.images.pk1CARD1a.src != pk1CARDTOP(pk1HAND[0])) setTimeout("document.images.pk1CARD1a.src = pk1CARDTOP(pk1HAND[0])",400);
+if (document.images.pk1CARD1b.src != pk1CARDBOT(pk1HAND[0])) setTimeout("document.images.pk1CARD1b.src = pk1CARDBOT(pk1HAND[0])",400);
+if (document.images.pk1CARD2a.src != pk1CARDTOP(pk1HAND[1])) setTimeout("document.images.pk1CARD2a.src = pk1CARDTOP(pk1HAND[1])",800);
+if (document.images.pk1CARD2b.src != pk1CARDBOT(pk1HAND[1])) setTimeout("document.images.pk1CARD2b.src = pk1CARDBOT(pk1HAND[1])",800);
+if (document.images.pk1CARD3a.src != pk1CARDTOP(pk1HAND[2])) setTimeout("document.images.pk1CARD3a.src = pk1CARDTOP(pk1HAND[2])",1200);
+if (document.images.pk1CARD3b.src != pk1CARDBOT(pk1HAND[2])) setTimeout("document.images.pk1CARD3b.src = pk1CARDBOT(pk1HAND[2])",1200);
+if (document.images.pk1CARD4a.src != pk1CARDTOP(pk1HAND[3])) setTimeout("document.images.pk1CARD4a.src = pk1CARDTOP(pk1HAND[3])",1600);
+if (document.images.pk1CARD4b.src != pk1CARDBOT(pk1HAND[3])) setTimeout("document.images.pk1CARD4b.src = pk1CARDBOT(pk1HAND[3])",1600);
+if (document.images.pk1CARD5a.src != pk1CARDTOP(pk1HAND[4])) setTimeout("document.images.pk1CARD5a.src = pk1CARDTOP(pk1HAND[4])",2000);
+if (document.images.pk1CARD5b.src != pk1CARDBOT(pk1HAND[4])) setTimeout("document.images.pk1CARD5b.src = pk1CARDBOT(pk1HAND[4])",2000);
+}
+
+function pk1CARDTOP(pk1THISCARD) {
+return "http://pic.geocities.com/images/gadgetfactory/pk1/card" + Math.floor((pk1THISCARD -1) / 26) + (pk1THISCARD - (Math.floor((pk1THISCARD - 1)/13) * 13)) + "_42x24.gif";
+}
+
+function pk1CARDBOT(pk1THISCARD) {
+return "http://pic.geocities.com/images/gadgetfactory/pk1/suit" + Math.floor((pk1THISCARD - 1)/13) + "_42x44.gif";
+}
+
+function pk1DISPLAYCREDITS() {
+document.images.pk1CREDIT0.src = "http://pic.geocities.com/images/gadgetfactory/pk1/c" + (pk1CREDITS - (Math.floor(pk1CREDITS / 10) * 10)) + ".gif";
+document.images.pk1CREDIT10.src = "http://pic.geocities.com/images/gadgetfactory/pk1/c" + Math.floor(Math.floor(pk1CREDITS - (Math.floor(pk1CREDITS / 100) * 100)) / 10) + ".gif";
+document.images.pk1CREDIT100.src = "http://pic.geocities.com/images/gadgetfactory/pk1/c" + Math.floor(Math.floor(pk1CREDITS - (Math.floor(pk1CREDITS / 1000) * 1000)) / 100) + ".gif";
+document.images.pk1CREDIT1000.src = "http://pic.geocities.com/images/gadgetfactory/pk1/c" + Math.floor(Math.floor(pk1CREDITS - (Math.floor(pk1CREDITS / 10000) * 10000)) / 1000) + ".gif";
+document.images.pk1CREDIT10000.src = "http://pic.geocities.com/images/gadgetfactory/pk1/c" + Math.floor(Math.floor(pk1CREDITS - (Math.floor(pk1CREDITS / 100000) * 100000)) / 10000) + ".gif";
+document.images.pk1CREDIT100000.src = "http://pic.geocities.com/images/gadgetfactory/pk1/c" + Math.floor(Math.floor(pk1CREDITS - (Math.floor(pk1CREDITS / 1000000) * 1000000)) / 100000) + ".gif";
+document.images.pk1CREDIT1000000.src = "http://pic.geocities.com/images/gadgetfactory/pk1/c" + Math.floor(Math.floor(pk1CREDITS - (Math.floor(pk1CREDITS / 10000000) * 10000000)) / 1000000) + ".gif";
+}
+
+function pk1PAYOUTROLLOVER(pk1X) {
+if (pk1X == 1) document.images.pk1PAYOUTS.src = "../../pic.geocities.com/images/gadgetfactory/pk1/view_payouts_over_102x28.gif";
+else document.images.pk1PAYOUTS.src = "../../pic.geocities.com/images/gadgetfactory/pk1/view_payouts_up_102x28.gif"
+}
+
+function pk1SHOWPAYOUTS() {
+		if (navigator.userAgent.indexOf('AOL') != -1)
+		  {
+		  Newwindow=window.open("../gadgetfactory/pops/pok_payout.html","Payouts","resizable=yes,scrollbars=no,status=0,width=200,height=280");
+		  Newwindow.creator = self;
+		  }
+		  else
+		  Newwindow=window.open("../gadgetfactory/pops/pok_payout.html","Payouts","resizable=yes,scrollbars=no,status=0,width=200,height=280");
+}
+
+document.write('<table width=400 cellpadding=0 cellspacing=0 border=0><tr><td width=20><img src="http://pic.geocities.com/images/gadgetfactory/pk1/top_lf_corner_20x28.gif" width=20 height=28></td><td width=360 bgcolor="#000000"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/video_poker_logo_141x28.gif" width=141 height=28 align="left" alt="Video Poker"><a href="javascript: pk1SHOWPAYOUTS();"><img name="pk1PAYOUTS" onMouseOver="pk1PAYOUTROLLOVER(1);" onMouseOut="pk1PAYOUTROLLOVER(0);" src="http://pic.geocities.com/images/gadgetfactory/pk1/view_payouts_up_102x28.gif" align="right" width=102 height=28 alt="View Payouts" border=0></a></td><td width=20><img src="http://pic.geocities.com/images/gadgetfactory/pk1/top_rt_corner_20x28.gif" width=20 height=28></td></tr><tr><td colspan=3><img src="http://pic.geocities.com/images/gadgetfactory/pk1/stripe_2x18.gif" width=400 height=18></td></tr><tr><td><img src="http://pic.geocities.com/images/gadgetfactory/pk1/stripe2_2x200.gif" width=20 height=200></td><td bgcolor="#cccc66" valign="top"><table width=360 border=0 cellpadding=0 cellspacing=0><tr><td valign="top" width=14><img src="http://pic.geocities.com/images/gadgetfactory/pk1/inner_top_lf_corner_8x8.gif" width=8 height=8></td><td><img src="http://pic.geocities.com/images/pixel.gif" width=332 height=19></td><td valign="top" align="right" width=14><img src="http://pic.geocities.com/images/gadgetfactory/pk1/inner_top_rt_corner_8x8.gif" width=8 height=8></td></tr><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=2 height=133></td><td align="center">');
+document.write('<table border=0 cellpadding=5 cellspacing=0 width=100%><tr><td><table border=0 width=54 cellpadding=0 cellspacing=0 bgcolor="#000000"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td><td><table width=52 cellpadding=0 cellspacing=0 border=0 bgcolor="#ffffff"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(0)"><img name="pk1CARD1a" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif" width=42 height=24 border=0></a></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(0)"><img border=0 name="pk1CARD1b" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif" width=42 height=44></a></td></tr><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr></table></td><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td></tr></table></td><td><table border=0 width=54 cellpadding=0 cellspacing=0 bgcolor="#000000"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td><td><table width=52 cellpadding=0 cellspacing=0 border=0 bgcolor="#ffffff"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(1)"><img name="pk1CARD2a" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif" width=42 height=24 border=0></a></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(1)"><img name="pk1CARD2b" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif" width=42 height=44 border=0></a></td></tr><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6 border=0></td></tr></table></td>');
+document.write('<td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td></tr></table></td><td><table border=0 width=54 cellpadding=0 cellspacing=0 bgcolor="#000000"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td><td><table width=52 cellpadding=0 cellspacing=0 border=0 bgcolor="#ffffff"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(2)"><img name="pk1CARD3a" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif" width=42 height=24 border=0></a></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(2)"><img name="pk1CARD3b" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif" width=42 height=44 border=0></a></td></tr><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr></table></td><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td></tr></table></td><td><table border=0 width=54 cellpadding=0 cellspacing=0 bgcolor="#000000"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td><td><table width=52 cellpadding=0 cellspacing=0 border=0 bgcolor="#ffffff"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(3)"><img name="pk1CARD4a" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif" width=42 height=24 border=0></a></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(3)"><img name="pk1CARD4b" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif" width=42 height=44 border=0></a></td></tr><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr></table></td><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td>');
+document.write('</tr></table></td><td><table border=0 width=54 cellpadding=0 cellspacing=0 bgcolor="#000000"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td><td><table width=52 cellpadding=0 cellspacing=0 border=0 bgcolor="#ffffff"><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(4)"><img name="pk1CARD5a" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_top_42x24.gif" width=42 height=24 border=0></a></td></tr><tr><td align="center"><a href="javascript: pk1HOLDCARD(4)"><img name="pk1CARD5b" src="http://pic.geocities.com/images/gadgetfactory/pk1/card_bottom_42x44.gif" width=42 height=44 border=0></a></td></tr><tr><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=6></td></tr></table></td><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=82></td></tr></table></td></tr><tr><td><a href="javascript: pk1HOLDCARD(0)" alt="Hold"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" width=54 height=16 alt="Hold" border="0" vspace=6 name="pk1HOLD0" border=0></a></td><td><a href="javascript: pk1HOLDCARD(1)" alt="Hold"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" width=54 height=16 alt="Hold" border="0" vspace=6 name="pk1HOLD1" border=0></a></td><td><a href="javascript: pk1HOLDCARD(2)" alt="Hold"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" width=54 height=16 alt="Hold" border="0" vspace=6 name="pk1HOLD2" border=0></a></td><td><a href="javascript: pk1HOLDCARD(3)" alt="Hold"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" width=54 height=16 alt="Hold" border="0" vspace=6 name="pk1HOLD3" border=0></a></td><td><a href="javascript: pk1HOLDCARD(4)" alt="Hold"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/hold_up.gif" width=54 height=16 alt="Hold" border="0" vspace=6 name="pk1HOLD4" border=0></a></td></tr></table>');
+document.write('</td><td><img src="http://pic.geocities.com/images/pixel.gif" width=2 height=133></td></tr><tr><td colspan=3><img src="http://pic.geocities.com/images/gadgetfactory/pk1/inner_btm_lf_corner_8x8.gif" width=8 height=8></td></tr></table><table width=360 cellpadding=0 cellspacing=0 border=0><tr><td valign="top" width=282 colspan=3><img src="http://pic.geocities.com/images/gadgetfactory/pk1/stripe4_2x12.gif" width=274 height=12><img src="http://pic.geocities.com/images/gadgetfactory/pk1/inner_turn_corner_8x12.gif" width=8 height=12 valign="top"></td><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=12></td><td align="center" width=78 rowspan=2 colspan=2><a href="javascript: pk1DEAL();"><img onMouseOver="pk1DEALROLLOVER(1);" onMouseOut="pk1DEALROLLOVER(0);" src="http://pic.geocities.com/images/gadgetfactory/pk1/deal_up_56x28.gif" width=56 height=28 alt="Deal!" border="0" name="pk1DEALBUTTON"></a></td>');
+document.write('</tr><tr><td rowspan=2><img src="http://pic.geocities.com/images/gadgetfactory/pk1/credit_left_7x28.gif" width=7 height=28></td><td rowspan=2><table cellpadding=0 cellspacing=0 border=0><tr><td bgcolor="#000000"><img src="http://pic.geocities.com/images/pixel.gif" width=236 height=2></td></tr><tr><td bgcolor="#cccc66" align="right"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/c0.gif" width=12 height=23 name="pk1CREDIT1000000"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/c0.gif" width=12 height=23 name="pk1CREDIT100000"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/c0.gif" width=12 height=23 name="pk1CREDIT10000"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/c1.gif" width=12 height=23 name="pk1CREDIT1000"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/c0.gif" width=12 height=23 name="pk1CREDIT100"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/c0.gif" width=12 height=23 name="pk1CREDIT10"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/c0.gif" width=12 height=23 name="pk1CREDIT0"><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=24><img src="http://pic.geocities.com/images/gadgetfactory/pk1/credit.gif" width=58 height=23 alt="Credits"></td></tr><tr><td bgcolor="#000000"><img src="http://pic.geocities.com/images/pixel.gif" width=236 height=2></td></tr></table>');
+document.write('</td><td rowspan=2><img src="http://pic.geocities.com/images/gadgetfactory/pk1/credit_right_39x28.gif" width=39 height=28></td><td><img src="http://pic.geocities.com/images/pixel.gif" width=1 height=20></td></tr><tr><td colspan=2><img src="http://pic.geocities.com/images/gadgetfactory/pk1/inner_btm_lf_corner_8x8.gif" width=8 height=8></td><td align="right"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/inner_btm_rt_corner_8x8.gif" width=8 height=8></td></tr></table></td><td><img src="http://pic.geocities.com/images/gadgetfactory/pk1/stripe2_2x200.gif" width=20 height=200></td></tr><tr><td colspan=3><img src="http://pic.geocities.com/images/gadgetfactory/pk1/stripe3_2x16.gif" width=400 height=16></td></tr><tr><td colspan=3 bgcolor="#000000" align="center"><a href="http://games.yahoo.com/"><img alt="Yahoo! Games" src="http://pic.geocities.com/images/gadgetfactory/pk1/sponsor_360x40.gif" border=0 width=360 height=40></a></td><tr><td valign="bottom"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/btm_lf_corner_20x10.gif" width=20 height=10></td><td bgcolor="#000000"><img src="http://pic.geocities.com/images/pixel.gif" width=236 height=2></td><td valign="bottom"><img src="http://pic.geocities.com/images/gadgetfactory/pk1/btm_rt_corner_20x10.gif" width=20 height=10></td></tr></table>');
+
