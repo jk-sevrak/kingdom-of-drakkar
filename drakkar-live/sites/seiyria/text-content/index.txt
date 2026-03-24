@@ -1,0 +1,30 @@
+# Seiyria's Drakkar - Home Page
+
+**Navigation Menu:**
+- Seiyria's Drakkar
+- Scenario Information
+- Class Information
+- Lore
+- Other
+
+**Main Heading:**
+Seiyria's Drakkar
+
+**Description:**
+"A humble fansite that aggregates all data relating to the Kingdom of Drakkar, including lairs, quests, items, class and scenario info."
+
+**Section Headings and Content:**
+
+Scenario Information: "Information about all of the latest scenarios (items, quests, places), and maybe some older ones."
+
+Class Information: "Information about all of the classes (including the infamous Merchant), including tiers, CH maxes and their disciplines."
+
+Other Information: "Information about experience levels, tier locations, and the most in-depth macro guide you've seen yet."
+
+**Promotional Notice:**
+"Seiyria is working on a game like Drakkar. You can play it in your browser, right now!"
+
+**Footer:**
+"Got a correction? Email drakkar@seiyria.com"
+
+"© 2024 Kyle Kemp. Powered by Jekyll & Minimal Mistakes. Images & data © Drakkarzone, inc. Thanks to ROAR, WOLF, Tantheus, Tnem, Ken for some data."
