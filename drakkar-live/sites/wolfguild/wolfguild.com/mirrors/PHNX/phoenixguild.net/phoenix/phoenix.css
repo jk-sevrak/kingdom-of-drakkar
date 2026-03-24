@@ -1,0 +1,59 @@
+
+
+BODY,TABLE {background-color: #000000;
+
+	  color: #fcad06;
+	  font-family: "Times new roman";
+   font-size: medium;
+
+
+SCROLLBAR-FACE-COLOR: #000000;
+ SCROLLBAR-HIGHLIGHT-COLOR: #F9D926;
+ SCROLLBAR-SHADOW-COLOR: #F9D926;
+ SCROLLBAR-3DLIGHT-COLOR: #000000;
+ SCROLLBAR-ARROW-COLOR: #F9D926;
+ SCROLLBAR-TRACK-COLOR: #000000;
+ SCROLLBAR-DARKSHADOW-COLOR: #000000;
+
+	  
+	  }
+
+HR {color: blue}
+	  
+A:LINK, A:VISITED {text-decoration: none;
+
+		   	  	   color: #E05C00;
+
+				   font-weight: bold;
+
+				   font-size: medium;}
+
+A:HOVER {text-decoration: none;
+
+		 color: blue;
+
+		 font-weight: bold;
+
+		 font-size: medium;}
+
+H2 {font-family: "freaky sf";}
+
+H1 {font-family: "freaky sf";}
+
+.label {font-family: "clarity gothic sf";
+
+		color: red;
+
+		font-size: large;
+
+		font-weight: bold;}
+
+.smalllabel {font-family: "clarity gothic sf";
+
+			color: red;
+
+			font-size: 10pt;
+
+			font-weight: bold;}
+
+
