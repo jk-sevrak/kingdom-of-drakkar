@@ -1,13 +1,27 @@
 # The Nameless Lands
 
-"Nameless" or "NL" is a game region with its own distinct content and equipment sets. A mysterious realm beyond the rift with torn borderlands, containing ancient psionic power.
+"Nameless" or "NL" is a newer game scenario accessible from Nork through a tear/rift that opened in the borderlands. A mysterious realm with its own distinct content and equipment sets.
+
+## Lore
+
+A rift opened in the borderlands of Nork, leading to a mysterious realm. Rumors speak of a threat named **Arcturus** stirring beyond the rift. The land contains ancient psionic power and rare resources.
 
 ## Key Information
 
+- Accessible from Nork through the rift
+- Contains **Akronium ore**, a unique material found only here
 - Contains **Mormar**, a 25-level dungeon with the Rift Guardian on floor 26
 - Mormar is accessed through the Decaying Lands Bog
+- **Dornar Dungeon** is another dungeon in this region
 - The ROAR Guild maintained lists of NL Items, NL Weapons, NL Rings, and NL Robes
 - Has its own unique equipment sets distinct from other scenarios
+- Mormar floor progression requires completing the **Mormar Entry Quest**
+
+## Notable Areas
+
+- **Decaying Lands Bog**: Entry point to Mormar dungeon
+- **Sullen Keep**: Contains random stat potions (max 35)
+- **Mormar Dungeon**: 25 floors of increasing difficulty, culminating in the Rift Guardian
 
 ## Alt Worlds
 

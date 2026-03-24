@@ -47,10 +47,14 @@ The beginner-friendly hub of Cobrahn:
 - Gems sell very well in Cob - pick up every gem you find
 
 ### Doom Town
-A dangerous settlement/area in Cobrahn. One of the more challenging areas.
+Connection point between major Cob areas, accessed from Giants Keep via pillar room portal. Contains an IH/succor seller and HP doctor in the SE. A dangerous settlement.
 
 ### Desert Town
-A settlement in the desert region of Cobrahn.
+Settlement in the desert region of Cobrahn. Key NPC traders:
+- **Murg**: Trades Cthon eggs for Anti-Steve Amulets
+- **Jasper** (random spawn): Regen trader
+- **HP Doctor** (SE): Hit Point restoration
+- Extra secret lockers (password protected)
 
 ### Seldar
 A dungeon area requiring approximately skill 17 to hunt effectively. As of 2002, fighters were missing too often with SS (Short Sword) and daggers, and skill gain was "totally dismal" for skill 17 characters.
@@ -64,19 +68,30 @@ Location where special "Coin Events" were held.
 ## Cobrahn Dungeons & Areas
 
 ### NW Caves (Northwest Caves)
-Cave system in the northwest region of Cobrahn.
+NPCs, wolf spiders, scorpions, cave scorpions, centipedes, salamanders. STR pot trader at the north end. A secret section leads to Borris Lair; climb up leads to Roc Lair. Rare silver and ES ring drops.
 
 ### SW Caves (Southwest Caves)
-Cave system in the southwest, different monster types from NW Caves.
+NPCs (E-spear/stun types), skeletons, swordsman soldiers, axemen, spiders, scorpions, centipedes. EPS pot trader in the SE corner.
+
+### Giants Keep
+Two levels. Level 1 has giants, E-spear archers, and firestorm mace guys. STR pot trader in the west. Two unnamed locked doors on the east side. Steps down lead to the Sewers. Pillar room portal leads to Doom Town.
 
 ### Sewers
-Underground tunnel system beneath Cobrahn.
+Underground system beneath Giants Keep. Skeleton leaders, axemen, various skeleton types, archers.
+
+### Swamp (Juntes)
+Roaming skeleton leaders, dragons, frogs, leeches. SE island has a beetle lair (very dangerous). Home of the Juntes boss.
+
+### Graagh (Duke) Castle
+Multi-level castle in the NW. Level 1 has berserkers, archers, a garden with pitcher plants/flytraps/rose bushes, and a well down to Level 2. Level 2 has secret corner doors, windows with archer threats, hally guys. Underground level contains the Duke, centipedes, scorpions, cave scorpions. Sometimes a zap trader among the berserkers.
+
+### Haunts
+Two distinct areas:
+- **Upper Haunts**: Stunners, apparitions, fiends. Good XP and coin.
+- **Lower Haunts**: Stunning NPCs, wraiths, wandering specters, liches. Stairs down lead to the Ruins of Arun.
 
 ### Acid Caves
 Located near Evil Nork/Cobrahn border area. Contains dangerous creatures.
-
-### Haunts
-An undead/ghost-themed area with special challenges.
 
 ## Cobrahn Lairs
 

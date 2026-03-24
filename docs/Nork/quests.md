@@ -160,6 +160,38 @@ Go SW from Frore, climb stairs, kill Halberd Giant.
 ### +6 Halberd Quest
 Drop down from Portals room, go south, kill Fire Giant in east lair.
 
+### Mummy King Quest (N-3)
+1. Find and kill the Mummy King on N-3
+2. Collect the cloak drop
+3. Trade cloak for a Protection Amulet
+
+### Griffon Quest
+1. Find and kill the Griffon
+2. Collect feathers and/or Griffon Sword
+3. Griffon is also tannable for armor
+
+### Betty Quest
+1. Complete the Betty quest chain
+2. **Reward**: Rare stat potions (INT, WIL, WIS)
+
+### Santa Globe Quest
+Holiday event quest. **Reward**: +2 to all stats.
+
+## SDC & End-Game Progression
+
+### Talon/Nugget Progression
+End-game content requires collecting progression items:
+- Kill thumpers for **fragments**
+- Collect **talons** to unlock level 78 access
+- Collect **64 gold nuggets** (= 1 large nugget) to reach level 85
+- This gates access to the **Silver Dragon Consort (SDC)** area
+
+### +12 Killer Weapon Quest
+Craft an enhanced killer weapon through the SMC progression chain. Produces the strongest craftable weapons in the game.
+
+### Mormar Entry Quest
+Required for floor-by-floor progression through the 25-level Mormar dungeon in the Nameless Lands. Culminates in reaching the Rift Guardian.
+
 ## Aleria Quests
 
 ### Good Aleria Quest (requires Good/Good alignment)

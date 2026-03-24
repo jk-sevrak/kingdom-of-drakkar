@@ -12,7 +12,9 @@ The game's namesake, "the Drakkar," is the **Dark Queen** -- a legendary evil en
 
 ## Developer & Team
 
-The game was created by **Brad** (known in-game as **Soyer**, brad@drakkarzone.com). The developer's domain was **DrakkarZone.com**, separate from the marketing/community site at kingdomofdrakkar.com. The website was created July 1, 2002 by "BURTOSYSOP" with graphics by "Flisk."
+The game was created by **Brad Lineberger** (known in-game as **Soyer**, brad@drakkarzone.com), a B.S. in Engineering Science graduate from the University of Louisville. Brad is the sole creator of the game, which he originally developed on a PDP-11 and later ported to Unix. He is recognized as an online pioneer credited with developing "the world's first graphical massively multiplayer online game." His later career included IT leadership roles at MPG-NET, Interactive Magic, World Gaming, I-Sun Networks, Fallen Earth, and Icarus Studios.
+
+The developer's domain was **DrakkarZone.com**, separate from the marketing/community site at kingdomofdrakkar.com. The website was created July 1, 2002 by "BURTOSYSOP" with graphics by "Flisk."
 
 **Known team members:**
 - **Soyer (Brad)** - Creator (brad@drakkarzone.com)
@@ -44,13 +46,29 @@ In the 2002 Q&A, Brad described his vision:
 
 ## History & Context
 
-- **1989**: Game launched, originally on MPG-Net
-- **~2001**: Migrated to DrakkarZone (DZ), an independent hosting platform
-- **2002**: Developer Q&A; website created; plans for "Grimoire" scenario
-- **2014**: Featured on Massively.com; Sysop Journal started
-- **2015**: "Challenge Nameless" mode introduced
-- **2016**: Android client released; tutorial video contest; Christmas free-play event
-- **2019**: Pocket Drakkar units shipped; new data center migration; "Uber Aleria" events; early game improvements
+- **~1984**: Brad Lineberger begins developing the game as a text-based MUD called **"Realm"** at Digital Information Systems of Kentucky (DISK). Influenced by Rogue, Moria, and Island of Kesmai (IOK).
+- **1989**: Renamed to **Kingdom of Drakkar** and given an 8-bit graphical frontend by Tantalus Inc. Launched on MPG-Net (Multi-Player Games Network) at $2-6/hour.
+- **1992**: Growing to 3,000+ players on MPG-NET at $3-5/hour. Monthly bills of $100-$300 were common.
+- **1998**: Acquired by iMagic Entertainment Network (iEN) through Interactive Magic.
+- **~1999**: EA acquires GameStorm (which hosted Island of Kesmai); IOK closes. Many IOK players migrate to Drakkar.
+- **2001**: iEN shuts down. MoonShadow (Head SYSOP) and team manage difficult server migration with hardware/software issues.
+- **2002**: Brad Lineberger founds DrakkarZone, purchases rights. Developer Q&A held April 10. Plans for "Grimoire" scenario announced.
+- **2006**: Dual graphics support added: 8-bit legacy and 24-bit "Drakvision" modes.
+- **2014**: Featured on Massively.com; Sysop Journal started.
+- **2015**: "Challenge Nameless" mode introduced.
+- **2016**: Android client released; tutorial video contest; Christmas free-play event.
+- **2019**: Pocket Drakkar units shipped; new data center migration; "Uber Aleria" events; early game improvements.
+
+### Relationship to Island of Kesmai
+
+While not directly descended from Island of Kesmai (IOK), Drakkar shares historical ties. Brad Lineberger played IOK (under names "Soyer" and "Cure") before creating Drakkar independently. Key differences: IOK had 15-second round times vs. Drakkar's 5-second; IOK used a 3x3 screen view vs. Drakkar's 4x4; IOK maps were ~80-100 hexes vs. Drakkar's 200x200+ hexes across multiple layers.
+
+### External Recognition
+
+- **MMORPG.com**: 5.1/10 (63 user votes), recognized as "historically important"
+- **Giant Bomb**: Listed as a Classic Fantasy MMORPG
+- **Glitchwave**: 3.00/5, ranked as earliest entry in MMO/MMORPG genres (1989)
+- Described by long-time players as "a kind of museum piece" — the first and only MMORPG many early players had experienced
 
 Drakkar was contemporary with the "golden age" of MMORPGs (EverQuest, Dark Age of Camelot, etc.) and had players who moved between these games. The Lords of Entropy guild, for example, played both Drakkar and DAoC simultaneously.
 
@@ -61,7 +79,9 @@ The game features multiple distinct worlds ("scenarios") with increasing difficu
 1. **Nork** - The starting world where all players begin. Contains the City of Nork, the Frore ice area, the town of Maeling, Homlet, Carrena, Volcano Town, and dungeons at least 10 levels deep.
 2. **Cobrahn** (Cob) - An advanced world accessed through a portal deep in Nork's dungeons. Contains Tree Town, Timmy Town, Doom Town, Desert Town, Seldar, and more challenging content.
 3. **Aleria** - Another advanced world reached via Urmak the Boatman. Features a war between Duke Talinar's Forces of Light and Lord Koss's Minions of Darkness.
-4. **Mjorin** (Land of Mjorin) - An additional exploration area, less commonly documented. Source of rare Luck Pots.
+4. **Mjorin** (Land of Mjorin) - An equipment-stripping challenge world accessed via the Funhouse portal. Source of rare Luck Pots.
+5. **Nameless Lands** - A newer scenario accessible from Nork through a rift in the borderlands. Contains the 25-level Mormar dungeon and Dornar Dungeon. Akronium ore is found here.
+6. **Silver Dragon Consort (SDC)** - Advanced end-game content area containing Wyverns 1 & 2. Requires talon/nugget progression to reach levels 78-85. Home of the Rift Guardian.
 
 There were also "alt" worlds (alternate versions of the main game segments) and "Uber" variants (e.g., "Uber Aleria").
 

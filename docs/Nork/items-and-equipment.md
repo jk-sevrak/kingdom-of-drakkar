@@ -51,9 +51,17 @@
 
 | Item | Notes |
 |------|-------|
-| **Dancers** | Save if stunned. Do NOT wear while memorizing teleport locations (Mentalists). |
+| **Dancers** | Save if stunned (3/3 combat adds, stun immunity). Do NOT wear while memorizing teleport locations (Mentalists). |
 | **Lizard Boots** | 50 fire protection. |
 | **Snow Boots** | 50 ice protection. |
+| **Feather Fall Boots** | Prevent falling damage. |
+| **Haste Boots** | +3 movement speed. |
+| **Elephant Boots** | Prone protection. |
+| **Moon Boots** | Psi damage reduction. Also found in Aleria. |
+| **Fire Giant Boots** | Fire protection variant. |
+| **Respirate Boots** | Allow water walking. |
+| **Mountain Boots** | Terrain traversal. |
+| **Combat Boots** | Basic combat boots. |
 
 ## Rings
 
@@ -108,17 +116,31 @@
 |------|-------|
 | **Muzi (Mini Uzi)** | From Peewee on km-2. +2 EP regen per round. Looks like a glowing string of pearls. Quest: Door Pearl (ghost on -3.5) + 2 fishery bows + key from M-2 (traded for flawless black pearl). Adequate from skill 1 through ~12. |
 | **Uzi** | From Papa Lich. +5 EP regen per round. The best caster amulet. Requires fighting through 5 liches to reach Papa Lich. Demands a party of sticks, a healer, and a ment with infravision. |
+| **Lich Amulets (1-6)** | Progression-gated amulet chain. Each numbered amulet grants access to fight the next Lich in the Papa Lich sequence. Required for the Uzi quest. |
 | **ProtLightning Ammy** | Protects against lightning. Looks like glowing string of pearls (same as Muzi). |
 | **ProtEnmiss Ammy** | Protects against Energy Missile. Same appearance as Muzi. |
+| **ProtFire Ammy** | Protects against fire. |
+| **ProtFirestorm Ammy** | Protects against Firestorm. |
+| **HP Amulet** | Boosts hit points. |
+| **CHA Amulet** | Boosts Charisma for cheaper Hit Doc costs. |
 
 ## Potions & Consumables
 
 | Item | Notes |
 |------|-------|
+| **Agility Potion** | Permanent +1 Agility (max 18). ![Agility Potion](../images/items/potions/agility-potion.gif) |
+| **Intelligence Potion** | Permanent +1 Intelligence (max 18). ![Intelligence Potion](../images/items/potions/intelligence-potion.gif) |
+| **CON Pots** | Permanent +1 Constitution (max 18-25). Most common stat pot. |
+| **Minotaur Blood** | Permanent +1 HP (varies by class). ![Minotaur Blood](../images/items/potions/minotaur-blood.gif) |
+| **Instant Heals** | Consumable healing (up to 1000 HP). Essential for casters. ![Instant Heal](../images/items/potions/instant-heal.gif) |
+| **Cure Blindness** | Cures blindness status. ![Cure Blindness](../images/items/potions/cure-blindness.gif) |
+| **Mend Will** | Mysterious restorative potion. ![Mend Will](../images/items/potions/mend-will.gif) |
 | **EP Pots** | From Funhouse (500K each). Give 1-5 EP (avg ~3). Used to max Energy Points. |
 | **Willpower Pots** | Fix Willpower stat. Expensive and hard to find. |
 | **Youth Pots** | Reverse aging caused by stressful spells (Earthcrush, Haste, ELance). Stockpile before using aging spells. |
-| **Stat Pots** | Fix individual stats (STR, INT, WIS, CON, AGI, WIL). Available for most stats. |
-| **Instant Heals** | Consumable healing items. Essential for casters. |
+| **Stat Pots** | Fix individual stats (STR, INT, WIS, CON, AGI, WIL). Max 18-19 for most stats. SDC variants can raise AGI to 40. |
+| **Guild Hall Minor Con** | Guild Hall exclusive consumable. ![GH Potion](../images/items/potions/guild-hall-potion.gif) |
+| **Guild Hall Major Con** | Guild Hall exclusive, stronger variant. |
 | **Transmute Twigs** | From KM -4, -5. Allow non-Mentalists to use Transmute (pop piles for gold). Limited uses - choose piles carefully. |
 | **Succor Scrolls/Twigs** | Succor scrolls become teleport twigs. To create: stand where you want to return, hold scroll in right hand, type "form succor". Drop the twig later to teleport back. Mentalists at skill 14 can sense where a twig goes. |
+| **Respirate Scrolls** | Allow water traversal when formed into twigs. |
