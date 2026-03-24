@@ -1,0 +1,31 @@
+Town of Nork
+
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|Nork is the most hospitable town. The weather is warm and sunny, the citizens are usually friendly, and strangers can find food, lodging, and shops that will sell them most anything they need for their quests. A lucky person could find fortune and fame without ever venturing past the town limits. However, Nork is not without its dangers.
+| width="9"|
+|}
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|Centuries ago, the people of Nork formed an Elite Guard to protect them from the Evil the Empress had loosed. The Guard built barracks deep under the town and kept a constant watch, ready to defend the town and pursue attackers at a moment's notice. A strong and fierce crew, the Guard consisted of the most highly skilled warriors ever assembled.
+| width="9"|
+|}
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|No one knows why the Guard turned against Nork, but soon after the establishment of the Officers' Barracks, the Guard began a ruthless attack from deep within the labyrinth below Nork, slashing their way toward the surface, leaving only destruction in their wake. Just within the reach of victory, the Guard mysteriously retreated to the dark shadows of their labyrinthine stronghold, there to remain a menacing, silent threat.
+| width="9"|
+|}
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|Fearing another assault, the loyal Norken forces called upon the great Mentalists of the land, skilled in psionic power, to create an unbreakable seal around the barracks and prevent the rebel forces from returning to the surface. Through the years, sojourners who travel to the dungeons beneath Nork have told stories of strange noises rising up from the sealed barracks, and some have witnessed ghostly apparitions. Many have never returned.
+|}
+
+
+
+
+[[File:Map_of_Nork.JPG]]
+[[Category:Scenarios]]

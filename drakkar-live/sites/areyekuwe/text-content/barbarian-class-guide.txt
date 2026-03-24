@@ -1,0 +1,47 @@
+# Barbarian Class Guide - Drakkar
+Source: https://areyekuwe.wordpress.com/2015/11/11/barbarian-class-guide/
+Date: November 11, 2015
+
+## Overview
+This guide, authored by Thor from the MoY Guild (circa 2000), details why players might choose a Barbarian character in the Kingdom of Drakkar MMORPG.
+
+## Top 10 Reasons to Play a Barbarian
+
+**Combat Advantages:**
+- Highest natural hit points (580 at base)
+- Four extra attacks at full berserk level 20
+- Additional hit points gained when entering berserk at level 18
+- Extra strength point per berserk level starting at level 16
+- Extra attack per round at level 21
+
+**Defensive Benefits:**
+- Natural resistance to psionic disciplines like poison and lightning
+- Less gear-dependent for surviving different areas
+- Party value: barbarians are sought after to absorb damage
+
+**Versatility:**
+- Can equip evil-aligned gear unavailable to other classes
+- Capable of solo hunting in certain areas
+- Can heal with full hands via "autobalm"
+
+**Gameplay:**
+- Considered easiest class to play
+- Unique skill progression tied to experience gains
+
+## Berserk Mechanic
+
+The guide emphasizes berserk as central to barbarian gameplay, progressing through four levels indicated by messages like "You are agitated" through "You are frothing at the mouth."
+
+**Key Training Note:** "Practice with berserk once you've reached exp level 5 or so in areas where there are few players."
+
+## Autobalm System
+
+Autobalm triggers automatically when berserked and out of control, healing at one-third health or below, even with weapons equipped.
+
+## Critical Warnings
+
+The guide strongly cautions against solo hunting dangerous lair creatures like Red Dragons or Griffons, as death results in permanent experience and skill loss ("being eaten").
+
+## Character Development
+
+Recommended high attributes: Strength, Constitution, Will, Luck, and Charisma. The first three improve through potions; the latter two are rarely available.

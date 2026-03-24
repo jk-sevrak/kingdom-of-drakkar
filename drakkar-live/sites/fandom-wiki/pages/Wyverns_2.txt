@@ -1,0 +1,18 @@
+== Information ==
+{| class="article-table"
+!
+|-
+|Wyverns, and Griffons roam here. There are also sdc forest guys on the west forest area
+|-
+|[[File:Sdc wyvern area 2.png|thumb|220x220px]]
+|}
+== How to Access ==
+Climb up in [[Wyverns 1]]
+== Related Quests ==
+* [[Level 78 Quest]]
+== Related Items ==
+== Related Monsters ==
+== Areas ==
+
+* [[Wyverns 2]]
+* [[SDC]]

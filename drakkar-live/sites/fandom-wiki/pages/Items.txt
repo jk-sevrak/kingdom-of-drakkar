@@ -1,0 +1,1957 @@
+=='''Nork Items'''==
+===Amulets:===
+
+{| border="2" cellpadding="5" cellspacing="0" style="text-align: center;"
+! bgcolor="black" style="color: orange;"|Picture
+! bgcolor="black" style="color: orange;"|Name
+! bgcolor="black" style="color: orange;"|Description
+! bgcolor="black" style="color: orange;"|What it does
+! bgcolor="black" style="color: orange;"|Where its found
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:CharAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Charisma Amulet'''
+| bgcolor="black" style="color: orange;"|A hand crafted necklace made of small beads
+| bgcolor="black" style="color: orange;"| +2 Charisma
+| bgcolor="black" style="color: orange;"|Obtained from Thanksgiving Event
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:Lich1Ammy.png]
+| bgcolor="black" style="color: orange;"|'''Lich Amulet 1'''
+| bgcolor="black" style="color: orange;"|A large tin amulet with a glass jewel
+| bgcolor="black" style="color: orange;"|Used to gain entrance to Lich #2
+| bgcolor="black" style="color: orange;"|Drops off Lich #1
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:Lich2Ammy.png]
+| bgcolor="black" style="color: orange;"|'''Lich Amulet 2'''
+| bgcolor="black" style="color: orange;"|A large tin amulet with a glass jewel
+| bgcolor="black" style="color: orange;"|Used to gain entrance to Lich #3
+| bgcolor="black" style="color: orange;"|Drops off Lich #2
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:Lich3Ammy.png]
+| bgcolor="black" style="color: orange;"|'''Lich Amulet 3'''
+| bgcolor="black" style="color: orange;"|A large Bronze amulet with a quartz jewel
+| bgcolor="black" style="color: orange;"|Used to gain entrance to Lich #4
+| bgcolor="black" style="color: orange;"|Drops off Lich #3
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:Lich4Ammy.png]
+| bgcolor="black" style="color: orange;"|'''Lich Amulet 4'''
+| bgcolor="black" style="color: orange;"|A Bronze amulet with a diamond jewel
+| bgcolor="black" style="color: orange;"|Used to gain entrance to Lich #5
+| bgcolor="black" style="color: orange;"|Drops off Lich #4
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:Lich5Ammy.png]
+| bgcolor="black" style="color: orange;"|'''Lich Amulet 5'''
+| bgcolor="black" style="color: orange;"|A Silver amulet with a diamond jewel
+| bgcolor="black" style="color: orange;"|Used to gain entrance to Lich #6
+| bgcolor="black" style="color: orange;"|Drops off Lich #5
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:Lich6Ammy.png]
+| bgcolor="black" style="color: orange;"|'''Lich Amulet 6'''
+| bgcolor="black" style="color: orange;"|A Gold amulet with a sapphire jewel
+| bgcolor="black" style="color: orange;"|Used to gain entrance to Papa Lich
+| bgcolor="black" style="color: orange;"|Drops off Lich #6
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:UziAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Uzi'''
+| bgcolor="black" style="color: orange;"|A large glowing necklace with a single glowing diamond
+| bgcolor="black" style="color: orange;"|Gives +5 EP regen
+| bgcolor="black" style="color: orange;"|Drops from Chipper or Papa Lich
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:CharAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Hp Amulet'''
+| bgcolor="black" style="color: orange;"|A hand crafted necklace made of small beads
+| bgcolor="black" style="color: orange;"| +25 hps
+| bgcolor="black" style="color: orange;"|Gained by doing a quest in Alt 2
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:FireprotAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Fire Protection Amulet'''
+| bgcolor="black" style="color: orange;"|Small golden necklace with a finely polished red ruby
+| bgcolor="black" style="color: orange;"|Fire Protection 25
+| bgcolor="black" style="color: orange;"|Nork Red Dragons
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:FireprotAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Fire Protection Amulet'''
+| bgcolor="black" style="color: orange;"|Small golden necklace with a finely polished red ruby
+| bgcolor="black" style="color: orange;"|Fire Protection 50
+| bgcolor="black" style="color: orange;"|Fireplains Red Dragons
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:FireprotAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Firestorm Protection Amulet'''
+| bgcolor="black" style="color: orange;"|Small golden necklace with a finely polished red ruby
+| bgcolor="black" style="color: orange;"|Firestorm Protection 50
+| bgcolor="black" style="color: orange;"|Fs Rd in N-6
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:FireprotAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Firestorm Protection Amulet'''
+| bgcolor="black" style="color: orange;"|Small golden necklace with a finely polished red ruby
+| bgcolor="black" style="color: orange;"|Firestorm Protection 100
+| bgcolor="black" style="color: orange;"|Dropped by Spot
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:GoldAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Plain Gold Amulet'''
+| bgcolor="black" style="color: orange;"|Beautifully worked golden amulet with a jewelers mark etched into the reverse side
+| bgcolor="black" style="color: orange;"|Quest Item
+| bgcolor="black" style="color: orange;"|Goblin Lord quest item
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:GoldAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Plain Gold Amulet'''
+| bgcolor="black" style="color: orange;"|Small golden necklace
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Random find
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:GoldAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Volton Amulet'''
+| bgcolor="black" style="color: orange;"|Small golden necklace with a faint amber glow, the item is of good alignment
+| bgcolor="black" style="color: orange;"|3/3
+| bgcolor="black" style="color: orange;"|Dropped by Volton
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:GoldAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Plain Gold Amulet'''
+| bgcolor="black" style="color: orange;"|Gold amulet with the shape of a heavy helm inlaid in the center
+| bgcolor="black" style="color: orange;"|On-contact lvl 10 Protect Stun
+| bgcolor="black" style="color: orange;"|Trade Mummy King Cloak and 3k to Wartberg
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:GoldAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Stunrah Amulet'''
+| bgcolor="black" style="color: orange;"|Small golden necklace with a faint amber glow, the item is of good alignment
+| bgcolor="black" style="color: orange;"|2/2
+| bgcolor="black" style="color: orange;"|Dropped by Stunrah
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:MuziAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Protection Amulet'''
+| bgcolor="black" style="color: orange;"|Glowing silver chained pendant with a small diamond interspersed around the chain
+| bgcolor="black" style="color: orange;"|Enmiss Protection 50, Lightning Protection 50, or Acid Protection 100
+| bgcolor="black" style="color: orange;"|Random find
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:MuziAmmy.png]
+| bgcolor="black" style="color: orange;"|'''Muzi'''
+| bgcolor="black" style="color: orange;"|Glowing silver chained pendant with pearls interspersed on a silver string
+| bgcolor="black" style="color: orange;"| +2 EP regen
+| bgcolor="black" style="color: orange;"|Trade 2 silver bows and a door pearl in KM-2
+|}
+===Armor:===
+{| border="2" cellpadding="5" cellspacing="0" style="text-align: center;"
+! bgcolor="black" style="color: orange;"|Picture
+! bgcolor="black" style="color: orange;"|Name
+! bgcolor="black" style="color: orange;"|Description
+! bgcolor="black" style="color: orange;"|What it does
+! bgcolor="black" style="color: orange;"|Where its found
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:DogArmor.png]
+| bgcolor="black" style="color: orange;"|'''Dog Armor'''
+| bgcolor="black" style="color: orange;"|Fur of a dog
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Worn by dogs
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:WolfArmor.png]
+| bgcolor="black" style="color: orange;"|'''Wolf Fur'''
+| bgcolor="black" style="color: orange;"|Fur of a wolf
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Worn by wolves
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:LeatherArmor.png]
+| bgcolor="black" style="color: orange;"|'''Leather Armor'''
+| bgcolor="black" style="color: orange;"|Leather Vest
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Drops everywhere in Nork
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:StuddedArmor.png]
+| bgcolor="black" style="color: orange;"|'''Studded Leather Armor'''
+| bgcolor="black" style="color: orange;"|Leather studded vest with metal plate
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Drops everywhere in Nork
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:ScaleArmor.png]
+| bgcolor="black" style="color: orange;"|'''Scale Armor'''
+| bgcolor="black" style="color: orange;"|Metal scales sewn onto fabric backing in flexible rows
+| bgcolor="black" style="color: orange;"|80/80 Fire/Ice Protection
+| bgcolor="black" style="color: orange;"|Drops everywhere in Nork
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:ChainArmor.png]
+| bgcolor="black" style="color: orange;"|'''Chain Mail'''
+| bgcolor="black" style="color: orange;"|Vest made of linked chain
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Drops everywhere in Nork
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:PlateArmor.png]
+| bgcolor="black" style="color: orange;"|'''Plate Mail'''
+| bgcolor="black" style="color: orange;"|Iron breastplate and trousers
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Drops everywhere in Nork
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:SaqArmor.png]
+| bgcolor="black" style="color: orange;"|'''Sanquin Armor'''
+| bgcolor="black" style="color: orange;"|Icy blue scales of a sanquin
+| bgcolor="black" style="color: orange;"|20 to 40 Ice Protection
+| bgcolor="black" style="color: orange;"|Kill and tan a sanquin
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:NagaArmor.png]
+| bgcolor="black" style="color: orange;"|'''Naga Armor'''
+| bgcolor="black" style="color: orange;"|Deep Brown scales of a Naga
+| bgcolor="black" style="color: orange;"|20 Fire and Ice Protection
+| bgcolor="black" style="color: orange;"|Kill and tan Naga
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:RatArmor.png]
+| bgcolor="black" style="color: orange;"|'''Rat Fur'''
+| bgcolor="black" style="color: orange;"|Dark brown fur of a large rat
+| bgcolor="black" style="color: orange;"|psi cutter
+| bgcolor="black" style="color: orange;"|Kill and tan a rat
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:BearArmor.png]
+| bgcolor="black" style="color: orange;"|'''Bear Fur'''
+| bgcolor="black" style="color: orange;"|Silky smooth fur of a larger black bear
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Kill and tan a bear
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:RocArmor.png]
+| bgcolor="black" style="color: orange;"|'''Roc Feathers'''
+| bgcolor="black" style="color: orange;"|Sparkling feathers of a large griffon
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Kill and tan a roc
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:GriffyArmor.png]
+| bgcolor="black" style="color: orange;"|'''Griffon Armor'''
+| bgcolor="black" style="color: orange;"|Sparkling feathers of an ancient rock griffon
+| bgcolor="black" style="color: orange;"|200 fire and ice protection
+| bgcolor="black" style="color: orange;"|Kill and tan a griffon
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:GriffyArmor.png]
+| bgcolor="black" style="color: orange;"|'''Bruce Armor'''
+| bgcolor="black" style="color: orange;"|Sparkling feathers of an ancient rock griffon
+| bgcolor="black" style="color: orange;"|250 Fire and Ice protection
+| bgcolor="black" style="color: orange;"|Kill and tan a Bruce
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:SobArmor.png]
+| bgcolor="black" style="color: orange;"|'''Snowbeast fur'''
+| bgcolor="black" style="color: orange;"|Blue-white fur of an enormous snow beast
+| bgcolor="black" style="color: orange;"|Nothing
+| bgcolor="black" style="color: orange;"|Kill and tan Snowbeast
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:YetiArmor.png]
+| bgcolor="black" style="color: orange;"|'''Yeti fur'''
+| bgcolor="black" style="color: orange;"|Snow white fur of a yeti
+| bgcolor="black" style="color: orange;"|50 Fire and Ice protection
+| bgcolor="black" style="color: orange;"|Kill and tan a yeti
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:BaskieArmor.png]
+| bgcolor="black" style="color: orange;"|'''Baskie Scales'''
+| bgcolor="black" style="color: orange;"|Red and brown scales of and ancient basilisk
+| bgcolor="black" style="color: orange;"|80 Fire and Ice protection
+| bgcolor="black" style="color: orange;"|Kill and tan Baskie
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:RdArmor.png]
+| bgcolor="black" style="color: orange;"|'''Red Dragon Scales'''
+| bgcolor="black" style="color: orange;"|A vest made of the crimson scales of a young dragon
+| bgcolor="black" style="color: orange;"|80 Fire and Ice protection
+| bgcolor="black" style="color: orange;"|Kill and tan a Red Dragon
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:RdArmor.png]
+| bgcolor="black" style="color: orange;"|'''Fs Red Dragon Scales'''
+| bgcolor="black" style="color: orange;"|A vest of intricately designed firestorm dragon scales bound together with fire r*****ed cloth
+| bgcolor="black" style="color: orange;"|80 Fire and Ice protection 50 Firestorm protection
+| bgcolor="black" style="color: orange;"|Kill and tan FS Red Dragon
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:OrgeArmor.png]
+| bgcolor="black" style="color: orange;"|'''Lizard Armor'''
+| bgcolor="black" style="color: orange;"|Fire red scales of a lizard
+| bgcolor="black" style="color: orange;"|100 fire protection
+| bgcolor="black" style="color: orange;"|Drops from OgreLords in M2
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:SdArmor.png]
+| bgcolor="black" style="color: orange;"|'''Silver Dragon Scales'''
+| bgcolor="black" style="color: orange;"|Cold grey scales of an ancient silver dragon
+| bgcolor="black" style="color: orange;"|100 Fire and Ice protection 100 Lightning protection
+| bgcolor="black" style="color: orange;"|Kill and tan a silver dragon
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:GdArmor.png]
+| bgcolor="black" style="color: orange;"|'''Gold Dragon Scales'''
+| bgcolor="black" style="color: orange;"|Sun brilliant scales of an ancient gold dragon
+| bgcolor="black" style="color: orange;"|70 Fire and Ice Protection 100 Earthcrush Protection
+| bgcolor="black" style="color: orange;"|Drop off N7 npcs that wear it
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:BdArmor.png]
+| bgcolor="black" style="color: orange;"|'''Black Dragon Scales'''
+| bgcolor="black" style="color: orange;"|Jet black scales of an ancient black dragon
+| bgcolor="black" style="color: orange;"|100 Fire and Ice protection 100 Acid protection
+| bgcolor="black" style="color: orange;"|Kill and tan a black dragon
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:BlueFullPlateArmor.png]
+| bgcolor="black" style="color: orange;"|'''Blue Full Plate'''
+| bgcolor="black" style="color: orange;"|A beautifully crafted set of full plate mad from the interlocking cobalt-blue scales of a large lizard
+| bgcolor="black" style="color: orange;"|7/0 good alignment
+| bgcolor="black" style="color: orange;"|Event Item
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:FullplateArmor.png]
+| bgcolor="black" style="color: orange;"|'''Full Plate'''
+| bgcolor="black" style="color: orange;"|A set of full plate armor made from the crimson scales of a young red dragon
+| bgcolor="black" style="color: orange;"|250 Fire and Ice protection 100 Acid protection
+| bgcolor="black" style="color: orange;"|Kill Levi and trade the egg
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:MamaRdArmor.png]
+| bgcolor="black" style="color: orange;"|'''Mama Red Dragon Scales'''
+| bgcolor="black" style="color: orange;"|A vest made of the silky smooth scales of an ancient dragon
+| bgcolor="black" style="color: orange;"|250 Fire and Ice protection 100 Acid protection
+| bgcolor="black" style="color: orange;"|Kill and tan Mama Red Dragon
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:UtherArmor.png]
+| bgcolor="black" style="color: orange;"|'''Uther Plate'''
+| bgcolor="black" style="color: orange;"|A finely tooled glowing adamite breastplate with a coat of arms depicting a rising sun over a green grassland
+| bgcolor="black" style="color: orange;"| +2 100 Fire and Ice protection
+| bgcolor="black" style="color: orange;"|Kill Uther
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:ThiefhagArmor.png]
+| bgcolor="black" style="color: orange;"|'''Thief Hag'''
+| bgcolor="black" style="color: orange;"|A suit of dark leather armor fashioned into the likeness of a bat
+| bgcolor="black" style="color: orange;"|5/5 Infinite Succor Thief and Ment can use
+| bgcolor="black" style="color: orange;"|Kill Seahag and trade robe
+|-
+| bgcolor="black"|[http://www.wolfguild.com/wiki/index.php?title=File:PallyHagArmor.png]
+| bgcolor="black" style="color: orange;"|'''Pally Hag'''
+| bgcolor="black" style="color: orange;"|A suit of white fluted full plate
+| bgcolor="black" style="color: orange;"|0/6 Pally, Figher, and F/M can use
+| bgcolor="black" style="color: orange;"|Kill Seahag and trade robe
+|}
+===Boots:===
+{| bgcolor="black" border="2" cellpadding="5" cellspacing="0" style="text-align: center; color: orange;"
+!Picture
+!Name
+!Description
+!What it does
+!Where its found
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:LeatherBoots.png]
+|'''Leather Boots'''
+|A pair of soft leather boots
+|Nothing
+|Everywhere
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MountainBoots.png]
+|'''Combat Boots'''
+|A pair of black boots with spikes around the toe
+|2/0
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MountainBoots.png]
+|'''Mountain Boots'''
+|A pair of sturdy mountaineering boots
+|Nothing
+|Random Drop in Prisons and N4
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:SnowBoots.png]
+|'''Snow Boots'''
+|A pair of snow white boots made from an unidentifable material
+|On Contact Ice Protection
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:RespBoots.png]
+|'''Respirate Boots'''
+|A pair of sharkskin boots
+|On Contact Respirate
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:FireBoots.png]
+|'''Fire Protection Boots'''
+|A finely crafted pair of boots made from the hide of a lizard
+|50 Fire Protection
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:FireBoots.png]
+|'''Fire Giant Boots'''
+|A finely crafted pair of boots made from the hide of a lizard
+|0/3 100 Fire Protection
+|Fire Giant Drops
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:FoamBoots.png]
+|'''Feather Fall Boots'''
+|A pair of sky blue leather boots made out of a soft spongy material
+|On Contact Feather Fall
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:HasteBoots.png]
+|'''Haste Boots'''
+|A pair of tan boots with white winglets imbedded in a fur collar
+| +3 move rate
+|Mama Red Dragon Drops
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:DancerBoots.png]
+|'''Dancers'''
+|A pair of white patent leather boots with black wing tips and steel shod heals
+|3/3 Dance around when stunned
+|Trade Bolt on n7 for them
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:ElephantBoots.png]
+|'''Elephant Boots'''
+|A pair of boots made from the think leathery hide of a elephant
+|3/3 Prevents round loss when proned
+|Random drop off KM5 Specters
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MoonBoots.png]
+|'''Moon Boots'''
+|A pair of solid black boots with a haunting starscape of a red moon rising over a desolate landscape
+|0/1 Cuts psi in half Good aligned
+|From Event also use to drop off Cloud Giant
+|}
+===Bottles:===
+{| bgcolor="black" border="2" cellpadding="5" cellspacing="0" style="text-align: center; color: orange;"
+!Picture
+!Name
+!Description
+!What it does
+!Where its found
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:AleBottle.png]
+|'''Ale'''
+|A tankard of ale
+|Nothing
+|Darwin
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:StansBottle.png]
+|'''Stans'''
+|A clear bottle labeled "Stans pure grain"
+|Nothing
+|Darwin
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:SmallHealBottle.png]
+|'''Mend'''
+|A bottle
+|Mends a few hps
+|Nork Shops
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:SmallHealBottle.png]
+|'''Willpower Pot'''
+|A bottle that contains a ounce of fluid. The fluid will permanently increase your willpower
+| +1 to Willpower
+|Random Drop from Betty
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:ClayBottle.png]
+|'''Jug'''
+|A large clay jug with a circular ring near the opening
+|Nothing
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:CureblindBottle.png]
+|'''Cure Blind'''
+|A dark bottle covered with small eye shaped symbols
+|Cures Blind
+|Nork Shops
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:CureBottle.png]
+|'''Cure Poison'''
+|A white vial
+|Cures poison
+|Nork Shops
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:CurePoisonBottle.png]
+|'''Cure Blind'''
+|A silver bottle with a strong smell
+|Cures Blind
+|Random drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:CurePoisonBottle.png]
+|'''Cure Poison'''
+|A silver bottle with a strange smell
+|Cures poison
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:FireBottle.png]
+|'''Fire Protection'''
+|A bright red bottle with pictures of various fire dwelling creatures
+|Gives Fire Protection Disc
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:IceBottle.png]
+|'''Ice Protection'''
+|A silver-white bottle with a frosty base
+|Gives Ice Protection disc
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:FlaskBottle.png]
+|'''Flask'''
+|A slender bronze flask
+|Nothing
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:HealBottle.png]
+|'''Heal'''
+|A dark bottle with a red cross
+|Heals up to 100 hps per pot
+|Nork Shops and Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:IhBottle.png]
+|'''Instant Heal'''
+|A clear vial labeled "Instant Heal"
+|Heals up to 1000 hps per bottle
+|Nork Shops and Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:IhBottle.png]
+|'''Instant Heal'''
+|A clear vial labeled "Instant Heal" The bottle contains 2 ounces
+|Heals 1000 hps per use
+|Random Drop in Evil Nork
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:AgilBottle.png]
+|'''Agility Potion'''
+|A silver bottle with red circles
+| +1 agiligy to a max of 18
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MajorBottle.png]
+|''Will Potion'''
+|A blue bottle with a red line circling
+| +1 willpower to a max of 19
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MajorBottle.png]
+|'''Will Potion'''
+|A blue bottle with red circles
+| +1 will to a max of 19
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MajorBottle.png]
+|'''Major Con'''
+|A blue bottle with red circles
+| +2 con to a max of 18
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MajorBottle.png]
+|'''Major Con'''
+|A blue bottle with small red circles
+| +2 con to a max of 18
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MajorBottle.png]
+|'''Minor Con'''
+|A blue bottle with tiny red circles
+| +1 con to a max of 15
+|SF
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MajorBottle.png]
+|'''Minor Con'''
+|A red line encirlcing 2 birds
+| +1 con to a max of 15
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MajorBottle.png]
+|'''Minor Con'''
+|a red line encircling 3 birds
+| +1 con to a max of 10
+|Seller in N5
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:IntBottle.png]
+|'''Intelligence Potion'''
+|A sand colored bottle with a flat bottom
+| +1 intel to a max of 19
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:WisdomBottle.png]
+|'''Wisdom Potion'''
+|A blue vial with silver fur
+| +1 wisdom to a max of 19
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:WisdomBottle.png]
+|'''Youth Potion'''
+|A blue vial with silver fur
+|Restores are to young
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:EpBottle.png]
+|'''EP Potion'''
+|A completely reflectionless vial with no visable markings
+| +1 to +6 eps
+|Random Drop or from Funhouse Seller
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:StrBottle.png]
+|'''Strength Potion'''
+|A black bottle with red circles
+| +1 strength to a max of 18
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:ZapBottle.png]
+|'''Zap'''
+|A smal vial with lightning bolts along the side
+|Restores eps
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:SlithPot.png]
+|'''Slith Stat Pot'''
+|A red vial shaped as a snake
+|Random stat potion
+|Random drop from slith or from a event
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MinobloodBottle.png]
+|'''Mino Blood'''
+|A clear wineskin filled with minotaur blood
+|Quest Item for Str Hally also gives hps when drank on KM5
+|Random drop off minos on KM5
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:NitroBottle.png]
+|'''"Poison'''
+|A tan vial with paintings of spring flowers
+|Poison
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:NitroBottle.png]
+|'''Nitro'''
+|A tan vial with paintings of spring flowers
+|Nitro
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:BlueBottle.png]
+|'''School Potion'''
+|A vial of viriduim colored liquid labeled "Student Edition"
+|Back to school event
+|Found on N3 during back to school event
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:YellowBottle.png]
+|'''Yellow'''
+|A bottle picturing 1 - 3 birds over a diamond
+|Gives 1 hp till class max
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:YellowBottle.png]
+|'''Yellow'''
+|A bottle picturing 1 - 3 birds over a crescent moon
+|gives 1 hp to class max
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:YellowBottle.png]
+|'''Yellow'''
+|A bottle picturing 4 birds over a diamond and a bird over a crescent moon
+| +1 hp to class max
+|M4
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:RoundYellowBottle.png]
+|'''Round Yellow'''
+|A bottle with a circular base picturing 3 birds over a diamond
+|Gives 1 - 2 hps to class max
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:RoundYellowBottle.png]
+|'''Round Yellow'''
+|A bottle picturing 3 birds over a crescent moon
+|give 1 - 2 hps to class max
+|Random Drop
+|}
+===Bracers:===
+{| bgcolor="black" border="2" cellpadding="5" cellspacing="0" style="text-align: center; color: orange;"
+!Picture
+!Name
+!Description
+!What it does
+!Where its found
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:GoldBracers.png]
+|'''Golden Bracers'''
+|Golden wristbands
+|Can be imbued with discs
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:FireBracers.png]
+|'''Fire Bracers'''
+|Ornately carved ivory bracers encircled with pictures of various fire dwelling creatures
+|50 Fire Protection
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:AcidBracers.png]
+|'''Lightning Bracers'''
+|25 lightning protection
+|Dropped by Silver Dragon
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:AcidBracers.png]
+|'''Acid Bracers'''
+|25 Acid Protection
+|Drops in acid caves
+|}
+===Gauntlets:===
+{| bgcolor="black" border="2" cellpadding="5" cellspacing="0" style="text-align: center; color: orange;"
+!Picture
+!Name
+!Description
+!What it does
+!Where its found
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:LeatherGaunts.png]
+|'''Leather Gauntlets'''
+|A pair of leather gauntlets lined with iron barbs
+| +2
+|found in DT and Mealing Caves
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:DragonGaunts.png]
+|'''Dragon Gauntlets'''
+|A set of wire intricated studs and dual razor sharp eight inch blades
+| +3
+|Drops off Red Dragon and off Ninja's
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:DragonGaunts.png]
+|'''Snr Ninja Gauntlets'''
+|A set of wire intricated studs and dual razor sharp eight inch blades
+| +6
+|Drops off Snr Ninja in DT
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:DragonGaunts.png]
+|'''Improved Red Dragon Gauntlets'''
+|A set of wire intricated studs and dual razor sharp eight inch blades
+| +5
+|Complete a quest for these
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:VampGaunts.png]
+|'''Vamp Gauntlets'''
+|A pair of griffon claws mounted on hand grips and honed to a razor sharp edge
+| +5
+|Complete Quest for these
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:KatsGaunts.png]
+|'''Katsumo Gauntlets'''
+|A pair of glossy black gauntlets with small glowing nodulets extending from the fingers
+| +4 psi cutter MA only
+|}
+===Helmets:===
+{| bgcolor="black" border="2" cellpadding="5" cellspacing="0" style="text-align: center; color: orange;"
+!Picture
+!Name
+!Description
+!What it does
+!Where its found
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MetalHelm.png]
+|'''Iron Helm'''
+|A iron helm
+|Nothing
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MetalHelm.png]
+|'''Respirate Helm'''
+|An Iron Helm
+|On Contact Resprite
+|N3.5 Dark Guards
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:CombatHelm.png]
+|'''Combat Helm'''
+|An inticately tooled glowing adamite helm with a raise-able visor and interlocking plates near the neck
+|0/2
+|Random
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:RespHelm.png]
+|'''Respirate Helm'''
+|A large circular helmet with a see through crystal visor
+|On Contact Respirate
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:MetalCowHelm.png]
+|'''Steel Helm'''
+|A large steel helm with a wide flaring brim
+|0/0 - 0/3
+|Random drop off Ogrelords
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:HpHelm.png]
+|'''Large Iron Helm'''
+|A heavy iron helm with large protective guards near the neck and face
+|20 - 40 eps or 20 - 60 hps
+|Random Drop
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:PowerHelm.png]
+|'''Power Helm'''
+|Glowing Skull set with strange red gems near the eyes
+| +4, psi cutter, combat stun protection, good aligned
+|Complete Quest to get
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:WinterHelm.png]
+|'''Christmas Top Hat'''
+|A silk tophat
+|Nothing
+|Event Item
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:TurkeyHelm.png]
+|'''Pilgrim Hat'''
+|A tall square topped hat with a large buckle in the front
+| +4 psi cutter
+|Event Item
+|-
+|[http://www.wolfguild.com/wiki/index.php?title=File:SobHelm.png]
+|'''Snowbeats Skull'''
+|An enourmous bone helm carved from the skull of a snow beast
+|nothing
+|Snowbeast Drops
+|}
+=='''Aleria Items'''==
+===Amulets:===
+
+=='''Cobrahn Items'''==
+===Amulets:===
+
+=='''Nameless Land Items'''==
+===Amulets:===
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=21&section=12&command=view&id=11 <u>Attack Amulet</u>]
+| class="items"|
+| class="items"| +2 Attacks<br />+3 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=21&section=12&command=view&id=7 <u>Dornar 6</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=21&section=12&command=view&id=1 <u>Merkon</u>]
+| class="items"|
+| class="items"|Exp: 40
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=21&section=12&command=view&id=12 <u>Crest Amulet</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=21&section=12&command=view&id=8 <u>Keep 0</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=21&section=12&command=view&id=24 <u>Keep Access</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=21&section=12&command=view&id=13 <u>Merkon Amulet</u>]
+| class="items"|
+| class="items"| +30 EP Regen
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=21&section=12&command=view&id=7 <u>Dornar 6</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=21&section=12&command=view&id=1 <u>Merkon</u>]
+| class="items"|
+| class="items"|Exp: 20
+|}
+
+
+
+
+===Armor:===
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=10 <u>Albron Fur</u>]
+| class="items"|
+| class="items"| +200 Damage Reflection<br />+7 Defence<br />+7 Offense
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=28&section=12&command=view&id=2 <u>Albron</u>]
+| class="items"|
+| class="items"|Exp: 56<br />Class: Barbarian
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=14 <u>Crest Armor</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=9 <u>Keep 1</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=24 <u>Keep Access</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=15 <u>Green Dragon Scales</u>]
+| class="items"|
+| class="items"|
+Acid Protection<br />+2 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=28&section=12&command=view&id=3 <u>Green Dragon</u>]
+| class="items"|
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=16 <u>Halmon Armor</u>]
+| class="items"|
+| class="items"|
+Fire Protection<br />Ice Protection<br />+5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=28&section=12&command=view&id=4 <u>Halmon</u>]
+| class="items"|
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=17 <u>Lorsulan Armor</u>]
+| class="items"|
+| class="items"| 
++7 Agility<br />+7 Constitution<br />Damage Absorption<br />+5 Offense<br />+7 Strength
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=38 <u>Basement</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=26 <u>Killer Weapon Upgrades</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=28 <u>Lorsulan Plate</u>]
+| class="items"|Exp: 40
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=18 <u>Lorsulan Scales</u>]
+| class="items"|
+| class="items"| 
++5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=10 <u>Sekora</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=28&section=12&command=view&id=5 <u>Lorsulan</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=28 <u>Lorsulan Plate</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=19 <u>Mantrapon Armor</u>]
+| class="items"|
+| class="items"| 
++5 Agility<br />Damage Absorption<br />+5 Defence<br />Fire Protection<br />Ice Protection<br />+5 Strength
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=38 <u>Basement</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=29 <u>Mantrapon Plate</u>]
+| class="items"|Exp: 30
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=20 <u>Mantrapon Scales</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=10 <u>Sekora</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=28&section=12&command=view&id=6 <u>Mantrapon</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=29 <u>Mantrapon Plate</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=21 <u>Mormar Plate</u>]
+| class="items"|
+| class="items"|Damage Absorption
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=39 <u>Homlet</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=28&section=12&command=view&id=7 <u>Sir Mormar</u>]
+| class="items"|
+| class="items"|Exp: 50
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=22 <u>Nameless Lord Armor</u>]
+| class="items"|
+| class="items"| 
+<br />+5 all stats
+
+Damage Absorption<br />+8 Defence<br />Fire Protection<br />Ice Protection<br />+8 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=40 <u>Nameless Town</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=28&section=12&command=view&id=8 <u>Nameless Lord</u>]
+| class="items"|
+| class="items"|Exp: 70
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=23 <u>Tortulan Armor</u>]
+| class="items"|
+| class="items"|Fire Protection<br />Ice Protection<br />+5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=38 <u>Basement</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=28 <u>Lorsulan Plate</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=29 <u>Mantrapon Plate</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=32 <u>Tortulan Plate</u>]
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=28&section=12&command=view&id=24 <u>Tortulan Scales</u>]
+| class="items"|
+| class="items"| +5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=28&section=12&command=view&id=10 <u>Sekora</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=28&section=12&command=view&id=9 <u>Tortulan</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=28&section=12&command=view&id=32 <u>Tortulan Plate</u>]
+|}
+
+
+
+===Boots:===
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=29&section=12&command=view&id=25 <u>Rift Boots</u>]
+| class="items"|
+| class="items"| +10 Constitution<br />Dance when stunned<br />+8 Defence<br />+8 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=29&section=12&command=view&id=56 <u>Mormar 26</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=29&section=12&command=view&id=31 <u>Rift Gaurdian</u>]
+| class="items"|
+| class="items"|Exp: 70
+|}
+
+
+
+===Bracers:===
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=26 <u>Akronium Bracers</u>]
+| class="items"|
+| class="items"| +1 Offense<br />+2 Strength
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=41 <u>Dornar 1</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=42 <u>Dornar 2</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=43 <u>Dornar 3</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=44 <u>Dornar 4</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=45 <u>Dornar 5</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=27 <u>Black Dragon Bracers</u>]
+| class="items"|
+| class="items"| 
++5 Defence<br />Dragon Armor (+AC)<br />+150 EP<br />+150 HP<br />+5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=31 <u>Mormar 20</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=30&section=12&command=view&id=11 <u>Black Dragon</u>]
+| class="items"|
+| class="items"|Exp: 65
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=28 <u>Gold Dragon Bracers</u>]
+| class="items"|
+| class="items"| 
++5 Defence<br />Dragon Strike<br />+150 EP<br />+150 HP<br />+5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=31 <u>Mormar 20</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=30&section=12&command=view&id=12 <u>Gold Dragon</u>]
+| class="items"|
+| class="items"|Exp: 65
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=34 <u>Hp/Ep Bracers</u>]
+| class="items"|
+| class="items"| 
++100 EP<br />+100 HP
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=8 <u>Keep 0</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=9 <u>Keep 1</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=46 <u>Keep 2</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=47 <u>Keep 3</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=48 <u>Keep 4</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=33 <u>Hp/Ep Bracers</u>]
+| class="items"|
+| class="items"| 
++125 EP<br />+125 HP
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=22 <u>Mormar 3</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 40
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=32 <u>Hp/Ep Bracers</u>]
+| class="items"|
+| class="items"| 
++2 Defence<br />+125 EP<br />+125 HP<br />+2 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=17 <u>Mormar 7</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 40
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=31 <u>Hp/Ep Bracers</u>]
+| class="items"|
+| class="items"| 
++3 Defence<br />+175 EP<br />+175 HP<br />+3 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=21 <u>Mormar 12</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 50
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=30 <u>Hp/Ep Bracers</u>]
+| class="items"|
+| class="items"| 
++4 Defence<br />+175 EP<br />+175 HP<br />+4 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=27 <u>Mormar 16</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=28 <u>Mormar 17</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 50
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=29 <u>Hp/Ep Bracers</u>]
+| class="items"|
+| class="items"| 
++50 EP<br />+50 HP
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=35 <u>Large Akronium Bracers</u>]
+| class="items"|
+| class="items"| 
++3 Offense<br />+3 Strength
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=7 <u>Dornar 6</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=36 <u>Red Dragon Bracers</u>]
+| class="items"|
+| class="items"| 
++5 Defence<br />+150 EP<br />+150 HP<br />+5 Offense<br />Reduced Ageing
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=31 <u>Mormar 20</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=30&section=12&command=view&id=13 <u>Red Dragon</u>]
+| class="items"|
+| class="items"|Exp: 65
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=30&section=12&command=view&id=37 <u>Silver Dragon Bracers</u>]
+| class="items"|
+| class="items"| +5 Defence<br />Dragon Energy (+200 EP)<br />+150 EP<br />+150 HP<br />+5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=30&section=12&command=view&id=31 <u>Mormar 20</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=30&section=12&command=view&id=14 <u>Silver Dragon</u>]
+| class="items"|
+| class="items"|Exp: 65
+|}
+
+
+
+===Helmets:===
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|Description
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=31&section=12&command=view&id=38 <u>Titan Helm</u>]
+| class="items"|
+| class="items"| +5 Defence<br />+100 HP<br />+5 Offense<br />Servant of the Nameless Psionic (+200 HP, +100 EP)
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=31&section=12&command=view&id=19 <u>Mormar 10</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=31&section=12&command=view&id=15 <u>Researcher</u>]
+| class="items"|
+| class="items"|Exp: 60
+|}
+
+
+
+===Gauntlets:===
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=32&section=12&command=view&id=39 <u>Improved Vamps</u>]
+| class="items"|
+| class="items"| +6 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=32&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=32&section=12&command=view&id=23 <u>Improved Vamps</u>]
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=32&section=12&command=view&id=40 <u>Rift Guants</u>]
+| class="items"|
+| class="items"| +10 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=32&section=12&command=view&id=56 <u>Mormar 26</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=32&section=12&command=view&id=31 <u>Rift Gaurdian</u>]
+| class="items"|
+| class="items"|Exp: 70<br />Class: Martialist
+|}
+
+
+
+===Rings:===
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=85 <u>Akronium Ring</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=34&section=12&command=view&id=15 <u>Defense Staff/Upgraded Defense Staff</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=34&section=12&command=view&id=20 <u>Improved Merkon Short Sword</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=86 <u>Authority Ring</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=87 <u>Bandit Lord Ring</u>]
+| class="items"|
+| class="items"| 
++3 all stats<br />+7Defence<br />+7Offense
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=34&section=12&command=view&id=25 <u>Jelterban</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=34&section=12&command=view&id=12 <u>Bandit Lord Ring</u>]
+| class="items"|Exp: 30
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=88 <u>Combat Ring</u>]
+| class="items"|
+| class="items"| +2 Attacks<br />+5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=15 <u>Mormar 6</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=17 <u>Mormar 7</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 45
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=89 <u>Combat Ring</u>]
+| class="items"|
+| class="items"| +3 Attacks<br />+9 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=19 <u>Mormar 10</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=20 <u>Mormar 11</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=21 <u>Mormar 12</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 50
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=90 <u>Combat Ring</u>]
+| class="items"|
+| class="items"| +2 Attacks<br />+3 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=7 <u>Dornar 6</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=34&section=12&command=view&id=1 <u>Merkon</u>]
+| class="items"|
+| class="items"|Exp: 40
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=91 <u>Crest Ring</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=46 <u>Keep 2</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=34&section=12&command=view&id=24 <u>Keep Access</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=92 <u>Keep Ring</u>]
+| class="items"|
+| class="items"| 
++8 Defence<br />+75 HP<br />+8 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=47 <u>Keep 3</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=93 <u>Keep Ring</u>]
+| class="items"|
+| class="items"| 
++7 Defence<br />+50 HP<br />+7 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=46 <u>Keep 2</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=94 <u>Keep Ring</u>]
+| class="items"|
+| class="items"| 
++6 Defence<br />+50 HP<br />+6 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=9 <u>Keep 1</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=95 <u>Keep Ring</u>]
+| class="items"|
+| class="items"| 
++6 Defence<br />+25 HP<br />+6 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=8 <u>Keep 0</u>]
+| class="items"|
+| class="items"|
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=34&section=12&command=view&id=96 <u>Lich Ring</u>]
+| class="items"|
+| class="items"|Deadeye<br />+2 Defence<br />+2 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=34&section=12&command=view&id=11 <u>Swamps</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=34&section=12&command=view&id=24 <u>Lich</u>]
+| class="items"|
+| class="items"|Exp: 35
+|}
+===Robes:===
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=35&section=12&command=view&id=97 <u>Blue Merkon</u>]
+| class="items"|
+| class="items"|
++2 Agility<br />+4 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=35&section=12&command=view&id=7 <u>Dornar 6</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=35&section=12&command=view&id=1 <u>Merkon</u>]
+| class="items"|
+| class="items"|Exp: 20
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=35&section=12&command=view&id=98 <u>Lich</u>]
+| class="items"|
+| class="items"|
+Advanced Psionic field of flame (Damage Reflect)<br />+5 Defence<br />+5 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=35&section=12&command=view&id=11 <u>Swamps</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=35&section=12&command=view&id=24 <u>Lich</u>]
+| class="items"|
+| class="items"|Exp: 35
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=35&section=12&command=view&id=99 <u>Red Merkon</u>]
+| class="items"|
+| class="items"| +25 HP<br />+4 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=35&section=12&command=view&id=7 <u>Dornar 6</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=35&section=12&command=view&id=1 <u>Merkon</u>]
+| class="items"|
+| class="items"|Exp: 20
+|}
+===Weapons:===
+{| class="items"
+|- class="areamain"
+! class="items"|Image
+! class="items"|Name
+! class="items"|
+! class="items"|Abilities
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=100 <u>Defense Staff</u>]
+| class="items"|
+| class="items"|
+Defence<br />Glowing
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=15 <u>Defense Staff/Upgraded Defense Staff</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=101 <u>Flame Hammer</u>]
+| class="items"|
+| class="items"|
+Neutral Aligned<br />+6 Offense
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=18 <u>Flame Hammer</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=102 <u>Improve Merkon Short Sword</u>]
+| class="items"|
+| class="items"|
+Evil Aligned<br />+6 Offense<br />Random Energy Spear in Combat
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=12 <u>Bandit Lord Ring</u>]
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=103 <u>Improved Sabre</u>]
+| class="items"|
+| class="items"|Good Aligned<br />+6 Offense
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=21 <u>Improved Sabre</u>]
+| class="items"|Exp: 25
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=104 <u>Killer Dagger</u>]
+| class="items"|
+| class="items"|Returning
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=25 <u>Killer Weapon</u>]
+| class="items"|Exp: 55
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=105 <u>Killer Great Sword</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=25 <u>Killer Weapon</u>]
+| class="items"|Exp: 55
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=106 <u>Killer Hally</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=25 <u>Killer Weapon</u>]
+| class="items"|Exp: 55
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=107 <u>Killer Long Sword</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=25 <u>Killer Weapon</u>]
+| class="items"|Exp: 55
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=108 <u>Killer Mace</u>]
+| class="items"|
+| class="items"| +10 Agility<br />+10 Strength<br />+10 Wisdom
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=25 <u>Killer Weapon</u>]
+| class="items"|Exp: 55
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=109 <u>Killer Short Sword</u>]
+| class="items"|
+| class="items"| +10 Agility<br />+10 Intelligence<br />+10 Strength
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=25 <u>Killer Weapon</u>]
+| class="items"|Exp: 55
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=110 <u>Merkon Short Sword</u>]
+| class="items"|
+| class="items"|Evil Aligned<br />+6 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=38&section=12&command=view&id=7 <u>Dornar 6</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=38&section=12&command=view&id=1 <u>Merkon</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=18 <u>Flame Hammer</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=38&section=12&command=view&id=20 <u>Improved Merkon Short Sword</u>]
+| class="items"|Exp: 20
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=38&section=12&command=view&id=111 <u>Nameless Lord Axe</u>]
+| class="items"|
+| class="items"|35% chance to attack when held in off-hand (only on normal attacks not Beserk)<br />+6 Defence<br />+6 Offense
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=38&section=12&command=view&id=40 <u>Nameless Town</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=38&section=12&command=view&id=8 <u>Nameless Lord</u>]
+| class="items"|
+| class="items"|Exp: 70<br />Class: Barbarian
+|}
+===Misc:===
+{| class="bodyborder"
+|- class="section"
+| class="bodyborder"|
+{| class="items"
+|- class="areamain"
+! class="items"|
+! class="items"|Name
+! class="items"|
+! class="items"|
+! class="items"|Found ?
+! class="items"|Drops From ?
+! class="items"|Related Quests
+! class="items"|Requirements
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=41 <u>Akronium Block</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=9 <u>Akronium Block</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=11 <u>Akronium Coins</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=15 <u>Defense Staff/Upgraded Defense Staff</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=19 <u>Great Halls Access</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=20 <u>Improved Merkon Short Sword</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=37 <u>Primal</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=22 <u>Sabre Mold</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=31 <u>Titan Annealed Akronium</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=43 <u>Akronium Coins</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=34 <u>Duke Xuladan</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=21 <u>Improved Sabre</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=23 <u>Improved Vamps</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=27 <u>Level 50</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=28 <u>Lorsulan Plate</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=29 <u>Mantrapon Plate</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=32 <u>Tortulan Plate</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=44 <u>Apple Sapling</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=16 <u>FallenMage</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=10 <u>Coinmold</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=45 <u>Bandit Lord Head</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=49 <u>Ice Floes</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=17 <u>Bandit Lord</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=12 <u>Bandit Lord Ring</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=46 <u>Bandit Lord Inner Door Key</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=12 <u>Bandit Lord Ring</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=47 <u>Bandit Lord Outer Door Key</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=49 <u>Ice Floes</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=12 <u>Bandit Lord Ring</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=48 <u>Breath Capture Vial</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=13 <u>Breath Capture Vial</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=14 <u>Breath of a titan</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=30 <u>Mormar Entry</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=49 <u>Breath Capture Vial with Breath Inside</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=31 <u>Titan Annealed Akronium</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=50 <u>Brigand Heart</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=18 <u>Bandit</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=19 <u>Brigand</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=16 <u>Dornar Entry</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=51 <u>Coin Mold</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=11 <u>Akronium Coins</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=10 <u>Coinmold</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=53 <u>Dragon Heart</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=3 <u>Green Dragon</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=19 <u>Great Halls Access</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=23 <u>Improved Vamps</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=54 <u>Dryad Bread</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=20 <u>Dryad</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=16 <u>Dornar Entry</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=55 <u>Dryad Parts</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=20 <u>Dryad</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=10 <u>Coinmold</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=56 <u>Enchanted Terror Blood</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=13 <u>Breath Capture Vial</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=17 <u>Enchanted Vial</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=52 <u>Fluidic Akronium</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=31 <u>Mormar 20</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=11 <u>Black Dragon</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=12 <u>Gold Dragon</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=13 <u>Red Dragon</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=14 <u>Silver Dragon</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=26 <u>Killer Weapon Upgrades</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=57 <u>Fluidic Diamond</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=51 <u>Decayed Lands Bog</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=50 <u>Forges</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=27 <u>Mormar 16</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=28 <u>Mormar 17</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=29 <u>Mormar 18</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=30 <u>Mormar 19</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=31 <u>Mormar 20</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=32 <u>Mormar 21</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=33 <u>Mormar 22</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=34 <u>Mormar 23</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=35 <u>Mormar 24</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=2 <u>Albron</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=21 <u>Titan</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=26 <u>Killer Weapon Upgrades</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=58 <u>Forgotten Dust</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=52 <u>Forgottens</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=22 <u>Forgotten</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=23 <u>Lostone</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=19 <u>Great Halls Access</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=82 <u>Impure Volcanic Ore</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=49 <u>Ice Floes</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=17 <u>Bandit Lord</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=33 <u>Duke Marvin</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=59 <u>Justice Ingot</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=53 <u>Bandit Quest Town</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=38 <u>Bandit5</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=37 <u>Primal</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=60 <u>Large Ore</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=54 <u>Mines</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=55 <u>Mormar</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=3 <u>Green Dragon</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=25 <u>Jelterban</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=24 <u>Lich</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=33 <u>Miner</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=26 <u>Minlok</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=9 <u>Akronium Block</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=61 <u>Large Pine Tree</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=51 <u>Decayed Lands Bog</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=18 <u>Bandit</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=8 <u>Advanced HP/EP Regen</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=26 <u>Killer Weapon Upgrades</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=62 <u>Miners Key</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=8 <u>Advanced HP/EP Regen</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=63 <u>Mormar Book</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=26 <u>Mormar 15</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=27 <u>Foreman</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=35 <u>Duke Merntax</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=64 <u>Mormar Page</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=55 <u>Mormar</u>]
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=35 <u>Duke Merntax</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=65 <u>Nameless Lord Official Document</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=40 <u>Nameless Town</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=8 <u>Nameless Lord</u>]
+| class="items"|
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=66 <u>Oak Sappling</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=28 <u>FallenLord</u>]
+| class="items"|
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=67 <u>Packet of Mandrake Root</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=51 <u>Decayed Lands Bog</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=29 <u>BogWitch</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=34 <u>Duke Xuladan</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=68 <u>Perfect Oak</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=51 <u>Decayed Lands Bog</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=30 <u>Arcanist</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=17 <u>Enchanted Vial</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=69 <u>Primal Ingot</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=49 <u>Ice Floes</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=17 <u>Bandit Lord</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=37 <u>Primal</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=70 <u>Prudence Ingot</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=7 <u>Dornar 6</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=1 <u>Merkon</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=37 <u>Primal</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=71 <u>Rift Portal Fragment</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=56 <u>Mormar 26</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=31 <u>Rift Gaurdian</u>]
+| class="items"|
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=72 <u>Sabre Mold</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=21 <u>Improved Sabre</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=73 <u>Shimok Book</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=32 <u>Wolf</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=33 <u>Duke Marvin</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=74 <u>Shimok Page</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=32 <u>Wolf</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=33 <u>Duke Marvin</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=75 <u>Small Ore</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=54 <u>Mines</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=55 <u>Mormar</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=37 <u>Nameless Land Surface</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=18 <u>Bandit</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=33 <u>Miner</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=9 <u>Akronium Block</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=113 <u>Spy Scroll</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=48 <u>Keep 4</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=34 <u>Ajamtax</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=37 <u>Primal</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=76 <u>Strength Ingot</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=48 <u>Keep 4</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=34 <u>Ajamtax</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=37 <u>Primal</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=77 <u>Swamp Bat Wing</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=51 <u>Decayed Lands Bog</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=35 <u>Swamp Bat</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=13 <u>Breath Capture Vial</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=78 <u>Terror Blood</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=51 <u>Decayed Lands Bog</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=36 <u>Terror</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=17 <u>Enchanted Vial</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=26 <u>Killer Weapon Upgrades</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=112 <u>Tier Scroll</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=7 <u>Dornar 6</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=55 <u>Mormar</u>]
+[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=10 <u>Sekora</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=34 <u>Ajamtax</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=2 <u>Albron</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=17 <u>Bandit Lord</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=27 <u>Foreman</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=43 <u>LabRat</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=5 <u>Lorsulan</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=6 <u>Mantrapon</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=1 <u>Merkon</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=26 <u>Minlok</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=15 <u>Researcher</u>]
+[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=9 <u>Tortulan</u>]
+| class="items"|
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=79 <u>Titan Annealed Akronium</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=25 <u>Killer Weapon</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=31 <u>Titan Annealed Akronium</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=80 <u>Titan Bone</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=50 <u>Forges</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=37 <u>Amoral</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=25 <u>Killer Weapon</u>]
+[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=26 <u>Killer Weapon Upgrades</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=81 <u>Volcanic Ore</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=54 <u>Mines</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=26 <u>Minlok</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=15 <u>Defense Staff/Upgraded Defense Staff</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=83 <u>Wisdom Ingot</u>]
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=quest&area=33&section=12&command=view&id=37 <u>Primal</u>]
+| class="items"|
+|- class="areamain"
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=item&area=33&section=12&command=view&id=84 <u>Yeti Bile</u>]
+| class="items"|
+| class="items"|
+| class="items"|[http://www.tnem.co.uk/index.php?action=place&area=33&section=12&command=view&id=49 <u>Ice Floes</u>]
+| class="items"|[http://www.tnem.co.uk/index.php?action=monster&area=33&section=12&command=view&id=39 <u>Yeti</u>]
+| class="items"|
+| class="items"|
+|}
+|- class="bodyborder"
+| class="bodyborderbottom"|
+|}

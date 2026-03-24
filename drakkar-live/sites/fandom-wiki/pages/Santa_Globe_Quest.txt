@@ -1,0 +1,99 @@
+== Where? ==
+Find [[Santa Mars]] below the [[Steel Flower]] in [[Alt 2]] during the event around Christmas time.
+[[File:SantaMarsss.png|thumb|220x220px]]
+
+-
+
+[[File:SantaMars NPC.png|thumb|134x134px]]
+
+== Details ==
+# Tell SantaMars 'San, cocoa' to receive [[Small Glass Cup]]
+# Take the [[Small Glass Cup]] to an assortment of [[Sysops]] around Nork. Hold cup in right hand and click Blue NPC.
+# After reaching them all you will receive the [[Santa Globe]], which gives +2 to all stats
+
+== Sysop Locations to bring cup to: ==
+{| class="article-table"
+!Sysop
+!Loc1
+!Loc2
+!Loc3
+!Loc4
+|-
+|[[Burton]]
+|98, 118(N of Frore N gate)
+|151, 84(Middle of Ice Flows)
+|193, 186(SE Frore wall in small cave)
+|
+|-
+|[[Finri]]
+|11, 163(Water N or Levi)
+|185, 115(NW Ice Flows)
+|106, 63(E of Mealing near water)
+|
+|-
+|[[Flisk]]
+|104, 72(NE of frore)
+|128, 89(Ice Flows W)
+|94, 158(Wof Frore Sgate)
+|
+|-
+|[[Gimli]]
+|37, 140(W in Dark Tower)
+|122, 56(NE of Mealing near water)
+|
+|
+|-
+|[[Infinity]]
+|33, 118(N wall near betty)
+|43, 105(climb up in puddle, middle or Mealing)
+|115, 107(W of Snowbeast cave entrance)
+|23, 194(Frore FM Trainer)
+|-
+|[[Mars]]
+|18, 193(behind HG)
+|94, 77(E of Yeti caves)
+|165, 20(VT E behind buildings)
+|
+|-
+|[[Moonshadow]]
+|13, 194(behind HG lair)
+|89, 81(NW of mealing north)
+|147, 19(W in VT town)
+|
+|-
+|[[Omni]]
+|126, 99(W of snowbeast)
+|28, 106(W of mealing, S of caves)
+|36, 120(N wall near Betty)
+|116, 124(SW water area near snowbeast)
+|-
+|[[Pax]]
+|145, 74(W of Mealing south of HP Doc)
+|103, 119(N of Frore N gate)
+|166, 156(E of Frore E gate between buildings)
+|
+|-
+|[[Randy]]
+|97, 183(S of Frore behind a building)
+|27, 114(SW of mealing near Katsumo)
+|94, 115(N of Frore N Gate)
+|
+|-
+|[[Soyer]]
+|105, 59(E of Yeti Cave)
+|20, 192(S of upstairs HG)
+|166, 12(VT east behind buildings)
+|
+|-
+|[[Tyr]]
+|69, 105(SE of Mealing)
+|113, 114(W of SnowBeast)
+|92, 185(S Gate Frore, W of W building)
+|
+|-
+|[[Tigger]]
+|98, 61(E of Yeti island)
+|3, 185(NW of HG)
+|
+|
+|}

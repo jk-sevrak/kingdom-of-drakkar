@@ -1,0 +1,36 @@
+# Drakkar Mentalist Class Guide
+Source: https://areyekuwe.wordpress.com/2015/11/11/mentalist-guide/
+Date: November 11, 2015
+
+This archival guide from the Mentalist of Mytherian Order (MoY) Guild provides comprehensive character development information for the mentalist class in Kingdom of Drakkar, an ancient MMORPG.
+
+## Core Class Mechanics
+
+Mentalists focus exclusively on psionic disciplines, with intelligence as their primary stat. Intelligence determines initial energy points (eps) and grants bonus energy per level. The class sacrifices health points compared to other classes, making avoidance of direct combat essential.
+
+## Early Development (Skills 1-10)
+
+**Character Creation Tips:**
+- City dweller race recommended for balanced stats
+- Target 18+ luck and charisma to minimize potion costs
+- Dedicate with 19+ intelligence
+
+**Training Priority:** Staff skill proves most valuable for blocking and survival. Martial artist skill (7-10) and throwing round out the combat toolkit. "Enmiss" spell provides highest skill gain for mentalist advancement.
+
+**Locations:** Progress through Nork and Rattown (skill 8), then Maeling (skill 12).
+
+## Mid-Level Advancement (Skills 10-13)
+
+Training expands to Vt (skill 15) and Aleria (skill 18). Hunters should focus on moderate dungeons like M-3 and M-5 fireroom for better gear and experience.
+
+## Advanced Training (Skill 13+)
+
+Aleria continues through skill 18. The N-9 prison (requires teleport spell) and Homlet advance to skill 20. Frore's trainer provides the "deplete" spell at skill 20+.
+
+## Equipment Recommendations
+
+Kobold staff (+3) and Chipper (+6 at staff skill 12) serve as primary weapons. Sanguin or big yeti armor offer solid protection. Critical note: "Never attack another player with this weapon, it will take permanent health points."
+
+## Resource Management
+
+Maximum achievable stats: 250 eps and 130 health points at level 1 through permanent potions and resting strategies.

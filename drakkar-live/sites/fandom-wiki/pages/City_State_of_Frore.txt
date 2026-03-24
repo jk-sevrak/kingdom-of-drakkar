@@ -1,0 +1,32 @@
+City-State of Frore
+
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|Below the Equator, the grassy veldts turn into fields of ice, where is found the land of Frore, a forbidding place. Armed with strength and cunning, four mighty warriors took it upon themselves long ago to rid the southernmost lands of all threats and established the City-State of Frore. They destroyed all beasts who threatened their new city, save one: the giant Snow Beast.  
+| width="9"|
+|}
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|The fearsome cry of this monster sliced through the air on many a frigid evening. The sound terrified the townspeople into fortifying their city-state with double walls and Golden Dragons. Fear of the Snow Beast had made the citizens prisoners within their own homes.  
+| width="9"|
+|}
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|These citizens pleaded with the four warriors who had brought them into this possessed land. The Four, as they had come to be known, agreed to "divide and conquer" -- each one seeking a way to destroy the vile Snow Beast. One sought the seclusion of the Northern Caves. Another built a fortress west of the city. A third excavated a complex to the south. The last built a castle directly above the city proper.  
+| width="9"|
+|}
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|The Four became fanatical in their quests, slipping deeper and deeper into madness and despair. One strayed too close to the forces of Evil and became a mere shadow of his former humanity. Another made a fearsome pact with the Queen of Wyrms. The third designed a weapon of such evil that it drove him from the forces of Light. The last went insane.  
+| width="9"|
+|}
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|Now the lands of Frore exist as a shattered kingdom whose citizens live in fear of the Snow Beast and of the Four who were meant to save them.  
+|}
+[[Category:Scenarios]]

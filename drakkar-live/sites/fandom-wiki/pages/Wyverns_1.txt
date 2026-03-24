@@ -1,0 +1,22 @@
+== Information ==
+{| class="article-table"
+!
+|-
+|Wyverns, Wisps, and Griffons roam here. They will knock you off the map into bog, and cast HUGE lightning damage
+|-
+|[[File:Sdc wyvern area-0.png|thumb|379x379px]]
+|}
+
+== How to Access ==
+NW of SDC forest. Climb up
+
+== Related Quests ==
+* [[Level 78 Quest]]
+
+== Related Items ==
+
+== Related Monsters ==
+
+== Areas ==
+* [[Wyverns 2]]
+* [[SDC]]

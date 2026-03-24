@@ -1,0 +1,36 @@
+==SDC1==
+===<nowiki/>===
+
+== Areas ==
+{| class="article-table"
+!Area
+!Access Point
+|-
+|[[Wyverns 1]]
+|NW of Forest
+|-
+|[[SDC Thumpers]]
+|W SW of Forest
+|-
+|[[SDC3]]
+|
+|}
+
+== Quests ==
+
+<p class="MsoNormal" style="margin: 0in 0in 10pt;">Progression to level 76: Turn in River Rock found among the enemies in the grass area in SDC1 to Jarvoh
+</p>
+
+<span style="line-height: 115%; font-family: "Calibri","sans-serif"; font-size: 11pt; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Progression to level 78: Turn in a (tied from guild hall) talon found in Wyrvens to Arpigo</span>
+
+<p class="MsoNormal" style="margin: 0in 0in 10pt;">Mining Pick: Kill thumpers area until 10 rock fragments drop and trade them to Mineer</p>
+
+<p class="MsoNormal" style="margin: 0in 0in 10pt;">Cavern Creeper 1: Kill GiantBat in Thumpers in SDC1 and turn into Cargon </p>
+
+<p class="MsoNormal" style="margin: 0in 0in 10pt;">Entrance to Sick Caves: Collect animal furs for Mac in SDC1</p>
+
+<p class="MsoNormal" style="margin: 0in 0in 10pt;">Crystal Resistance 1: Talk to Mac’s Friend in Sick Caves. Kill wraiths and get 5 wraith cloth. Then climb down slightly to the left of Mac’s Friend and you will see spectres. Kill them and turn in.</p>
+
+<p class="MsoNormal" style="margin: 0in 0in 10pt;">Crystal Resistance 2: Talk to Marburn and kill the local enemies until the top left portion of a silver dragon scale drops. Turn in.</p>
+===Map:===
+[[File:SDC1.png|frame|SDC1]]

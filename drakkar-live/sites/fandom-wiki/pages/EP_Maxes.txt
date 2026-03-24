@@ -1,0 +1,23 @@
+===Maxes===
+{| data-parsoid="{"dsr":[14,217,24,2]}"
+|- data-parsoid="{"autoInsertedEnd":true,"autoInsertedStart":true,"dsr":[39,115,0,0]}"
+! data-parsoid="{"autoInsertedEnd":true,"dsr":[39,57,1,0]}"|[https://kingdomofdrakkar.fandom.com/wiki/Classes Class]
+! data-parsoid="{"autoInsertedEnd":true,"dsr":[58,82,1,0]}"|[https://kingdomofdrakkar.fandom.com/wiki/Stat_Potions EP Pot]
+! data-parsoid="{"autoInsertedEnd":true,"dsr":[83,93,1,0]}"|[https://kingdomofdrakkar.fandom.com/wiki/Grubs Grubs]
+! data-parsoid="{"autoInsertedEnd":true,"dsr":[94,115,1,0]}"|[https://kingdomofdrakkar.fandom.com/wiki/Clubhouse CH Max]
+|- data-parsoid="{"startTagSrc":"|-","autoInsertedEnd":true,"dsr":[116,151,2,0]}"
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[119,136,1,0]}"|[https://kingdomofdrakkar.fandom.com/wiki/Fighter/Ment Fighter/Ment]
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[137,141,1,0]}"|150
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[142,146,1,0]}"|450
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[147,151,1,0]}"|990
+|- data-parsoid="{"startTagSrc":"|-","autoInsertedEnd":true,"dsr":[152,181,2,0]}"
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[155,166,1,0]}"|[https://kingdomofdrakkar.fandom.com/wiki/Healer Healer]
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[167,171,1,0]}"|255
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[172,176,1,0]}"|450
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[177,181,1,0]}"|990
+|- data-parsoid="{"startTagSrc":"|-","autoInsertedEnd":true,"dsr":[182,214,2,0]}"
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[185,199,1,0]}"|[https://kingdomofdrakkar.fandom.com/wiki/Mentalist Mentalist]
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[200,204,1,0]}"|255
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[205,209,1,0]}"|500
+| data-parsoid="{"autoInsertedEnd":true,"dsr":[210,214,1,0]}"|990
+|}

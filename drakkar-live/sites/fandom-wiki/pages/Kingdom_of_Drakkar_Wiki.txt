@@ -1,0 +1,35 @@
+[[File:Drakbancombined.jpg|thumb|400px]]
+This is a Wiki dedicated to the Kingdom of Drakkar. There are  [[Special:AllPages|{{NUMBEROFARTICLES}}]] pages to date.
+
+'''NOTE:''' If you copy and use content from another fansite, please give that person or guild credit at the bottom of each page you've done this on.
+
+Click this link for a list of all pages [http://kingdomofdrakkar.wikia.com/wiki/Special:AllPages All Pages]
+
+'''Kingdom of Drakkar '''is a massively multiplayer online role-playing game. It started in 1984 as a text-based MUD called Realm operated by Digital Information Systems of Kentucky. It was converted to be used with an 8-bit Frontend (FE) and was renamed Kingdom of Drakkar in 1989. It continues to be operated by Drakkarzone.
+==Gameplay==
+
+Character creation involves selecting a gender, race and class. Each race has its own hidden advantages. The player may choose for their character to be a Fighter, Barbarian, Martialartist, Mentalist, Healer or Thief. Fighters and Mentalists can later choose to become the hybrid class Fighter/Mentalist or the Fighter can instead decide to follow the path of good that is the Paladin.
+
+Players battle through [[Nork]] , [[Aleria]] , [[Cobrahn]] and the [[Nameless Lands]] for fame and fortune!
+==Front End==
+
+Although the first FE was 8bit, a 24-bit FE was created to modernize the look of the game. An option was added to allow a player to toggle back to the 8-bit legacy graphics for a retrograde nostalgic feel.
+
+
+The game is considered a top-down isometric 2D game and is tick-based. While this is a simple interface with simple graphics, the community cohesion is the largest draw to players both from the past and the present and is part of this game's charm.
+==Screenshots==
+
+
+
+<gallery orientation="landscape" position="center" columns="3" captionalign="left">
+BanditLord Lair.jpg|The Banditlord lair in the Nameless Lands
+Forged and the RiftTitan.jpg|The Rift Titan in the Forge of the Decaying Lands
+GiantKing Lair.jpg|The Giantking lair in Cobrahn
+</gallery>
+External links
+
+*[http://www.kingdomofdrakkar.com Kingdom of Drakkar Official Site]
+[[Category:Kingdom of Drakkar Help]]
+[[Category:History of Drakkar]]
+[[Category:FAQ]]
+[[Category:Screenshots]]

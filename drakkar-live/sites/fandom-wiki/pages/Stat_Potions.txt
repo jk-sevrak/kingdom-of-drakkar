@@ -1,0 +1,239 @@
+== Stat Potions ==
+=== Purpose ===
+Stat potions are used to permanently (or temporarily) increase your stats, and are a huge aspect of improving and progressing your character throughout the game.
+===  ===
+
+=== [[Nork]] Pots ===
+{| class="article-table"
+!Img
+!Type
+!Common
+Locations
+!Details
+!Max
+!Notes
+|-
+|[[File:Agi.png|thumb|64x64px]]
+|AGI
+|
+* [[Nork]]
+* [[Nameless Lands]]
+|<nowiki>+1 Agility</nowiki>
+|18
+|
+* 2nd most common permanent stat pot.
+* Found in lairs commonly.
+* Very common in [[Mormar]]
+|-
+|[[File:Conpot.png|thumb|64x64px]]
+|CON
+|
+* [[Nork]]
+* [[Nameless Lands]]
+|<nowiki>+1 Con</nowiki>
+|18
+|
+* Most common permanent stat pot
+* Found in lairs commonly.
+* Very common in [[Mormar]]
+|-
+|[[File:Conpot.png|thumb|64x64px]]
+|CON
+|
+* Alt 2 Steelflower
+|<nowiki>+1 Con</nowiki>
+|15
+|
+* Simply buy these if con is lower than 15 for 2k gold
+|-
+|[[File:Str.png|thumb|64x64px]]
+|STR
+|
+* [[Nork]]
+* [[Nameless Lands]]
+|<nowiki>+1 STR</nowiki>
+|18
+|
+* Found in lairs commonly.
+* Very common in [[Mormar]]
+|-
+|[[File:Intpot.png|thumb|64x64px]]
+|INT
+|
+* [[Nork]]
+|<nowiki>+1 INT</nowiki>
+|19
+|
+* Uncommon. Found in lairs or [[Betty Quest]]
+|-
+|[[File:Willpot.png|thumb|64x64px]]
+|WIL
+|
+* [[Nork]]
+|<nowiki>+1 WIL</nowiki>
+|19
+|
+* Rare. Found from [[Betty Quest]]
+|-
+|[[File:Wispot youthpot.png|thumb|64x64px]]
+|WIS
+|
+* [[Nork]]
+|<nowiki>+1 WIS</nowiki>
+|19
+|
+* Uncommon. Found in lairs or [[Betty Quest]]
+|-
+|[[File:Wispot youthpot.png|thumb|64x64px]]
+|YOUTH
+|
+* [[Nork]]
+* [[Nameless Lands]]
+|Makes
+Young
+|
+|
+* Used to fix old age. Found anywhere but more commonly in lairs, [[Betty Quest]], [[Mormar]], and other areas within [[Nameless Lands]]
+|-
+|[[File:Energy pot.png|thumb|64x64px]]
+|EP
+|
+* [[Nork]]
+* [[Funhouse]]
+|<nowiki>+1-5 EP</nowiki>
+|Varies
+|
+* USE AT LEVEL 1!
+* Buy in [[Funhouse]] fod 500k each
+* Found randomly through [[Nork]]
+* Varied [[EP Maxes]]
+|-
+|[[File:Hppot basic.png|thumb|64x64px]]
+|HP
+|
+* [[Nork]]
+|HP
+|Varies
+|
+* Use at level 1
+* Found randomly through [[Nork]]
+* Varied [[HP Maxes]]
+|-
+|Round Yellow[[File:Hppot advanced.png|thumb|64x64px]]
+
+|HP
+|
+* [[Nork]]
+|HP
+|Varies
+|
+* Use at level 1
+* Found randomly through [[Nork]]
+* Varied [[HP Maxes]]
+|+
+|-
+|Slithpot[[File:Slith stat pot.png|thumb|64x64px]]
+
+|?
+|
+* [[Slith]]
+|Random
+|??
+|
+* Drops from [[Slith]]
+|-
+|Zap[[File:Zap.png|thumb|64x64px]]
+|EP
+|
+* [[Nork]]
+* [[Nameless Lands]]
+|Restores Energy
+|<nowiki>-</nowiki>
+|
+* Used to restore low energy.
+* ''<sub>This does not give max EP.</sub>''
+|}
+
+== [[Nameless Land]] Pots ==
+{| class="article-table"
+!Img
+!Type
+!Common
+Locations
+!Details
+!Max
+!Notes
+|-
+|NL Con[[File:Conpot.png|thumb|64x64px]]
+|CON
+|
+* [[Nameless Lands]]
+* [[Keep]]
+* [[Mormar]]
+|<nowiki>+1 CON</nowiki>
+|25
+|
+* (Need Info: Level Requirement)
+
+|}
+
+== [[SDC]] Pots ==
+{| class="article-table"
+!Img
+!Type
+!Common
+Locations
+!Details
+!Max
+!Notes
+|-
+|SDC Agi[[File:Agi.png|thumb|64x64px]]
+|AGI
+|
+* [[Nameless Lands]]
+* [[Keep]]
+* [[Mormar]]
+|<nowiki>+1 AGI</nowiki>
+|40
+|
+* (Need info: Level Requirement)
+
+|}
+
+==  [[Sullen Keep]] Pots ==
+{| class="article-table"
+!Img
+!Type
+!Common
+Locations
+!Details
+!Max
+!Notes
+|-
+|Red Pot[[File:Sk stat pot.png|thumb|64x64px]]
+|Random
+|
+* [[Sullen Keep]]
+|Random
+|35
+|
+{| class="article-table"
+!Stat
+!Message
+|-
+|Str
+|You feel stronger
+|-
+|Agi
+|You feel more agile
+|-
+|Wis
+|You feel wiser
+|-
+|Int
+|You feel smarter
+|-
+|FAIL
+|The formula sours your stomach
+|}
+|}

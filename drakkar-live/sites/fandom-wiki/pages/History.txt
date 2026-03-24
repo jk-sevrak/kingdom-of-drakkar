@@ -1,0 +1,96 @@
+'''The Kingdom of Drakkar and its History'''
+
+
+
+== DISK ==
+
+
+It all began in 1984 as a text-based MUD (Multi-User Dungeon) called Realm operated by Digital Informations Systems of Kentucky (DISK) [https://app.sos.ky.gov/ftshow/(S(she5de55ujk5kgylv5x2eruo))/default.aspx?id=0189091&ct=04&cs=99999]. It was listed on the University of Kentucky's list of local servers. Below is an excerpt of that listing:
+
+...
+
+#N disk
+#S 386 Clone, System V 3.2
+#O Digital Information Systems of Kentucky Inc.
+#C Steve Snow
+#E disk!steve
+#T +1 502 239 8334
+#P 8412 Berea Dr. Louisville KY 40228
+#L 38 12 N / 85 30 W city
+#R
+#R We are a public access Unix site offering interactive access
+#R and USENET/Mail.
+#R Data lines are (502) 968-5401 thru 968-5406.
+#R
+#U coplex corpane
+#W disk!steve (Steve Snow); Thu Jan 17 14:00 EDT 1991
+#
+disk coplex(DIRECT), corpane(DIRECT)[http://www.decuslib.com/decus/vs0174/uucp/uucp/data/mapsrc/u.usa-ky-1]
+
+...
+
+
+== TANTALUS ==
+
+
+In 1989, Tantalus Inc. formed, a corporation registered in New York but operated in Key West by James Hettinger. Realm was renamed the Kingdom of Drakkar. They altered the game to include a frontend (FE) interface that allowed for the use of a mouse and implemented 8-bit graphics to display the game screen.
+
+
+== MPG-NET ==
+
+
+By 1992, Kingdom of Drakkar moved to newly-founded MPG-NET and membership soared with dial-in access available to so many more. Below are 2 excerpts announcing the launch of MPG-NET:
+
+...
+
+1992
+
+...
+
+MPG-Net founded, launches Kingdom of Drakkar (top view, graphical). 
+[http://www.raphkoster.com/gaming/mudtimeline.shtml]
+
+...
+
+and
+
+...
+
+MPG-Net, a privately owned company funded by wealthy online games enthusiast Jim Hettinger (now CEO of iEN), launches a new dial-in gaming service with The Kingdom of Drakkar, a top-down view graphic role playing game. It rapidly becomes popular, signing up more than 3,000 players who pay between $3 and $5 an hour for access.[http://library.thinkquest.org/C002414/history.html]
+
+...
+
+
+
+<gallery orientation="portrait" widths="154" position="center" captionalign="left">
+Drakkar1.jpg
+Drakkar2.jpg
+Drakkar6.jpg
+Drakkar5.jpg
+Drakkar4.jpg
+Drakkar3.jpg
+</gallery>
+
+
+
+== iEN ==
+
+
+Toward the end of 1998, MPG-NET and its creation, GameHub, were acquired by Interactive Magic which owned iMagic Entertainment Network (iEN). Access via AT&T WorldNet Service increased exposure even more. Below is an excerpt of the announcement:
+
+...
+
+GameHub Launched at AT&T WorldNet Service; Interactive Magic Completing Acquisition Of GameHub's Creator MPG-Net. [http://www.thefreelibrary.com/GameHub+Launched+at+AT%26T+WorldNet+Service;+Interactive+Magic...-a053426871]
+
+...
+
+
+== DRAKKARZONE ==
+
+
+At the start of 2002, shortly after the end of iEN in 2001, Brad Lineberger, one of the original game creators, formed the company Drakkarzone and purchased the rights to the Kingdom of Drakkar so that it might continue to operate. It still up and running currently. The FrontEnd graphics were completely redesigned using 24-bit graphics and the concept was referred to as Drakvision.
+
+
+In 2006, after many lamenting the loss of the old 8-bit look, Brad made these available to allow those who cherished it to again use them by choosing which FE to use. A short time later, Brad made a new Drakvision combining the 2 with the option to toggle between 8-bit original or "Legacy" graphics and 24bit.
+
+The game has added a new scenario with many segments and has plans for further expansion.

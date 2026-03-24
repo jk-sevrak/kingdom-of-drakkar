@@ -1,0 +1,14 @@
+[[File:Lrgnug.png|thumb|The large nugget.]] 
+
+
+==How to raise your level cap past lvl78==
+
+This is a very short guide on how to get past the lvl78 / talon level cap.
+
+==How to do it.==
+
+Collect 64 gold nuggets by killing Gnomes or picking up nuggets from the cave floor where all the npcs are ( Dogs should dig them up )
+
+Head to the smelting pot which should be just south of the pad to UGH, open the brew window and brew 8 nuggets at a time to make a fist sized nugget. ( You do NOT need brew skill to do this )<br />Brew 8 fist sized nuggets to make a large nugget.<br />Hand in the large gold nugget to Armon to be able to reach level 85 and skill 40.
+
+Theres a small issue with handing in at the moment, you can't be holding the large nugget when you speak to Armon as he will bug out. Sack the item and adjust your game window so that when you want to hand in you can put the nugget in your hand with the quest window open.

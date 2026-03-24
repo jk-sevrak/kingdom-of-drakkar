@@ -1,0 +1,16 @@
+Volcano Town
+
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|Far to the north, Volcano Town rises from the sea. It is exceedingly hot and dry, and travelers, disoriented from the heat, often fall from the cliffs and tumble into the sea. A large well in the center of town emits sulfurous fumes, and the constant threat of volcanic eruption has deterred many merchants from opening shops.
+| width="9"|
+|}
+{| border="0" cellpadding="0" cellspacing="0" width="100%"
+|- valign="top"
+| width="8"|
+|
+|
+| width="9"|
+|}
+[[Category:Scenarios]]
