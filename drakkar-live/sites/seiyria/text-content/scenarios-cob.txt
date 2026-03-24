@@ -1,0 +1,24 @@
+# Cobrahn Information Page
+
+**Navigation Links:**
+- Seiyria's Drakkar
+- Scenario Information
+- Class Information
+- Lore
+- Other
+
+**Scenario Sections:** Nork, Aleria, Cobrahn, Nameless Lands, Green Dragon Hatcheries, Black Dragon Consort, Silver Dragon Consort, Sullen Keep, Invader's Refuge
+
+**Main Content:**
+
+"Cobrahn (formerly known as The Pit) is a scenario that can be accessed upon reaching level 18."
+
+The page explains that a portal behind the Slicer lair in N-7 provides entry to the forest. Death penalties in standard play are minimal: "you lose 2 hp" upon dying.
+
+To access Crazy Cob, players should "go to Timmy Town and tell any blue npc `xxx, gocrazy`." This variant provides enhanced progression: "XP and Skill gains are doubled here."
+
+**Additional Information:**
+
+The site promotes a related browser-based game at rair.land. Contact information for corrections: drakkar@seiyria.com
+
+**Credits:** Content created by Kyle Kemp, powered by Jekyll and Minimal Mistakes theme, with data courtesy of Drakkarzone, inc. and contributors including ROAR, WOLF, Tantheus, Tnem, and Ken.

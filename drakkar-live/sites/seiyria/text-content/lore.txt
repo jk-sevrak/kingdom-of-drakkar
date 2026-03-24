@@ -1,0 +1,47 @@
+# Seiyria's Drakkar - Lore Page
+
+## Navigation and Headers
+- Seiyria's Drakkar
+- Scenario Information
+- Class Information
+- Lore
+- Other
+
+## Lore Sections
+
+**Nork**
+- The Town of Nork
+- The Province of Maeling
+- Volcano Town
+- City-State of Frore
+- The Sea Hag
+
+**Aleria**
+- To Aleria
+
+**Cobrahn**
+- Journey to Cobrahn
+- Return to Nork
+
+**Nameless Lands**
+- To the Nameless Lands
+- Story of Graine
+- Death of the Nameless Lord
+
+**Miscellaneous**
+- Graine's Journal
+- Glebog's Journal
+
+## Main Text
+
+"This section contains lore about the Kingdom of Drakkar. Compiled by HAMB, this information comes from lots of (sadly) un-cited sources throughout the years, some needing to be accessed via the wayback machine, some being lost manuals, and some being forum posts from decades ago."
+
+"If you happen to have more, please email me and let me know, I'm sure there's more to share with the world."
+
+"This is a thorough and great resource, please enjoy!"
+
+"Psst. Seiyria is working on a game like Drakkar. You can play it in your browser, right now! Head over to https://rair.land to check it out!"
+
+"Got a correction? Email drakkar@seiyria.com"
+
+© 2024 Kyle Kemp. Powered by Jekyll & Minimal Mistakes. Images & data © Drakkarzone, inc. Thanks to ROAR, WOLF, Tantheus, Tnem, Ken for some data.

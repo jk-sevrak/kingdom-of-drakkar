@@ -1,0 +1,25 @@
+# Nork Information Page
+
+**Navigation Links:**
+- Seiyria's Drakkar
+- Scenario Information
+- Class Information
+- Lore
+- Other
+
+**Scenario Menu Items:**
+Nork, Aleria, Cobrahn, Nameless Lands, Green Dragon Hatcheries, Black Dragon Consort, Silver Dragon Consort, Sullen Keep, Invader's Refuge
+
+**Main Content:**
+
+"Nork is the scenario you start in. It has the school, lots of towns, deep dungeons, and plenty of world to explore."
+
+The page describes that Nork features a portal room connecting to the Guild Hall and an enhanced Alt 2 version. Holiday events occur in Alt 2 Nork through paid subscription.
+
+A challenging "Primal" Nork variant appears periodically as difficult endgame content where gear resets and items decay over time with randomized statistics.
+
+**Additional Information:**
+The page promotes an associated browser-based game at rair.land. A contact email (drakkar@seiyria.com) is provided for corrections.
+
+**Footer:**
+Copyright 2024 Kyle Kemp. Site built with Jekyll and Minimal Mistakes theme. Credits provided to data contributors.

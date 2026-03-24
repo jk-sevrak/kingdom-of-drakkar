@@ -1,0 +1,31 @@
+# Return to Nork (Cobrahn Lore)
+
+## Navigation & Header
+- Seiyria's Drakkar
+- Scenario Information
+- Class Information
+- Lore
+- Other
+- Nork (section with subsections: The Town of Nork, The Province of Maeling, Volcano Town, City-State of Frore, The Sea Hag)
+- Aleria (To Aleria)
+- Cobrahn (Journey to Cobrahn, Return to Nork)
+- Nameless Lands (To the Nameless Lands, Story of Graine, Death of the Nameless Lord)
+- Miscellaneous (Graine's Journal, Glebog's Journal)
+
+## Main Content
+
+**Return to Nork**
+
+The narrative describes how the King waited for word from champions who ventured through a portal. When none came, he ordered the mentalist Dwarkanath to seal an iron door. Unexpectedly, four champions returned, "frantic to seal the portal itself" and contain the evil they'd witnessed.
+
+The master Chipuda revealed that a Party of 100 had been lost, including his protégé and love, Loriapi. Together, Chipuda and Dwarkanath sealed the portal in stone, with Chipuda inscribing a dedication to Loriapi.
+
+The four survivors eventually dispersed and became corrupted by power, "each pursuing...a vision of power" glimpsed in Cobrahn. They fell under the Dark Queen's influence and became threats rather than protectors.
+
+The King now experiences nightmares, allegedly crying out "Ningizidda! The feathered one! He stirs!" Rumors suggest the seals have been breached and mentalists are attempting to reopen the portal.
+
+## Footer
+- "Psst. Seiyria is working on a game like Drakkar. You can play it in your browser, right now!"
+- Contact: drakkar@seiyria.com
+- Copyright 2024 Kyle Kemp
+- Credits to Jekyll, Minimal Mistakes, ROAR, WOLF, Tantheus, Tnem, Ken

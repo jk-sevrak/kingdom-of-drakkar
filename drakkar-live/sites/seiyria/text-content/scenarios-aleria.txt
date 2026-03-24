@@ -1,0 +1,29 @@
+# Aleria Information Page
+
+**Navigation & Headers:**
+- Seiyria's Drakkar
+- Scenario Information
+- Class Information
+- Lore
+- Other
+- Aleria Information
+
+**Scenario Sections Listed:**
+Nork, Aleria, Cobrahn, Nameless Lands, Green Dragon Hatcheries, Black Dragon Consort, Silver Dragon Consort, Sullen Keep, Invader's Refuge
+
+**Main Content:**
+
+"Aleria is a scenario that can be accessed at any level, provided you have Upper Guild Hall or a Ratburrow Sash."
+
+The page explains that Urmak the Boatman, located north of Ratburrow town in N3.5, trades 1,000 gold for a boat pass to reach Aleria.
+
+Key features noted include: alignment-based mechanics, expedited leveling toward level 18, and "Alerian Rare" items as collectibles. Common farming targets mentioned are Duke Talinar, the Seldari Queen and her lair, and Koss.
+
+To access Crazy Aleria, players should visit Kiara and issue the command "kia, gocrazy" to gain primal skill.
+
+The document warns: "Beware the raids - sometimes the Duchy of Carrena will get raided by hundreds of goblins, ogres, etc."
+
+**Footer:**
+Contact: drakkar@seiyria.com
+© 2024 Kyle Kemp
+Credits acknowledge Jekyll, Minimal Mistakes theme, Drakkarzone Inc., and contributors.
