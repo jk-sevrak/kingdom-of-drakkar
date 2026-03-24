@@ -136,7 +136,8 @@ Characters earn titles at each skill level (42 levels documented):
 The Hit Doctor allows characters to purchase additional HP up to their class maximum.
 
 ### How It Works
-- Available at **level 13** (south of Volcano Town in Nork)
+- Available at **level 13** (south of Volcano Town in Nork — jump off south end, run south to a building with no doors, then make a door)
+- Interaction: Throw coins on the ground (500k at a time), then say `<NPC name>, hello` — the NPC takes the money, gives HP, and returns change
 - Costs gold based on current HP, desired HP, and **Charisma**
 - Formula from the MoY Hit Doc Calculator:
   ```

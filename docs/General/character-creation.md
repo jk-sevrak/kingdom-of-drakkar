@@ -30,6 +30,8 @@ According to the official site: **"In terms of game-play, it doesn't"** affect a
 
 ## Races
 
+Race appearance screenshots are available in `docs/images/races/` (male and female variants for each race).
+
 The game features six playable races, each with distinct stat advantages:
 
 | Race | Max Stats | Hidden Bonuses | Notes |
