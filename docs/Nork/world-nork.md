@@ -1,6 +1,8 @@
 # The World of Nork
 
-Nork is the starting world of Kingdom of Drakkar, where all new characters begin their adventure. It's the most thoroughly documented world across fan sites.
+Nork is the starting world of Kingdom of Drakkar, where all new characters begin their adventure. It's the most thoroughly documented world across fan sites. The world spans over 250,000 hexes of playable area.
+
+![Nork Overview Map](../images/maps/nork/nork-homlet.png)
 
 ## Major Locations
 
@@ -49,7 +51,10 @@ Contains:
 
 ## Nork Dungeon Levels
 
-The Nork dungeon has multiple levels of increasing difficulty (at least 10 levels deep):
+The Nork dungeon has multiple levels of increasing difficulty (at least 10 levels deep).
+
+### Vertical Grid Layout
+The dungeon levels are stacked vertically: Nork surface sits directly above N-1, which is above N-3 (confirmed via Naga Lair), N-3 above N-4. Ratburrow is at the top. Maeling surface stairs connect directly to M-1/M-2 below. This was confirmed when a mining exploit in Aleria allowed players to create passable stairs between levels, bypassing progression gates (mining was permanently disabled as a result).
 - **Nork -1 (N-1)** through **Nork -7 (N-7)** - Standard dungeon levels
 - **Nork -3.5** - Key area containing: Ghost Lair (good skill, tan for Door Cloak, Door Pearl for Muzi quest), Mummy Lair (good skilling, no tan), Ogre Chief (good skill; trade club to Gabagimli for diamond), Spider Queen Lair (egg for Sash Quest), Sanquins (egg for sash quest, hide for beginner armor), Ratburrow Portal, Barbarian Trainer, and boat access to Aleria
 - **Nork -9, -10** - Deepest levels with "formidable foes"
@@ -73,11 +78,16 @@ Lairs are instanced boss dungeons with unique challenges. Lair creatures can per
 | **Ogre Lair** | Mid-level |
 | **Boris Lair** | Major dungeon, mid-level |
 | **Tarak Lair** | Contains boss Tarak |
-| **Breshard Lair** | Named boss |
+| **Breshard Lair** | Named boss. Poison, sucks stats, auto-heals. Drops Stiletto (P-weapon). |
 | **Vanidor Lair** | Requires a party for safe completion |
 | **Mamard Lair** | Higher difficulty, fire protection needed for Mama hunt |
 | **Phantom Lair** | Undead/phantoms, may need special items |
-| **Liches** | End-game Nork content. 5 liches guard Papa Lich who carries the Uzi amulet. Requires psi-cutting gear. |
+| **Mama Red Dragon** | 1.6M XP. The ultimate Red Dragon hunt. Requires a large group. |
+| **Uther** | Named boss. Sucks skill and experience with his dark blade. |
+| **Chipuda** | Named boss. Sucks hits and casts Deplete. |
+| **Leviathan** | Large boss in N-5 area. |
+| **Slicer** | N-7 boss. 1.2-1.3M XP. Drops +4 proning glowing meteoric longsword. |
+| **Liches** | End-game Nork content. 5 liches guard Papa Lich who carries the Uzi amulet. Requires 6 Lich Amulets (progression-gated) and psi-cutting gear. |
 | **Snowbeast (SoB)** | Quest-oriented boss. Requires specific P-weapons (Saber, Vamps, Chipper, Stiletto, P-LS) to kill. |
 | **Basilisk** | In VT. Deals 50-100 dmg (200 proned). Stuns/stones at death, charges. Tan for Baskie armor/shield. **Eater.** |
 | **Naga** | 60-80 dmg (150 proned). Charges, poisons, casts darkness. Tan for Naga scales. **Eater.** Access via Prisons figurine. |

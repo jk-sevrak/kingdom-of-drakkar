@@ -8,7 +8,10 @@ Drakkar is a **top-down view graphical role-playing game** -- a persistent "livi
 
 ## The Drakkar (Lore)
 
-The game's namesake, "the Drakkar," is the **Dark Queen** -- a legendary evil entity whose power looms over the entire game world. The evil emanating from Cobrahn "even rivaled the power of the legendary Dark Queen, the Drakkar." She corrupted the Four Champions of the Norkken Guard, turning former protectors of the city of Frore into its tormentors.
+The game's namesake, "the Drakkar," is the **Dark Queen** — a legendary evil entity whose power looms over the entire game world. The evil emanating from Cobrahn "even rivaled the power of the legendary Dark Queen, the Drakkar." She corrupted the Four Champions of the Norkken Guard, turning former protectors of the city of Frore into its tormentors.
+
+### The Empress Cataclysm
+*"When the Empress released Evil into the Kingdom centuries ago, the earth was rent, and a great deluge drowned the lands."* The world is now fragmented islands connected only by magical portals. Four known cities survived: Nork, Volcano Town, the Province of Maeling, and the City-State of Frore — each isolated by ice fields, deserts, volcanoes, and treacherous oceans.
 
 ## Developer & Team
 
@@ -57,7 +60,9 @@ In the 2002 Q&A, Brad described his vision:
 - **2014**: Featured on Massively.com; Sysop Journal started.
 - **2015**: "Challenge Nameless" mode introduced.
 - **2016**: Android client released; tutorial video contest; Christmas free-play event.
-- **2019**: Pocket Drakkar units shipped; new data center migration; "Uber Aleria" events; early game improvements.
+- **2019**: Pocket Drakkar units shipped; new data center migration; "Uber Aleria" events; creature aging system (monsters worth up to 3X XP over time); Find Friendly replaced with pet/follower system.
+- **2022**: Arcane Cobrahn Special Event launched (new quests, unique items, over-max experience spending).
+- **2024**: Guild hall experience/skill bonuses increased; legendary weapon system (dropped weapons get permanent 10% damage bonus + blocking); daily play bonus system; player-suggested event system.
 
 ### Relationship to Island of Kesmai
 

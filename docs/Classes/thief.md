@@ -22,7 +22,7 @@ Note: Thieves use **HP instead of EP** for psionic disciplines.
 | 8 | Backstab (attack from hiding with increased damage) |
 | 10 | Mug (combines backstab movement with stealing). Class train at VT trainer for Door and others. |
 | 12+ | Focus on weapon skilling |
-| 17 | **Backstab base damage becomes 10x normal** |
+| 17 | **Backstab base damage becomes 10x normal**. Backstab works with ANY held item (keys, corpses, rings — not just weapons). |
 
 ## Thief Weapon Choices
 - **Longsword/Greatsword**: Hit hard but harder to hide afterward

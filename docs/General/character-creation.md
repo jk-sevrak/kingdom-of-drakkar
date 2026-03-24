@@ -32,14 +32,14 @@ According to the official site: **"In terms of game-play, it doesn't"** affect a
 
 The game features six playable races, each with distinct stat advantages:
 
-| Race | Advantages |
-|------|-----------|
-| **City Dwellers** | Strong and extremely lucky. Can roll 18 in ALL stats. Most common race. Best all-around. |
-| **Forest Dwellers** | Agile and extremely charismatic. Can roll 19 CHA, but Luck max 17. Tall, slim, pointed ears. |
-| **Mountain Dwellers** | Strong and have strong constitutions. Can roll 19 STR, but CHA max 17. Short, stocky. Start with more gold. |
-| **Outcasts** | Great strength but little luck. Can roll 19 CON and 19 AGI, but CHA max 16. Shunned, facial marks. |
-| **Underground Dwellers** | Agile and have strong constitutions. Hard to get high Luck. Extremely short, childlike. |
-| **Woodlands Dwellers** | Intelligent and have strong willpower. Can roll 19 INT, but STR max 17. Many great Mentalists are Woodlands Dwellers. |
+| Race | Max Stats | Hidden Bonuses | Notes |
+|------|-----------|---------------|-------|
+| **City Dwellers** | 18 in ALL stats | None (balanced) | Most common race. Best all-around. |
+| **Forest Dwellers** | 19 CHA, 16 CON/LUK | — | Tall, slim, pointed ears. Agile and charismatic. |
+| **Mountain Dwellers** | 19 STR, 16 WIL, 14 CHA, 12 LUK | — | Short, stocky. Start with more gold. |
+| **Outcasts** | 19 STR/CON, 12 CHA, 6 LUK | +2 combat adds, better shop prices | Shunned, facial marks. Great strength but very low Luck. |
+| **Underground Dwellers** | 15 INT, 9 WIS, 7 CHA/LUK | — | Extremely short, childlike. Gimped stats overall. |
+| **Woodlands Dwellers** | 19 INT, 16 CHA, 17 LUK | EP regen bonus | Many great Mentalists are Woodlands Dwellers. STR max 17. |
 
 From the developer Q&A, Brad noted that he planned to add "more racial diversity" rather than adding items to make races more similar, preserving meaningful racial differences.
 

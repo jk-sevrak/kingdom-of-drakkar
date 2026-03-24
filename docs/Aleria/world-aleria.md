@@ -2,6 +2,8 @@
 
 Aleria is one of the advanced game worlds in Kingdom of Drakkar, described as "a new realm, a land of danger and mystery." Less thoroughly documented in the fan site archives than Nork or Cobrahn.
 
+![Aleria World Map](../images/maps/aleria/aleria-world.png)
+
 ## Lore
 
 The lore of Aleria is delivered through the character **Finri**:

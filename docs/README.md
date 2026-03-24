@@ -10,6 +10,7 @@ Compiled from archived fan sites, guild pages, personal pages, and the official 
 - **[Character Creation](General/character-creation.md)** - Attributes, races, classes, gender effects, skills system, rolling tips.
 - **[Combat & Game Mechanics](General/combat-and-mechanics.md)** - Combat system, death penalties, party mechanics, skill system, Hit Doctor, EP system, aging, PK rules, item mechanics.
 - **[Item Mechanics](General/item-mechanics.md)** - Equipment slots, enchanting, imbuing, sensing, padding, appraising.
+- **[Brewing System](General/brewing-system.md)** - Alchemy system with 18 skill levels, stat ingredients, quality tiers, and recipes.
 - **[Encrusting & Crafting](General/encrusting-and-crafting.md)** - Ring encrusting with gems (stat bonuses), armor tanning from creature hides.
 - **[Experience & Leveling](General/experience-and-leveling.md)** - Complete XP chart (levels 1-75), stat potion prices, EP/HP potions, level 13 milestone, recommended skill targets by area.
 - **[Weapon Skills](General/weapon-skills.md)** - Weapon types, universal skill recommendations, known power weapons.
@@ -71,14 +72,20 @@ Information compiled from the following archived websites:
 | fandom-wiki | Fandom wiki pages | varies |
 | miraheze-wiki | Miraheze wiki pages | varies |
 | seiyria.com | Seiyria's archives | varies |
+| victumterra.com | ROAR Guild comprehensive database | 1,610 |
+| seiyria.com | Seiyria's archives (brewing, races, mechanics) | 920 |
+| areyekuwe.wordpress.com | Drakkar history blog (Mjorin quest, grid architecture) | 298 |
+| landsofkes.com | "Past Lives" IOK/KoD history discussion | 3 |
 | Various GeoCities pages | Personal fan pages | ~20 |
 | Various Angelfire pages | Guild sites (ZOE, FHM, War, DrakVision, Purgury) | ~15 |
 | 8m.com sites | ICE Guild, King Drak | ~10 |
+| MMORPG.com, Giant Bomb, Glitchwave, Gamia | External game database listings | ~15 |
 | Other hosting (EarthLink, iWarp, BigStar, GameChatter, GuildHappy) | Misc fan/guild sites | ~15 |
 
 ## Notes
 
-- Much of this information dates to approximately 1999-2005, the peak era of Drakkar fan sites
+- Information spans from approximately 1999-2024, with the most detailed content from the peak fan site era (1999-2005)
+- Recent updates (2019-2024) from the official site document newer systems like creature aging, legendary weapons, and arcane events
 - Game mechanics may have changed after these sites were last updated
 - Item stats and quest details should be treated as historically accurate for their era
 - The Lords of Entropy site content is primarily in German

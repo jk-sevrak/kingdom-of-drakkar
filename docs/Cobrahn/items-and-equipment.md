@@ -4,10 +4,16 @@
 
 | Item | Notes |
 |------|-------|
-| **Padded GD (Gold Dragon) Scales** | Basic Cob armor. |
+| **Padded GD (Gold Dragon) Scales** | Basic Cob armor. ![GD Scaler](../images/items/cobrahn/gd-scaler.png) |
+| **BD (Black Dragon) Scaler** | Advanced Cob armor. ![BD Scaler](../images/items/cobrahn/bd-scaler.png) |
+| **SD (Silver Dragon) Scaler** | High-tier scaler armor. ![SD Scaler](../images/items/cobrahn/sd-scaler.png) |
+| **Beetle Plate** | From PSI Tower. Shockwave protection, fire/ice resist, +6 def, evil aligned. ![Beetle Plate](../images/items/cobrahn/beetle-plate.png) |
+| **Green Dragon Armor** | Dragon-tier armor. ![Green Dragon](../images/items/cobrahn/green-dragon.png) |
+| **Vanidor Plate** | From Vanidor Lair. ![Vanidor Plate](../images/items/cobrahn/vanidor-plate.png) |
+| **Nagi Armor** | Ningizidda-derived armor. ![Nagi](../images/items/cobrahn/nagi-armor.png) |
+| **Nameless Lord Armor** | 230 protect, +5 all stats, damage absorption. End-game armor. ![Nameless](../images/items/cobrahn/nameless-armor.png) |
 | **Double Yeti** | Best Barbarian armor available in Cob (as of 2002). Players wanted better options. |
 | **DeathSasquatch Fur** | From DS lair. Barb-only armor: **+200 HP**, 0/7 combat adds. Can enhance titanium shield into "Easter Egg" shield (+200 HP). |
-| **Evil Beetle Armor** | Dropped in PSI Tower level 1 by wrack enemies. |
 
 ## Cloaks
 

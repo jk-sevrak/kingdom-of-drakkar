@@ -97,10 +97,39 @@ Kingdom of Drakkar uses a **real-time combat system**. Players and creatures act
 - Solo players could get 3% at skill 20; partied players much higher
 - Skill training costs escalate dramatically (450 million at skill 23+, 900 million at 29+)
 
+### Skill Level Titles
+
+Characters earn titles at each skill level (42 levels documented):
+- **0**: Unskilled → **42**: Definer of the Art
+- Notable milestones: Skill 15 (Adept), Skill 20 (Expert), Skill 30 (Master), Skill 40+ (Legendary tier)
+
 ### Skill Cap
 - As of 2002, there was a skill cap around level 30
 - Brad had a "35% chance" of removing the cap in the Grimoire expansion
 - "There is a lot of coding to be done for skills above 30"
+- Skills 31-40 unlock passive bonuses: natural damage absorption, double Cleave, critical effects, player non-targeting restrictions
+
+### Stat Caps by Scenario
+
+| Scenario | Stat Cap | Notes |
+|----------|---------|-------|
+| Nork | 18 | Base cap for all stats |
+| Cobrahn | 23 | Higher caps via Cob-specific pots |
+| SDC | 35-40 | End-game stat ranges |
+| Item stat gain | +6 per stat | Raised to +11 at levels 51/56/61/66/71/76 |
+
+### Trainer Locations (Mentalists)
+
+| Trainer | Max Skill |
+|---------|-----------|
+| Nork Town | 8 |
+| Ratburrow Town | 8 |
+| Maeling | 12 |
+| Volcano Town (VT) | 15 |
+| Aleria | 18 |
+| N-9 Prison | 20 |
+| Homlet | 20 |
+| Frore | 20+ |
 
 ## Hit Doctor System
 

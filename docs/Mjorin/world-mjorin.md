@@ -79,6 +79,31 @@ Mjorin has a gem/item trading economy since you arrive with nothing:
 | Orc Leader Ring | Orc King Castle L2 | Random drop |
 | Denaba Ring | Denaba Caves | Random drop |
 
+## The Princess Anne Quest (Luck Pot)
+
+**Requirements**: Level 13+, MA skill recommended
+
+**Key Details**:
+- Players are stripped of all psionic disciplines and teleport locations on entry (no lockers available)
+- Must progress through a key system: RED gem key, GREEN gem key, platinum key (some single-use, some reusable)
+
+**Bosses**:
+- **Orc King**: 5-minute respawn, drops plate armor/spear/coins
+- **Gnoll King**: 4-5 minute respawn, drops platinum key, respirate kabuto, leather boots
+- **Black Dragon**: Drops scales and black skeleton key
+
+**NPC Trading Chains**: Swampbats → Denabas → Makers/Crestrion (rings for gems, gems for keys)
+
+**Orc Archers Gauntlet**: 15 minutes each solo, arranged in pairs, respawn hourly, positioned behind counters (ranged/psi only)
+
+**Reward**: Luck Potion (+2 permanent Luck), 5M coins paid training, alignment atonement
+
+**Sub-areas**: South Town, North Town, Prison, Bubbler Caves, Orc Castle, Pumphouse, Orc Archers gauntlet
+
+**Unsolved Mystery**: Splunky Arrow NPC — nobody discovered what it trades for
+
+**Notes**: Water damage during traversal; some doors lock/unlock on weekly cycles
+
 ## Key Tips
 
 - Set up healer recall in North Town immediately
@@ -86,4 +111,4 @@ Mjorin has a gem/item trading economy since you arrive with nothing:
 - Buy healing pots from South Town before venturing out
 - Denabas fight each other — wait for weakened targets
 - The Black Dragon is extremely dangerous (80-333 claw damage) — only attempt with a group
-- **Luck Pots** are one of the very few ways to boost the Luck stat, making Mjorin essential despite the stripping mechanic
+- **Luck Pots** grant +2 permanent Luck, making Mjorin essential despite the stripping mechanic

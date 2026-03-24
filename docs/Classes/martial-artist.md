@@ -27,6 +27,15 @@ The Martial Artist is an unarmed combat specialist and the hardest class to grow
 | 28 | **Major Pool** | Major HP pool |
 | 29 | **Deathtouch** | Ultimate attack |
 
+## MA Gauntlet Damage Rankings
+
+| Gauntlet | Damage Range | Notes |
+|----------|-------------|-------|
+| Red Dragon +3 | 12-118 | Standard |
+| Katsumo +4 | 44-147 | Upgrade |
+| Alerian +0 | 83-332 | **MA only** |
+| Vampire +5 | 103-459 | Best in game |
+
 ## MA Issues (from 2002 Q&A)
 
 - **"Hardest class to grow"** - Brad's own words

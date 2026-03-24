@@ -29,12 +29,19 @@ The Four Champions were later corrupted by the Dark Queen and became tormentors 
 2. **Complete HP quests**: The first two hit point quests (Replacement and Juntes Ring) each grant +100 HP in Cob only.
 3. **Get to Timmy Town**: The "Nork of Cob" - relatively safe with easy access to newbie hunting areas.
 
+## Maps
+
+![Cobrahn Surface](../images/maps/cobrahn/cobrahn-surface.png)
+
+*See also: [Cobrahn Overview Map](../images/maps/cobrahn/cobrahn-overview.png)*
+
 ## Major Locations
 
 ### Tree Town
 - Safe arrival point for new Cob players
 - Contains the Acid Breath NPC (for Mentalists)
 - Entry point to the broader Cobrahn world
+- ![Tree Town Map](../images/maps/cobrahn/tree-town.jpg)
 
 ### Timmy Town
 The beginner-friendly hub of Cobrahn:
