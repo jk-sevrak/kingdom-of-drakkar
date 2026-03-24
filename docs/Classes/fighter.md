@@ -6,8 +6,8 @@ The Fighter is the primary melee combat class and the most straightforward to pl
 - **Key Stats**: Strength, Constitution
 - **Can use**: All weapon and armor types (best armor in game)
 - **+1 attack every 5 levels**
-- **+3 weapon specializations** (same progression as Paladin: 15/17/19 or triple-spec at 15/19/24). Specs can be removed via **Lanapi staff sacrifice**.
-- **8th level Fighters may become Paladins** (requires Good/Good alignment, reversible)
+- **+3 weapon specializations** (1st at level 15, 2nd at 17, 3rd at 20; or triple-spec one weapon at 15/19/24). Specs can be removed via **Lanapi staff sacrifice**.
+- **8th level Fighters may become Paladins** (requires Good alignment + Good tendencies, reversible)
 - Fighters may also dedicate as **Fighter/Mentalist** (permanent, cannot be reversed)
 
 Fighters gain extra attacks per round as they level up and serve as the front-line tank in parties. They are easier to build and finance than psionic classes.

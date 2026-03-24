@@ -11,24 +11,25 @@ The Paladin is a holy warrior combining combat and healing capabilities. **Must 
 - **+3 weapon specializations** (1st at level 15, 2nd at 17, 3rd at 19; or triple-spec one weapon at 15/19/24)
 - **Special gear**: Pally Gauntlets (Paladin only, +1 attack, +3 defense), Excalibur (+6 greatsword, Paladin only, on-contact Earthcrush)
 
-## Paladin Ability Progression
+Paladins **MUST** be G/G alignment. If alignment changes, they revert to Fighter.
 
-| Skill | Ability |
-|-------|---------|
-| 15 | Charge |
-| 16 | Focus Parry |
-| 17 | Strike |
-| 18 | Blindstrike |
-| 19 | Multistrike |
-| 20 | Boost |
-| 21 | Powerstrike |
-| 22 | Defend |
-| 23 | Superboost |
-| 24 | Armorstrike |
-| 25 | Ultraboost |
-| 26 | Maxstrike |
-| 27 | Disarm |
-| 28 | Pierce |
-| 29 | Singe (targets Hostile and Evil creatures) |
+## Paladin Ability Progression (BORED Mirror Data)
+
+| Level | Focus |
+|-------|-------|
+| 15 | Charge (not a Focus) |
+| 17 | Focus Parry |
+| 18 | Focus Strike |
+| 19 | Focus Blindstrike |
+| 20 | Focus Multistrike |
+| 21 | Focus Boost, Focus Thruststrike |
+| 22 | Focus Powerstrike |
+| 23 | Focus Defend |
+| 24 | Focus SuperBoost |
+| 25 | Focus Armorstrike |
+| 26 | Focus UltraBoost |
+| 27 | Focus Maxstrike |
+| 28 | Focus Disarm, Focus HealingTouch |
+| 29 | Focus Pierce |
 
 Paladins were considered strong in the 2002 era, with MaxStrike + Haste giving 2-3 attacks per round.

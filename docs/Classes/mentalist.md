@@ -53,9 +53,9 @@ The Mentalist is one of the most challenging classes to develop. Ments have the 
 | 11 | **Blast** | 20 | 20 | No | Concussive sphere extending 30' outward. Destroys walls, damages flesh. Damages caster within 3 hexes! |
 | 11 | **Infravision** | 25 | 20 | Yes | See in the dark. Self-only at skill 11, castable on others at skill 12. |
 | 11 | **Disintegrate** | 10 | HIGH | No | Destroys ground objects and all visible walls. Can release zoos! Damages caster near walls. |
-| 12 | **Enchant** | 30 | HIGH | No | Enhances item combat bonus. Max +3 (skill 12), +5 at skill 17 (costs 8 perm HP/plus above +4), +6 at skill 19 (15 HP/plus), +9 at skill 24. |
-| 12 | **Imbue** | 30 | 30 | No | Recharges magical items. At skill 17: imbue wooden twigs. At skill 18: imbue gold bracers. Costs 5 perm HP per imbue (6 HP at skill 20+). Every 50 imbues: lose 3-5 CON. |
-| 12 | **FindFriendly** | 30 | 50 | No | Summons a creature to fight alongside you. Skill 12: bear. Skill 14: roc. Skill 17: red dragon. Skill 25: silver dragon. |
+| 12 | **Enchant** | 30 | HIGH | No | Enhances item combat bonus. Skill 12: +0 to +3 (no side effects). Skill 17: +4 to +5 (lose Perm HP at +5). Skill 19: +6 (lose Perm HP). Skill 20: +7 (lose Perm HP). Skill 20+: +8 (lose Perm HP/Skill/XP). Skill 20+: +9 (Death?). |
+| 12 | **Imbue** | 30 | 30 | No | Recharges magical items. Skill 12: Wooden Twigs only, -5 HP. Skill 18: Golden Bracers, -5 HP. Skill 20+: -6 HP. Every 50 imbues: lose 3-5 Constitution. |
+| 12 | **FindFriendly** | 30 | 50 | No | Summons a creature to fight alongside you. Skill 12: Bear. Skill 15: Roc. Skill 17: Red Dragon. Skill 24: Silver Dragon. |
 | 12 | **EnergyShield** | 20 | 10 | No | Reduces physical attack damage. "Once you get it, you'll never be without it." Combined with Absorption = immune to poison. |
 | 13 | **Icebreath** | 55 | 20 | No | Freezing vapor in 90'x90'. ~18 dmg per skill level. |
 | 14 | **EnergySpear** (Espear) | 35 | 50 | Yes | Piercing psionic shaft. May stun. **Primary skilling spell in Cob.** |
@@ -158,12 +158,15 @@ Identical base progression to Healers with key differences:
 - Transmute loot piles for the party's gold
 - Enchant and Imbue items for party members (at significant personal cost at high levels)
 
-### Enchanting Costs
+### Enchanting Costs (BORED Mirror Data)
 
-Enchanting above +4 permanently costs the Mentalist:
-- Hit points (8 HP per plus above +4 at skill 17, 15 HP at skill 19+)
-- Stat losses
-- Skill loss
-- Experience point losses
+| Skill | Enchant Range | Side Effects |
+|-------|--------------|--------------|
+| 12 | +0 to +3 | No side effects |
+| 17 | +4 to +5 | Lose Perm HP at +5 |
+| 19 | +6 | Lose Perm HP |
+| 20 | +7 | Lose Perm HP |
+| 20+ | +8 | Lose Perm HP/Skill/XP |
+| 20+ | +9 | Death? |
 
 Not all Mentalists are willing to enchant to high levels. Some offer enchanting services in exchange for pots and coin.

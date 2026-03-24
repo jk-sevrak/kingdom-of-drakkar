@@ -13,6 +13,22 @@ The full list of Thief abilities: Hide, Steal, Backstab, Mug, Darkness, Illusion
 
 Note: Thieves use **HP instead of EP** for psionic disciplines.
 
+### Thief Disciplines (with HP Costs)
+
+| Level | Discipline | HP Cost |
+|-------|-----------|---------|
+| 2 | Sense | 10 |
+| 3 | Detect | 10 |
+| 4 | Respirate | 20 |
+| 9 | Door | 10 |
+| 10 | Transmute | 10 |
+| 10 | Darkness | 10 |
+| 11 | Infravision | 25 |
+| 14 | Trapsack | 50 |
+| 15 | Reveal | 10 |
+| 17 | Limited Invisibility | 20 |
+| 19 | Backstab Boost + Hide Bonus | -- |
+
 ## Thief Progression
 
 | Skill | Ability |
