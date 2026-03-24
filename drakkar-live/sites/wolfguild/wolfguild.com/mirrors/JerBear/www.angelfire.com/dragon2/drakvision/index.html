@@ -1,0 +1,422 @@
+<html>
+
+
+<!-- Mirrored from www.angelfire.com/dragon2/drakvision/ by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 18:26:08 GMT -->
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Drak Vision Compare Chart</title>
+</head>
+
+<body text="#FFFFFF" bgcolor="#171717" link="#00FFFF" vlink="#FF00FF" alink="#FFFF00"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://www.angelfire.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+/////// Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'dragon2/drakvision', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+////// Lycos Initialization /////////////////////
+var lycos_ad = Array();
+var lycos_search_query = "";
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "angelfire.lycos.com";
+var cm_taxid = "/memberembedded";
+var angelfire_member_name = "dragon2/drakvision";
+var angelfire_member_page = "dragon2/drakvision/index.html";
+var angelfire_ratings_hash = "1359224768:dd31deda7acdd54948d99cc2e0db14af";
+
+var lycos_ad_category = {"dmoz":"computers\/data_formats","ontarget":"&CAT=technology&L2CAT=computing","find_what":"email me"};
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.angelfire.lycos.com";
+var edit_site_url = "www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/js/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript">
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+
+
+
+window.onload = function() {
+    var f = document.getElementById("lycosFooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://www.angelfire.com/adm/ad/footerAd.iframe.html';
+
+    // Slider Injection
+    (function() {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+        e.src = 'http://www.angelfire.com/adm/ad/sliderAd.iframe.html';
+        var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+        var sliderHolder = document.getElementById('lyslider-adblock-holder');
+        var sliderClose = document.getElementById('lyslider-adblock-close');
+        sliderBlock.style.display = 'block';
+
+        sliderClose.onclick = function() {
+            sliderBlock.parentNode.removeChild(sliderBlock);
+            return false;
+        }
+
+        var iframeOnload = function() {
+            setTimeout((function sliiide() {
+                var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                if (s <= 0) {
+                    sliderHolder.style.right = (s + 6) + 'px';
+                    setTimeout(sliiide, 10);
+                }
+                else {
+                    sliderHolder.style.right = '0px';
+                    sliderClose.style.display = 'block';
+                }
+            }), 1000);
+        }
+
+        if (e.attachEvent) {
+            e.attachEvent('onload', iframeOnload);
+        }
+        else {
+            e.addEventListener('load', iframeOnload, false);
+        }
+
+        sliderHolder.insertBefore(e, sliderHolder.firstChild);
+    })();
+}
+
+
+</script>
+
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div style="background:#abe6f6; border-bottom:1px solid #507a87; position:relative; z-index:9999999">
+    <div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; float:left; width:186px; border:0">
+        <img src="../../adm/ad/angelfire-freeAd.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="lycosFooterAd" style="background:#abe6f6; border-top:1px solid #507a87; clear:both; display:none; position:relative; z-index:9999999">
+<div class="adCenterClass" style="display:block!important; overflow:hidden; width:936px;">
+	<div id="aflinksholder" style="float:left; width:186px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; border:0">
+            <img src="../../adm/ad/angelfire-freeAd2.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <div style="text-align:center">
+        	<span style="color:#393939!important; font-size:12px!important; position:relative; top:-6px">
+            	Sponsored by
+            </span>
+            
+            <a href="http://www.listen.com/disty/index.jsp?from=lycos" target="_blank">
+                <img src="../../../af.lygo.com/d/toolbar/sponsors/rhapsody_logo.jpg" alt="sponsor logo" title="Rhapsody"/>
+            </a>
+        </div>
+    </div>
+    <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+</div>
+</div>
+
+<noscript>
+<img src="../../../www.angelfire.lycos.com/doc/images/track/ot_noscript3032.gif?rand=271457" alt="" width="1" height="1" />
+<!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Angelfire Fallthrough - DO NOT MODIFY -->
+<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=280303"></iframe>
+<!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=002&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+
+<p align="center"><font size="4">Welcome to my Kingdom of Drakkar Conversion 
+Charts. Here, you can see what the conversion of object images is from old KoD 
+to the new Front End. Hope this helps some of you.</font></p>
+<p align="center"><font size="4">This page was meant in no way to show stats of 
+items or any of that information. It is designed as a reference tool for the 
+players. Also, I have not seen all the images in new Drakkar (or old Drakkar for 
+that matter) so a lot of the images <u>may be incomplete</u>. If you wish to contribute 
+a new FE image, please send me an email with the image to:
+<a href="/cdn-cgi/l/email-protection#b4ded1c6d6d1d5c684868581f4dcdbc0d9d5ddd89ad7dbd98bc7c1d6ded1d7c089fad1c394f0c6d5dfdfd5c694f2f194fdd9d5d3d1c7">
+<span class="__cf_email__" data-cfemail="3b515e49595e5a490b090a0e7b53544f565a525715585456">[email&#160;protected]</span></a></font></p>
+<p align="center"><font size="4">Anything marked&nbsp;&nbsp; (?)&nbsp; is 
+considered something I am not sure about. Please email me if you know I am right 
+or wrong.</font></p>
+<p align="center"><font size="4">Now, on <font color="#FF0000">page 1</font> of 
+each item list is a set of pictures that I don't know what they are. Please 
+email me with what they are if you know, I'd appreciate it. Thanks.</font></p>
+<p align="center">Page Last Updated:
+<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%m/%d/%Y" startspan -->01/09/2004<!--webbot bot="Timestamp" i-checksum="12630" endspan --></p>
+<p align="center">
+<!--webbot bot="HitCounter" u-custom i-image="4" i-resetvalue="0" PREVIEW="&lt;strong&gt;[Hit Counter]&lt;/strong&gt;" i-digits="5" startspan --><img src="_vti_bin/fpcount.exe/dragon2/drakvision/index7fd5.html?Page=index.html|Image=4|Digits=5" alt="Hit Counter"><!--webbot bot="HitCounter" i-checksum="45632" endspan --></p>
+<div align="center">
+  <center>
+  <table border="1" cellspacing="1" width="75%" id="AutoNumber1">
+    <tr>
+      <td width="50%" align="center" height="68">
+      <a href="amulets.html">
+      <img border="0" src="images/Ammy/Old/stunammy.gif" width="17" height="26"><font size="4"><br>
+      Amulets</font></a></td>
+      <td width="50%" align="center" height="68">
+      <a href="armor1.html">
+      <img border="0" src="images/Armor/Old/plate.jpg" width="62" height="48"><font size="4"><br>
+      Armor</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="71">
+      <a href="axes.html">
+      <img border="0" src="images/Axes/Old/axe5.jpg" width="46" height="38"><font size="4"><br>
+      Axes</font></a></td>
+      <td width="50%" align="center" height="71">
+      <a href="boots.html">
+      <img border="0" src="images/Boots/Old/boots5.jpg" width="54" height="56"><font size="4"><br>
+      Boots</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="76">
+      <a href="bottles1.html">
+      <img border="0" src="images/Bottles/Old/bottle15.jpg" width="49" height="56"><font size="4"><br>
+      Bottles</font></a></td>
+      <td width="50%" align="center" height="76">
+      <a href="bows.html">
+      <img border="0" src="images/Bows/Old/bow4.jpg" width="50" height="53"><font size="4"><br>
+      Bows</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="76"><font size="4">
+      <a href="bracers.html">
+      <img border="0" src="images/Bracers/Old/epbracers.jpg" width="52" height="50"><br>
+      Bracers</a></font></td>
+      <td width="50%" align="center" height="76">
+      <a href="cloaks1.html">
+      <img border="0" src="images/Cloaks/Old/cloak6.jpg" width="54" height="56"><font size="4"><br>
+      Cloaks</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="64">
+      <a href="daggers.html">
+      <img border="0" src="images/Daggers/Old/seldaridagger.jpg" width="26" height="26"><font size="4"><br>
+      Daggers</font></a></td>
+      <td width="50%" align="center" height="64">
+      <a href="food1.html">
+      <img border="0" src="images/Food/Old/fungusbread.jpg" width="45" height="44"><font size="4"><br>
+      Food</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="68">
+      <a href="gauntlets.html">
+      <img border="0" src="images/Gauntlets/Old/JuntesGaunts.gif" width="48" height="48"><font size="4"><br>
+      Gauntlets</font></a></td>
+      <td width="50%" align="center" height="68">
+      <a href="gems.html">
+      <img border="0" src="images/Gems/Old/jade.jpg" width="44" height="43"><font size="4"><br>
+      Gems</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="76">
+      <a href="helms.html">
+      <img border="0" src="images/Helms/Old/ivhelm.gif" width="32" height="31"><font size="4"><br>
+      Helms</font></a></td>
+      <td width="50%" align="center" height="76">
+      <a href="keys.html">
+      <img border="0" src="images/Keys/Old/key3.jpg" width="55" height="56"><font size="4"><br>
+      Keys</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="73">
+      <a href="maces.html">
+      <img border="0" src="images/Maces/Old/mace15.jpg" width="54" height="53"><font size="4"><br>
+      Maces</font></a></td>
+      <td width="50%" align="center" height="73">
+      <a href="misc1.html">
+      <img border="0" src="images/Misc/Old/psiscroll17.jpg" width="54" height="53"><br>
+      <font size="4">Misc</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="85">
+      <a href="polearms.html">
+      <img border="0" src="images/Polearms/Old/hally.jpg" width="50" height="65"><font size="4"><br>
+      Polearms</font></a></td>
+      <td width="50%" align="center" height="85">
+      <a href="rings.html">
+      <img border="0" src="images/Rings/Old/ring6.jpg" width="49" height="56"><br>
+      <font size="4">Rings</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="76">
+      <a href="sashes.html">
+      <img border="0" src="images/Sashes/Old/sash4.jpg" width="54" height="56"><br>
+      <font size="4">Sashes</font></a></td>
+      <td width="50%" align="center" height="76">
+      <a href="shields.html">
+      <img border="0" src="images/Shields/Old/misc27.jpg" width="54" height="53"><font size="4"><br>
+      Shields</font></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" height="85">
+      <a href="staves.html">
+      <img border="0" src="images/Staves/Old/staff6.jpg" width="50" height="53"><font size="4"><br>
+      Staves</font></a></td>
+      <td width="50%" align="center" height="85">
+      <a href="swords.html">
+      <img border="0" src="images/Swords/Old/gs_excali.gif" width="55" height="65"><font size="4"><br>
+      Swords</font></a></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p align="center"><font size="1">Images borrowed from
+<a target="_blank" href="http://www.geocities.com/telletran/">BORED's guild site</a> 
+and <a href="http://www.phoenixguild.net/infohome.php">Phoenix Guild Site</a>. 
+In no way am I claiming credit as all images are copyright of
+<a target="_blank" href="http://www.kingdomofdrakkar.com/">Kingdom of Drakkar</a>.</font></p>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e13f4832bac2041',t:'MTc3NDMzNzI2NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+
+<!-- Mirrored from www.angelfire.com/dragon2/drakvision/ by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 26 Jan 2013 18:26:26 GMT -->
+</html>
