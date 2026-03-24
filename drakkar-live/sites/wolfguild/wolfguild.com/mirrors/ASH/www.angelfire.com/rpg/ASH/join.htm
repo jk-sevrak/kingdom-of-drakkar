@@ -1,0 +1,1158 @@
+<HTML>
+<body BGCOLOR=#000000 TEXT=#FFFF00><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://www.angelfire.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+/////// Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'rpg/ASH', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+////// Lycos Initialization /////////////////////
+var lycos_ad = Array();
+var lycos_search_query = "";
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "angelfire.lycos.com";
+var cm_taxid = "/memberembedded";
+var angelfire_member_name = "rpg/ASH";
+var angelfire_member_page = "rpg/ASH/join.htm";
+var angelfire_ratings_hash = "1357879355:738d5ad2d05980c28cd2d36e598862ca";
+
+var lycos_ad_category = {"dmoz":"games\/card_games","ontarget":"&CAT=arts%20and%20entertainment&L2CAT=games","find_what":"Online Gaming"};
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.angelfire.lycos.com";
+var edit_site_url = "www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/js/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript">
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+
+
+
+window.onload = function() {
+    var f = document.getElementById("lycosFooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://www.angelfire.com/adm/ad/footerAd.iframe.html';
+
+    // Slider Injection
+    (function() {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+        e.src = 'http://www.angelfire.com/adm/ad/sliderAd.iframe.html';
+        var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+        var sliderHolder = document.getElementById('lyslider-adblock-holder');
+        var sliderClose = document.getElementById('lyslider-adblock-close');
+        sliderBlock.style.display = 'block';
+
+        sliderClose.onclick = function() {
+            sliderBlock.parentNode.removeChild(sliderBlock);
+            return false;
+        }
+
+        var iframeOnload = function() {
+            setTimeout((function sliiide() {
+                var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                if (s <= 0) {
+                    sliderHolder.style.right = (s + 6) + 'px';
+                    setTimeout(sliiide, 10);
+                }
+                else {
+                    sliderHolder.style.right = '0px';
+                    sliderClose.style.display = 'block';
+                }
+            }), 1000);
+        }
+
+        if (e.attachEvent) {
+            e.attachEvent('onload', iframeOnload);
+        }
+        else {
+            e.addEventListener('load', iframeOnload, false);
+        }
+
+        sliderHolder.insertBefore(e, sliderHolder.firstChild);
+    })();
+}
+
+
+</script>
+
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div style="background:#abe6f6; border-bottom:1px solid #507a87; position:relative; z-index:9999999">
+    <div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; float:left; width:186px; border:0">
+        <img src="../../adm/ad/angelfire-freeAd.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="join.htm#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="lycosFooterAd" style="background:#abe6f6; border-top:1px solid #507a87; clear:both; display:none; position:relative; z-index:9999999">
+<div class="adCenterClass" style="display:block!important; overflow:hidden; width:936px;">
+	<div id="aflinksholder" style="float:left; width:186px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; border:0">
+            <img src="../../adm/ad/angelfire-freeAd2.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <div style="text-align:center">
+        	<span style="color:#393939!important; font-size:12px!important; position:relative; top:-6px">
+            	Sponsored by
+            </span>
+            
+            <a href="http://www.listen.com/disty/index.jsp?from=lycos" target="_blank">
+                <img src="../../../af.lygo.com/d/toolbar/sponsors/rhapsody_logo.jpg" alt="sponsor logo" title="Rhapsody"/>
+            </a>
+        </div>
+    </div>
+    <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+</div>
+</div>
+
+<noscript>
+<img src="../../../www.angelfire.lycos.com/doc/images/track/ot_noscript43e5.gif@rand=114306" alt="" width="1" height="1" />
+<!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Angelfire Fallthrough - DO NOT MODIFY -->
+<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=280303"></iframe>
+<!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=002&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+<FONT FACE="Comic Sans MS">
+<Table border=1>
+<TR>
+<TD COLSPAN=3 ALIGN="center">
+Sorted by name</TD>
+<TD>
+&nbsp;</TD>
+<TD COLSPAN=3 ALIGN="center">
+Sorted by class</TD>
+</TR>
+<TR>
+<TD>
+Aldaris</TD>
+<TD>
+Thief</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Solo</TD>
+<TD>
+Barbarian</TD>
+<TD>
+16</TD>
+</TR>
+<TR>
+<TD>
+Amber</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+17</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Thadious</TD>
+<TD>
+Barbarian</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Assassin</TD>
+<TD>
+Paladin</TD>
+<TD>
+16</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Zero</TD>
+<TD>
+Barbarian</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Beast</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+16</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Jester</TD>
+<TD>
+Barbarian</TD>
+<TD>
+19</TD>
+</TR>
+<TR>
+<TD>
+Bob</TD>
+<TD>
+Paladin</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Jinx</TD>
+<TD>
+Barbarian</TD>
+<TD>
+19</TD>
+</TR>
+<TR>
+<TD>
+Daggerface</TD>
+<TD>
+Fighter/Mentalist</TD>
+<TD>
+17</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Dimitri</TD>
+<TD>
+Barbarian</TD>
+<TD>
+20</TD>
+</TR>
+<TR>
+<TD>
+Dimitri</TD>
+<TD>
+Barbarian</TD>
+<TD>
+20</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+James</TD>
+<TD>
+Barbarian</TD>
+<TD>
+20</TD>
+</TR>
+<TR>
+<TD>
+Doro</TD>
+<TD>
+Healer</TD>
+<TD>
+20</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Oddbjorn</TD>
+<TD>
+Barbarian</TD>
+<TD>
+21</TD>
+</TR>
+<TR>
+<TD>
+Draconus</TD>
+<TD>
+Paladin</TD>
+<TD>
+20</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Daggerface</TD>
+<TD>
+Fighter/Mentalist</TD>
+<TD>
+17</TD>
+</TR>
+<TR>
+<TD>
+DrDred</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Padre</TD>
+<TD>
+Healer</TD>
+<TD>
+12</TD>
+</TR>
+<TR>
+<TD>
+Eddie</TD>
+<TD>
+Mentalist</TD>
+<TD>
+14</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Xis</TD>
+<TD>
+Healer</TD>
+<TD>
+16</TD>
+</TR>
+<TR>
+<TD>
+Gilltaran</TD>
+<TD>
+Healer</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Pepper</TD>
+<TD>
+Healer</TD>
+<TD>
+17</TD>
+</TR>
+<TR>
+<TD>
+Helimus</TD>
+<TD>
+Healer</TD>
+<TD>
+19</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Rhys</TD>
+<TD>
+Healer</TD>
+<TD>
+17</TD>
+</TR>
+<TR>
+<TD>
+James</TD>
+<TD>
+Barbarian</TD>
+<TD>
+20</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+SirBostish</TD>
+<TD>
+Healer</TD>
+<TD>
+17</TD>
+</TR>
+<TR>
+<TD>
+Jester</TD>
+<TD>
+Barbarian</TD>
+<TD>
+19</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Gilltaran</TD>
+<TD>
+Healer</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Jinx</TD>
+<TD>
+Barbarian</TD>
+<TD>
+19</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Helimus</TD>
+<TD>
+Healer</TD>
+<TD>
+19</TD>
+</TR>
+<TR>
+<TD>
+Kelli</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Doro</TD>
+<TD>
+Healer</TD>
+<TD>
+20</TD>
+</TR>
+<TR>
+<TD>
+Kioph</TD>
+<TD>
+Mentalist</TD>
+<TD>
+17</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Maximus</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+12</TD>
+</TR>
+<TR>
+<TD>
+Lakar</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Beast</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+16</TD>
+</TR>
+<TR>
+<TD>
+Lilieth</TD>
+<TD>
+Mentalist</TD>
+<TD>
+16</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Amber</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+17</TD>
+</TR>
+<TR>
+<TD>
+Linus</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Minimus</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+17</TD>
+</TR>
+<TR>
+<TD>
+Logan</TD>
+<TD>
+Paladin</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Lakar</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Maximus</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+12</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+SheDragon</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Minimus</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+17</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Eddie</TD>
+<TD>
+Mentalist</TD>
+<TD>
+14</TD>
+</TR>
+<TR>
+<TD>
+Nevyn</TD>
+<TD>
+Paladin</TD>
+<TD>
+20</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Lilieth</TD>
+<TD>
+Mentalist</TD>
+<TD>
+16</TD>
+</TR>
+<TR>
+<TD>
+Oddbjorn</TD>
+<TD>
+Barbarian</TD>
+<TD>
+21</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Kioph</TD>
+<TD>
+Mentalist</TD>
+<TD>
+17</TD>
+</TR>
+<TR>
+<TD>
+Padre</TD>
+<TD>
+Healer</TD>
+<TD>
+12</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Thadues</TD>
+<TD>
+Mentalist</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Palimus</TD>
+<TD>
+Paladin</TD>
+<TD>
+19</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Thick</TD>
+<TD>
+Mentalist</TD>
+<TD>
+19</TD>
+</TR>
+<TR>
+<TD>
+Pascal</TD>
+<TD>
+Paladin</TD>
+<TD>
+17</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Assassin</TD>
+<TD>
+Paladin</TD>
+<TD>
+16</TD>
+</TR>
+<TR>
+<TD>
+Pepper</TD>
+<TD>
+Healer</TD>
+<TD>
+17</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Pascal</TD>
+<TD>
+Paladin</TD>
+<TD>
+17</TD>
+</TR>
+<TR>
+<TD>
+Peppyz</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Bob</TD>
+<TD>
+Paladin</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Rhys</TD>
+<TD>
+Healer</TD>
+<TD>
+17</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Sid</TD>
+<TD>
+Paladin</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Riot</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Zitwig</TD>
+<TD>
+Paladin</TD>
+<TD>
+18</TD>
+</TR>
+<TR>
+<TD>
+Ripp/War</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Palimus</TD>
+<TD>
+Paladin</TD>
+<TD>
+19</TD>
+</TR>
+<TR>
+<TD>
+Roadkill</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Yeti</TD>
+<TD>
+Paladin</TD>
+<TD>
+19</TD>
+</TR>
+<TR>
+<TD>
+RuneKnight</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Draconus</TD>
+<TD>
+Paladin</TD>
+<TD>
+20</TD>
+</TR>
+<TR>
+<TD>
+SheDragon</TD>
+<TD>
+Martial Artist</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Nevyn</TD>
+<TD>
+Paladin</TD>
+<TD>
+20</TD>
+</TR>
+<TR>
+<TD>
+Sid</TD>
+<TD>
+Paladin</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Logan</TD>
+<TD>
+Paladin</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Simone</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Aldaris</TD>
+<TD>
+Thief</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+SirBostish</TD>
+<TD>
+Healer</TD>
+<TD>
+17</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+DrDred</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Skippy</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Kelli</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Sol</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Linus</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Solace</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Peppyz</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Solo</TD>
+<TD>
+Barbarian</TD>
+<TD>
+16</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Riot</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Stoney</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Ripp/War</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Talismon</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Roadkill</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Tecumseh</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+RuneKnight</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Thadious</TD>
+<TD>
+Barbarian</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Simone</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Thadues</TD>
+<TD>
+Mentalist</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Skippy</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Thick</TD>
+<TD>
+Mentalist</TD>
+<TD>
+19</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Sol</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Xis</TD>
+<TD>
+Healer</TD>
+<TD>
+16</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Solace</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Yeti</TD>
+<TD>
+Paladin</TD>
+<TD>
+19</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Stoney</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Zelenka</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Talismon</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Zero</TD>
+<TD>
+Barbarian</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Tecumseh</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+Zitwig</TD>
+<TD>
+Paladin</TD>
+<TD>
+18</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+Zelenka</TD>
+<TD>
+&nbsp;</TD>
+<TD>
+&nbsp;</TD>
+</TR>
+</Table>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e13cfea8baee25c',t:'MTc3NDMzNTc2Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from www.angelfire.com/rpg/ASH/join.htm by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 11 Jan 2013 04:43:11 GMT -->
+</HTML>

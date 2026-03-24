@@ -1,0 +1,487 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+
+<!-- Mirrored from www.angelfire.com/rpg/ASH/stats.htm by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 11 Jan 2013 04:42:15 GMT -->
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Eric-Pat Nicholas">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (Win95; U) [Netscape]">
+   <title>stats</title>
+</head>
+<body text="#FFFFFF" bgcolor="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" background="flame2.JPG"><!--'"</title></head>-->
+<script type="text/javascript">
+////// Compete /////////////////////
+__compete_code = '667f89f26d96c30e99728fe6a608804d';
+(function () {
+    var s = document.createElement('script'),
+        d = document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0],
+        t = 'https:' == document.location.protocol ? 
+            'https://c.compete.com/bootstrap/' : 
+            'http://c.compete.com/bootstrap/';
+    s.src = t + __compete_code + '/bootstrap.js';
+    s.type = 'text/javascript';
+    s.async = 'async'; 
+    if (d) { d.appendChild(s); }
+})();
+
+
+////// Quantcast  /////////////////////
+function channValidator(chann) {
+    return (typeof(chann) == 'string' && chann != '');
+}
+
+function lycosQuantcast(){
+    var lb = "";
+    if(typeof(cm_host) !== 'undefined' && channValidator(cm_host)){
+        lb += cm_host.split('.')[0] + '.';
+    }
+
+    if(typeof(cm_taxid) !== 'undefined' && channValidator(cm_taxid)){
+        lb += cm_taxid;
+        lb = lb.replace('http://www.angelfire.com/','');
+    } else {
+        lb = lb.replace('.','');
+    }
+    return lb;
+}
+
+var _qevents = _qevents || [];
+
+(function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" :"http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+    qacct:"p-6eQegedn62bSo",
+    labels:lycosQuantcast()
+});
+
+/////// Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'rpg/ASH', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+////// Lycos Initialization /////////////////////
+var lycos_ad = Array();
+var lycos_search_query = "";
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "angelfire.lycos.com";
+var cm_taxid = "/memberembedded";
+var angelfire_member_name = "rpg/ASH";
+var angelfire_member_page = "rpg/ASH/stats.htm";
+var angelfire_ratings_hash = "1357879352:7c93abc7a2a42d8f5da521de38b0eebe";
+
+var lycos_ad_category = {"dmoz":"games\/card_games","ontarget":"&CAT=arts%20and%20entertainment&L2CAT=games","find_what":"Online Gaming"};
+
+var lycos_ad_remote_addr = "24.184.12.207";
+var lycos_ad_www_server = "www.angelfire.lycos.com";
+var edit_site_url = "www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+
+////// Criteo /////////////////////
+var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){
+    var c = document.createElement("script"); c.type = "text/javascript"; c.async = true;
+    c.src = "../../adm/js/partner/criteo_ld_kw.js";
+    var s = document.getElementsByTagName("body")[0]; s.appendChild(c);
+})(); 
+
+</script>
+<script type="text/javascript" src="../../../scripts.lycos.com/catman/init.js"></script>
+<script type="text/javascript">
+(function(isV) {
+    if (!isV) {
+        return;
+    }
+
+    //this.lycos_search_query = lycos_get_search_referrer();
+    var adMgr = new AdManager();
+    var lycos_prod_set = adMgr.chooseProductSet();
+    var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"];
+    var adCat = this.lycos_ad_category;
+    adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+    if (this.lycos_search_query) {
+        adMgr.setForcedParam("keyword", this.lycos_search_query);
+    } 
+    else if (adCat && adCat.find_what) {
+        adMgr.setForcedParam('keyword', adCat.find_what);
+    }
+
+    for (var s in slots) {
+        var slot = slots[s];
+        if (adMgr.isSlotAvailable(slot)) {
+            this.lycos_ad[slot] = adMgr.getSlot(slot);
+        }
+    }
+
+
+    adMgr.renderHeader();
+    adMgr.renderFooter();
+}((function() {
+    var w = 0, h = 0, minimumThreshold = 300;
+    if (top == self) {
+        return true;
+    }
+
+    if (typeof(window.innerWidth) == 'number' ) {
+        w = window.innerWidth;
+        h = window.innerHeight;
+    }
+    else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+    }
+    else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        w = document.body.clientWidth;
+        h = document.body.clientHeight;
+    }
+
+    return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+
+
+
+window.onload = function() {
+    var f = document.getElementById("lycosFooterAd");
+    var b = document.getElementsByTagName("body")[0];
+    b.appendChild(f);
+    f.style.display = "block";
+    document.getElementById('lycosFooterAdiFrame').src = 'http://www.angelfire.com/adm/ad/footerAd.iframe.html';
+
+    // Slider Injection
+    (function() {
+        var e = document.createElement('iframe');
+        e.style.border = '0';
+        e.style.margin = 0;
+        e.style.display = 'block';
+        e.style.cssFloat = 'right';
+        e.style.height = '254px';
+        e.style.overflow = 'hidden';
+        e.style.padding = 0;
+        e.style.width = '300px';
+        e.src = 'http://www.angelfire.com/adm/ad/sliderAd.iframe.html';
+        var sliderBlock = document.getElementById('lyslider-adblock-wrapper');
+        var sliderHolder = document.getElementById('lyslider-adblock-holder');
+        var sliderClose = document.getElementById('lyslider-adblock-close');
+        sliderBlock.style.display = 'block';
+
+        sliderClose.onclick = function() {
+            sliderBlock.parentNode.removeChild(sliderBlock);
+            return false;
+        }
+
+        var iframeOnload = function() {
+            setTimeout((function sliiide() {
+                var s = (window.getComputedStyle) ? parseInt(getComputedStyle(sliderHolder).right) : parseInt(sliderHolder.currentStyle.right);
+                if (s <= 0) {
+                    sliderHolder.style.right = (s + 6) + 'px';
+                    setTimeout(sliiide, 10);
+                }
+                else {
+                    sliderHolder.style.right = '0px';
+                    sliderClose.style.display = 'block';
+                }
+            }), 1000);
+        }
+
+        if (e.attachEvent) {
+            e.attachEvent('onload', iframeOnload);
+        }
+        else {
+            e.addEventListener('load', iframeOnload, false);
+        }
+
+        sliderHolder.insertBefore(e, sliderHolder.firstChild);
+    })();
+}
+
+
+</script>
+
+<style>
+	#body .adCenterClass{margin:0 auto}
+</style>
+
+<div style="background:#abe6f6; border-bottom:1px solid #507a87; position:relative; z-index:9999999">
+    <div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; float:left; width:186px; border:0">
+        <img src="../../adm/ad/angelfire-freeAd.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<div id="lyslider-adblock-wrapper" style="display:none; height:300px; overflow:hidden; position:absolute; right:0; top:150px; width:320px; z-index:99999999; ">
+<div id="lyslider-adblock-holder" style="background-color:#888; height:250px; margin-bottom:25px; padding:4px; position:absolute; right:-320px; top:10px; width:300px; ">
+<a id="lyslider-adblock-close" href="stats.htm#" style="background-color:#222; bottom:-19px; color:#fff; display:block; font:10px Arial, Helvetica, Sans-serif; padding:4px; position:absolute; right:0; text-decoration:none; z-index:9999999999">Close Ad</a>
+</div>
+</div>
+
+
+<div id="lycosFooterAd" style="background:#abe6f6; border-top:1px solid #507a87; clear:both; display:none; position:relative; z-index:9999999">
+<div class="adCenterClass" style="display:block!important; overflow:hidden; width:936px;">
+	<div id="aflinksholder" style="float:left; width:186px;">
+        <a href="http://www.angelfire.lycos.com/" title="Angelfire.com: build your free website today!" style="display:block; border:0">
+            <img src="../../adm/ad/angelfire-freeAd2.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display:block; border:0" />
+        </a>
+        <div style="text-align:center">
+        	<span style="color:#393939!important; font-size:12px!important; position:relative; top:-6px">
+            	Sponsored by
+            </span>
+            
+            <a href="http://www.listen.com/disty/index.jsp?from=lycos" target="_blank">
+                <img src="../../../af.lygo.com/d/toolbar/sponsors/rhapsody_logo.jpg" alt="sponsor logo" title="Rhapsody"/>
+            </a>
+        </div>
+    </div>
+    <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+</div>
+</div>
+
+<noscript>
+<img src="../../../www.angelfire.lycos.com/doc/images/track/ot_noscriptc2bc.gif@rand=704709" alt="" width="1" height="1" />
+<!-- BEGIN STANDARD TAG - 728 x 90 - Lycos - Angelfire Fallthrough - DO NOT MODIFY -->
+<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://ad.yieldmanager.com/st?ad_type=iframe&amp;ad_size=728x90&amp;section=280303"></iframe>
+<!-- END TAG -->
+</noscript>
+
+<!-- Start exelate tracker -->
+<script type="text/javascript" src="https://loadus.exelator.com/load/?p=398&amp;g=002&amp;ctg=&amp;subctg=&amp;kw=&amp;refkw="></script>
+<!--   End exelate tracker -->
+
+<!-- Start Ybrant tracker -->
+<img src="http://ad.yieldmanager.com/pixel?id=1901600&amp;t=2" width="1" height="1" />
+<!--   End Ybrant tracker -->
+
+
+
+<center><u><font face="BD Merced"><font size=+3>Attributes</font></font></u></center>
+
+<p><br>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<center><table BORDER COLS=4 WIDTH="100%" >
+<tr>
+<td>
+<center><u><font face="BD Merced"><font size=+1>Attribute</font></font></u></center>
+</td>
+
+<td>
+<center><u><font face="BD Merced"><font size=+1>Abbrieviation</font></font></u></center>
+</td>
+
+<td>
+<center><u><font face="BD Merced"><font size=+1>What It Does</font></font></u></center>
+</td>
+
+<td>
+<center><u><font face="BD Merced"><font size=+1>Nork/Aleria Max</font></font></u></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Willpower</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Will</font></center>
+</td>
+
+<td><font face="BD Merced">Willpower determines your tenacity and ability
+to resist the effects of psionic disciplines.</font></td>
+
+<td>
+<center><font face="BD Merced">19</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Strength</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Str</font></center>
+</td>
+
+<td><font face="BD Merced">Strength is essential for physical combat. It
+determines how much damage you inflict when you attack with a weapon, and
+how much weight you can carry without becoming encumbered.</font></td>
+
+<td>
+<center><font face="BD Merced">18</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Charisma</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Char</font></center>
+</td>
+
+<td><font face="BD Merced">Charisma determines how well you get along with
+others. If you are particularly charismatic, you might get better prices
+from the shopkeepers or have a better chance of forming disciplines that
+influence creatures.</font></td>
+
+<td>
+<center><font face="BD Merced">18</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Intelligence</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Int</font></center>
+</td>
+
+<td><font face="BD Merced">Intelligence is essential for forming psionic
+disciplines. Intelligence determines how much psionic energy a character
+initially possesses and how much energy he or she gains at each experience
+level.</font></td>
+
+<td>
+<center><font face="BD Merced">19</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Wisdom</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Wis</font></center>
+</td>
+
+<td><font face="BD Merced">Wisdom is essential for forming healing disciplines.</font></td>
+
+<td>
+<center><font face="BD Merced">19</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Luck</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Luck</font></center>
+</td>
+
+<td><font face="BD Merced">Luck influences the outcome of random events.
+The higher your luck, the better your chances of successfully forming psionic
+disciplines and setting and disarming traps, among other things.</font></td>
+
+<td>
+<center><font face="BD Merced">18</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Constitution</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Con</font></center>
+</td>
+
+<td><font face="BD Merced">Constitution determines the number of health
+points you initially possess and the number of health points you gain at
+each experience level. A strong constitution prevents you from being stunned
+in combat, and it also determines the number of times you can be raised
+from the dead.</font></td>
+
+<td>
+<center><font face="BD Merced">18</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Agility</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Agil</font></center>
+</td>
+
+<td><font face="BD Merced">Agility determines how accurately you hit and
+how quickly you dodge blows in combat.</font></td>
+
+<td>
+<center><font face="BD Merced">18</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Health</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">Hits/HP</font></center>
+</td>
+
+<td><font face="BD Merced">Health determines how much physical damage you
+can sustain before dying. Your constitution determines your initial health
+and the number of health points you gain at each experience level.</font></td>
+
+<td>
+<center><font face="BD Merced">N/A</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font face="BD Merced">Energy</font></center>
+</td>
+
+<td>
+<center><font face="BD Merced">EP</font></center>
+</td>
+
+<td><font face="BD Merced">Energy determines how many times you can use
+certain disciplines.&nbsp; Some disciplines cost only 5 ep while some can
+cost up to 100 or more.</font></td>
+
+<td>
+<center><font face="BD Merced">N/A</font></center>
+</td>
+</tr>
+</table></center>
+
+<center>
+<p><font face="BD Merced"><font size=+1><a href="SMap.htm">Back</a></font></font></center>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e13cfa6faf2e25c',t:'MTc3NDMzNTc1NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<!-- Mirrored from www.angelfire.com/rpg/ASH/stats.htm by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 11 Jan 2013 04:42:16 GMT -->
+</html>
