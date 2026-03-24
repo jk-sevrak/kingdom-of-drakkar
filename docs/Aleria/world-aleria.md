@@ -31,6 +31,29 @@ The lore of Aleria is delivered through the character **Finri**:
 - Aleria had its own alt world (Alt 2)
 - Stat pot traders in Nork Alt 2 could raise stats to 19 - players suggested this be added to help with Aleria preparation
 
+## Notable Areas
+
+### Koss Lair
+Multi-floor dungeon structure connected to Aleria:
+- **Koss Surface** - Entry level
+- **Koss +1** - Second floor
+- **Koss Lair** - Underground lair
+
+Navigation between all three floors is possible.
+
+### Northwest Caves
+- **NW Caves (Surface)** - Links to Aleria, Carenna, BanditLord, and NW Caves -1
+- **NW Caves -1** - Underground level. Once you come down from Northwest Caves at the surface, you can wander around these lower caves until you find the Kragen Lair. The Kragen is a bit tough but a worthwhile fight.
+
+### Arun Secret
+Behind Arun's Lair. Contains Pokick and Pomend bosses. Random key drop for door access. Kill Pokick and Pomend for bracers, trade bracers for ring.
+
+### Seldari Forest Navigation
+Wear Light Ring through waterfall NW of 3-bird seller. Wear SER for energy missiles. Read statues for mystic words. Travel east to Elshea: "Els, sol kalier kalehn". Receive Poison amulet. Step on goldfish pond to enter S-1.
+
+### King Borav's Hold
+Trades Light Rings for GoblinKing Axe: "Kin,axe", "Kin,alliance". Seller sells pickaxes for mining/digging graves.
+
 ## Stormwind's Aleria Guide
 
 Stormwind's Archives contained an Aleria section covering:

@@ -27,10 +27,37 @@ From the ROAR Guild's comprehensive experience chart (credited to Punisher and G
 | 19 | 209,715,200 |
 | 20 | 419,430,400 |
 | 21 | 838,860,800 |
+| 22 | 1,258,291,200 |
+| 23 | 1,677,721,600 |
+| 24 | 2,097,152,000 |
+| 25 | 2,516,582,400 |
+| 26 | 2,936,012,800 |
+| 27 | 3,355,443,200 |
+| 28 | 3,774,873,600 |
+| 29 | 4,194,304,000 |
+| 30 | 4,613,734,400 |
+| 31 | 5,033,164,800 |
+| 32 | 5,452,595,200 |
+| 33 | 5,872,025,600 |
+| 34 | 6,291,456,000 |
+| 35 | 6,710,886,400 |
+| 36 | 7,130,316,800 |
+| 37 | 7,549,747,200 |
+| 38 | 7,969,177,600 |
+| 39 | 8,388,608,000 |
+| 40 | 8,808,038,400 |
+| 41 | 9,227,468,800 |
+| 42 | 9,646,899,200 |
+| 43 | 10,066,329,600 |
+| 44 | 10,485,760,000 |
+| 45 | 10,905,190,400 |
+| 46 | 11,324,620,800 |
+| 47 | 11,744,051,200 |
+| 48 | 12,163,481,600 |
+| 49 | 12,582,912,000 |
+| 50 | 13,002,342,400 |
 
-From level 22 onward, each level requires approximately 419 million additional XP. By level 75, the requirement reaches approximately 67.9 billion XP.
-
-Experience doubles each level through level 21, then shifts to a linear progression.
+Experience doubles each level through level 21, then shifts to a linear progression of +419,430,400 XP per level.
 
 ## Stat Potion Prices (circa January 2002)
 
@@ -96,6 +123,48 @@ Two types of training exist:
 2. **Class training** - Occurs at advancement intervals (when you meet level/skill thresholds for new abilities)
 
 Higher Charisma reduces training costs. The **chit trainer** in the Guild Hall offers an alternative training method with no hard skill cap.
+
+### Training Costs
+
+Training costs double each level through level 17, then plateau in ranges:
+
+| Level | Training Cost |
+|-------|------|
+| 1 | 1,600 |
+| 2 | 3,200 |
+| 3 | 6,400 |
+| 4 | 12,800 |
+| 5 | 25,600 |
+| 6 | 51,200 |
+| 7 | 102,400 |
+| 8 | 204,800 |
+| 9 | 409,600 |
+| 10 | 819,200 |
+| 11 | 1,638,400 |
+| 12 | 3,276,800 |
+| 13 | 6,553,600 |
+| 14 | 13,107,200 |
+| 15 | 26,214,400 |
+| 16 | 52,428,800 |
+| 17 | 104,857,600 |
+| 18-22 | 209,715,200 |
+| 23-28 | 419,430,400 |
+| 29-30 | 838,860,800 |
+
+After Level 20, each level increased by 419,430,400.
+
+## Weapon Specialization
+
+- First specialization available at 15th level, next at 17th, again at 19th
+- For Triple Spec in a single weapon: must specialize at 15th, 19th, and 24th level
+- Command: `(trainer name), specialise (weapon class)` with the weapon in your right hand
+
+## Rerolling
+
+- Half XP transferred to the new character. 1 level less than previous
+- All skill levels reset to zero but paid training still counts
+- Charisma and Luck should be 18 as they have few ways to be enhanced in-game
+- Bank money is safe across rerolls
 
 ## Cobrahn Stat Traders
 

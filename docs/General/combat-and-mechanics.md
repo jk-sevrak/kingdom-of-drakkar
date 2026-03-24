@@ -81,6 +81,19 @@ Kingdom of Drakkar uses a **real-time combat system**. Players and creatures act
 - **Healers**: Keep party alive, resurrect dead, cure ailments, kill ranged attackers with Assault
 - **Mentalists**: Protection spells, Infravision, kill ranged attackers, Transmute loot, Enchant/Imbue
 
+### Party Commands
+- `Party create *name*` - Create a party
+- `Party leave` - Leave a party
+- `Party list` - See party members
+- `Party eject *crit name*` - Eject member (creator only)
+- `Party break` - Dissolve party (creator only)
+
+## Gambling
+
+- Casino located at east end of Nork Island
+- Type `Gamble on [number 1-10]`
+- Max bet 500K, odds 1 in 10
+
 ## Skill System
 
 ### Skill vs. Experience Level
@@ -213,6 +226,50 @@ Certain powerful spells cause character aging:
 - Characters who commit PK offenses may need to be "atoned"
 - Players asked for easier atonement options for lower-level characters
 - Brad found the suggestion "interesting"
+
+## Alignment System
+
+Alignment determines NPC interactions, quest access, and PvP status.
+
+| Level | Name | Effects |
+|-------|------|---------|
+| G/G | Good/Good | Default. Paladins MUST be G/G. Restore via Betty Quest or Timmy Quest (Cob) |
+| G/N | Good/Neutral | Highest level attainable via Atone scroll |
+| N/N | Neutral/Neutral | Townies start stealing from you |
+| N/E | Neutral/Evil | -- |
+| E/E | Evil/Evil | Townies attack you. Must be E/E for Duke Quest. -250 is max evil |
+
+- Killing non-hostile creatures moves 1 step toward evil
+- Killing Dogs, Deer, Children drops -2 levels each
+- Atone scrolls: Kill Frore Minotaurs
+
+## Fating
+
+Fating changes character stats randomly. Access via Fate Pools in Frore (Door/blow open wall, drop down 2 levels to Mama Red Dragon area).
+
+### Full Fate Effects List
+- Feel more skilled (gain % of skill)
+- Surge of energy (EP gain)
+- Serious change of conscience (random alignment)
+- Powerful enemy (stat/skill reduced to 1/2)
+- Feel weaker (STR reduced)
+- Body shift to another race (random)
+- Less experienced (XP reduced)
+- Gender change
+- Less agile/intelligent/wise
+- Sack heavier (gain gold)
+- More experienced (XP gain)
+- Healthier (CON increased)
+- Fabulous new knowledge (Succor disc; Ment can imbue Succor Bracers)
+- Will stronger (WIL increased)
+- More agile (AGI increased)
+- More combat able (gain perm HP)
+
+### Fate Card Seller
+Location: North Gate of Frore, east at wall, drop down, water path. Cards cost 50K, must be level 15+. Cards don't tie.
+
+### Dion Mini-Fate
+Bring green stone rings of 6200+ GP value or a diamond. 75-90% positive outcome. Dion wanders Cobrahn randomly.
 
 ## Communication
 

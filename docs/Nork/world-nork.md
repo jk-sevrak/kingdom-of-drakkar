@@ -73,6 +73,15 @@ Contains:
 - Chit trainer (alternative training method with no hard skill cap)
 - Account lockers for safely transferring gear between characters on the same account
 
+### Paladin Island
+South of Nork in the Norkien Ocean. Dedicate and train here.
+
+### Boat House
+SW of Nork, step on tile to enter. Good HP helm source. Step on tile to leave.
+
+### Mino Maze
+All twigs rendered useless on entry. Must run to end to escape.
+
 ## Nork Dungeon Levels
 
 The Nork dungeon has multiple levels of increasing difficulty (at least 10 levels deep).
@@ -133,6 +142,16 @@ Lairs are instanced boss dungeons with unique challenges. Lair creatures can per
 | **Warden Lair** | Very dangerous. Players avoided it because skill loss on death couldn't be regained. Brad planned to add "nifty new items" to Wardens. |
 | **Guardian** | Guardian Island south of Prisons. Extremely dangerous (MA/Psi-crush, FS, Deplete, Stun). Gear poof hexes. "You will die if you go in here." |
 | **Lori** | "Insanely tough" boss who drops the Lori Staff (+6 skill, +6 EP regen). Dies "all the time" with the right group. Hard hunt requiring many players. |
+| **Silver Dragon** | North of Griffon lair. More HP than Red Dragon, casts lightning. Must be enchanted (talk to NPC on N-6, get traitor name, tell Talbot). Drops SD armor + Lightning bracers. |
+| **Banshee** | Entrance on steep slope of dormant volcano. Put on Hippogriff boots, jump into cone. 100K+ XP. |
+| **Arun** | Climb stairs and unlock door. Run North to Great Pit, jump in for Ningizidda Lair. Drops Arun Staff (+4 psi levels) and Arun Robe (+10 EP regen). |
+| **Arun Secret** | Behind Arun's Lair. Random key drop. Kill Pokick and Pomend for bracers, trade for ring. |
+| **Slith** | On KM-5. Climb up at debris for Slith Robe Trader. East through Pad for STR Halberd Trader. Kill Slith for Eye and Amber (trades for Staff and Robe). |
+| **Loriapi** | Drops Staff, Ring, Robes, Sash, Youth Potion. Any hit from Staff without Loriapi Robe takes permanent HP. Wear Ningizidda Helm for protection. |
+| **Graagh Castle** | Surface: Cornfield with Pitcher Plants, Archers with ESpear Bows. Well down to -1 with Duke Moreal (+100 HP for Graagh Hally). Graagh Lair: Barb-only weapon. |
+| **Fire Giant / Spot** | Drop from Portals room. FG has +6 Halberd (doesn't tie). Spot in west lair. FG drops ProtFire Boots. |
+| **ENork Guardian** | Climb stairs from Evil Nork Town, jump SW hole. Has altar/counter to North. |
+| **Vanidor** | 2 Pets and 2 Axes (+5). Draw off and kill each Pet. Stairs NE lead to Undead City -5. |
 
 ### Maeling
 Forest area west of Nork with caves (M-1 through M-4). Trainer to skill 12. Notable lairs:
@@ -142,6 +161,14 @@ Forest area west of Nork with caves (M-1 through M-4). Trainer to skill 12. Nota
 - **M-4 East Golem Lair**: Drops ceramic scales
 - **M-4 Double Ninja Lair**: Requires items from all 4 lairs. Spawn time: 1 hour 34 minutes.
 
+#### Maeling Level Details
+- **Maeling surface**: Step through Nork portal. Climb up from puddle = Upper Maeling (former Ninja Trainer location). South Portal to Volcano Town.
+- **Maeling Cave**: West of entrance. Yellow Robe found here.
+- **Maeling -1**: East and slightly south = dungeon entrance. Green hex = surface stairs. Red hexes = M-2 stairs. Fungus bread found occasionally.
+- **Maeling -2**: Green hex = M-1 stairs. Red hex = M-3 stairs. Purple hexes = Secret Passage. Break OgreLord Scales for 1K+ each. Bring Infravision for M-3.
+- **Maeling -3**: Kill ninja for BNR (Black Ninja Robe). Golems sometimes drop majors.
+- **Maeling -4**: SER in Tengu Lair. SNR also on M-4. Blue wall sections can be Illusioned/Doored. Contains: Tengu Lair, Double Ninja Lair, Stunner Lair, Ninja Lair, Golem Lair.
+
 ### Homlet
 Southeast of Frore, accessed via 4 Pillars area. Contains Elementals (AcidBreath), Rockmen (drop skill books), and Thrashers. Portal back to Nork. Trainer to skill 20.
 
@@ -150,9 +177,14 @@ NE Nork, level 15+ required. Entry needs ivory arrow from N-5 secret area and 25
 
 ### Dark Tower
 In Frore area. Trade Vampire Heart to Felon for Vamp Gauntlets. Stalkers drop 5/5 rings. Drop down leads to Guardian Lair. Contains SNR-dropping Ninjas (+6 combat gauntlets).
+- **-1**: Drop in for 5/5 rings or gauntlets. Drop from middle west side goes to Guardian Lair.
+- **-2**: Enter building, step on fire to go up tower. Blow/Door wall to enter MultiLair.
+- **Felon** (Dark Tower): Trades Vampire Heart for Vamp Gauntlets
 
 ### Prisons (Tehruh)
 Contains figurine for Naga access, good rings, Stunners, Lurkers (cast darkness), BD access, and Halberd Trader. Trainer to skill 20.
+- **Upper**: Figurines for Naga access, rings, Stunners, Lurkers (cast darkness)
+- **Lower**: Naga Lair access; south wall middle to Black Dragon
 
 ### Yeti Island
 South of Nork. Bears, wolves, Small/Large Yeti on ice floes. Site of Thanksgiving turkey hunting events.
@@ -192,6 +224,26 @@ Southwest of VT, swim east. Griffon drops +3 silver longsword and can be tanned 
 - Chipper Staff (Mentalist) or Slith Staff (Healer)
 - Vamps (best gauntlets)
 - Attack Sash (high-level content)
+
+## Notable NPCs
+
+| NPC | Location | Function |
+|-----|----------|----------|
+| Hector | South of Portals, Nork surface | Ring trader |
+| Darwin | Steel Flower Inn | Inn proprietor |
+| Kuron | Lower Volcano Town | Enchants for Basilisk access: "Kur,secret" |
+| Bavic | Lower Volcano Town | Trades Basilisk scales for shield |
+| Phestus | Thieves Guild (VT) | Trades key for small green gem |
+| Otec | Thieves Guild (VT) | Banker |
+| Jack | Thieves Guild (VT) | Sells traps |
+| Malcom | East of Frore | Trade Leviathan egg for FullPlate |
+| Felon | Dark Tower | Trades Vampire Heart for Vamp Gauntlets |
+| Barker | Fun House end | Embroiders items for 10K |
+| Alex | Fun House end | Sells EP Permanent Potions for 500K |
+| Rackleberry | RatBurrow | Portal to Maeling Forest |
+| Mungho | RatBurrow | Kill rat quest, sends to Mayor |
+| Sir Haldan | Nork Island (roaming) | Lizard King quest starter |
+| Lady Annalie | Nork Island (roaming) | Lizard King quest rewards +1 CON |
 
 ## Nork Tips
 

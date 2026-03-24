@@ -22,10 +22,41 @@ A rift opened in the borderlands of Nork, leading to a mysterious realm. Rumors 
 
 ## Notable Areas
 
-- **Decaying Lands Bog**: Entry point to Mormar dungeon. The swamp gained walls on all sides and no longer wraps around.
+- **Decaying Lands Bog**: Entry point to Mormar dungeon. The swamp gained walls on all sides and no longer wraps around. This map can be confusing with the wraparound style it has. Links to: Nameless, Bandit Camp, Refuge Town.
 - **Sullen Keep**: Expansion area for levels 85-90 (added January 2016). Contains mini bosses, new damage types, and random stat potions (max 35). ![Keep Level 0](../images/maps/sullen-keep/keep-level-0.png)
 - **Mormar Dungeon**: 25 floors of increasing difficulty, culminating in the Rift Guardian.
 - **Invader's Refuge**: Special scenario area for Nameless Lands subscribers. Features recurring events (Christmas with Santa, legendary weekends), random drops, and anvil crafting locations. ![Invader's Refuge](../images/maps/invaders-refuge/invaders-refuge.png)
+- **Dornar Dungeon**: Dungeon in this region. **Dornar -1** connects to Haunted Keep and Haunted Keep -2.
+
+## Sub-Areas
+
+Currently still in Beta, Nameless Lands offers an opportunity for larger crits to enhance their crits and have more fun once even Cobrahn has been explored.
+
+The following named sub-areas have been identified from the SirHalden collection:
+
+| Sub-Area | Notes |
+|----------|-------|
+| **Akbat** | Sub-area linking back to Nameless |
+| **Bandit Camp** | Links from Decayed Lands |
+| **Bandit Town** | Distinct from Bandit Camp |
+| **Camp Athena** | Sub-area |
+| **Emergon** | Sub-area |
+| **Felontes** | Sub-area |
+| **Graine Village** | Sub-area |
+| **Homlet (NL)** | Town in Nameless (distinct from Nork Homlet) |
+| **Ice Floes** | Sub-area |
+| **Kain Cove** | Sub-area |
+| **Refuge Town** | Accessible from Decayed Lands |
+| **River Fortress** | Sub-area |
+| **Sekora** | Sub-area |
+| **Sanctuary** | Sub-area |
+| **Haunted Keep** | 3 levels (surface, -1, -2), connected to Dornar and Nameless |
+| **Caustic Cave** | Sub-area |
+| **Hacksaw Hedge** | Sub-area |
+| **Forgotten Clefts** | Sub-area |
+| **Miner Rift** | Sub-area |
+| **Fallen Swamp** | Sub-area |
+| **Great Hall** | Sub-area |
 
 ## Lore
 
