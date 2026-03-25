@@ -44,15 +44,53 @@ Compiled from archived fan sites, guild pages, personal pages, and the official 
 
 - **[World Guide](Aleria/world-aleria.md)** - War-torn advanced world with Light vs. Darkness factions, accessed via Urmak the Boatman.
 - **[Items & Equipment](Aleria/items-and-equipment.md)** - Aleria-specific armor, weapons, and consumables.
+- **[Quests](Aleria/quests.md)** - Aleria quest walkthroughs.
 
 ### The World of Mjorin
 
 - **[World Guide](Mjorin/world-mjorin.md)** - Equipment-stripping challenge world accessed via the Funhouse portal, home of Luck Pots.
 - **[Items & Equipment](Mjorin/items-and-equipment.md)** - Mjorin-specific items including Luck Pots.
 
+### GDH (Green Dragon Hatcheries)
+
+- **[World Guide](GDH/world-gdh.md)** - Mid-game scenario with castle, barbarian fields, 7 lairs, 22 NPCs, and brewing reagents.
+- **[Items & Equipment](GDH/items-and-equipment.md)** - Full equipment catalog: armor, weapons by type, consumables, gems, quest items, 20 brewing herbs.
+- **[Quests](GDH/quests.md)** - 17 quests: 4 progression, 5 equipment, 6 GDH2, 2 quirk quests.
+
+### BDC (Black Dragon Castle)
+
+- **[World Guide](BDC/world-bdc.md)** - Castle, forest, and crypt areas with 3 lairs, acid hazards, and 20 brewing herbs.
+- **[Items & Equipment](BDC/items-and-equipment.md)** - Armor, robes, amulets, earrings, sashes, gems, brewing herbs, quest items.
+- **[Quests](BDC/quests.md)** - Crypt Access, Tengu Skill Progression, Hermit Skill Progression.
+
+### SDC (Shadow Dragon Castle)
+
+- **[World Guide](SDC/world-sdc.md)** - Forest, castle, and crypt areas connecting to Sullen Keep and Nameless Lands.
+- **[Items & Equipment](SDC/items-and-equipment.md)** - Full equipment catalog by slot.
+- **[Quests](SDC/quests.md)** - SDC quest walkthroughs with step-by-step guides.
+
+### Invaders Refuge
+
+- **[World Guide](Invaders-Refuge/world-invaders-refuge.md)** - Dragon-hunting scenario with 6 dragon lairs (Smoke, Fire, Sand, Ice, Spider, Santa).
+- **[Items & Equipment](Invaders-Refuge/items-and-equipment.md)** - Full catalog including Santa holiday drops, dungeon rings, armor upgrades, brewing herbs.
+- **[Quests](Invaders-Refuge/quests.md)** - Iron Bread/Undead Silk armor upgrades, Major's Sash, Santa holiday event.
+
+### Skaars Kingdom / Sullen Keep
+
+- **[World Guide](Skaars-Kingdom/world-skaars-kingdom.md)** - End-game scenario (level 85+), 6-stage progression from Forest to Parapet.
+- **[Items & Equipment](Skaars-Kingdom/items-and-equipment.md)** - 45+ items including tiered Fieldplates and Boneplates.
+- **[Quests](Skaars-Kingdom/quests.md)** - 5 progression quests and SK Armor crafting system.
+- **[Sullen Keep World Guide](Sullen-Keep/world-sullen-keep.md)** - Detailed keep floor guide (Silver/Gold/Black/Green).
+- **[Sullen Keep Items](Sullen-Keep/items-and-equipment.md)** - Keep-specific equipment by floor.
+
 ### The Nameless Lands
 
 - **[World Guide](Nameless-Lands/world-nameless-lands.md)** - Mysterious realm beyond the rift, home to the 25-level Mormar dungeon.
+- **[Items & Equipment](Nameless-Lands/items-and-equipment.md)** - 18 class-specific Nameless Lord armors, Dragon bracers, Mormar rings/bracers, bottles, quest items.
+
+### Cobrahn Quests
+
+- **[Quests](Cobrahn/quests.md)** - Cobrahn-specific quest walkthroughs.
 
 ## Sources
 
