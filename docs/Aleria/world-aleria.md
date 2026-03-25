@@ -34,6 +34,8 @@ The lore of Aleria is delivered through the character **Finri**:
 ## Notable Areas
 
 ### Koss Lair
+![Koss Dungeon Map](../images/maps/aleria/koss-dungeon.png)
+
 Multi-floor dungeon structure connected to Aleria:
 - **Koss Surface** - Entry level
 - **Koss +1** - Second floor
@@ -53,6 +55,26 @@ Wear Light Ring through waterfall NW of 3-bird seller. Wear SER for energy missi
 
 ### King Borav's Hold
 Trades Light Rings for GoblinKing Axe: "Kin,axe", "Kin,alliance". Seller sells pickaxes for mining/digging graves.
+
+## Dungeon Maps
+
+### Clickers Dungeon
+![Clickers Dungeon](../images/maps/aleria/clickers-dungeon.png)
+
+### Earthshaker Dungeon
+![Earthshaker Dungeon](../images/maps/aleria/earthshaker-dungeon.png)
+
+### Ghoul Dungeon
+![Ghoul Dungeon](../images/maps/aleria/ghoul-dungeon.png)
+
+### Slimebeast Area
+![Slimebeast](../images/maps/aleria/slimebeast.png)
+
+### Thumper Dungeon
+![Thumper Dungeon](../images/maps/aleria/thumper-dungeon.png)
+
+### Warlord Tower
+![Warlord Tower](../images/maps/aleria/warlord-tower.png)
 
 ## Stormwind's Aleria Guide
 

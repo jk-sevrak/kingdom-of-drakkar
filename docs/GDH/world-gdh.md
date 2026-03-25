@@ -18,6 +18,9 @@ GDH is split into two major parts, commonly referred to as **GDH1** and **GDH2**
 ### GDH Area 1 (GDH1)
 ![GDH Area 1 Map](../images/maps/gdh/gdh-area-1.png)
 
+### GDH Area 2 (GDH2)
+![GDH Area 2 Map](../images/maps/gdh/gdh-area-2.png)
+
 GDH1 is divided into four sub-areas, unlocked sequentially through progression quests. The first area contains the entry point and introductory content. Each progression quest opens access to the next sub-area, culminating in the FoodGuardian fight that grants access to GDH2.
 
 ## Major Locations
@@ -40,6 +43,8 @@ Accessed after completing Progression 1. Contains:
 - Lunches (wandering NPCs used for the Progression 2 quest)
 
 ### GDH1 - Third Area (Medusa / Beholder Area)
+![GDH Medusa Lair](../images/maps/gdh/gdh-medusa-lair.png)
+
 Accessed after completing Progression 2. Contains:
 - **Barnlot** - NPC near Medusa who trades Hatchling Scales for the Combat Earring
 - **Beholder Lair** - Boss that drops the Beholder Staff (needed for Medusa activation)
@@ -48,6 +53,9 @@ Accessed after completing Progression 2. Contains:
 - Stone Golems that drop Golem Essence
 
 ### GDH1 - Fourth Area (FoodGuardian / SwampWitch Area)
+![GDH FoodGuardian Area](../images/maps/gdh/gdh-food-guardian.png)
+![GDH SwampWitch Area](../images/maps/gdh/gdh-swamp-witch.png)
+
 Accessed after completing Progression 3. Contains:
 - **FoodGuardian Lair** - Major boss in the far southwest corner. Drops class-specific gauntlets, FoodGuardian Sash, and the Climbing Twig needed for Progression 4
 - The climb-up point to GDH2 is in the southwest-most hex of the swampwitch side of the water

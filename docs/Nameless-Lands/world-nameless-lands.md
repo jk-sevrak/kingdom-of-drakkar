@@ -17,6 +17,7 @@ A rift opened in the borderlands of Nork, leading to a mysterious realm. Rumors 
 - Has its own unique equipment sets distinct from other scenarios
 - Mormar floor progression requires completing the **Mormar Entry Quest**
 
+![Nameless Lands World Map](../images/maps/nameless-lands/nameless-lands-world.png)
 ![Nameless Borderlands](../images/maps/nameless-lands/borderlands.gif)
 ![Decayed Lands](../images/maps/nameless-lands/decayed-lands.jpg)
 
@@ -25,8 +26,11 @@ A rift opened in the borderlands of Nork, leading to a mysterious realm. Rumors 
 - **Decaying Lands Bog**: Entry point to Mormar dungeon. The swamp gained walls on all sides and no longer wraps around. This map can be confusing with the wraparound style it has. Links to: Nameless, Bandit Camp, Refuge Town.
 - **Sullen Keep**: Expansion area for levels 85-90 (added January 2016). Contains mini bosses, new damage types, and random stat potions (max 35). ![Keep Level 0](../images/maps/sullen-keep/keep-level-0.png)
 - **Mormar Dungeon**: 25 floors of increasing difficulty, culminating in the Rift Guardian.
+  ![Mormar Level 1](../images/maps/nameless-lands/mormar-1.png)
 - **Invader's Refuge**: Special scenario area for Nameless Lands subscribers. Features recurring events (Christmas with Santa, legendary weekends), random drops, and anvil crafting locations. ![Invader's Refuge](../images/maps/invaders-refuge/invaders-refuge.png)
 - **Dornar Dungeon**: Dungeon in this region. **Dornar -1** connects to Haunted Keep and Haunted Keep -2.
+  ![Dornar Overview](../images/maps/nameless-lands/dornar-overview.png)
+  ![Dornar Entry](../images/maps/nameless-lands/dornar-entry.png)
 
 ## Sub-Areas
 
@@ -36,27 +40,27 @@ The following named sub-areas have been identified from the SirHalden collection
 
 | Sub-Area | Notes |
 |----------|-------|
-| **Akbat** | Sub-area linking back to Nameless |
-| **Bandit Camp** | Links from Decayed Lands |
+| **Akbat** | Sub-area linking back to Nameless. ![Akbat](../images/maps/nameless-lands/akbat.png) |
+| **Bandit Camp** | Links from Decayed Lands. ![Bandit Camp](../images/maps/nameless-lands/bandit-camp.png) |
 | **Bandit Town** | Distinct from Bandit Camp |
 | **Camp Athena** | Sub-area |
 | **Emergon** | Sub-area |
-| **Felontes** | Sub-area |
+| **Felontes** | Sub-area. ![Felontes](../images/maps/nameless-lands/felontes.png) |
 | **Graine Village** | Sub-area |
-| **Homlet (NL)** | Town in Nameless (distinct from Nork Homlet) |
-| **Ice Floes** | Sub-area |
+| **Homlet (NL)** | Town in Nameless (distinct from Nork Homlet). ![NL Homlet](../images/maps/nameless-lands/homlet.png) |
+| **Ice Floes** | Sub-area. ![Ice Floes](../images/maps/nameless-lands/ice-floes.png) |
 | **Kain Cove** | Sub-area |
 | **Refuge Town** | Accessible from Decayed Lands |
 | **River Fortress** | Sub-area |
-| **Sekora** | Sub-area |
+| **Sekora** | Sub-area. ![Sekora](../images/maps/nameless-lands/sekora.png) |
 | **Sanctuary** | Sub-area |
-| **Haunted Keep** | 3 levels (surface, -1, -2), connected to Dornar and Nameless |
+| **Haunted Keep** | 3 levels (surface, -1, -2), connected to Dornar and Nameless. ![NL Keep](../images/maps/nameless-lands/nl-keep.png) |
 | **Caustic Cave** | Sub-area |
 | **Hacksaw Hedge** | Sub-area |
-| **Forgotten Clefts** | Sub-area |
+| **Forgotten Clefts** | Sub-area. ![Forgottens](../images/maps/nameless-lands/forgottens.png) |
 | **Miner Rift** | Sub-area |
 | **Fallen Swamp** | Sub-area |
-| **Great Hall** | Sub-area |
+| **Great Hall** | Sub-area. ![Great Hall](../images/maps/nameless-lands/great-hall.png) |
 
 ## Lore
 

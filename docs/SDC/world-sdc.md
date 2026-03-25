@@ -43,20 +43,30 @@ The starting area of SDC. Animals roam here that must be killed and tanned at **
 Underground caves accessed from the forest surface. Contains Thumpers and Rockmen that drop Thumper Rocks (quest items for the Climbing Pick) and Golden Nuggets. The **GiantBat** lair is found here, which drops the Cavebat Skin Scroll for the Cavern Creeper I quirk. Mend Potions, Constitution Potions, and other bottles also drop from crits in these caves.
 
 ### Sick Caves -1
+![Sick Caves -1 Map](../images/maps/sdc/sdc-sickcaves-1.png)
+
 Accessed by completing the fur quest with Mac. Contains Wraiths wearing sashes that drop Wraith Cloth (needed for Sick Caves 2 Access quest). **Mac'** (Macsfriend) is located in the southeast corner and accepts Wraith Cloth and Spectre Silk for the Crystal Resistance I quirk and Sick Caves -2 access.
 
 **Important**: When turning in your 5th Wraith Silk to Mac', you MUST select the dialog option asking about the climbdown, otherwise you will need another Wraith Silk to get that specific dialog option which flags you to climb down.
 
 ### Sick Caves -2
+![Sick Caves -2 Map](../images/maps/sdc/sdc-sickcaves-2.png)
+
 Deeper level of the Sick Caves, accessed after giving 5 Wraith Cloth to Mac'. Contains Spectres wearing sashes that drop Spectre Silk (needed for Crystal Resistance I). Dragon Scales also drop here for the Crystal Resistance II quirk. **Marburn** is located in the west area and accepts Dragon Scales.
 
 ### Wyvern Area (+1 and +2)
+![Wyverns +1 Map](../images/maps/sdc/sdc-wyverns-1.png)
+![Wyverns +2 Map](../images/maps/sdc/sdc-wyverns-2.png)
+
 Accessed by using the Climbing Pick at the most northwest hex of SDC Forest. Wyverns here drop Crystalline Wyvern Talons needed for level 78 progression.
 
 - **Wyverns +1**: Connects to the forest below and the higher Wyverns +2 area above
 - **Wyverns +2**: Contains **Arpigo**, the NPC who accepts Wyvern Talons for level 78 progression (you must be level 76 to turn in). Also connects up to the Gnome Area
 
 ### Gnome Area (SDC2)
+![Gnome Area 1 Map](../images/maps/sdc/sdc-gnome-1.png)
+![Gnome Area 2 Map](../images/maps/sdc/sdc-gnome-2.png)
+
 A large area containing gnome settlements and caves. Gnomes, ElderGnomes, Crushers, and Shamans drop Small Golden Nuggets, leathers, and plate armors used in many quests. A smelting pot in this area allows you to smelt nuggets and craft quest items.
 
 **Key NPCs in Gnome Area**:
@@ -72,15 +82,21 @@ A large area containing gnome settlements and caves. Gnomes, ElderGnomes, Crushe
 A deeper level below the Gnome Area. Contains additional gnome spawns and nugget sources.
 
 ### Miner Area (Miner49er)
+![Miner Area Map](../images/maps/sdc/sdc-miner.png)
+
 Optional area accessed by holding a key (obtained from Modax) and walking onto the SE hex in the Gnome caves. **Beware of the lair inside.** Connects to the Ice Floes area above and the Gnome Area below. You can bypass this by getting a Mass Teleport past it.
 
 ### Ice Floes (SDC2)
+![Ice Floes Map](../images/maps/sdc/sdc-icefloes.png)
+
 Contains the **IceTitan** lair in the northwest corner. Connects to the Meadows area above and the Miner Area below. Dark Knowledge pages 36-40 are found in this area.
 
 ### SDC3 Areas
 SDC3 encompasses several distinct sub-zones:
 
 #### SDC3 Solo Area
+![Solo Caves 1](../images/maps/sdc/sdc-solocaves-1.png) ![Solo Caves 2](../images/maps/sdc/sdc-solocaves-2.png) ![Solo Caves 3](../images/maps/sdc/sdc-solocaves-3.png) ![Solo Caves 4](../images/maps/sdc/sdc-solocaves-4.png)
+
 Solo caves with multiple levels (-1 through -4) accessed via stairs from Lava City. Contains:
 - **AGI Pots** that increase your base AGI to 40 (requires level 80)
 - Constitution Bottles (+1 CON until 25)
@@ -94,6 +110,8 @@ An open area with various creatures. Dark Knowledge pages 21-25 are found here. 
 Aquatic area containing Omnilla (drops Omnilla Skulls) and Carnifish (drops Chum), both used for the Root Armor quest. Dark Knowledge pages 31-35 are found here.
 
 ### Lava City / Lava Town (SDC3)
+![Lava City Map](../images/maps/sdc/sdc-lavacity.png)
+
 The major endgame hub of SDC. Contains shops, a fountain for brewing Gumbo, and access to the most powerful lairs. Firegiants and Firelords roam the area and can drop Firegiant Armor and LavaCity Shields. LavaMentals and LavaLizards drop Healer and Mentalist Totems. Dark Knowledge pages 26-30 are found here.
 
 **Key NPCs in Lava City**:

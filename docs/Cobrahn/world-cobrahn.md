@@ -44,16 +44,23 @@ The Four Champions were later corrupted by the Dark Queen and became tormentors 
 - ![Tree Town Map](../images/maps/cobrahn/tree-town.jpg)
 
 ### Timmy Town
+![Timmy Town Map](../images/maps/cobrahn/timmy-town.png)
+
 The beginner-friendly hub of Cobrahn:
 - **Timmy Caves** (main level) - Relatively easy
 - **Timmy -1** - More dangerous, not for solo casters. Contains Curvy Longsword (+5, ties).
+  ![Timmy -1 Map](../images/maps/cobrahn/timmy-1.png)
 - **Timmy -2** - Fairly easy
+  ![Timmy -2 Map](../images/maps/cobrahn/timmy-2.png)
 - **Timmy Secret** - Dangerous, avoid solo
+  ![Timmy Secret Map](../images/maps/cobrahn/timmy-secret.png)
 - Floor littered with twigs: CritCure (20), Fireball (25), Icestorm (25), Icestorm (20) - essential for newbie Cob players!
 - **Mace-carrying critters** in Timmy are immune to most spells (but can be poisoned). Low XP value, leave for last.
 - Gems sell very well in Cob - pick up every gem you find
 
 ### Doom Town
+![Doom Town Map](../images/maps/cobrahn/doom-town.png)
+
 Connection point between major Cob areas, accessed from Giants Keep via pillar room portal. Contains an IH/succor seller and HP doctor in the SE. A dangerous settlement.
 
 ### Desert Town
@@ -75,12 +82,20 @@ Location where special "Coin Events" were held.
 ## Cobrahn Dungeons & Areas
 
 ### NW Caves (Northwest Caves)
+![NW Caves Map](../images/maps/cobrahn/nw-caves.png)
+
 NPCs, wolf spiders, scorpions, cave scorpions, centipedes, salamanders. STR pot trader at the north end. A secret section leads to Borris Lair; climb up leads to Roc Lair. Rare silver and ES ring drops.
 
+![NW Caves -1](../images/maps/cobrahn/nw-caves-1.png)
+
 ### SW Caves (Southwest Caves)
+![SW Caves Map](../images/maps/cobrahn/sw-caves.png)
+
 NPCs (E-spear/stun types), skeletons, swordsman soldiers, axemen, spiders, scorpions, centipedes. EPS pot trader in the SE corner.
 
 ### Giants Keep
+![Giants Keep Map](../images/maps/cobrahn/giants-keep.jpg)
+
 Two levels. Level 1 has giants, E-spear archers, and firestorm mace guys. STR pot trader in the west. Two unnamed locked doors on the east side. Steps down lead to the Sewers. Pillar room portal leads to Doom Town.
 
 ### Sewers
@@ -91,6 +106,16 @@ Roaming skeleton leaders, dragons, frogs, leeches. SE island has a beetle lair (
 
 ### Graagh (Duke) Castle
 Multi-level castle in the NW. Level 1 has berserkers, archers, a garden with pitcher plants/flytraps/rose bushes, and a well down to Level 2. Level 2 has secret corner doors, windows with archer threats, hally guys. Underground level contains the Duke, centipedes, scorpions, cave scorpions. Sometimes a zap trader among the berserkers.
+
+### Undead City
+A multi-level dungeon accessed from the Cobrahn surface. Contains undead enemies of increasing difficulty.
+
+![Undead City 1](../images/maps/cobrahn/undead-city-1.png)
+![Undead City 2](../images/maps/cobrahn/undead-city-2.png)
+![Undead City 3](../images/maps/cobrahn/undead-city-3.png)
+![Undead City 3.5](../images/maps/cobrahn/undead-city-3-5.png)
+![Undead City 4](../images/maps/cobrahn/undead-city-4.png)
+![Undead City 5](../images/maps/cobrahn/undead-city-5.png)
 
 ### Haunts
 Two distinct areas:
@@ -106,12 +131,12 @@ Located near Evil Nork/Cobrahn border area. Contains dangerous creatures.
 |------|-------|
 | **Borris Lair** | Accessed from the secret part of NW caves (down the steps). Zoo with E-Spear archers at entrance. Set twigs when you reach Borris. Drops Youth pots. |
 | **ROC Lair** | Accessed from NW caves (secret part, climb up). ROC egg can be traded for MA-only quest gauntlets (+4 combat, +1 STR). |
-| **Specter Lair** | SW of the bridge from Boone. Look for pile of bones at bottom of map, then climb up. Specters can deal 80% of your HP in one attack. Random red robe drops. |
+| **Specter Lair** | SW of the bridge from Boone. Look for pile of bones at bottom of map, then climb up. Specters can deal 80% of your HP in one attack. Random red robe drops. ![Spectre Dungeon](../images/maps/cobrahn/spectre-dungeon.png) |
 | **PSI Tower** | 4-floor tower in the desert. See detailed breakdown below. |
 | **Kaldor's Lair** | Contains Kaldor who drops unique gear (dagger, mace, robe, amulet, boots). Kaldor items break other players' gear! |
-| **Ruins of Arun** | Accessed from Haunts (between two secret doors, steps up to locked door). Contains Acolytes (fumble spell), Students (blinds, 66k XP), and Ushers. Arun Robe drops (+10 EP regen). |
+| **Ruins of Arun** | Accessed from Haunts (between two secret doors, steps up to locked door). Contains Acolytes (fumble spell), Students (blinds, 66k XP), and Ushers. Arun Robe drops (+10 EP regen). ![Arun Map](../images/maps/cobrahn/arun.png) |
 | **Giants Keep** | Contains berserkers, archers. Steps down lead to Sewers. Pillar room portal goes to Doom Town. |
-| **Juntes** | Swamp boss. Drops Junte's Robe (fire/ice, +5, paddable twice), Junte's Gauntlets (+4, +2 agi, prones, level 17 deplete). |
+| **Juntes** | Swamp boss. Drops Junte's Robe (fire/ice, +5, paddable twice), Junte's Gauntlets (+4, +2 agi, prones, level 17 deplete). ![Juntes Dungeon](../images/maps/cobrahn/juntes-dungeon.png) |
 | **Ningizidda** | "The feathered one" from the lore. Scales tannable for Ningizidda Scales (fire/ice prot, +8 def padded with yeti). |
 | **Mama Green** | Dragon Gauntlet area. Mama Green Armor (+5 def, acidbreath prot). |
 | **Cavy Cave** | Specific cave system |

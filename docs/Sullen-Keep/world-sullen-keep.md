@@ -28,6 +28,9 @@ The Gold area of the keep. This floor contains:
 
 ## Major Locations
 
+### Sullen Keep Forest / Cave
+![SK Forest Cave Map](../images/maps/sullen-keep/keep-forest-cave.png)
+
 ### Sullen Keep Forest
 The initial outdoor area upon entering Sullen Keep from SDC. Features forests and wildlife including bears and Hunters. This is where the first progression quest takes place, requiring players to slay Hunters for an agility-like progression potion.
 
@@ -43,9 +46,13 @@ The first floor of the keep proper, featuring silver-armored enemies. Contains t
 The second floor featuring gold-armored enemies. Contains the Gold Captain lair. Gold enemies can drop gold armor pages and rarely black armor pages.
 
 ### Black Floor (Keep +2)
+![Sullen Keep Level 2 Map](../images/maps/sullen-keep/keep-level-2.png)
+
 The third floor featuring black-armored enemies. Contains the Green Captain lair. Black enemies can drop black armor pages and rarely green armor pages.
 
-### Green Floor
+### Green Floor / Parapets (Keep +3)
+![Sullen Keep Level 3 Map](../images/maps/sullen-keep/keep-level-3.png)
+
 The fourth and highest standard floor featuring green-armored enemies. Green enemies can drop green armor pages and rarely parapet-tier armor pages.
 
 ### Parapets (Keep +3)

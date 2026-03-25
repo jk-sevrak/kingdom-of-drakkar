@@ -8,6 +8,8 @@ Nork is the starting world of Kingdom of Drakkar, where all new characters begin
 ## Major Locations
 
 ### The City of Nork
+![Nork Town Map](../images/maps/nork/nork-town.png)
+
 The main starting settlement. New players begin here. Contains:
 - Shops and vendors for buying/selling gear
 - Trainers for all classes (new characters arrive as Merchants and must find a trainer to dedicate to a profession)
@@ -33,6 +35,7 @@ An icy/frozen area within the Nork world. Contains:
 - The **Deplete trainer** for Mentalists (skill 17) - accessed via a hole by Frore's north gate, through water paths. Bring a teleport twig - there's no way out without one!
 - **Fighter/Mentalist Trainer**: SW of Frore gates, climb Halberd Giant steps, continue south to cliff edge, jump down. Bring a twig (no way out otherwise).
 - **Fate Pools**: Door/blow open wall to drop down 2 levels to Mama Red Dragon (plus Baby RD). Fating changes any stat including gender.
+  ![Fate Pools](../images/maps/nork/fate-pools.png)
 - **Fate Card Seller**: North Gate of Frore, east at wall, follow path to drop-down, jump in, SE in water, follow waterway West to junction, South, through doors. Cards cost 50K, don't tie. Must be level 15+.
 - **Malcom** (East of Frore): Trade Leviathan egg for FullPlate
 
@@ -44,6 +47,8 @@ Contains a **Strength Fountain** that provides a strength boost when drunk from.
 - **Mungho**: Kill rat quest, sends to Mayor
 
 ### Evil Nork (EN)
+![Evil Nork Map](../images/maps/nork/evil-nork.png)
+
 A dangerous version of the Nork area. Contains lair-type creatures that roam freely:
 - Big crossbow guys
 - Auto strippers
@@ -52,6 +57,7 @@ A dangerous version of the Nork area. Contains lair-type creatures that roam fre
 - Acid Caves south
 - Guardian via NW stairs
 - **Fire Plains**: Enter Portals area, go down. Contains Spot and Fire Giant
+  ![Fire Plains](../images/maps/nork/fire-plains.png)
 
 ### Funhouse
 Sells **EP pots** for 500,000 gold each (give 1-5 EP, average ~3).
@@ -61,6 +67,8 @@ Sells **EP pots** for 500,000 gold each (give 1-5 EP, average ~3).
 - **Alex** (Fun House end): Sells EP Permanent Potions for 500K
 
 ### Fishery
+![Fisheries Map](../images/maps/nork/fisheries.png)
+
 A location where:
 - Fishery Bows are obtained (needed for Muzi quest)
 - Fishery Staff available as starting weapon for casters
@@ -77,9 +85,13 @@ Contains:
 South of Nork in the Norkien Ocean. Dedicate and train here.
 
 ### Boat House
+![Boat House Map](../images/maps/nork/nork-boat-house.png)
+
 SW of Nork, step on tile to enter. Good HP helm source. Step on tile to leave.
 
 ### Mino Maze
+![Mino Maze Map](../images/maps/nork/mino-maze.png)
+
 All twigs rendered useless on entry. Must run to end to escape.
 
 ## Nork Dungeon Levels
@@ -92,20 +104,36 @@ The dungeon levels are stacked vertically: Nork surface sits directly above N-1,
 ### Nork Dungeon Level Details
 
 - **Nork -1 (N-1)**: Enter via stairs at Last Chance Saloon, OR stairs west of Hector the Ring trader (south of Portals), OR hole south of East Bank
+  ![Nork Dungeon 1](../images/maps/nork/nork-dungeon-1.png)
 - **Nork -2 (N-2)**: Red hexes = stairs to N-3; Green hexes = stairs to N-2. Link to Lizard King from N-2
+  ![Nork Dungeon 2](../images/maps/nork/nork-dungeon-2.png)
 - **Nork -3 (N-3)**: MummyKing behind locked door; find key on random kill. Tan MummyKing for thief cloak. Left red hex to N-4; right red hex to N-4 by RatBurrow
+  ![Nork Dungeon 3](../images/maps/nork/nork-dungeon-3.png)
 - **Nork -3.5** - Key area containing: Ghost Lair (good skill, tan for Door Cloak, Door Pearl for Muzi quest), Mummy Lair (good skilling, no tan), Ogre Chief (good skill; trade club to Gabagimli for diamond), Spider Queen Lair (egg for Sash Quest), Sanquins (egg for sash quest, hide for beginner armor), Ratburrow Portal, Barbarian Trainer, and boat access to Aleria
+  ![Nork Dungeon 3.5](../images/maps/nork/nork-dungeon-3-5.png)
+- **Nork -4 (N-4)**:
+  ![Nork Dungeon 4](../images/maps/nork/nork-dungeon-4.png)
 - **Nork -5 (N-5)**: Fire Room, Red Dragon, store, Roc lair. East side = "Haunted area." Good pot regen area
+  ![Nork Dungeon 5](../images/maps/nork/nork-dungeon-5.png)
 - **Nork -6 (N-6)**: Links to N-5, N-7, and FireStorm Red Dragon Lair
+  ![Nork Dungeon 6](../images/maps/nork/nork-dungeon-6.png)
 - **Nork -7 (N-7)**: Smasher Lair SE, Slicer Lair E, Red Dragon Lair W. Dancers Boots Trader requires wooden bolt + key. Step on Tile Hex with Slicer in hand to open door to N-8
+  ![Nork Dungeon 7](../images/maps/nork/nork-dungeon-7.png)
 - **Nork -8 (N-8)**: Contains Mama Naga and Reggies
-- **Nork -9, -10** - Deepest levels with "formidable foes"
+  ![Nork Dungeon 8](../images/maps/nork/nork-dungeon-8.png)
+- **Nork -9 (N-9)**:
+  ![Nork Dungeon 9](../images/maps/nork/nork-dungeon-9.png)
+- **Nork -10 (N-10)**:
+  ![Nork Dungeon 10](../images/maps/nork/nork-dungeon-10.png)
+- **Nork -11 (N-11)**:
+  ![Nork Dungeon 11](../images/maps/nork/nork-dungeon-11.png)
 - **M-1, M-2, M-3** - Maeling levels (M-2 has the key for Muzi quest, traded for a flawless black pearl; M-3 good for water illusion trick)
 - **KM-2** - Has Peewee (Muzi quest)
 - **KM-4**: Jump into pit (you die, get stripped, rats pop). Stunners present; bring ProtStun. Good skill area. Transmute twigs found here
 - **KM-5**: Contains: Slith Lair, Attack Sash Trader, Minotaur Cages, Slith Staff Trader, STR Halberd Trader, Slith Robe Trader. Transmute twigs found here
 - **-5, -6, -7** - Heavy assault areas (need Rak cloak)
 - **Acid Caves** - Mid-level hunting, connected to Evil Nork
+  ![Acid Caves](../images/maps/nork/acid-caves.png)
 
 ## Nork Lairs
 
@@ -154,6 +182,8 @@ Lairs are instanced boss dungeons with unique challenges. Lair creatures can per
 | **Vanidor** | 2 Pets and 2 Axes (+5). Draw off and kill each Pet. Stairs NE lead to Undead City -5. |
 
 ### Maeling
+![Maeling Town](../images/maps/nork/maeling-town.png)
+
 Forest area west of Nork with caves (M-1 through M-4). Trainer to skill 12. Notable lairs:
 - **M-4 North Tengu Lair**: Drops SER, pulsating gems
 - **M-4 South Ninja Lair**: Drops +5 katana, 0/3 blue sash
@@ -165,11 +195,17 @@ Forest area west of Nork with caves (M-1 through M-4). Trainer to skill 12. Nota
 - **Maeling surface**: Step through Nork portal. Climb up from puddle = Upper Maeling (former Ninja Trainer location). South Portal to Volcano Town.
 - **Maeling Cave**: West of entrance. Yellow Robe found here.
 - **Maeling -1**: East and slightly south = dungeon entrance. Green hex = surface stairs. Red hexes = M-2 stairs. Fungus bread found occasionally.
+  ![Maeling Dungeon 1](../images/maps/maeling/maeling-dungeon-1.png)
 - **Maeling -2**: Green hex = M-1 stairs. Red hex = M-3 stairs. Purple hexes = Secret Passage. Break OgreLord Scales for 1K+ each. Bring Infravision for M-3.
+  ![Maeling Dungeon 2](../images/maps/maeling/maeling-dungeon-2.png)
 - **Maeling -3**: Kill ninja for BNR (Black Ninja Robe). Golems sometimes drop majors.
+  ![Maeling Dungeon 3](../images/maps/maeling/maeling-dungeon-3.png)
 - **Maeling -4**: SER in Tengu Lair. SNR also on M-4. Blue wall sections can be Illusioned/Doored. Contains: Tengu Lair, Double Ninja Lair, Stunner Lair, Ninja Lair, Golem Lair.
+  ![Maeling Dungeon 4](../images/maps/maeling/maeling-dungeon-4.png)
 
 ### Homlet
+![Homlet Map](../images/maps/nork/homlet-nork.png)
+
 Southeast of Frore, accessed via 4 Pillars area. Contains Elementals (AcidBreath), Rockmen (drop skill books), and Thrashers. Portal back to Nork. Trainer to skill 20.
 
 ### Fun House
@@ -182,11 +218,18 @@ In Frore area. Trade Vampire Heart to Felon for Vamp Gauntlets. Stalkers drop 5/
 - **Felon** (Dark Tower): Trades Vampire Heart for Vamp Gauntlets
 
 ### Prisons (Tehruh)
+![Prisons Map](../images/maps/nork/nork-prisons.png)
+
 Contains figurine for Naga access, good rings, Stunners, Lurkers (cast darkness), BD access, and Halberd Trader. Trainer to skill 20.
 - **Upper**: Figurines for Naga access, rings, Stunners, Lurkers (cast darkness)
-- **Lower**: Naga Lair access; south wall middle to Black Dragon
+  ![Prisons Upper](../images/maps/nork/nork-prisons-upper.png)
+- **Lower (-1)**: Naga Lair access; south wall middle to Black Dragon
+  ![Prisons -1](../images/maps/nork/nork-prisons-1.png)
+  ![Prisons -2](../images/maps/nork/nork-prisons-2.png)
 
 ### Yeti Island
+![Yeti Island Map](../images/maps/nork/yeti-island.png)
+
 South of Nork. Bears, wolves, Small/Large Yeti on ice floes. Site of Thanksgiving turkey hunting events.
 
 ### Griffon Island

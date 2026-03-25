@@ -25,6 +25,8 @@ The castle is one of the two main areas of BDC. Key locations on the castle map 
 
 ### BDC Forest
 
+![BDC Forest Map](../images/maps/bdc/bdc-forest.png)
+
 The forest is the outdoor wilderness area of BDC. Key locations on the forest map include:
 
 | Location | Description |
